@@ -1,0 +1,2 @@
+api-networkName-WLA01,api-keypairName-WLA01,api-vmFlavor-WLA01,api-vmImage-WLA01,api-vmDesc-WLA01,api-vmName-WLA01,api-volumeName-WLA01,api-autoscaleName-WLA01,api-snapshotname-WL-A01
+st-nwa01-soc-01,st-keya01-soc-01,1core2GBmemory20GBdisk,xenial-server-cloudimg,st-a01-soc-01,st-a01-soc-01,st-vola01-soc-01,st-aspa01-soc-01,st-snapa01-soc-01
