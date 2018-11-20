@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="1668" it="0" lt="1668" ts="1542633762249" s="false" lb="Attach_ASP" rc="400" tn="Thread Group 1-1" sc="1" ec="1">
+  <responseData class="java.lang.String">{&quot;non_field_errors&quot;:[&quot;There is already an auto-scaling policy applied on the server 3823&quot;]}</responseData>
+</httpSample>
+
+</testResults>

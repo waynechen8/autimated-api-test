@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1542612670534,1740,Get_ServerID,200,OK,Thread Group 1-1,text,true,,6149,310,1,1,1740,0,194
+1542612674079,1673,Get_ServerID,200,OK,Thread Group 1-1,text,true,,6151,310,1,1,1673,0,94
+1542612675758,1593,Get_ServerID,200,OK,Thread Group 1-1,text,true,,6149,310,1,1,1593,0,0
+1542612677358,1628,Get_ServerID,200,OK,Thread Group 1-1,text,true,,6151,310,1,1,1628,0,75
+1542612679005,1411,Get_ServerID,200,OK,Thread Group 1-1,text,true,,6148,310,1,1,1411,0,0

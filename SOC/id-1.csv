@@ -1,2 +1,0 @@
-vm_id,snapshot_id,volume_id,network_id,key_name,autoscaling_id,vm_ip,vm_status,server_id,security_id
-${api-vmId-WLA01},,${api-volumeId-WLA01},${api-networkId-WLA01},st-keya01-soc-01,${policy_id},${vm_ip},${vm_status},${serverId},${securityId}
