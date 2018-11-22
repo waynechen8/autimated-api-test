@@ -1,2 +1,3 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
 1542698552766,3117,Create_Snapshot,201,CREATED,Thread Group 1-1,text,true,,6018,381,1,1,3117,0,336
+1542796045756,3117,Create_Snapshot,201,CREATED,Thread Group 1-1,text,true,,6017,381,1,1,3116,0,327

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+
+
+
+
+<httpSample t="3565" it="0" lt="3565" ts="1542857172838" s="true" lb="Detach_Volume" rc="200" tn="Thread Group 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String"></responseData>
+</httpSample>
+<httpSample t="2235" it="0" lt="0" ts="1542857183410" s="true" lb="Delete_VM" rc="204" tn="Thread Group 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String"></responseData>
+</httpSample>
+<httpSample t="5426" it="0" lt="0" ts="1542857192647" s="true" lb="Delete_Snapshot" rc="204" tn="Thread Group 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String"></responseData>
+</httpSample>
+<httpSample t="3222" it="0" lt="0" ts="1542857205075" s="true" lb="Delete_Volume" rc="204" tn="Thread Group 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String"></responseData>
+</httpSample>
+<httpSample t="5753" it="0" lt="0" ts="1542857215299" s="true" lb="Delete_Network" rc="204" tn="Thread Group 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String"></responseData>
+</httpSample>
+<httpSample t="1987" it="0" lt="0" ts="1542857228055" s="true" lb="Delete_Keypair" rc="204" tn="Thread Group 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String"></responseData>
+</httpSample>
+<httpSample t="1508" it="0" lt="1508" ts="1542857237044" s="false" lb="Delete_ASP" rc="400" tn="Thread Group 1-1" sc="1" ec="1">
+  <responseData class="java.lang.String">{&quot;detail&quot;:&quot;400000000: 400000000: Can not delete associated auto scaling policy.&quot;}</responseData>
+</httpSample>
+
+</testResults>

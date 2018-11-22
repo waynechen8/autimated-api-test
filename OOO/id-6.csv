@@ -1,2 +1,2 @@
 vm_id,snapshot_id,volume_id,network_id,key_name,autoscaling_id,vm_ip,vm_status,server_id
-4438,,1369,736,st-keya01-ooo-01,250,,Error,1
+4183,187,1339,712,st-keya01-ooo-01,250,${vm_ip},${vm_status},4069

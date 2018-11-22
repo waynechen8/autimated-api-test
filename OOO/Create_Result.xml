@@ -1,47 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testResults version="1.2">
-<httpSample t="10071" it="0" lt="10070" ts="1542708994048" s="true" lb="Create_Network" rc="201" tn="Thread Group 1-1" sc="1" ec="0">
-  <responseData class="java.lang.String">{&quot;id&quot;:712,&quot;name&quot;:&quot;st-nwa01-ooo-01&quot;,&quot;project&quot;:88,&quot;cidr&quot;:&quot;192.168.107.0/24&quot;,&quot;gateway&quot;:&quot;192.168.107.1&quot;,&quot;nameservers&quot;:[&quot;8.8.8.8&quot;],&quot;status&quot;:&quot;N/A&quot;}</responseData>
+<httpSample t="10796" it="0" lt="10796" ts="1542784335693" s="true" lb="Create_Network" rc="201" tn="WL-A01_OOO 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String">{&quot;id&quot;:736,&quot;name&quot;:&quot;st-nwa01-ooo-01&quot;,&quot;project&quot;:88,&quot;cidr&quot;:&quot;192.168.107.0/24&quot;,&quot;gateway&quot;:&quot;192.168.107.1&quot;,&quot;nameservers&quot;:[&quot;8.8.8.8&quot;],&quot;status&quot;:&quot;ACTIVE&quot;}</responseData>
 </httpSample>
-<httpSample t="2033" it="0" lt="2033" ts="1542709126013" s="true" lb="Create_Keypair" rc="200" tn="Thread Group 1-1" sc="1" ec="0">
+<httpSample t="1925" it="0" lt="1924" ts="1542784466496" s="true" lb="Create_Keypair" rc="200" tn="WL-A01_OOO 1-1" sc="1" ec="0">
   <responseData class="java.lang.String">-----BEGIN RSA PRIVATE KEY-----
-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
+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
 -----END RSA PRIVATE KEY-----
 </responseData>
 </httpSample>
-<httpSample t="10402" it="0" lt="10402" ts="1542709248061" s="true" lb="Create_VM" rc="201" tn="Thread Group 1-1" sc="1" ec="0">
-  <responseData class="java.lang.String">{&quot;id&quot;:4183,&quot;name&quot;:&quot;st-a01-ooo-01&quot;,&quot;solution&quot;:130,&quot;project&quot;:88,&quot;create_time&quot;:&quot;2018-11-20T10:20:32.210198Z&quot;,&quot;user&quot;:&quot;0ea89c90-efc2-4785-b1e2-8e13e9c194cd&quot;,&quot;status&quot;:&quot;Initializing&quot;,&quot;platform&quot;:&quot;openstack-taichung-community&quot;}</responseData>
+<httpSample t="11891" it="0" lt="11891" ts="1542784588437" s="true" lb="Create_VM" rc="201" tn="WL-A01_OOO 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String">{&quot;id&quot;:4402,&quot;name&quot;:&quot;st-a01-ooo-01&quot;,&quot;solution&quot;:130,&quot;project&quot;:88,&quot;create_time&quot;:&quot;2018-11-21T07:16:13.634433Z&quot;,&quot;user&quot;:&quot;0ea89c90-efc2-4785-b1e2-8e13e9c194cd&quot;,&quot;status&quot;:&quot;Initializing&quot;,&quot;platform&quot;:&quot;openstack-taichung-community&quot;}</responseData>
 </httpSample>
-<httpSample t="1729" it="0" lt="1729" ts="1542709378468" s="true" lb="Create_Volume" rc="201" tn="Thread Group 1-1" sc="1" ec="0">
-  <responseData class="java.lang.String">{&quot;id&quot;:1339,&quot;name&quot;:&quot;st-vola01-ooo-01&quot;,&quot;size&quot;:10,&quot;project&quot;:88,&quot;platform&quot;:&quot;openstack-taichung-community&quot;,&quot;volume_type&quot;:&quot;&quot;}</responseData>
+<httpSample t="2617" it="0" lt="2617" ts="1542784720332" s="true" lb="Create_Volume" rc="201" tn="WL-A01_OOO 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String">{&quot;id&quot;:1369,&quot;name&quot;:&quot;st-vola01-ooo-01&quot;,&quot;size&quot;:10,&quot;project&quot;:88,&quot;platform&quot;:&quot;openstack-taichung-community&quot;,&quot;volume_type&quot;:&quot;&quot;}</responseData>
 </httpSample>
-<httpSample t="1694" it="0" lt="1693" ts="1542709500208" s="true" lb="Get_ServerID" rc="200" tn="Thread Group 1-1" sc="1" ec="0">
-  <responseData class="java.lang.String">{&quot;id&quot;:4183,&quot;name&quot;:&quot;st-a01-ooo-01&quot;,&quot;solution&quot;:130,&quot;desc&quot;:&quot;st-a01-ooo-01&quot;,&quot;project&quot;:88,&quot;public_ip&quot;:&quot;203.145.222.246&quot;,&quot;status&quot;:&quot;Ready&quot;,&quot;status_reason&quot;:&quot;&quot;,&quot;platform&quot;:&quot;openstack-taichung-community&quot;,&quot;create_time&quot;:&quot;2018-11-20T10:20:32Z&quot;,&quot;user&quot;:{&quot;id&quot;:&quot;0ea89c90-efc2-4785-b1e2-8e13e9c194cd&quot;,&quot;username&quot;:&quot;u7569743&quot;,&quot;email&quot;:&quot;as_nchc_test02@yahoo.com&quot;},&quot;servers&quot;:[4069]}</responseData>
+<httpSample t="1138" it="0" lt="1138" ts="1542784842954" s="true" lb="Get_ServerID" rc="200" tn="WL-A01_OOO 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String">{&quot;id&quot;:4402,&quot;name&quot;:&quot;st-a01-ooo-01&quot;,&quot;solution&quot;:130,&quot;desc&quot;:&quot;st-a01-ooo-01&quot;,&quot;project&quot;:88,&quot;public_ip&quot;:&quot;&quot;,&quot;status&quot;:&quot;Error&quot;,&quot;status_reason&quot;:&quot;ERROR: Remote error: NeutronClientNoUniqueMatch Multiple network matches found for name &apos;st-nwa01-ooo-01&apos;, use an ID to be more specific.\n[u&apos;&quot;,&quot;platform&quot;:&quot;openstack-taichung-community&quot;,&quot;create_time&quot;:&quot;2018-11-21T07:16:13Z&quot;,&quot;user&quot;:{&quot;id&quot;:&quot;0ea89c90-efc2-4785-b1e2-8e13e9c194cd&quot;,&quot;username&quot;:&quot;u7569743&quot;,&quot;email&quot;:&quot;as_nchc_test02@yahoo.com&quot;},&quot;servers&quot;:[]}</responseData>
 </httpSample>
-<httpSample t="3131" it="0" lt="3131" ts="1542709621918" s="true" lb="Get_SecurityID" rc="200" tn="Thread Group 1-1" sc="1" ec="0">
-  <responseData class="java.lang.String">[{&quot;name&quot;:&quot;4183_st-a01-ooo-01_sg&quot;,&quot;id&quot;:&quot;618b7000-d7ed-4137-b6a8-77f0c39538cd&quot;,&quot;security_group_rules&quot;:[{&quot;id&quot;:&quot;080bd59a-6ee5-4e95-98f8-0de49ac50841&quot;,&quot;direction&quot;:&quot;egress&quot;,&quot;ethertype&quot;:&quot;IPv6&quot;,&quot;port_range_min&quot;:null,&quot;port_range_max&quot;:null,&quot;protocol&quot;:&quot;ANY&quot;,&quot;remote_ip_prefix&quot;:&quot;::/0&quot;},{&quot;id&quot;:&quot;10a90089-5058-412c-8ddd-3486ae7b2135&quot;,&quot;direction&quot;:&quot;egress&quot;,&quot;ethertype&quot;:&quot;IPv4&quot;,&quot;port_range_min&quot;:null,&quot;port_range_max&quot;:null,&quot;protocol&quot;:&quot;ANY&quot;,&quot;remote_ip_prefix&quot;:&quot;0.0.0.0/0&quot;},{&quot;id&quot;:&quot;5f9b6258-b7fe-45aa-ae45-27d2927be317&quot;,&quot;direction&quot;:&quot;ingress&quot;,&quot;ethertype&quot;:&quot;IPv4&quot;,&quot;port_range_min&quot;:22,&quot;port_range_max&quot;:22,&quot;protocol&quot;:&quot;tcp&quot;,&quot;remote_ip_prefix&quot;:&quot;0.0.0.0/0&quot;},{&quot;id&quot;:&quot;82b943b3-bcba-46d4-b856-afcd5227e430&quot;,&quot;direction&quot;:&quot;ingress&quot;,&quot;ethertype&quot;:&quot;IPv4&quot;,&quot;port_range_min&quot;:5000,&quot;port_range_max&quot;:5000,&quot;protocol&quot;:&quot;tcp&quot;,&quot;remote_ip_prefix&quot;:&quot;0.0.0.0/0&quot;},{&quot;id&quot;:&quot;e95d3358-231c-4062-91d4-112fc87e62c4&quot;,&quot;direction&quot;:&quot;ingress&quot;,&quot;ethertype&quot;:&quot;IPv4&quot;,&quot;port_range_min&quot;:null,&quot;port_range_max&quot;:null,&quot;protocol&quot;:&quot;icmp&quot;,&quot;remote_ip_prefix&quot;:&quot;0.0.0.0/0&quot;}],&quot;platform&quot;:&quot;openstack-taichung-community&quot;}]</responseData>
+<httpSample t="1118" it="0" lt="1118" ts="1542784964096" s="true" lb="Get_ServerID" rc="200" tn="WL-A01_OOO 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String">{&quot;id&quot;:4402,&quot;name&quot;:&quot;st-a01-ooo-01&quot;,&quot;solution&quot;:130,&quot;desc&quot;:&quot;st-a01-ooo-01&quot;,&quot;project&quot;:88,&quot;public_ip&quot;:&quot;&quot;,&quot;status&quot;:&quot;Error&quot;,&quot;status_reason&quot;:&quot;ERROR: Remote error: NeutronClientNoUniqueMatch Multiple network matches found for name &apos;st-nwa01-ooo-01&apos;, use an ID to be more specific.\n[u&apos;&quot;,&quot;platform&quot;:&quot;openstack-taichung-community&quot;,&quot;create_time&quot;:&quot;2018-11-21T07:16:13Z&quot;,&quot;user&quot;:{&quot;id&quot;:&quot;0ea89c90-efc2-4785-b1e2-8e13e9c194cd&quot;,&quot;username&quot;:&quot;u7569743&quot;,&quot;email&quot;:&quot;as_nchc_test02@yahoo.com&quot;},&quot;servers&quot;:[]}</responseData>
 </httpSample>
+<httpSample t="1150" it="0" lt="1149" ts="1542785085219" s="true" lb="Get_ServerID" rc="200" tn="WL-A01_OOO 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String">{&quot;id&quot;:4402,&quot;name&quot;:&quot;st-a01-ooo-01&quot;,&quot;solution&quot;:130,&quot;desc&quot;:&quot;st-a01-ooo-01&quot;,&quot;project&quot;:88,&quot;public_ip&quot;:&quot;&quot;,&quot;status&quot;:&quot;Error&quot;,&quot;status_reason&quot;:&quot;ERROR: Remote error: NeutronClientNoUniqueMatch Multiple network matches found for name &apos;st-nwa01-ooo-01&apos;, use an ID to be more specific.\n[u&apos;&quot;,&quot;platform&quot;:&quot;openstack-taichung-community&quot;,&quot;create_time&quot;:&quot;2018-11-21T07:16:13Z&quot;,&quot;user&quot;:{&quot;id&quot;:&quot;0ea89c90-efc2-4785-b1e2-8e13e9c194cd&quot;,&quot;username&quot;:&quot;u7569743&quot;,&quot;email&quot;:&quot;as_nchc_test02@yahoo.com&quot;},&quot;servers&quot;:[]}</responseData>
+</httpSample>
+<httpSample t="996" it="0" lt="996" ts="1542785206373" s="true" lb="Get_ServerID" rc="200" tn="WL-A01_OOO 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String">{&quot;id&quot;:4402,&quot;name&quot;:&quot;st-a01-ooo-01&quot;,&quot;solution&quot;:130,&quot;desc&quot;:&quot;st-a01-ooo-01&quot;,&quot;project&quot;:88,&quot;public_ip&quot;:&quot;&quot;,&quot;status&quot;:&quot;Error&quot;,&quot;status_reason&quot;:&quot;ERROR: Remote error: NeutronClientNoUniqueMatch Multiple network matches found for name &apos;st-nwa01-ooo-01&apos;, use an ID to be more specific.\n[u&apos;&quot;,&quot;platform&quot;:&quot;openstack-taichung-community&quot;,&quot;create_time&quot;:&quot;2018-11-21T07:16:13Z&quot;,&quot;user&quot;:{&quot;id&quot;:&quot;0ea89c90-efc2-4785-b1e2-8e13e9c194cd&quot;,&quot;username&quot;:&quot;u7569743&quot;,&quot;email&quot;:&quot;as_nchc_test02@yahoo.com&quot;},&quot;servers&quot;:[]}</responseData>
+</httpSample>
+<httpSample t="1360" it="0" lt="1359" ts="1542785327373" s="true" lb="Get_ServerID" rc="200" tn="WL-A01_OOO 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String">{&quot;id&quot;:4402,&quot;name&quot;:&quot;st-a01-ooo-01&quot;,&quot;solution&quot;:130,&quot;desc&quot;:&quot;st-a01-ooo-01&quot;,&quot;project&quot;:88,&quot;public_ip&quot;:&quot;&quot;,&quot;status&quot;:&quot;Error&quot;,&quot;status_reason&quot;:&quot;ERROR: Remote error: NeutronClientNoUniqueMatch Multiple network matches found for name &apos;st-nwa01-ooo-01&apos;, use an ID to be more specific.\n[u&apos;&quot;,&quot;platform&quot;:&quot;openstack-taichung-community&quot;,&quot;create_time&quot;:&quot;2018-11-21T07:16:13Z&quot;,&quot;user&quot;:{&quot;id&quot;:&quot;0ea89c90-efc2-4785-b1e2-8e13e9c194cd&quot;,&quot;username&quot;:&quot;u7569743&quot;,&quot;email&quot;:&quot;as_nchc_test02@yahoo.com&quot;},&quot;servers&quot;:[]}</responseData>
+</httpSample>
+
+<httpSample t="12256" it="0" lt="12256" ts="1542787354907" s="true" lb="Create_VM" rc="201" tn="WL-A01_OOO 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String">{&quot;id&quot;:4438,&quot;name&quot;:&quot;st-a01-ooo-01&quot;,&quot;solution&quot;:130,&quot;project&quot;:88,&quot;create_time&quot;:&quot;2018-11-21T08:02:32.436636Z&quot;,&quot;user&quot;:&quot;0ea89c90-efc2-4785-b1e2-8e13e9c194cd&quot;,&quot;status&quot;:&quot;Initializing&quot;,&quot;platform&quot;:&quot;openstack-taichung-community&quot;}</responseData>
+</httpSample>
+<httpSample t="1079" it="0" lt="1079" ts="1542787487193" s="true" lb="Get_ServerID" rc="200" tn="WL-A01_OOO 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String">{&quot;id&quot;:4438,&quot;name&quot;:&quot;st-a01-ooo-01&quot;,&quot;solution&quot;:130,&quot;desc&quot;:&quot;st-a01-ooo-01&quot;,&quot;project&quot;:88,&quot;public_ip&quot;:&quot;&quot;,&quot;status&quot;:&quot;Error&quot;,&quot;status_reason&quot;:&quot;ERROR: Remote error: NeutronClientNoUniqueMatch Multiple network matches found for name &apos;st-nwa01-ooo-01&apos;, use an ID to be more specific.\n[u&apos;&quot;,&quot;platform&quot;:&quot;openstack-taichung-community&quot;,&quot;create_time&quot;:&quot;2018-11-21T08:02:32Z&quot;,&quot;user&quot;:{&quot;id&quot;:&quot;0ea89c90-efc2-4785-b1e2-8e13e9c194cd&quot;,&quot;username&quot;:&quot;u7569743&quot;,&quot;email&quot;:&quot;as_nchc_test02@yahoo.com&quot;},&quot;servers&quot;:[]}</responseData>
+</httpSample>
+<httpSample t="1116" it="0" lt="1116" ts="1542787608280" s="true" lb="Get_ServerID" rc="200" tn="WL-A01_OOO 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String">{&quot;id&quot;:4438,&quot;name&quot;:&quot;st-a01-ooo-01&quot;,&quot;solution&quot;:130,&quot;desc&quot;:&quot;st-a01-ooo-01&quot;,&quot;project&quot;:88,&quot;public_ip&quot;:&quot;&quot;,&quot;status&quot;:&quot;Error&quot;,&quot;status_reason&quot;:&quot;ERROR: Remote error: NeutronClientNoUniqueMatch Multiple network matches found for name &apos;st-nwa01-ooo-01&apos;, use an ID to be more specific.\n[u&apos;&quot;,&quot;platform&quot;:&quot;openstack-taichung-community&quot;,&quot;create_time&quot;:&quot;2018-11-21T08:02:32Z&quot;,&quot;user&quot;:{&quot;id&quot;:&quot;0ea89c90-efc2-4785-b1e2-8e13e9c194cd&quot;,&quot;username&quot;:&quot;u7569743&quot;,&quot;email&quot;:&quot;as_nchc_test02@yahoo.com&quot;},&quot;servers&quot;:[]}</responseData>
+</httpSample>
+<httpSample t="1239" it="0" lt="1239" ts="1542787729403" s="false" lb="Get_ServerID" rc="400" tn="WL-A01_OOO 1-1" sc="1" ec="1">
+  <responseData class="java.lang.String">{&quot;detail&quot;:&quot;400000000: Site matching query does not exist.&quot;}</responseData>
+</httpSample>
+<httpSample t="1161" it="0" lt="1161" ts="1542787850650" s="false" lb="Get_ServerID" rc="400" tn="WL-A01_OOO 1-1" sc="1" ec="1">
+  <responseData class="java.lang.String">{&quot;detail&quot;:&quot;400000000: Site matching query does not exist.&quot;}</responseData>
+</httpSample>
+<httpSample t="1152" it="0" lt="1152" ts="1542787971818" s="false" lb="Get_ServerID" rc="400" tn="WL-A01_OOO 1-1" sc="1" ec="1">
+  <responseData class="java.lang.String">{&quot;detail&quot;:&quot;400000000: Site matching query does not exist.&quot;}</responseData>
+</httpSample>
+
+</testResults>

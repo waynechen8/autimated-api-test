@@ -65,7 +65,7 @@
           <collectionProp name="Arguments.arguments">
             <elementProp name="time" elementType="Argument">
               <stringProp name="Argument.name">time</stringProp>
-              <stringProp name="Argument.value">3</stringProp>
+              <stringProp name="Argument.value">1</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
@@ -133,6 +133,24 @@
             <stringProp name="JSONPostProcessor.defaultValues">1</stringProp>
           </JSONPostProcessor>
           <hashTree/>
+          <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="JSR223 PostProcessor" enabled="true">
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="script">with open(&quot;/home/jmeter/NCHC_Swagger/WL-A01/SOC/id-${time}.csv&quot;, &quot;r&quot;) as f:
+    origin = f.readlines()
+
+li = origin[1].split(&quot;,&quot;)
+li[1] = &quot;${snapshot_id}&quot;    
+origin[1] = &quot;,&quot;.join(li)
+
+with open(&quot;/home/jmeter/NCHC_Swagger/WL-A01/SOC/id-${time}.csv&quot;, &quot;w&quot;) as f:
+    for line in origin:
+        f.write(line)
+</stringProp>
+            <stringProp name="scriptLanguage">jython</stringProp>
+          </JSR223PostProcessor>
+          <hashTree/>
         </hashTree>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
@@ -164,26 +182,8 @@
               <idleTime>true</idleTime>
             </value>
           </objProp>
-          <stringProp name="filename">/home/jmeter/NCHC_Swagger/WL-A01/SOC/Run_result.xml</stringProp>
+          <stringProp name="filename">/home/jmeter/NCHC_Swagger/WL-A01/SOC/Run_Result.xml</stringProp>
         </ResultCollector>
-        <hashTree/>
-        <JSR223Listener guiclass="TestBeanGUI" testclass="JSR223Listener" testname="export_ids_csv" enabled="true">
-          <stringProp name="cacheKey">true</stringProp>
-          <stringProp name="filename"></stringProp>
-          <stringProp name="parameters"></stringProp>
-          <stringProp name="script">with open(&quot;/home/jmeter/NCHC_Swagger/WL-A01/SOC/id-${time}.csv&quot;, &quot;r&quot;) as f:
-    origin = f.readlines()
-
-li = origin[1].split(&quot;,&quot;)
-li[1] = &quot;${snapshot_id}&quot;    
-origin[1] = &quot;,&quot;.join(li)
-
-with open(&quot;/home/jmeter/NCHC_Swagger/WL-A01/SOC/id-6.csv&quot;, &quot;w&quot;) as f:
-    for line in origin:
-        f.write(line)
-</stringProp>
-          <stringProp name="scriptLanguage">python</stringProp>
-        </JSR223Listener>
         <hashTree/>
       </hashTree>
     </hashTree>

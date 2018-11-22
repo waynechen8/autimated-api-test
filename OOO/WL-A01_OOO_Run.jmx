@@ -97,7 +97,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="name" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">${api-snapshotname-WL-A01}</stringProp>
+                <stringProp name="Argument.value">&quot;${api-snapshotname-WL-A01}&quot;</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">name</stringProp>
@@ -133,8 +133,25 @@
             <stringProp name="JSONPostProcessor.defaultValues">1</stringProp>
           </JSONPostProcessor>
           <hashTree/>
+          <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="JSR223 PostProcessor" enabled="true">
+            <stringProp name="scriptLanguage">jython</stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="script">with open(&quot;/home/jmeter/NCHC_Swagger/WL-A01/OOO/id-${time}.csv&quot;, &quot;r&quot;) as f:
+    origin = f.readlines()
+
+li = origin[1].split(&quot;,&quot;)
+li[1] = &quot;${snapshot_id}&quot;    
+origin[1] = &quot;,&quot;.join(li)
+
+with open(&quot;/home/jmeter/NCHC_Swagger/WL-A01/OOO/id-6.csv&quot;, &quot;w&quot;) as f:
+    for line in origin:
+        f.write(line)</stringProp>
+          </JSR223PostProcessor>
+          <hashTree/>
         </hashTree>
-        <JSR223Listener guiclass="TestBeanGUI" testclass="JSR223Listener" testname="export_ids_csv" enabled="true">
+        <JSR223Listener guiclass="TestBeanGUI" testclass="JSR223Listener" testname="export_ids_csv" enabled="false">
           <stringProp name="cacheKey">true</stringProp>
           <stringProp name="filename"></stringProp>
           <stringProp name="parameters"></stringProp>

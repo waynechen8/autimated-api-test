@@ -1,0 +1,8 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1542710544939,0,Attach_Volume,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 77: https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/volumes/${api-volumeId-WLA01}/action/,Thread Group 1-1,text,false,,1163,0,1,1,0,0,0
+1542710551945,0,Delete_VM,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 75: https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/sites/${api-vmId-WLA01}/,Thread Group 1-1,text,false,,1150,0,1,1,0,0,0
+1542710558953,1205,Delete_Snapshot,400,BAD REQUEST,Thread Group 1-1,text,false,,5011,311,1,1,1204,0,339
+1542710567160,0,Delete_Volume,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 77: https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/volumes/${api-volumeId-WLA01}/,Thread Group 1-1,text,false,,1156,0,1,1,0,0,0
+1542710574161,8042,Delete_Network,204,NO CONTENT,Thread Group 1-1,text,true,,4936,312,1,1,0,0,87
+1542710589206,1806,Delete_Keypair,204,NO CONTENT,Thread Group 1-1,text,true,,4957,325,1,1,0,0,99
+1542710598013,0,Delete_ASP,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 91: https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/auto_scaling_policies/${auto_scaling_policy_id}/,Thread Group 1-1,text,false,,1174,0,1,1,0,0,0

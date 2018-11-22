@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="1735" it="0" lt="1735" ts="1542796056572" s="true" lb="Resume_VM" rc="202" tn="Thread Group 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String"></responseData>
+</httpSample>
+
+<httpSample t="1799" it="0" lt="1799" ts="1542852683477" s="true" lb="Resume_VM" rc="202" tn="Thread Group 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String"></responseData>
+</httpSample>
+
+<httpSample t="1920" it="0" lt="1920" ts="1542853610168" s="true" lb="Resume_VM" rc="202" tn="Thread Group 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String"></responseData>
+</httpSample>
+
+<httpSample t="1878" it="0" lt="1878" ts="1542854150790" s="true" lb="Resume_VM" rc="202" tn="Thread Group 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String"></responseData>
+</httpSample>
+
+</testResults>

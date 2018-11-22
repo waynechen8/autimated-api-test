@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="1794" it="0" lt="1794" ts="1542796052701" s="true" lb="Stop_VM" rc="202" tn="Thread Group 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String"></responseData>
+</httpSample>
+
+<httpSample t="1850" it="0" lt="1850" ts="1542853821286" s="true" lb="Stop_VM" rc="202" tn="Thread Group 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String"></responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">PUT</method>
+  <queryString class="java.lang.String">{&quot;status&quot;:&quot;stop&quot;}</queryString>
+</httpSample>
+
+</testResults>

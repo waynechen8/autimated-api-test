@@ -1,67 +1,67 @@
-2018-11-20 16:03:06,281 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2018-11-20 16:03:06,302 INFO o.a.j.JMeter: Loading user properties from: /home/jmeter/apache-jmeter-4.0/bin/user.properties
-2018-11-20 16:03:06,302 INFO o.a.j.JMeter: Loading system properties from: /home/jmeter/apache-jmeter-4.0/bin/system.properties
-2018-11-20 16:03:06,307 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
-2018-11-20 16:03:06,307 INFO o.a.j.JMeter: Version 4.0 r1823414
-2018-11-20 16:03:06,308 INFO o.a.j.JMeter: java.version=10.0.2
-2018-11-20 16:03:06,308 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
-2018-11-20 16:03:06,308 INFO o.a.j.JMeter: os.name=Linux
-2018-11-20 16:03:06,308 INFO o.a.j.JMeter: os.arch=amd64
-2018-11-20 16:03:06,308 INFO o.a.j.JMeter: os.version=4.15.0-36-generic
-2018-11-20 16:03:06,308 INFO o.a.j.JMeter: file.encoding=UTF-8
-2018-11-20 16:03:06,308 INFO o.a.j.JMeter: Max memory     =1073741824
-2018-11-20 16:03:06,308 INFO o.a.j.JMeter: Available Processors =4
-2018-11-20 16:03:06,315 INFO o.a.j.JMeter: Default Locale=English (EN)
-2018-11-20 16:03:06,315 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2018-11-20 16:03:06,315 INFO o.a.j.JMeter: JMeterHome=/home/jmeter/apache-jmeter-4.0
-2018-11-20 16:03:06,316 INFO o.a.j.JMeter: user.dir  =/home/jmeter/NCHC_Swagger/WL-A01/SOC
-2018-11-20 16:03:06,316 INFO o.a.j.JMeter: PWD       =/home/jmeter/NCHC_Swagger/WL-A01/SOC
-2018-11-20 16:03:06,316 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: jmeter-virtual-machine FullName: jmeter-virtual-machine
-2018-11-20 16:03:06,319 INFO o.a.j.s.FileServer: Default base='/home/jmeter/NCHC_Swagger/WL-A01/SOC'
-2018-11-20 16:03:06,321 INFO o.a.j.s.FileServer: Set new base='/home/jmeter/NCHC_Swagger/WL-A01/SOC'
-2018-11-20 16:03:06,463 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2018-11-20 16:03:06,481 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
-2018-11-20 16:03:06,485 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2018-11-20 16:03:06,488 INFO o.a.j.s.SaveService: Loading file: /home/jmeter/NCHC_Swagger/WL-A01/SOC/WL-A01_SOC_Resume.jmx
-2018-11-20 16:03:06,532 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-11-20 16:03:06,532 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-11-20 16:03:06,532 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-11-20 16:03:06,532 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-11-20 16:03:06,532 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2018-11-20 16:03:06,532 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2018-11-20 16:03:06,552 INFO o.a.j.JMeter: Creating summariser <summary>
-2018-11-20 16:03:06,557 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2018-11-20 16:03:06,558 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2018-11-20 16:03:06,558 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2018-11-20 16:03:06,575 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2018-11-20 16:03:06,575 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2018-11-20 16:03:06,880 INFO o.a.j.JMeter: Running test (1542700986879)
-2018-11-20 16:03:06,905 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
-2018-11-20 16:03:06,905 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
-2018-11-20 16:03:06,905 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2018-11-20 16:03:06,906 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
-2018-11-20 16:03:06,910 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2018-11-20 16:03:06,910 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2018-11-20 16:03:06,942 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
-2018-11-20 16:03:06,943 INFO o.a.j.s.FileServer: Stored: ./WL-A01-soc_env.csv
-2018-11-20 16:03:06,950 INFO o.a.j.s.FileServer: Stored: ./id-6.csv
-2018-11-20 16:03:06,950 INFO o.a.j.s.FileServer: Stored: /home/jmeter/NCHC_Swagger/WL-A01/SOC/WL-A01-soc_const.csv
-2018-11-20 16:03:06,965 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = jmeter-virtual-machine
-2018-11-20 16:03:06,969 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
-2018-11-20 16:03:06,976 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2018-11-20 16:03:06,976 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2018-11-20 16:03:06,976 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2018-11-20 16:03:06,976 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2018-11-20 16:03:07,058 INFO o.a.j.p.h.s.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory
-2018-11-20 16:03:07,068 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
-2018-11-20 16:03:07,068 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
-2018-11-20 16:03:07,164 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
-2018-11-20 16:03:07,165 INFO o.a.j.u.SSLManager: KeyStore created OK
-2018-11-20 16:03:07,165 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
-2018-11-20 16:03:08,917 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
-2018-11-20 16:03:08,917 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
-2018-11-20 16:03:08,918 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2018-11-20 16:03:08,918 INFO o.a.j.s.FileServer: Close: /home/jmeter/NCHC_Swagger/WL-A01/SOC/WL-A01-soc_const.csv
-2018-11-20 16:03:08,919 INFO o.a.j.s.FileServer: Close: ./id-6.csv
-2018-11-20 16:03:08,919 INFO o.a.j.s.FileServer: Close: ./WL-A01-soc_env.csv
-2018-11-20 16:03:08,920 INFO o.a.j.r.Summariser: summary =      1 in 00:00:02 =    0.5/s Avg:  1916 Min:  1916 Max:  1916 Err:     0 (0.00%)
+2018-11-22 11:26:05,112 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2018-11-22 11:26:05,137 INFO o.a.j.JMeter: Loading user properties from: /home/jmeter/apache-jmeter-4.0/bin/user.properties
+2018-11-22 11:26:05,137 INFO o.a.j.JMeter: Loading system properties from: /home/jmeter/apache-jmeter-4.0/bin/system.properties
+2018-11-22 11:26:05,142 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2018-11-22 11:26:05,142 INFO o.a.j.JMeter: Version 4.0 r1823414
+2018-11-22 11:26:05,142 INFO o.a.j.JMeter: java.version=10.0.2
+2018-11-22 11:26:05,142 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2018-11-22 11:26:05,142 INFO o.a.j.JMeter: os.name=Linux
+2018-11-22 11:26:05,142 INFO o.a.j.JMeter: os.arch=amd64
+2018-11-22 11:26:05,142 INFO o.a.j.JMeter: os.version=4.15.0-36-generic
+2018-11-22 11:26:05,142 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-11-22 11:26:05,143 INFO o.a.j.JMeter: Max memory     =1073741824
+2018-11-22 11:26:05,143 INFO o.a.j.JMeter: Available Processors =4
+2018-11-22 11:26:05,150 INFO o.a.j.JMeter: Default Locale=English (EN)
+2018-11-22 11:26:05,150 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2018-11-22 11:26:05,150 INFO o.a.j.JMeter: JMeterHome=/home/jmeter/apache-jmeter-4.0
+2018-11-22 11:26:05,150 INFO o.a.j.JMeter: user.dir  =/home/jmeter/NCHC_Swagger/WL-A01/SOC
+2018-11-22 11:26:05,150 INFO o.a.j.JMeter: PWD       =/home/jmeter/NCHC_Swagger/WL-A01/SOC
+2018-11-22 11:26:05,150 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: jmeter-virtual-machine FullName: jmeter-virtual-machine
+2018-11-22 11:26:05,154 INFO o.a.j.s.FileServer: Default base='/home/jmeter/NCHC_Swagger/WL-A01/SOC'
+2018-11-22 11:26:05,155 INFO o.a.j.s.FileServer: Set new base='/home/jmeter/NCHC_Swagger/WL-A01/SOC'
+2018-11-22 11:26:05,295 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-11-22 11:26:05,312 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
+2018-11-22 11:26:05,315 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-11-22 11:26:05,318 INFO o.a.j.s.SaveService: Loading file: /home/jmeter/NCHC_Swagger/WL-A01/SOC/WL-A01_SOC_Delete.jmx
+2018-11-22 11:26:05,556 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-11-22 11:26:05,556 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-11-22 11:26:05,557 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-11-22 11:26:05,557 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-11-22 11:26:05,557 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-11-22 11:26:05,557 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-11-22 11:26:05,615 INFO o.a.j.JMeter: Creating summariser <summary>
+2018-11-22 11:26:05,619 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-11-22 11:26:05,620 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-11-22 11:26:05,620 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-11-22 11:26:05,638 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-11-22 11:26:05,639 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-11-22 11:26:05,701 INFO o.a.j.JMeter: Running test (1542857165701)
+2018-11-22 11:26:05,731 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2018-11-22 11:26:05,731 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2018-11-22 11:26:05,731 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-11-22 11:26:05,731 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2018-11-22 11:26:05,735 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-11-22 11:26:05,736 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-11-22 11:26:05,774 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2018-11-22 11:26:05,775 INFO o.a.j.s.FileServer: Stored: /home/jmeter/NCHC_Swagger/WL-A01/SOC/WL-A01-soc_env.csv
+2018-11-22 11:26:05,782 INFO o.a.j.s.FileServer: Stored: ./id-1.csv
+2018-11-22 11:26:12,804 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = jmeter-virtual-machine
+2018-11-22 11:26:12,809 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-11-22 11:26:12,817 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-11-22 11:26:12,817 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-11-22 11:26:12,817 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-11-22 11:26:12,817 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-11-22 11:26:12,932 INFO o.a.j.p.h.s.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2018-11-22 11:26:12,940 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2018-11-22 11:26:12,940 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2018-11-22 11:26:13,039 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2018-11-22 11:26:13,040 INFO o.a.j.u.SSLManager: KeyStore created OK
+2018-11-22 11:26:13,040 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2018-11-22 11:27:01,054 INFO o.a.j.r.Summariser: summary +      5 in 00:00:55 =    0.1/s Avg:  4040 Min:  2235 Max:  5753 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2018-11-22 11:27:18,553 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2018-11-22 11:27:18,553 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2018-11-22 11:27:18,554 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-11-22 11:27:18,554 INFO o.a.j.s.FileServer: Close: /home/jmeter/NCHC_Swagger/WL-A01/SOC/WL-A01-soc_env.csv
+2018-11-22 11:27:18,555 INFO o.a.j.s.FileServer: Close: ./id-1.csv
+2018-11-22 11:27:18,556 INFO o.a.j.r.Summariser: summary +      2 in 00:00:18 =    0.1/s Avg:  1747 Min:  1508 Max:  1987 Err:     1 (50.00%) Active: 0 Started: 1 Finished: 1
+2018-11-22 11:27:18,557 INFO o.a.j.r.Summariser: summary =      7 in 00:01:13 =    0.1/s Avg:  3385 Min:  1508 Max:  5753 Err:     1 (14.29%)

@@ -50,7 +50,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="WL-A01-variable" enabled="true">
-          <stringProp name="filename">./id-6.csv</stringProp>
+          <stringProp name="filename">./id-1.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">api-vmId-WLA01,snapshot_id,api-volumeId-WLA01,api-networkId-WLA01,key_name,auto_scaling_policy_id,vm_ip,vm_status,serverId,securityId</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
@@ -126,7 +126,7 @@
               <assertions>true</assertions>
               <subresults>false</subresults>
               <responseData>true</responseData>
-              <samplerData>false</samplerData>
+              <samplerData>true</samplerData>
               <xml>true</xml>
               <fieldNames>false</fieldNames>
               <responseHeaders>false</responseHeaders>
@@ -138,7 +138,7 @@
               <idleTime>true</idleTime>
             </value>
           </objProp>
-          <stringProp name="filename">/home/jmeter/NCHC_Swagger/WL-A01/SOC/Stop_result.xml</stringProp>
+          <stringProp name="filename">/home/jmeter/NCHC_Swagger/WL-A01/SOC/Stop_Result.xml</stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>

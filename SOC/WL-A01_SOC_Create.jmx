@@ -24,7 +24,7 @@
         <stringProp name="variableNames">host,port,api-host-WLA01,api-key-WLA01,api-project-WLA01,api-platform-WLA01,api-vmSolution-WLA01</stringProp>
       </CSVDataSet>
       <hashTree/>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="WL-A01_SOC" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -143,6 +143,21 @@
               <stringProp name="filename"></stringProp>
               <stringProp name="script">if (&quot;${api-networkId-WLA01}&quot;.equals(&quot;1&quot;)) {vars.put(&quot;error_occur&quot;, &quot;1&quot;);}</stringProp>
             </BeanShellPostProcessor>
+            <hashTree/>
+            <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="save all variable" enabled="true">
+              <stringProp name="scriptLanguage">jython</stringProp>
+              <stringProp name="parameters"></stringProp>
+              <stringProp name="filename"></stringProp>
+              <stringProp name="cacheKey">true</stringProp>
+              <stringProp name="script">li = [&quot;vm_id,snapshot_id,volume_id,network_id,key_name,autoscaling_id,vm_ip,vm_status,server_id&quot;, &quot;\n&quot;,
+&quot;${api-vmId-WLA01}&quot; + &quot;,,&quot; + &quot;${api-volumeId-WLA01}&quot; + &quot;,&quot; + &quot;${api-networkId-WLA01}&quot; + &quot;,&quot; + 
+&quot;${api-keypairName-WLA01}&quot; + &quot;,&quot; + &quot;${auto_scaling_policy_id}&quot; + &quot;,&quot; + &quot;${vm_ip}&quot; + &quot;,&quot; + &quot;${vm_status}&quot; + 
+&quot;,&quot; + &quot;${serverId}&quot; ]
+
+with open(&quot;/home/jmeter/NCHC_Swagger/WL-A01/SOC/id-${time}.csv&quot;, &quot;w&quot;) as f:
+    for line in li:
+        f.write(line)</stringProp>
+            </JSR223PostProcessor>
             <hashTree/>
           </hashTree>
           <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="Check network Id" enabled="false">
@@ -293,6 +308,21 @@
                 <stringProp name="script">if (&quot;${api-vmId-WLA01}&quot;.equals(&quot;1&quot;)) {vars.put(&quot;error_occur&quot;, &quot;1&quot;);}</stringProp>
               </BeanShellPostProcessor>
               <hashTree/>
+              <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="save all variable" enabled="true">
+                <stringProp name="scriptLanguage">jython</stringProp>
+                <stringProp name="parameters"></stringProp>
+                <stringProp name="filename"></stringProp>
+                <stringProp name="cacheKey">true</stringProp>
+                <stringProp name="script">li = [&quot;vm_id,snapshot_id,volume_id,network_id,key_name,autoscaling_id,vm_ip,vm_status,server_id&quot;, &quot;\n&quot;,
+&quot;${api-vmId-WLA01}&quot; + &quot;,,&quot; + &quot;${api-volumeId-WLA01}&quot; + &quot;,&quot; + &quot;${api-networkId-WLA01}&quot; + &quot;,&quot; + 
+&quot;${api-keypairName-WLA01}&quot; + &quot;,&quot; + &quot;${auto_scaling_policy_id}&quot; + &quot;,&quot; + &quot;${vm_ip}&quot; + &quot;,&quot; + &quot;${vm_status}&quot; + 
+&quot;,&quot; + &quot;${serverId}&quot; ]
+
+with open(&quot;/home/jmeter/NCHC_Swagger/WL-A01/SOC/id-${time}.csv&quot;, &quot;w&quot;) as f:
+    for line in li:
+        f.write(line)</stringProp>
+              </JSR223PostProcessor>
+              <hashTree/>
             </hashTree>
           </hashTree>
         </hashTree>
@@ -341,6 +371,21 @@
               <stringProp name="filename"></stringProp>
               <stringProp name="script">if (&quot;${api-volumeId-WLA01}&quot;.equals(&quot;1&quot;) ) {vars.put(&quot;error_occur&quot;, &quot;1&quot;);}</stringProp>
             </BeanShellPostProcessor>
+            <hashTree/>
+            <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="save all variable" enabled="true">
+              <stringProp name="scriptLanguage">jython</stringProp>
+              <stringProp name="parameters"></stringProp>
+              <stringProp name="filename"></stringProp>
+              <stringProp name="cacheKey">true</stringProp>
+              <stringProp name="script">li = [&quot;vm_id,snapshot_id,volume_id,network_id,key_name,autoscaling_id,vm_ip,vm_status,server_id&quot;, &quot;\n&quot;,
+&quot;${api-vmId-WLA01}&quot; + &quot;,,&quot; + &quot;${api-volumeId-WLA01}&quot; + &quot;,&quot; + &quot;${api-networkId-WLA01}&quot; + &quot;,&quot; + 
+&quot;${api-keypairName-WLA01}&quot; + &quot;,&quot; + &quot;${auto_scaling_policy_id}&quot; + &quot;,&quot; + &quot;${vm_ip}&quot; + &quot;,&quot; + &quot;${vm_status}&quot; + 
+&quot;,&quot; + &quot;${serverId}&quot; ]
+
+with open(&quot;/home/jmeter/NCHC_Swagger/WL-A01/SOC/id-${time}.csv&quot;, &quot;w&quot;) as f:
+    for line in li:
+        f.write(line)</stringProp>
+            </JSR223PostProcessor>
             <hashTree/>
           </hashTree>
         </hashTree>
@@ -421,6 +466,21 @@
                   <stringProp name="filename"></stringProp>
                   <stringProp name="script">if (!&quot;${serverId}&quot;.equals(&quot;1&quot;)&amp;&amp;!&quot;${vm_ip}&quot;.equals(&quot;&quot;)&amp;&amp;&quot;${vm_status}&quot;.equals(&quot;Ready&quot;) ) {vars.put(&quot;local_error&quot;, &quot;0&quot;);vars.put(&quot;error_occur&quot;, &quot;0&quot;);}</stringProp>
                 </BeanShellPostProcessor>
+                <hashTree/>
+                <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="save all variable" enabled="true">
+                  <stringProp name="scriptLanguage">jython</stringProp>
+                  <stringProp name="parameters"></stringProp>
+                  <stringProp name="filename"></stringProp>
+                  <stringProp name="cacheKey">true</stringProp>
+                  <stringProp name="script">li = [&quot;vm_id,snapshot_id,volume_id,network_id,key_name,autoscaling_id,vm_ip,vm_status,server_id&quot;, &quot;\n&quot;,
+&quot;${api-vmId-WLA01}&quot; + &quot;,,&quot; + &quot;${api-volumeId-WLA01}&quot; + &quot;,&quot; + &quot;${api-networkId-WLA01}&quot; + &quot;,&quot; + 
+&quot;${api-keypairName-WLA01}&quot; + &quot;,&quot; + &quot;${auto_scaling_policy_id}&quot; + &quot;,&quot; + &quot;${vm_ip}&quot; + &quot;,&quot; + &quot;${vm_status}&quot; + 
+&quot;,&quot; + &quot;${serverId}&quot; ]
+
+with open(&quot;/home/jmeter/NCHC_Swagger/WL-A01/SOC/id-${time}.csv&quot;, &quot;w&quot;) as f:
+    for line in li:
+        f.write(line)</stringProp>
+                </JSR223PostProcessor>
                 <hashTree/>
               </hashTree>
             </hashTree>
@@ -602,6 +662,21 @@
               <stringProp name="script">if (&quot;${auto_scaling_policy_id}&quot;.equals(&quot;1&quot;) ) {vars.put(&quot;error_occur&quot;, &quot;1&quot;);}</stringProp>
             </BeanShellPostProcessor>
             <hashTree/>
+            <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="save all variable" enabled="true">
+              <stringProp name="scriptLanguage">jython</stringProp>
+              <stringProp name="parameters"></stringProp>
+              <stringProp name="filename"></stringProp>
+              <stringProp name="cacheKey">true</stringProp>
+              <stringProp name="script">li = [&quot;vm_id,snapshot_id,volume_id,network_id,key_name,autoscaling_id,vm_ip,vm_status,server_id&quot;, &quot;\n&quot;,
+&quot;${api-vmId-WLA01}&quot; + &quot;,,&quot; + &quot;${api-volumeId-WLA01}&quot; + &quot;,&quot; + &quot;${api-networkId-WLA01}&quot; + &quot;,&quot; + 
+&quot;${api-keypairName-WLA01}&quot; + &quot;,&quot; + &quot;${auto_scaling_policy_id}&quot; + &quot;,&quot; + &quot;${vm_ip}&quot; + &quot;,&quot; + &quot;${vm_status}&quot; + 
+&quot;,&quot; + &quot;${serverId}&quot; ]
+
+with open(&quot;/home/jmeter/NCHC_Swagger/WL-A01/SOC/id-${time}.csv&quot;, &quot;w&quot;) as f:
+    for line in li:
+        f.write(line)</stringProp>
+            </JSR223PostProcessor>
+            <hashTree/>
           </hashTree>
         </hashTree>
         <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If Attach_ASP" enabled="true">
@@ -637,22 +712,7 @@
           </HTTPSamplerProxy>
           <hashTree/>
         </hashTree>
-        <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="export_ids_csv" enabled="false">
-          <stringProp name="cacheKey">true</stringProp>
-          <stringProp name="filename"></stringProp>
-          <stringProp name="parameters"></stringProp>
-          <stringProp name="script">li = [&quot;vm_id,snapshot_id,volume_id,network_id,key_name,autoscaling_id,vm_ip,vm_status,server_id,security_id&quot;, &quot;\n&quot;,&quot;${api-vmId-WLA01}&quot; + &quot;,,&quot; + &quot;${api-volumeId-WLA01}&quot; + &quot;,&quot; + &quot;${api-networkId-WLA01}&quot; + &quot;,&quot; + &quot;${api-keypairName-WLA01}&quot; + &quot;,&quot; + &quot;${policy_id}&quot; + &quot;,&quot; + &quot;${vm_ip}&quot; + &quot;,&quot; + &quot;${vm_status}&quot; + &quot;,&quot; + &quot;${serverId}&quot; + &quot;,&quot; + &quot;${securityId}&quot;]
-
-f = open(&quot;/home/jmeter/NCHC_Swagger/WL-A01/OOO/id-${time}.csv&quot;, &quot;w&quot;)
-
-for line in li:
-    f.write(line)
-
-f.close()</stringProp>
-          <stringProp name="scriptLanguage">python</stringProp>
-        </JSR223Sampler>
-        <hashTree/>
-        <JSR223Listener guiclass="TestBeanGUI" testclass="JSR223Listener" testname="export_ids_csv" enabled="true">
+        <JSR223Listener guiclass="TestBeanGUI" testclass="JSR223Listener" testname="export_ids_csv" enabled="false">
           <stringProp name="cacheKey">true</stringProp>
           <stringProp name="filename"></stringProp>
           <stringProp name="parameters"></stringProp>
@@ -725,7 +785,7 @@ f.close()</stringProp>
           <stringProp name="classname">rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient</stringProp>
         </BackendListener>
         <hashTree/>
-        <BeanShellListener guiclass="TestBeanGUI" testclass="BeanShellListener" testname="BeanShell Listener" enabled="false">
+        <BeanShellListener guiclass="TestBeanGUI" testclass="BeanShellListener" testname="ip properties" enabled="true">
           <stringProp name="filename"></stringProp>
           <stringProp name="parameters"></stringProp>
           <boolProp name="resetInterpreter">false</boolProp>
@@ -770,11 +830,14 @@ out.close();</stringProp>
               <idleTime>true</idleTime>
             </value>
           </objProp>
-          <stringProp name="filename">/home/jmeter/NCHC_Swagger/WL-A01/SOC/result.xml</stringProp>
+          <stringProp name="filename">/home/jmeter/NCHC_Swagger/WL-A01/SOC/Create_Result.xml</stringProp>
         </ResultCollector>
         <hashTree/>
-        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BeanShell Sampler" enabled="false">
-          <stringProp name="BeanShellSampler.query">import java.io.FileWriter;
+        <BeanShellListener guiclass="TestBeanGUI" testclass="BeanShellListener" testname="BeanShell var" enabled="true">
+          <boolProp name="resetInterpreter">false</boolProp>
+          <stringProp name="parameters"></stringProp>
+          <stringProp name="filename"></stringProp>
+          <stringProp name="script">import java.io.FileWriter;
 import java.io.BufferedWriter;
 
 vm_id = vars.get(&quot;api-vmId-WLA01&quot;);
@@ -788,16 +851,13 @@ server_id = vars.get(&quot;serverId&quot;);
 security_id = vars.get(&quot;securityId&quot;);
 
 
-FileWriter fstream = new FileWriter(&quot;/home/jmeter/NCHC_Swagger/WL-A01/ooo_ids.csv&quot;, true);
+FileWriter fstream = new FileWriter(&quot;/home/jmeter/NCHC_Swagger/WL-A01/SOC/soc_ids.csv&quot;, true);
 BufferedWriter out = new BufferedWriter(fstream);
 out.write(vm_id + &quot;,,&quot; + volume_id + &quot;,&quot; + network_id + &quot;,&quot; + key_name + &quot;,&quot; + asp_id + &quot;,&quot; + vm_ip + &quot;,&quot; + vm_status + &quot;,&quot; + server_id + &quot;,&quot; + security_id);
 out.write(System.getProperty(&quot;line.separator&quot;));
 
 out.close();</stringProp>
-          <stringProp name="BeanShellSampler.filename"></stringProp>
-          <stringProp name="BeanShellSampler.parameters"></stringProp>
-          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
-        </BeanShellSampler>
+        </BeanShellListener>
         <hashTree/>
       </hashTree>
     </hashTree>

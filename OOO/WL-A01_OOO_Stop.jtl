@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1542710293636,0,Stop_VM,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 75: https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/sites/${api-vmId-WLA01}/action/,Thread Group 1-1,text,false,,1157,0,1,1,0,0,0

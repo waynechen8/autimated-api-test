@@ -1,0 +1,81 @@
+2018-11-22 10:20:51,663 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2018-11-22 10:20:51,688 INFO o.a.j.JMeter: Loading user properties from: /home/jmeter/apache-jmeter-4.0/bin/user.properties
+2018-11-22 10:20:51,688 INFO o.a.j.JMeter: Loading system properties from: /home/jmeter/apache-jmeter-4.0/bin/system.properties
+2018-11-22 10:20:51,694 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2018-11-22 10:20:51,694 INFO o.a.j.JMeter: Version 4.0 r1823414
+2018-11-22 10:20:51,694 INFO o.a.j.JMeter: java.version=10.0.2
+2018-11-22 10:20:51,695 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2018-11-22 10:20:51,695 INFO o.a.j.JMeter: os.name=Linux
+2018-11-22 10:20:51,695 INFO o.a.j.JMeter: os.arch=amd64
+2018-11-22 10:20:51,695 INFO o.a.j.JMeter: os.version=4.15.0-36-generic
+2018-11-22 10:20:51,695 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-11-22 10:20:51,695 INFO o.a.j.JMeter: Max memory     =1073741824
+2018-11-22 10:20:51,695 INFO o.a.j.JMeter: Available Processors =4
+2018-11-22 10:20:51,703 INFO o.a.j.JMeter: Default Locale=English (EN)
+2018-11-22 10:20:51,704 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2018-11-22 10:20:51,704 INFO o.a.j.JMeter: JMeterHome=/home/jmeter/apache-jmeter-4.0
+2018-11-22 10:20:51,704 INFO o.a.j.JMeter: user.dir  =/home/jmeter/NCHC_Swagger/WL-A01
+2018-11-22 10:20:51,704 INFO o.a.j.JMeter: PWD       =/home/jmeter/NCHC_Swagger/WL-A01
+2018-11-22 10:20:51,704 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: jmeter-virtual-machine FullName: jmeter-virtual-machine
+2018-11-22 10:20:52,020 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2018-11-22 10:20:52,089 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2018-11-22 10:20:52,090 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2018-11-22 10:20:52,152 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2018-11-22 10:20:52,989 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-11-22 10:20:52,990 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-11-22 10:20:53,584 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=linux-f9e5b3b97bdc17627666bb3bf34182a1-gui
+2018-11-22 10:20:55,755 INFO o.j.r.PluginManager: Plugins Status: [blazemeter-debugger=0.6, bzm-parallel=0.7, jpgc-plugins-manager=1.3, jmeter-core=4.0, jmeter-ftp=4.0, jmeter-http=4.0, jmeter-jdbc=4.0, jmeter-jms=4.0, jmeter-junit=4.0, jmeter-java=4.0, jmeter-ldap=4.0, jmeter-mail=4.0, jmeter-mongodb=4.0, jmeter-native=4.0, jmeter-tcp=4.0, jmeter-components=4.0]
+2018-11-22 10:20:55,756 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [bzm-parallel]
+2018-11-22 10:20:55,866 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-11-22 10:20:55,868 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-11-22 10:20:55,868 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-11-22 10:20:55,868 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-11-22 10:20:55,869 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-11-22 10:20:55,869 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-11-22 10:20:56,652 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2018-11-22 10:20:56,653 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /home/jmeter/apache-jmeter-4.0/bin/proxyserver.jks
+2018-11-22 10:20:56,764 INFO o.a.j.s.FileServer: Default base='/home/jmeter/NCHC_Swagger/WL-A01'
+2018-11-22 10:20:57,018 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-11-22 10:20:57,018 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-11-22 10:20:57,018 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-11-22 10:20:57,018 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-11-22 10:20:57,040 WARN o.a.j.v.ViewResultsFullVisualizer: Error loading result renderer: org.apache.jmeter.visualizers.RenderInBrowser
+java.lang.NoClassDefFoundError: javafx/embed/swing/JFXPanel
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:291) ~[?:?]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.createComboRender(ViewResultsFullVisualizer.java:462) [ApacheJMeter_components.jar:4.0 r1823414]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.createLeftPanel(ViewResultsFullVisualizer.java:430) [ApacheJMeter_components.jar:4.0 r1823414]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.init(ViewResultsFullVisualizer.java:342) [ApacheJMeter_components.jar:4.0 r1823414]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.<init>(ViewResultsFullVisualizer.java:147) [ApacheJMeter_components.jar:4.0 r1823414]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:488) ~[?:?]
+	at java.lang.Class.newInstance(Class.java:560) [?:?]
+	at org.apache.jmeter.gui.util.MenuFactory.getGUIComponent(MenuFactory.java:174) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.util.MenuFactory.initializeMenus(MenuFactory.java:141) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.util.MenuFactory.<clinit>(MenuFactory.java:106) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.control.gui.TestPlanGui.createPopupMenu(TestPlanGui.java:92) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.tree.JMeterTreeNode.createPopupMenu(JMeterTreeNode.java:155) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.action.EditCommand.doAction(EditCommand.java:46) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:88) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:70) [ApacheJMeter_core.jar:4.0 r1823414]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313) [?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) [?:?]
+	at java.awt.EventQueue.access$600(EventQueue.java:97) [?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:721) [?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:715) [?:?]
+	at java.security.AccessController.doPrivileged(Native Method) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:740) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+Caused by: java.lang.ClassNotFoundException: javafx.embed.swing.JFXPanel
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:466) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:566) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:499) ~[?:?]
+	... 33 more
