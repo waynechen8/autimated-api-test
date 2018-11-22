@@ -6,3 +6,10 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1542710574161,8042,Delete_Network,204,NO CONTENT,Thread Group 1-1,text,true,,4936,312,1,1,0,0,87
 1542710589206,1806,Delete_Keypair,204,NO CONTENT,Thread Group 1-1,text,true,,4957,325,1,1,0,0,99
 1542710598013,0,Delete_ASP,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 91: https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/auto_scaling_policies/${auto_scaling_policy_id}/,Thread Group 1-1,text,false,,1174,0,1,1,0,0,0
+1542882539484,1534,Detach_ASP,500,INTERNAL SERVER ERROR,WL-A01_OOO_Delete 1-1,text,false,,641,378,1,1,1533,0,391
+1542882548026,3438,Detach_Volume,200,OK,WL-A01_OOO_Delete 1-1,text,true,,4932,418,1,1,3438,0,84
+1542882558466,2640,Delete_VM,204,NO CONTENT,WL-A01_OOO_Delete 1-1,text,true,,4938,310,1,1,0,0,93
+1542882568108,1315,Delete_Snapshot,405,METHOD NOT ALLOWED,WL-A01_OOO_Delete 1-1,text,false,,5036,310,1,1,1315,0,84
+1542882576425,2844,Delete_Volume,204,NO CONTENT,WL-A01_OOO_Delete 1-1,text,true,,4937,312,1,1,0,0,82
+1542882586270,1669,Delete_Keypair,204,NO CONTENT,WL-A01_OOO_Delete 1-1,text,true,,4938,325,1,1,0,0,81
+1542882594941,1149,Delete_ASP,404,NOT FOUND,WL-A01_OOO_Delete 1-1,text,false,,5040,371,1,1,1149,0,83

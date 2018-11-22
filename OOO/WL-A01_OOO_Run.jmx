@@ -145,7 +145,7 @@ li = origin[1].split(&quot;,&quot;)
 li[1] = &quot;${snapshot_id}&quot;    
 origin[1] = &quot;,&quot;.join(li)
 
-with open(&quot;/home/jmeter/NCHC_Swagger/WL-A01/OOO/id-6.csv&quot;, &quot;w&quot;) as f:
+with open(&quot;/home/jmeter/NCHC_Swagger/WL-A01/OOO/id-${time}.csv&quot;, &quot;w&quot;) as f:
     for line in origin:
         f.write(line)</stringProp>
           </JSR223PostProcessor>

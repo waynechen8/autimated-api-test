@@ -1,61 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testResults version="1.2">
-<httpSample t="8469" it="0" lt="8468" ts="1542793347604" s="true" lb="Create_Network" rc="201" tn="WL-A01_SOC 1-1" sc="1" ec="0">
-  <responseData class="java.lang.String">{&quot;id&quot;:781,&quot;name&quot;:&quot;st-nwa01-soc-01&quot;,&quot;project&quot;:85,&quot;cidr&quot;:&quot;192.168.105.0/24&quot;,&quot;gateway&quot;:&quot;192.168.105.1&quot;,&quot;nameservers&quot;:[&quot;8.8.8.8&quot;],&quot;status&quot;:&quot;N/A&quot;}</responseData>
-</httpSample>
-<httpSample t="2203" it="0" lt="2203" ts="1542793477948" s="true" lb="Create_Keypair" rc="200" tn="WL-A01_SOC 1-1" sc="1" ec="0">
+<httpSample t="2499" it="0" lt="2499" ts="1542875155924" s="true" lb="Create_Keypair" rc="200" tn="WL-A01_SOC 1-1" sc="1" ec="0">
   <responseData class="java.lang.String">-----BEGIN RSA PRIVATE KEY-----
-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
+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
 -----END RSA PRIVATE KEY-----
 </responseData>
 </httpSample>
-<httpSample t="5480" it="0" lt="5480" ts="1542793600216" s="true" lb="Create_VM" rc="201" tn="WL-A01_SOC 1-1" sc="1" ec="0">
-  <responseData class="java.lang.String">{&quot;id&quot;:4510,&quot;name&quot;:&quot;st-a01-soc-01&quot;,&quot;solution&quot;:130,&quot;project&quot;:85,&quot;create_time&quot;:&quot;2018-11-21T09:46:30.216621Z&quot;,&quot;user&quot;:&quot;0ea89c90-efc2-4785-b1e2-8e13e9c194cd&quot;,&quot;status&quot;:&quot;Initializing&quot;,&quot;platform&quot;:&quot;openstack-taichung-suse&quot;}</responseData>
+<httpSample t="7070" it="0" lt="7070" ts="1542875278441" s="true" lb="Create_VM" rc="201" tn="WL-A01_SOC 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String">{&quot;id&quot;:5011,&quot;name&quot;:&quot;st-a01-soc-01&quot;,&quot;solution&quot;:130,&quot;project&quot;:85,&quot;create_time&quot;:&quot;2018-11-22T08:27:37.623275Z&quot;,&quot;user&quot;:&quot;0ea89c90-efc2-4785-b1e2-8e13e9c194cd&quot;,&quot;status&quot;:&quot;Initializing&quot;,&quot;platform&quot;:&quot;openstack-taichung-suse&quot;}</responseData>
 </httpSample>
-<httpSample t="2445" it="0" lt="2445" ts="1542793725724" s="true" lb="Create_Volume" rc="201" tn="WL-A01_SOC 1-1" sc="1" ec="0">
-  <responseData class="java.lang.String">{&quot;id&quot;:1372,&quot;name&quot;:&quot;st-vola01-soc-01&quot;,&quot;size&quot;:10,&quot;project&quot;:85,&quot;platform&quot;:&quot;openstack-taichung-suse&quot;,&quot;volume_type&quot;:&quot;&quot;}</responseData>
+<httpSample t="2464" it="0" lt="2464" ts="1542875405524" s="true" lb="Create_Volume" rc="201" tn="WL-A01_SOC 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String">{&quot;id&quot;:1438,&quot;name&quot;:&quot;st-vola01-soc-01&quot;,&quot;size&quot;:10,&quot;project&quot;:85,&quot;platform&quot;:&quot;openstack-taichung-suse&quot;,&quot;volume_type&quot;:&quot;&quot;}</responseData>
 </httpSample>
-<httpSample t="1650" it="0" lt="1650" ts="1542793848181" s="true" lb="Get_ServerID" rc="200" tn="WL-A01_SOC 1-1" sc="1" ec="0">
-  <responseData class="java.lang.String">{&quot;id&quot;:4510,&quot;name&quot;:&quot;st-a01-soc-01&quot;,&quot;solution&quot;:130,&quot;desc&quot;:&quot;st-a01-soc-01&quot;,&quot;project&quot;:85,&quot;public_ip&quot;:&quot;203.145.220.40&quot;,&quot;status&quot;:&quot;Ready&quot;,&quot;status_reason&quot;:&quot;&quot;,&quot;platform&quot;:&quot;openstack-taichung-suse&quot;,&quot;create_time&quot;:&quot;2018-11-21T09:46:30Z&quot;,&quot;user&quot;:{&quot;id&quot;:&quot;0ea89c90-efc2-4785-b1e2-8e13e9c194cd&quot;,&quot;username&quot;:&quot;u7569743&quot;,&quot;email&quot;:&quot;as_nchc_test02@yahoo.com&quot;},&quot;servers&quot;:[4303]}</responseData>
+<httpSample t="1659" it="0" lt="1659" ts="1542875527995" s="true" lb="Get_ServerID" rc="200" tn="WL-A01_SOC 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String">{&quot;id&quot;:5011,&quot;name&quot;:&quot;st-a01-soc-01&quot;,&quot;solution&quot;:130,&quot;desc&quot;:&quot;st-a01-soc-01&quot;,&quot;project&quot;:85,&quot;public_ip&quot;:&quot;203.145.220.46&quot;,&quot;status&quot;:&quot;Ready&quot;,&quot;status_reason&quot;:&quot;&quot;,&quot;platform&quot;:&quot;openstack-taichung-suse&quot;,&quot;create_time&quot;:&quot;2018-11-22T08:27:37Z&quot;,&quot;user&quot;:{&quot;id&quot;:&quot;0ea89c90-efc2-4785-b1e2-8e13e9c194cd&quot;,&quot;username&quot;:&quot;u7569743&quot;,&quot;email&quot;:&quot;as_nchc_test02@yahoo.com&quot;},&quot;servers&quot;:[4591]}</responseData>
 </httpSample>
-<httpSample t="4100" it="0" lt="4100" ts="1542793969852" s="true" lb="Get_SecurityID" rc="200" tn="WL-A01_SOC 1-1" sc="1" ec="0">
-  <responseData class="java.lang.String">[{&quot;name&quot;:&quot;4510_st-a01-soc-01_sg&quot;,&quot;id&quot;:&quot;f2713a9a-5e17-40eb-944d-e9401793fa25&quot;,&quot;security_group_rules&quot;:[{&quot;id&quot;:&quot;0e997b48-053c-4c5a-b457-f179a604ba23&quot;,&quot;direction&quot;:&quot;ingress&quot;,&quot;ethertype&quot;:&quot;IPv4&quot;,&quot;port_range_min&quot;:null,&quot;port_range_max&quot;:null,&quot;protocol&quot;:&quot;icmp&quot;,&quot;remote_ip_prefix&quot;:&quot;0.0.0.0/0&quot;},{&quot;id&quot;:&quot;5a9a3f03-8008-4b46-aea1-c1c63934ca74&quot;,&quot;direction&quot;:&quot;ingress&quot;,&quot;ethertype&quot;:&quot;IPv4&quot;,&quot;port_range_min&quot;:22,&quot;port_range_max&quot;:22,&quot;protocol&quot;:&quot;tcp&quot;,&quot;remote_ip_prefix&quot;:&quot;0.0.0.0/0&quot;},{&quot;id&quot;:&quot;5c1ef80f-2480-4a98-b213-580c5423ff79&quot;,&quot;direction&quot;:&quot;egress&quot;,&quot;ethertype&quot;:&quot;IPv4&quot;,&quot;port_range_min&quot;:null,&quot;port_range_max&quot;:null,&quot;protocol&quot;:&quot;ANY&quot;,&quot;remote_ip_prefix&quot;:&quot;0.0.0.0/0&quot;},{&quot;id&quot;:&quot;912aeebc-728d-44de-9577-465236f8ba8a&quot;,&quot;direction&quot;:&quot;ingress&quot;,&quot;ethertype&quot;:&quot;IPv4&quot;,&quot;port_range_min&quot;:5000,&quot;port_range_max&quot;:5000,&quot;protocol&quot;:&quot;tcp&quot;,&quot;remote_ip_prefix&quot;:&quot;0.0.0.0/0&quot;},{&quot;id&quot;:&quot;e69ed9a5-1b2b-4de7-abd9-8fd19db19035&quot;,&quot;direction&quot;:&quot;egress&quot;,&quot;ethertype&quot;:&quot;IPv6&quot;,&quot;port_range_min&quot;:null,&quot;port_range_max&quot;:null,&quot;protocol&quot;:&quot;ANY&quot;,&quot;remote_ip_prefix&quot;:&quot;::/0&quot;}],&quot;platform&quot;:&quot;openstack-taichung-suse&quot;}]</responseData>
+<httpSample t="3401" it="0" lt="3400" ts="1542875649661" s="true" lb="Get_SecurityID" rc="200" tn="WL-A01_SOC 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String">[{&quot;name&quot;:&quot;5011_st-a01-soc-01_sg&quot;,&quot;id&quot;:&quot;8c93d046-bb77-4ba7-8496-bb414ae27f75&quot;,&quot;security_group_rules&quot;:[{&quot;id&quot;:&quot;5ebb6b82-dbc5-4f94-a6a9-85c1532a1d3a&quot;,&quot;direction&quot;:&quot;egress&quot;,&quot;ethertype&quot;:&quot;IPv4&quot;,&quot;port_range_min&quot;:null,&quot;port_range_max&quot;:null,&quot;protocol&quot;:&quot;ANY&quot;,&quot;remote_ip_prefix&quot;:&quot;0.0.0.0/0&quot;},{&quot;id&quot;:&quot;6ad7ff52-ea0d-443f-8fe0-ee334f76fad0&quot;,&quot;direction&quot;:&quot;ingress&quot;,&quot;ethertype&quot;:&quot;IPv4&quot;,&quot;port_range_min&quot;:5000,&quot;port_range_max&quot;:5000,&quot;protocol&quot;:&quot;tcp&quot;,&quot;remote_ip_prefix&quot;:&quot;0.0.0.0/0&quot;},{&quot;id&quot;:&quot;aa4000e3-aa14-47a6-804d-d1d38f43ccf3&quot;,&quot;direction&quot;:&quot;egress&quot;,&quot;ethertype&quot;:&quot;IPv6&quot;,&quot;port_range_min&quot;:null,&quot;port_range_max&quot;:null,&quot;protocol&quot;:&quot;ANY&quot;,&quot;remote_ip_prefix&quot;:&quot;::/0&quot;},{&quot;id&quot;:&quot;d1e87810-103a-40c5-a64f-a8d25378b7f1&quot;,&quot;direction&quot;:&quot;ingress&quot;,&quot;ethertype&quot;:&quot;IPv4&quot;,&quot;port_range_min&quot;:null,&quot;port_range_max&quot;:null,&quot;protocol&quot;:&quot;icmp&quot;,&quot;remote_ip_prefix&quot;:&quot;0.0.0.0/0&quot;},{&quot;id&quot;:&quot;ef0da2fa-083b-4f7f-b98d-ebe0ffaf05d6&quot;,&quot;direction&quot;:&quot;ingress&quot;,&quot;ethertype&quot;:&quot;IPv4&quot;,&quot;port_range_min&quot;:22,&quot;port_range_max&quot;:22,&quot;protocol&quot;:&quot;tcp&quot;,&quot;remote_ip_prefix&quot;:&quot;0.0.0.0/0&quot;}],&quot;platform&quot;:&quot;openstack-taichung-suse&quot;}]</responseData>
 </httpSample>
-<httpSample t="2582" it="0" lt="2582" ts="1542794093961" s="true" lb="Apply_Security" rc="201" tn="WL-A01_SOC 1-1" sc="1" ec="0">
+<httpSample t="2540" it="0" lt="2540" ts="1542875773065" s="true" lb="Apply_Security" rc="201" tn="WL-A01_SOC 1-1" sc="1" ec="0">
   <responseData class="java.lang.String"></responseData>
 </httpSample>
-<httpSample t="3157" it="0" lt="3157" ts="1542794216560" s="true" lb="Attach_Volume" rc="200" tn="WL-A01_SOC 1-1" sc="1" ec="0">
-  <responseData class="java.lang.String">{&quot;server_id&quot;:&quot;4303&quot;,&quot;volume_id&quot;:&quot;1372&quot;,&quot;mountpoint&quot;:&quot;/dev/vdb&quot;}</responseData>
+<httpSample t="4216" it="0" lt="4216" ts="1542875895608" s="true" lb="Attach_Volume" rc="200" tn="WL-A01_SOC 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String">{&quot;server_id&quot;:&quot;4591&quot;,&quot;volume_id&quot;:&quot;1438&quot;,&quot;mountpoint&quot;:&quot;/dev/vdb&quot;}</responseData>
 </httpSample>
-<httpSample t="1603" it="0" lt="1603" ts="1542794339724" s="true" lb="Create_ASP" rc="201" tn="WL-A01_SOC 1-1" sc="1" ec="0">
-  <responseData class="java.lang.String">{&quot;id&quot;:265,&quot;name&quot;:&quot;st-aspa01-soc-01&quot;,&quot;project&quot;:85,&quot;description&quot;:&quot;&quot;,&quot;meter_name&quot;:&quot;cpu_util&quot;,&quot;user&quot;:&quot;0ea89c90-efc2-4785-b1e2-8e13e9c194cd&quot;,&quot;scaleup_threshold&quot;:70,&quot;scaledown_threshold&quot;:10,&quot;scale_max_size&quot;:3,&quot;platform&quot;:&quot;openstack-taichung-suse&quot;}</responseData>
+<httpSample t="1655" it="0" lt="1654" ts="1542876019829" s="true" lb="Create_ASP" rc="201" tn="WL-A01_SOC 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String">{&quot;id&quot;:268,&quot;name&quot;:&quot;st-aspa01-soc-01&quot;,&quot;project&quot;:85,&quot;description&quot;:&quot;&quot;,&quot;meter_name&quot;:&quot;cpu_util&quot;,&quot;user&quot;:&quot;0ea89c90-efc2-4785-b1e2-8e13e9c194cd&quot;,&quot;scaleup_threshold&quot;:70,&quot;scaledown_threshold&quot;:10,&quot;scale_max_size&quot;:3,&quot;platform&quot;:&quot;openstack-taichung-suse&quot;}</responseData>
 </httpSample>
-<httpSample t="5850" it="0" lt="5850" ts="1542794461348" s="true" lb="Attach_ASP" rc="201" tn="WL-A01_SOC 1-1" sc="1" ec="0">
-  <responseData class="java.lang.String">{&quot;auto_scaling_policy&quot;:265,&quot;loadbalancer&quot;:null}</responseData>
+<httpSample t="5844" it="0" lt="5844" ts="1542876141496" s="true" lb="Attach_ASP" rc="201" tn="WL-A01_SOC 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String">{&quot;auto_scaling_policy&quot;:268,&quot;loadbalancer&quot;:null}</responseData>
 </httpSample>
 
 </testResults>

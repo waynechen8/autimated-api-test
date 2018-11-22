@@ -19,4 +19,8 @@
 </responseData>
 </httpSample>
 
+<httpSample t="1438" it="0" lt="1438" ts="1542881926164" s="true" lb="Stop_VM" rc="202" tn="Thread Group 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String"></responseData>
+</httpSample>
+
 </testResults>

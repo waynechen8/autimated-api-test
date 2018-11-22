@@ -95,10 +95,15 @@
               <stringProp name="Argument.desc">ith time to execute jmx</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
+            <elementProp name="api-networkId-WLA01" elementType="Argument">
+              <stringProp name="Argument.name">api-networkId-WLA01</stringProp>
+              <stringProp name="Argument.value">781</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
           </collectionProp>
         </Arguments>
         <hashTree/>
-        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If network" enabled="true">
+        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If network" enabled="false">
           <stringProp name="IfController.condition">${__jexl3(${error_occur} == 0)}</stringProp>
           <boolProp name="IfController.evaluateAll">false</boolProp>
           <boolProp name="IfController.useExpression">true</boolProp>

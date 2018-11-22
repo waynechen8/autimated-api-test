@@ -1,17 +1,25 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
-1542788192294,1143,Detach_Volume,404,NOT FOUND,Thread Group 1-1,text,false,,4969,415,1,1,1143,0,99
-1542788200438,0,Check serverId,200,OK,Thread Group 1-1,text,true,,0,0,1,1,0,0,0
-1542788207439,1191,Delete_VM,400,BAD REQUEST,Thread Group 1-1,text,false,,5036,310,1,1,1191,0,78
-1542788215631,1143,Delete_Snapshot,405,METHOD NOT ALLOWED,Thread Group 1-1,text,false,,5021,310,1,1,1143,0,247
-1542788223775,1151,Delete_Volume,404,NOT FOUND,Thread Group 1-1,text,false,,4999,312,1,1,1151,0,90
-1542788231927,8304,Delete_Network,503,SERVICE UNAVAILABLE,Thread Group 1-1,text,false,,5050,312,1,1,8304,0,84
-1542788247232,1290,Delete_Keypair,500,INTERNAL SERVER ERROR,Thread Group 1-1,text,false,,638,325,1,1,1290,0,80
-1542788255523,953,Delete_ASP,404,NOT FOUND,Thread Group 1-1,text,false,,5022,371,1,1,953,0,83
-1542789882333,1203,Detach_Volume,404,NOT FOUND,Thread Group 1-1,text,false,,4970,415,1,1,1203,0,97
-1542789890536,1,Check serverId,200,OK,Thread Group 1-1,text,true,,0,0,1,1,0,0,0
-1542789897538,1217,Delete_VM,400,BAD REQUEST,Thread Group 1-1,text,false,,5020,310,1,1,1217,0,78
-1542789905756,952,Delete_Snapshot,405,METHOD NOT ALLOWED,Thread Group 1-1,text,false,,5024,310,1,1,952,0,82
-1542789913708,1065,Delete_Volume,404,NOT FOUND,Thread Group 1-1,text,false,,4990,312,1,1,1065,0,75
-1542789921774,8721,Delete_Network,503,SERVICE UNAVAILABLE,Thread Group 1-1,text,false,,5061,312,1,1,8721,0,80
-1542789937496,1289,Delete_Keypair,500,INTERNAL SERVER ERROR,Thread Group 1-1,text,false,,638,325,1,1,1288,0,79
-1542789945787,1060,Delete_ASP,404,NOT FOUND,Thread Group 1-1,text,false,,5023,371,1,1,1060,0,76
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="1534" it="0" lt="1533" ts="1542882539484" s="false" lb="Detach_ASP" rc="500" tn="WL-A01_OOO_Delete 1-1" sc="1" ec="1">
+  <responseData class="java.lang.String">{&quot;detail&quot;:&quot;500010704: Unknown error occurred: No AutoScalingRelation matches the given query.&quot;}</responseData>
+</httpSample>
+<httpSample t="3438" it="0" lt="3438" ts="1542882548026" s="true" lb="Detach_Volume" rc="200" tn="WL-A01_OOO_Delete 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String"></responseData>
+</httpSample>
+<httpSample t="2640" it="0" lt="0" ts="1542882558466" s="true" lb="Delete_VM" rc="204" tn="WL-A01_OOO_Delete 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String"></responseData>
+</httpSample>
+<httpSample t="1315" it="0" lt="1315" ts="1542882568108" s="false" lb="Delete_Snapshot" rc="405" tn="WL-A01_OOO_Delete 1-1" sc="1" ec="1">
+  <responseData class="java.lang.String">{&quot;detail&quot;:&quot;Method \&quot;DELETE\&quot; not allowed.&quot;}</responseData>
+</httpSample>
+<httpSample t="2844" it="0" lt="0" ts="1542882576425" s="true" lb="Delete_Volume" rc="204" tn="WL-A01_OOO_Delete 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String"></responseData>
+</httpSample>
+<httpSample t="1669" it="0" lt="0" ts="1542882586270" s="true" lb="Delete_Keypair" rc="204" tn="WL-A01_OOO_Delete 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String"></responseData>
+</httpSample>
+<httpSample t="1149" it="0" lt="1149" ts="1542882594941" s="false" lb="Delete_ASP" rc="404" tn="WL-A01_OOO_Delete 1-1" sc="1" ec="1">
+  <responseData class="java.lang.String">{&quot;detail&quot;:&quot;404000000: Auto scaling policy 250 not found&quot;}</responseData>
+</httpSample>
+
+</testResults>

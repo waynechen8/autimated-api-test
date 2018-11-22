@@ -74,4 +74,74 @@ i851ssUsBDYKKJv7UAhLt0iLOokvAQjGBTr/hqy//JbZhIKgAX2F
   <responseData class="java.lang.String">{&quot;detail&quot;:&quot;400000000: Site matching query does not exist.&quot;}</responseData>
 </httpSample>
 
+<httpSample t="1974" it="0" lt="1974" ts="1542878732194" s="true" lb="Create_Keypair" rc="200" tn="WL-A01_OOO 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String">-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAtzEKdbYW0GshNUIqfoODcS2pqoWROrxmw7I7OADBtVqTYYmP
+KUjYiyuFHCR9aTFD9C6uDHIR2XvoyTrQ4s/ffY9k0AXneCl6EXupYugsd5I/dfM5
+0O8/Hmye1CiFfrQlti+mrWLzgRF2KC3CCWIWisyPwu6WdJK5tifqutHNKl4GOIsZ
+1NYzrYDRntl078VF5N1mkOhqPWgLTCUUEHF/Z7MxFtMJf2WbrMAC8oEg6jg+7uop
+OsTFyJWiB9NOGwkazZi2T8OMBPVvO4FMJAB0UbBjLWKRxXPWoabRur3oSvGGFI8U
+0scBRf/eWdmC+L2nl77Q2yKCHMIHjOmTh/X4xwIDAQABAoIBABOmiQ6zZ6MXusox
+vMkxZkofsdF+3mNEjmlzlvKc8ip3+tM9pEOzcrcLBg5Mw78i770jvLvNCKkhp4je
+bEXIMpsPZKsD1x6GpHd3omXfrdVttKz8WDlXUJf84tSzPA6pWFpApkp3ENPJgbkx
+n1zOTsi4xLsOSMlca9tkUMOVecKPgO9+jW6CnkrmpTp5xPM9xIP/KBfmUFuJ0AVb
+z69zKMJcoR3oTH/EiefYVp5o5WHMuzb2gPLp4dN9O3XcUERm4QEIQWHnnpuIuIuH
+eNFjT9DU2ygQqztnWnm2pZu6eEmhf+SQLMYHgZNQjgFKDd78H3jUXAMMB5XcrE67
+KIbnc3ECgYEA4atFSTghapnmInMyxIJL9xth9RcVqmv/o0kDtqhB7178rRDY7YTA
+n2zk5wZEGfNfhMBTsQTejZ3OWwe3W9h+d/JG1+B5htEPUDYa1yyepGq4VjEW+oSm
+5eKyI7l3O7bJYKfPeEyrBYOQ4RntUajWOU/JEHmhk2UF5uS0ZnMqKzsCgYEAz9A5
+CSm0ZF6DTQbV1OEHs1/2YNT+Ev7+YXzWKmEpzSgNa/g7twiEcSD3fwSng2gYIDqd
+duu6M+SamPfQj9btx8j+USMlAO/A+YEQ8OSWR3wstTDiqteJ8Menk6BoijLvgFC0
+yKbfeboNo6xwMUY3vxao4moYnak7bfPArIhhF+UCgYBjBJd+LRbcg3KrIwjfmJxk
+bKtqsxpakNC2gM8UUne75F3SQlYswdcTHODDTciL6nG6+fi+73gHg3qMDrKxpii3
+0KKtDl3Efe7OLy9PwtBJLFp910RR3+qra/DmI/bhSK7LrlYmXt2bqcLkQlATSJXW
+x99dT0FKP0V7rlZJrbaPCQKBgCN7lCGCY3C3yod+YUhl2+C+w9yowXEQ5PJUVGUM
+Dg0fh5sl2VxZMfP3AwtHCisfvO7T00sY2MQ/hj4UIiJNOnBgWzwTWiAcz8BKT1Ay
+V46BH0kYvbsZ7k2UaYKFYxQluksYfKW+CG5KXEXUDZv8N0yDW/a80tMosCMH+Z/7
+8UgZAoGBAKCALAu6Ql7FbmtdUSUrZSz2sPf+d3EaLwCXJ0Eacy6tDPfXCuiqa4RV
+SwJEcUMJgJ4w98QPrPOB0iH9u7PQOBNbV7T60EWxQnMNU9FgDxUljH0GDOAPYrVH
+z8fl7wboSSRLofKUYjRBa+5TyehBEW+tYBfXaDGnuTrUckAWH8N4
+-----END RSA PRIVATE KEY-----
+</responseData>
+</httpSample>
+<httpSample t="12521" it="0" lt="12520" ts="1542878856025" s="true" lb="Create_VM" rc="201" tn="WL-A01_OOO 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String">{&quot;id&quot;:5062,&quot;name&quot;:&quot;st-a01-ooo-01&quot;,&quot;solution&quot;:130,&quot;project&quot;:88,&quot;create_time&quot;:&quot;2018-11-22T09:27:21.386571Z&quot;,&quot;user&quot;:&quot;0ea89c90-efc2-4785-b1e2-8e13e9c194cd&quot;,&quot;status&quot;:&quot;Initializing&quot;,&quot;platform&quot;:&quot;openstack-taichung-community&quot;}</responseData>
+</httpSample>
+<httpSample t="2541" it="0" lt="2541" ts="1542878988610" s="true" lb="Create_Volume" rc="201" tn="WL-A01_OOO 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String">{&quot;id&quot;:1453,&quot;name&quot;:&quot;st-vola01-ooo-01&quot;,&quot;size&quot;:10,&quot;project&quot;:88,&quot;platform&quot;:&quot;openstack-taichung-community&quot;,&quot;volume_type&quot;:&quot;&quot;}</responseData>
+</httpSample>
+<httpSample t="1250" it="0" lt="1250" ts="1542879111168" s="true" lb="Get_ServerID" rc="200" tn="WL-A01_OOO 1-1" sc="1" ec="0">
+  <responseData class="java.lang.String">{&quot;id&quot;:5062,&quot;name&quot;:&quot;st-a01-ooo-01&quot;,&quot;solution&quot;:130,&quot;desc&quot;:&quot;st-a01-ooo-01&quot;,&quot;project&quot;:88,&quot;public_ip&quot;:&quot;203.145.223.36&quot;,&quot;status&quot;:&quot;Ready&quot;,&quot;status_reason&quot;:&quot;&quot;,&quot;platform&quot;:&quot;openstack-taichung-community&quot;,&quot;create_time&quot;:&quot;2018-11-22T09:27:21Z&quot;,&quot;user&quot;:{&quot;id&quot;:&quot;0ea89c90-efc2-4785-b1e2-8e13e9c194cd&quot;,&quot;username&quot;:&quot;u7569743&quot;,&quot;email&quot;:&quot;as_nchc_test02@yahoo.com&quot;},&quot;servers&quot;:[4606]}</responseData>
+</httpSample>
+<httpSample t="302" it="0" lt="0" ts="1542879232441" s="false" lb="Get_SecurityID" rc="Non HTTP response code: java.net.SocketTimeoutException" tn="WL-A01_OOO 1-1" sc="1" ec="1">
+  <responseData class="java.lang.String">java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:657)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:542)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:414)
+	at org.apache.jmeter.protocol.http.sampler.LazySchemeSocketFactory.connectSocket(LazySchemeSocketFactory.java:97)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:697)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:455)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:490)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:250)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+</responseData>
+</httpSample>
+
 </testResults>
