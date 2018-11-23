@@ -1,0 +1,124 @@
+Creating summariser <summary>
+Created the tree successfully using /home/jmeter/NCHC_Swagger/WL-A01/OOO/WL-A01_OOO_Create.jmx
+Starting the test @ Thu Nov 22 23:30:03 CST 2018 (1542900603594)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4446
+summary +      6 in 00:12:27 =    0.0/s Avg:  4034 Min:  1351 Max: 13666 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary +      3 in 00:06:12 =    0.0/s Avg:  3855 Min:  1133 Max:  5437 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
+summary =      9 in 00:18:39 =    0.0/s Avg:  3974 Min:  1133 Max: 13666 Err:     0 (0.00%)
+Tidying up ...    @ Thu Nov 22 23:48:43 CST 2018 (1542901723306)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using /home/jmeter/NCHC_Swagger/WL-A01/OOO/WL-A01_OOO_Run.jmx
+Starting the test @ Thu Nov 22 23:48:44 CST 2018 (1542901724977)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary =      1 in 00:00:03 =    0.3/s Avg:  1463 Min:  1463 Max:  1463 Err:     1 (100.00%)
+Tidying up ...    @ Thu Nov 22 23:48:48 CST 2018 (1542901728890)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using /home/jmeter/NCHC_Swagger/WL-A01/OOO/WL-A01_OOO_Stop.jmx
+Starting the test @ Thu Nov 22 23:51:50 CST 2018 (1542901910545)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary =      1 in 00:00:02 =    0.7/s Avg:  1368 Min:  1368 Max:  1368 Err:     0 (0.00%)
+Tidying up ...    @ Thu Nov 22 23:51:52 CST 2018 (1542901912360)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using /home/jmeter/NCHC_Swagger/WL-A01/OOO/WL-A01_OOO_Resume.jmx
+Starting the test @ Thu Nov 22 23:56:54 CST 2018 (1542902214013)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary =      0 in 00:00:00 = ******/s Avg:     0 Min: 9223372036854775807 Max: -9223372036854775808 Err:     0 (0.00%)
+Tidying up ...    @ Thu Nov 22 23:56:54 CST 2018 (1542902214451)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using /home/jmeter/NCHC_Swagger/WL-A01/OOO/WL-A01_OOO_Delete.jmx
+Starting the test @ Fri Nov 23 00:01:56 CST 2018 (1542902516296)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary +      1 in 00:00:09 =    0.1/s Avg:  2175 Min:  2175 Max:  2175 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary +      3 in 00:00:28 =    0.1/s Avg:  2311 Min:  1001 Max:  3442 Err:     1 (33.33%) Active: 1 Started: 1 Finished: 0
+summary =      4 in 00:00:37 =    0.1/s Avg:  2277 Min:  1001 Max:  3442 Err:     1 (25.00%)
+summary +      3 in 00:00:26 =    0.1/s Avg:  1578 Min:  1265 Max:  2007 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
+summary =      7 in 00:01:03 =    0.1/s Avg:  1977 Min:  1001 Max:  3442 Err:     1 (14.29%)
+Tidying up ...    @ Fri Nov 23 00:02:59 CST 2018 (1542902579395)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using /home/jmeter/NCHC_Swagger/WL-A01/OOO/WL-A01_OOO_Create.jmx
+Starting the test @ Fri Nov 23 00:20:03 CST 2018 (1542903603854)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary +      5 in 00:10:28 =    0.0/s Avg:  5080 Min:  1289 Max: 16194 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary +      1 in 00:02:02 =    0.0/s Avg:  1850 Min:  1850 Max:  1850 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary =      6 in 00:12:30 =    0.0/s Avg:  4542 Min:  1289 Max: 16194 Err:     0 (0.00%)
+summary +      3 in 00:06:11 =    0.0/s Avg:  3766 Min:  1240 Max:  5491 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
+summary =      9 in 00:18:42 =    0.0/s Avg:  4283 Min:  1240 Max: 16194 Err:     0 (0.00%)
+Tidying up ...    @ Fri Nov 23 00:38:46 CST 2018 (1542904726273)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using /home/jmeter/NCHC_Swagger/WL-A01/OOO/WL-A01_OOO_Run.jmx
+Starting the test @ Fri Nov 23 00:38:47 CST 2018 (1542904727989)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary =      1 in 00:00:04 =    0.3/s Avg:  1668 Min:  1668 Max:  1668 Err:     1 (100.00%)
+Tidying up ...    @ Fri Nov 23 00:38:52 CST 2018 (1542904732084)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using /home/jmeter/NCHC_Swagger/WL-A01/OOO/WL-A01_OOO_Stop.jmx
+Starting the test @ Fri Nov 23 00:41:53 CST 2018 (1542904913707)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary =      1 in 00:00:02 =    0.7/s Avg:  1358 Min:  1358 Max:  1358 Err:     0 (0.00%)
+Tidying up ...    @ Fri Nov 23 00:41:55 CST 2018 (1542904915536)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using /home/jmeter/NCHC_Swagger/WL-A01/OOO/WL-A01_OOO_Resume.jmx
+Starting the test @ Fri Nov 23 00:46:57 CST 2018 (1542905217202)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary =      0 in 00:00:00 = ******/s Avg:     0 Min: 9223372036854775807 Max: -9223372036854775808 Err:     0 (0.00%)
+Tidying up ...    @ Fri Nov 23 00:46:57 CST 2018 (1542905217612)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using /home/jmeter/NCHC_Swagger/WL-A01/OOO/WL-A01_OOO_Delete.jmx
+Starting the test @ Fri Nov 23 00:51:59 CST 2018 (1542905519452)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary +      3 in 00:00:31 =    0.1/s Avg:  3228 Min:  2315 Max:  4435 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary +      4 in 00:00:36 =    0.1/s Avg:  1942 Min:   969 Max:  4259 Err:     1 (25.00%) Active: 0 Started: 1 Finished: 1
+summary =      7 in 00:01:07 =    0.1/s Avg:  2493 Min:   969 Max:  4435 Err:     1 (14.29%)
+Tidying up ...    @ Fri Nov 23 00:53:06 CST 2018 (1542905586157)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using /home/jmeter/NCHC_Swagger/WL-A01/OOO/WL-A01_OOO_Create.jmx
+Starting the test @ Fri Nov 23 01:10:03 CST 2018 (1542906603460)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary +      5 in 00:10:27 =    0.0/s Avg:  4836 Min:  1540 Max: 14155 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary +      1 in 00:02:02 =    0.0/s Avg:  1669 Min:  1669 Max:  1669 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary =      6 in 00:12:29 =    0.0/s Avg:  4308 Min:  1540 Max: 14155 Err:     0 (0.00%)
+summary +      3 in 00:06:12 =    0.0/s Avg:  3941 Min:  1127 Max:  5803 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
+summary =      9 in 00:18:41 =    0.0/s Avg:  4186 Min:  1127 Max: 14155 Err:     0 (0.00%)
+Tidying up ...    @ Fri Nov 23 01:28:44 CST 2018 (1542907724908)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using /home/jmeter/NCHC_Swagger/WL-A01/OOO/WL-A01_OOO_Run.jmx
+Starting the test @ Fri Nov 23 01:28:46 CST 2018 (1542907726531)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary =      1 in 00:00:04 =    0.3/s Avg:  1622 Min:  1622 Max:  1622 Err:     1 (100.00%)
+Tidying up ...    @ Fri Nov 23 01:28:50 CST 2018 (1542907730610)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using /home/jmeter/NCHC_Swagger/WL-A01/OOO/WL-A01_OOO_Stop.jmx
+Starting the test @ Fri Nov 23 01:31:52 CST 2018 (1542907912243)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary =      1 in 00:00:01 =    0.7/s Avg:  1318 Min:  1318 Max:  1318 Err:     0 (0.00%)
+Tidying up ...    @ Fri Nov 23 01:31:53 CST 2018 (1542907913975)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using /home/jmeter/NCHC_Swagger/WL-A01/OOO/WL-A01_OOO_Resume.jmx
+Starting the test @ Fri Nov 23 01:36:55 CST 2018 (1542908215624)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary =      0 in 00:00:00 = ******/s Avg:     0 Min: 9223372036854775807 Max: -9223372036854775808 Err:     0 (0.00%)
+Tidying up ...    @ Fri Nov 23 01:36:56 CST 2018 (1542908216034)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using /home/jmeter/NCHC_Swagger/WL-A01/OOO/WL-A01_OOO_Delete.jmx
+Starting the test @ Fri Nov 23 01:41:57 CST 2018 (1542908517913)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary +      4 in 00:00:37 =    0.1/s Avg:  2262 Min:   962 Max:  3902 Err:     1 (25.00%) Active: 1 Started: 1 Finished: 0
+summary +      3 in 00:00:26 =    0.1/s Avg:  1693 Min:  1224 Max:  2546 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary =      7 in 00:01:03 =    0.1/s Avg:  2018 Min:   962 Max:  3902 Err:     1 (14.29%)
+summary =      7 in 00:01:03 =    0.1/s Avg:  2018 Min:   962 Max:  3902 Err:     1 (14.29%)
+Tidying up ...    @ Fri Nov 23 01:43:01 CST 2018 (1542908581281)
+... end of run

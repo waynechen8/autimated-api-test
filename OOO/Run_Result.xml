@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="1622" it="0" lt="1621" ts="1542907727104" s="false" lb="Create_Snapshot" rc="400" tn="Thread Group 1-1" sc="1" ec="1">
+  <responseData class="java.lang.String">{&quot;detail&quot;:&quot;400000000: The snapshot name is duplicated in this project.&quot;}</responseData>
+</httpSample>
+
+</testResults>

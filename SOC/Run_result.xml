@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testResults version="1.2">
-<httpSample t="2878" it="0" lt="2878" ts="1542706579792" s="true" lb="Create_Snapshot" rc="201" tn="Thread Group 1-1" sc="1" ec="0">
-  <responseData class="java.lang.String">{&quot;id&quot;:175,&quot;name&quot;:&quot;st-snapa01-ooo-01&quot;,&quot;desc&quot;:&quot;&quot;,&quot;volume&quot;:{&quot;id&quot;:1330,&quot;name&quot;:&quot;st-vola01-ooo-011&quot;},&quot;create_time&quot;:&quot;2018-11-20T09:35:56.584257Z&quot;,&quot;status&quot;:&quot;CREATING&quot;,&quot;platform&quot;:&quot;openstack-taichung-community&quot;}</responseData>
-</httpSample>
-
-</testResults>
