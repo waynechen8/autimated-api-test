@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testResults version="1.2">
-<httpSample t="1634" it="0" lt="1634" ts="1542966832127" s="true" lb="Resume_VM" rc="202" tn="WL-A01_SOC 1-1" sc="1" ec="0">
+<httpSample t="1543" it="0" lt="1543" ts="1543051617519" s="true" lb="Resume_VM" rc="202" tn="WL-A01_SOC 1-1" sc="1" ec="0">
   <responseData class="java.lang.String"></responseData>
 </httpSample>
 

@@ -1,25 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testResults version="1.2">
-<httpSample t="2756" it="0" lt="0" ts="1542967143962" s="true" lb="Detach_ASP" rc="204" tn="WL-A01_SOC_Delete 1-1" sc="1" ec="0">
+<httpSample t="1744" it="0" lt="1743" ts="1543051930108" s="false" lb="Detach_ASP" rc="500" tn="WL-A01_SOC_Delete 1-1" sc="1" ec="1">
+  <responseData class="java.lang.String">{&quot;detail&quot;:&quot;500010704: Unknown error occurred: No AutoScalingRelation matches the given query.&quot;}</responseData>
+</httpSample>
+<httpSample t="3070" it="0" lt="3070" ts="1543051938860" s="false" lb="Detach_Volume" rc="503" tn="WL-A01_SOC_Delete 1-1" sc="1" ec="1">
+  <responseData class="java.lang.String">{&quot;detail&quot;:&quot;50
+<httpSample t="2071" it="0" lt="0" ts="1543051948498" s="true" lb="Delete_VM" rc="204" tn="WL-A01_SOC_Delete 1-1" sc="1" ec="0">
   <responseData class="java.lang.String"></responseData>
 </httpSample>
-<httpSample t="3443" it="0" lt="3443" ts="1542967153727" s="true" lb="Detach_Volume" rc="200" tn="WL-A01_SOC_Delete 1-1" sc="1" ec="0">
+<httpSample t="1335" it="0" lt="1335" ts="1543051957572" s="false" lb="Delete_Snapshot" rc="404" tn="WL-A01_SOC_Delete 1-1" sc="1" ec="1">
+  <responseData class="java.lang.String">{&quot;detail&quot;:&quot;404011204: Snapshot 1 not found.&quot;}</responseData>
+</httpSample>
+<httpSample t="2856" it="0" lt="0" ts="1543051965909" s="true" lb="Delete_Volume" rc="204" tn="WL-A01_SOC_Delete 1-1" sc="1" ec="0">
   <responseData class="java.lang.String"></responseData>
 </httpSample>
-<httpSample t="2467" it="0" lt="0" ts="1542967164174" s="true" lb="Delete_VM" rc="204" tn="WL-A01_SOC_Delete 1-1" sc="1" ec="0">
+<httpSample t="1741" it="0" lt="0" ts="1543051975766" s="true" lb="Delete_Keypair" rc="204" tn="WL-A01_SOC_Delete 1-1" sc="1" ec="0">
   <responseData class="java.lang.String"></responseData>
 </httpSample>
-<httpSample t="5213" it="0" lt="0" ts="1542967173642" s="true" lb="Delete_Snapshot" rc="204" tn="WL-A01_SOC_Delete 1-1" sc="1" ec="0">
-  <responseData class="java.lang.String"></responseData>
+<httpSample t="1105" it="0" lt="1105" ts="1543051984508" s="false" lb="Delete_ASP" rc="404" tn="WL-A01_SOC_Delete 1-1" sc="1" ec="1">
+  <responseData class="java.lang.String">{&quot;detail&quot;:&quot;404011704: Auto scaling policy 1 not found&quot;}</responseData>
 </httpSample>
-<httpSample t="3042" it="0" lt="0" ts="1542967185856" s="true" lb="Delete_Volume" rc="204" tn="WL-A01_SOC_Delete 1-1" sc="1" ec="0">
-  <responseData class="java.lang.String"></responseData>
+
+</testResults>
+ting, attached, belong to a group, have snapshots or be disassociated from snapshots after volume transfer. (HTTP 400) (Request-ID: req-761f7899-c2ab-41a8-8c06-2a82ea7a8e0c)&quot;}</responseData>
 </httpSample>
-<httpSample t="1894" it="0" lt="0" ts="1542967195900" s="true" lb="Delete_Keypair" rc="204" tn="WL-A01_SOC_Delete 1-1" sc="1" ec="0">
-  <responseData class="java.lang.String"></responseData>
+<httpSample t="1721" it="0" lt="1721" ts="1543051976517" s="false" lb="Delete_Keypair" rc="503" tn="WL-A01_SOC_Delete 1-1" sc="1" ec="1">
+  <responseData class="java.lang.String">{&quot;detail&quot;:&quot;503011304: Keypair st-keya01-soc-01 not found for user 2040fc0def76e9f5ee6335d0416bc1c2a8bc0993df3a9994e636adf192f04229 (HTTP 404) (Request-ID: req-89a651cc-2c23-423b-be67-8a06e4673cd8)&quot;}</responseData>
 </httpSample>
-<httpSample t="1687" it="0" lt="0" ts="1542967204800" s="true" lb="Delete_ASP" rc="204" tn="WL-A01_SOC_Delete 1-1" sc="1" ec="0">
-  <responseData class="java.lang.String"></responseData>
+<httpSample t="1154" it="0" lt="1154" ts="1543051985239" s="false" lb="Delete_ASP" rc="404" tn="WL-A01_SOC_Delete 1-1" sc="1" ec="1">
+  <responseData class="java.lang.String">{&quot;detail&quot;:&quot;404011704: Auto scaling policy 1 not found&quot;}</responseData>
 </httpSample>
 
 </testResults>

@@ -1,2 +1,2 @@
 vm_id,snapshot_id,volume_id,network_id,key_name,autoscaling_id,vm_ip,vm_status,server_id
-5251,1,1480,736,st-keya01-ooo-01,283,203.145.223.105,Ready,4636
+1,1,1849,736,st-keya01-ooo-01,1,203.145.223.20,Ready,5848
