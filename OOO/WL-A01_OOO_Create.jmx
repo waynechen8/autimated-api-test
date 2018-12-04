@@ -40,7 +40,7 @@
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="WL-A01-ooo_const.csv" enabled="true">
           <stringProp name="filename">./WL-A01-ooo_const.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="variableNames">api-networkName-WLA01,api-keypairName-WLA01,api-vmFlavor-WLA01,api-vmImage-WLA01,api-vmDesc-WLA01,api-vmName-WLA01,api-volumeName-WLA01,api-autoscaleName-WLA01</stringProp>
+          <stringProp name="variableNames">api-networkName-WLA01,api-keypairName-WLA01,api-vmFlavor-WLA01,api-vmImage-WLA01,api-vmDesc-WLA01,api-vmName-WLA01,api-volumeName-WLA01,api-autoscaleName-WLA01,api-imagename-WL-A01</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
           <stringProp name="delimiter">,</stringProp>
           <boolProp name="quotedData">false</boolProp>
@@ -79,7 +79,7 @@
             </elementProp>
             <elementProp name="time" elementType="Argument">
               <stringProp name="Argument.name">time</stringProp>
-              <stringProp name="Argument.value">4</stringProp>
+              <stringProp name="Argument.value">${__P(serial_number, 4)}</stringProp>
               <stringProp name="Argument.desc">ith time to execute jmx</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
@@ -89,7 +89,7 @@
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="WL-A01-variable" enabled="true">
           <stringProp name="filename">./id-${time}.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="variableNames">api-vmId-WLA01,snapshot_id,api-volumeId-WLA01,api-networkId-WLA01,key_name,auto_scaling_policy_id,vm_ip,vm_status,serverId, api-vmId-WLA01_origin, vmorigin_ip, vmorigin_status, serverorigin_id</stringProp>
+          <stringProp name="variableNames">api-vmId-WLA01,snapshot_id,api-volumeId-WLA01,api-networkId-WLA01,key_name,auto_scaling_policy_id,vm_ip,vm_status,serverId, api-vmId-WLA01_origin, vmorigin_ip, vmorigin_status, serverorigin_id, api-imageid</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
           <stringProp name="delimiter">,</stringProp>
           <boolProp name="quotedData">false</boolProp>
@@ -203,7 +203,7 @@
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">{&quot;desc&quot;:&quot;${api-vmDesc-WLA01}_image_snapshot&quot;, &quot;name&quot;:&quot;${api-vmId-WLA01_origin}_image_snapshot&quot;, &quot;os&quot;:&quot;${os}&quot;, &quot;os_version&quot;: &quot;${os_ver}&quot;}</stringProp>
+                  <stringProp name="Argument.value">{&quot;desc&quot;:&quot;${api-imagename-WL-A01}_${time}&quot;, &quot;name&quot;:&quot;${api-imagename-WL-A01}_${time}&quot;, &quot;os&quot;:&quot;${os}&quot;, &quot;os_version&quot;: &quot;${os_ver}&quot;}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -342,15 +342,15 @@
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">x-extra-property-image</stringProp>
-                  <stringProp name="Header.value">${api-vmId-WLA01_origin}_image_snapshot</stringProp>
+                  <stringProp name="Header.value">${api-imagename-WL-A01}_${time}</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">x-extra-property-keypair</stringProp>
-                  <stringProp name="Header.value">${api-keypairName-WLA01}${time}</stringProp>
+                  <stringProp name="Header.value">${api-keypairName-WLA01}_${time}</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">x-extra-property-private-network</stringProp>
-                  <stringProp name="Header.value">${api-networkName-WLA01}${time}</stringProp>
+                  <stringProp name="Header.value">${api-networkName-WLA01}_${time}</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">x-extra-property-floating-ip</stringProp>
@@ -369,7 +369,7 @@
                 <collectionProp name="Arguments.arguments">
                   <elementProp name="" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                    <stringProp name="Argument.value">{&quot;desc&quot;:&quot;${api-vmDesc-WLA01}&quot;,&quot;name&quot;:&quot;${api-vmName-WLA01}2_${time}&quot;,&quot;project&quot;:${api-project-WLA01},&quot;solution&quot;:&quot;${api-vmSolution-WLA01}&quot;}</stringProp>
+                    <stringProp name="Argument.value">{&quot;desc&quot;:&quot;${api-vmName-WLA01}2_${time}&quot;,&quot;name&quot;:&quot;${api-vmName-WLA01}2_${time}&quot;,&quot;project&quot;:${api-project-WLA01},&quot;solution&quot;:&quot;${api-vmSolution-WLA01}&quot;}</stringProp>
                     <stringProp name="Argument.metadata">=</stringProp>
                   </elementProp>
                 </collectionProp>
@@ -426,7 +426,7 @@
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">{&quot;name&quot;:&quot;${api-volumeName-WLA01}&quot;,&quot;project&quot;:${api-project-WLA01},&quot;size&quot;:10,&quot;desc&quot;:&quot;${api-volumeName-WLA01}&quot;}</stringProp>
+                  <stringProp name="Argument.value">{&quot;name&quot;:&quot;${api-volumeName-WLA01}_${time}&quot;,&quot;project&quot;:${api-project-WLA01},&quot;size&quot;:10,&quot;desc&quot;:&quot;${api-volumeName-WLA01}_${time}&quot;}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -555,6 +555,21 @@
                   <stringProp name="cacheKey">true</stringProp>
                   <stringProp name="script"></stringProp>
                 </JSR223PostProcessor>
+                <hashTree/>
+                <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="export_ip_properties" enabled="true">
+                  <boolProp name="resetInterpreter">false</boolProp>
+                  <stringProp name="parameters"></stringProp>
+                  <stringProp name="filename"></stringProp>
+                  <stringProp name="script">import java.util.Properties;
+
+FileWriter fstream = new FileWriter(&quot;/home/jmeter/NCHC_Swagger/WL-A01/OOO/vm02-ip_${time}.properties&quot;,false);
+BufferedWriter out = new BufferedWriter(fstream);
+Properties props= new Properties();
+props.setProperty(&quot;public_ip&quot;,vars.get(&quot;vm_ip&quot;));
+props.store(out,&quot;vm02-ip_${time}&quot;);
+
+out.close();</stringProp>
+                </BeanShellPostProcessor>
                 <hashTree/>
               </hashTree>
             </hashTree>
@@ -715,7 +730,7 @@
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">{&quot;name&quot;:&quot;${api-autoscaleName-WLA01}&quot;,&quot;meter_name&quot;:&quot;cpu_util&quot;,&quot;scaleup_threshold&quot;:70,&quot;scaledown_threshold&quot;:10,&quot;project&quot;:${api-project-WLA01},&quot;scale_max_size&quot;:3}</stringProp>
+                  <stringProp name="Argument.value">{&quot;name&quot;:&quot;${api-autoscaleName-WLA01}_${time}&quot;,&quot;meter_name&quot;:&quot;cpu_util&quot;,&quot;scaleup_threshold&quot;:70,&quot;scaledown_threshold&quot;:10,&quot;project&quot;:${api-project-WLA01},&quot;scale_max_size&quot;:3}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -849,21 +864,6 @@
           </elementProp>
           <stringProp name="classname">rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient</stringProp>
         </BackendListener>
-        <hashTree/>
-        <BeanShellListener guiclass="TestBeanGUI" testclass="BeanShellListener" testname="export_ip_properties" enabled="true">
-          <stringProp name="filename"></stringProp>
-          <stringProp name="parameters"></stringProp>
-          <boolProp name="resetInterpreter">false</boolProp>
-          <stringProp name="script">import java.util.Properties;
-
-FileWriter fstream = new FileWriter(&quot;/home/jmeter/NCHC_Swagger/WL-A01/OOO/wla01.properties&quot;,false);
-BufferedWriter out = new BufferedWriter(fstream);
-Properties props= new Properties();
-props.setProperty(&quot;public_ip&quot;,vars.get(&quot;vm_ip&quot;));
-props.store(out,&quot;wla01&quot;);
-
-out.close();</stringProp>
-        </BeanShellListener>
         <hashTree/>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>

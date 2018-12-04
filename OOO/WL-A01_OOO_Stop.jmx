@@ -49,8 +49,19 @@
           <stringProp name="shareMode">shareMode.all</stringProp>
         </CSVDataSet>
         <hashTree/>
+        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+          <collectionProp name="Arguments.arguments">
+            <elementProp name="time" elementType="Argument">
+              <stringProp name="Argument.name">time</stringProp>
+              <stringProp name="Argument.value">${__P(serial_number, 4)}</stringProp>
+              <stringProp name="Argument.desc">ith time to execute jmx</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+          </collectionProp>
+        </Arguments>
+        <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="WL-A01-variable" enabled="true">
-          <stringProp name="filename">./id-1.csv</stringProp>
+          <stringProp name="filename">./id-${time}.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">api-vmId-WLA01,snapshot_id,api-volumeId-WLA01,api-networkId-WLA01,key_name,auto_scaling_policy_id,vm_ip,vm_status,serverId,securityId</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>

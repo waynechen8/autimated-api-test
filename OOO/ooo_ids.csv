@@ -538,3 +538,17 @@ ${api-vmId-WLA01},,${api-volumeId-WLA01},3775,st-keya01-ooo-01,null,${vm_ip},${v
 18700,,2341,3775,st-keya01-ooo-01,null,203.145.223.173,Ready,9718,26ae860f-ce9e-46fe-8390-907fa914228f
 18700,,2341,3775,st-keya01-ooo-01,null,203.145.223.173,Ready,9718,26ae860f-ce9e-46fe-8390-907fa914228f
 18700,,2341,3775,st-keya01-ooo-01,null,203.145.223.173,Ready,9718,26ae860f-ce9e-46fe-8390-907fa914228f
+${api-vmId-WLA01},,${api-volumeId-WLA01},${api-networkId-WLA01},st-keya01-ooo-01,null,${vm_ip},${vm_status},${serverId},null
+${api-vmId-WLA01},,${api-volumeId-WLA01},${api-networkId-WLA01},st-keya01-ooo-01,null,${vm_ip},${vm_status},${serverId},null
+${api-vmId-WLA01},,${api-volumeId-WLA01},${api-networkId-WLA01},st-keya01-ooo-01,null,${vm_ip},${vm_status},${serverId},null
+${api-vmId-WLA01},,${api-volumeId-WLA01},${api-networkId-WLA01},st-keya01-ooo-01,null,${vm_ip},${vm_status},${serverId},null
+18904,,${api-volumeId-WLA01},${api-networkId-WLA01},st-keya01-ooo-01,null,${vm_ip},${vm_status},${serverId},null
+18904,,2392,${api-networkId-WLA01},st-keya01-ooo-01,null,${vm_ip},${vm_status},${serverId},null
+18904,,2392,${api-networkId-WLA01},st-keya01-ooo-01,null,203.145.223.86,Ready,10741,null
+18904,,2392,${api-networkId-WLA01},st-keya01-ooo-01,null,203.145.223.86,Ready,10741,432bb487-fa1e-4e17-8964-182450f80d21
+18904,,2392,${api-networkId-WLA01},st-keya01-ooo-01,null,203.145.223.86,Ready,10741,432bb487-fa1e-4e17-8964-182450f80d21
+18904,,2392,${api-networkId-WLA01},st-keya01-ooo-01,null,203.145.223.86,Ready,10741,432bb487-fa1e-4e17-8964-182450f80d21
+18904,,2392,${api-networkId-WLA01},st-keya01-ooo-01,null,203.145.223.86,Ready,10741,432bb487-fa1e-4e17-8964-182450f80d21
+18904,,2392,${api-networkId-WLA01},st-keya01-ooo-01,null,203.145.223.86,Ready,10741,432bb487-fa1e-4e17-8964-182450f80d21
+${api-vmId-WLA01},,${api-volumeId-WLA01},${api-networkId-WLA01},st-keya01-ooo-01,null,${vm_ip},${vm_status},${serverId},null
+${api-vmId-WLA01},,${api-volumeId-WLA01},${api-networkId-WLA01},st-keya01-ooo-01,null,${vm_ip},${vm_status},${serverId},null

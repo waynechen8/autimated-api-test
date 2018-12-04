@@ -49,8 +49,18 @@
           <stringProp name="shareMode">shareMode.all</stringProp>
         </CSVDataSet>
         <hashTree/>
+        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+          <collectionProp name="Arguments.arguments">
+            <elementProp name="time" elementType="Argument">
+              <stringProp name="Argument.name">time</stringProp>
+              <stringProp name="Argument.value">${__P(serial_number, 4)}</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+          </collectionProp>
+        </Arguments>
+        <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="WL-A01-variable" enabled="true">
-          <stringProp name="filename">./id-1.csv</stringProp>
+          <stringProp name="filename">./id-${time}.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">api-vmId-WLA01,snapshot_id,api-volumeId-WLA01,api-networkId-WLA01,key_name,auto_scaling_policy_id,vm_ip,vm_status,serverId,securityId</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
@@ -60,16 +70,6 @@
           <boolProp name="stopThread">false</boolProp>
           <stringProp name="shareMode">shareMode.all</stringProp>
         </CSVDataSet>
-        <hashTree/>
-        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
-          <collectionProp name="Arguments.arguments">
-            <elementProp name="time" elementType="Argument">
-              <stringProp name="Argument.name">time</stringProp>
-              <stringProp name="Argument.value">1</stringProp>
-              <stringProp name="Argument.metadata">=</stringProp>
-            </elementProp>
-          </collectionProp>
-        </Arguments>
         <hashTree/>
         <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
           <collectionProp name="HeaderManager.headers">
@@ -97,7 +97,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="name" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">&quot;${api-snapshotname-WL-A01}&quot;</stringProp>
+                <stringProp name="Argument.value">&quot;${api-snapshotname-WL-A01}_${time}&quot;</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">name</stringProp>
@@ -151,24 +151,6 @@ with open(&quot;/home/jmeter/NCHC_Swagger/WL-A01/OOO/id-${time}.csv&quot;, &quot
           </JSR223PostProcessor>
           <hashTree/>
         </hashTree>
-        <JSR223Listener guiclass="TestBeanGUI" testclass="JSR223Listener" testname="export_ids_csv" enabled="false">
-          <stringProp name="cacheKey">true</stringProp>
-          <stringProp name="filename"></stringProp>
-          <stringProp name="parameters"></stringProp>
-          <stringProp name="script">with open(&quot;/home/jmeter/NCHC_Swagger/WL-A01/OOO/id-${time}.csv&quot;, &quot;r&quot;) as f:
-    origin = f.readlines()
-
-li = origin[1].split(&quot;,&quot;)
-li[1] = &quot;${snapshot_id}&quot;    
-origin[1] = &quot;,&quot;.join(li)
-
-with open(&quot;/home/jmeter/NCHC_Swagger/WL-A01/OOO/id-6.csv&quot;, &quot;w&quot;) as f:
-    for line in origin:
-        f.write(line)
-</stringProp>
-          <stringProp name="scriptLanguage">python</stringProp>
-        </JSR223Listener>
-        <hashTree/>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>

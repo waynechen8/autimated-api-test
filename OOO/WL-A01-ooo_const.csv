@@ -1,2 +1,2 @@
-api-networkName-WLA01,api-keypairName-WLA01,api-vmFlavor-WLA01,api-vmImage1-WLA01,api-vmDesc-WLA01,api-vmName-WLA01,api-volumeName-WLA01,api-autoscaleName-WLA01,api-snapshotname-WL-A01
-st-nwa01-ooo-01,st-keya01-ooo-01,1core2GBmemory20GBdisk,xenial-server-cloudimg,st-a01-ooo-01,st-a01-ooo-01,st-vola01-ooo-01,st-aspa01-ooo-01,st-snapa01-ooo-01
+api-networkName-WLA01,api-keypairName-WLA01,api-vmFlavor-WLA01,api-vmImage1-WLA01,api-vmDesc-WLA01,api-vmName-WLA01,api-volumeName-WLA01,api-autoscaleName-WLA01,api-snapshotname-WL-A01,api-imagename-WL-A01
+st-nwa01-ooo-01,st-keya01-ooo-01,1core2GBmemory20GBdisk,xenial-server-cloudimg,st-a01-ooo-01,st-a01-ooo-01,st-vola01-ooo-01,st-aspa01-ooo-01,st-snapa01-ooo-01,st-img01-ooo-01

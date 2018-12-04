@@ -1,2 +1,0 @@
-api-vmId1-WLA01, snapshot_id, volume_id, network_id, key_name, autoscaling_id, vm_ip, vm_status, server_id, vmId_origin, vmorigin_ip, vmorigin_status, serverorigin_id, image_id
-${api-vmId-WLA01},,${api-volumeId-WLA01},3775,st-keya01-ooo-01,${auto_scaling_policy_id},${vm_ip},${vm_status},${serverId},18676,203.145.223.102,Ready,9655,${api-imageid}

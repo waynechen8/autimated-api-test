@@ -49,18 +49,6 @@
           <stringProp name="shareMode">shareMode.all</stringProp>
         </CSVDataSet>
         <hashTree/>
-        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="WL-A01-variable" enabled="false">
-          <stringProp name="filename">./id-1.csv</stringProp>
-          <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="variableNames">api-vmId-WLA01,snapshot_id,api-volumeId-WLA01,api-networkId-WLA01,auto_scaling_policy_id,vm_ip,vm_status,serverId</stringProp>
-          <boolProp name="ignoreFirstLine">true</boolProp>
-          <stringProp name="delimiter">,</stringProp>
-          <boolProp name="quotedData">false</boolProp>
-          <boolProp name="recycle">true</boolProp>
-          <boolProp name="stopThread">false</boolProp>
-          <stringProp name="shareMode">shareMode.all</stringProp>
-        </CSVDataSet>
-        <hashTree/>
         <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
           <collectionProp name="HeaderManager.headers">
             <elementProp name="" elementType="Header">
@@ -91,12 +79,34 @@
             </elementProp>
             <elementProp name="time" elementType="Argument">
               <stringProp name="Argument.name">time</stringProp>
-              <stringProp name="Argument.value">${__P(serial_number, 0)}</stringProp>
+              <stringProp name="Argument.value">${__P(serial_number, 12041752_1)}</stringProp>
               <stringProp name="Argument.desc">ith time to execute jmx</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
         </Arguments>
+        <hashTree/>
+        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+          <collectionProp name="Arguments.arguments">
+            <elementProp name="time1" elementType="Argument">
+              <stringProp name="Argument.name">time1</stringProp>
+              <stringProp name="Argument.value">${__javaScript(&apos;${time}&apos;.substring(9\,10))}</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+          </collectionProp>
+        </Arguments>
+        <hashTree/>
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="WL-A01-variable" enabled="false">
+          <stringProp name="filename">./id-${time}.csv</stringProp>
+          <stringProp name="fileEncoding"></stringProp>
+          <stringProp name="variableNames">api-vmId-WLA01,snapshot_id,api-volumeId-WLA01,api-networkId-WLA01,auto_scaling_policy_id,vm_ip,vm_status,serverId</stringProp>
+          <boolProp name="ignoreFirstLine">true</boolProp>
+          <stringProp name="delimiter">,</stringProp>
+          <boolProp name="quotedData">false</boolProp>
+          <boolProp name="recycle">true</boolProp>
+          <boolProp name="stopThread">false</boolProp>
+          <stringProp name="shareMode">shareMode.all</stringProp>
+        </CSVDataSet>
         <hashTree/>
         <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If network" enabled="true">
           <stringProp name="IfController.condition">${__jexl3(${error_occur} == 0)}</stringProp>
@@ -110,7 +120,7 @@
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">{&quot;cidr&quot;:&quot;192.168.10${time}.0/24&quot;,&quot;gateway&quot;:&quot;192.168.10${time}.1&quot;,&quot;name&quot;:&quot;${api-networkName-WLA01}${time}&quot;,&quot;project&quot;:${api-project-WLA01},&quot;with_router&quot;:true}</stringProp>
+                  <stringProp name="Argument.value">{&quot;cidr&quot;:&quot;192.168.10${time1}.0/24&quot;,&quot;gateway&quot;:&quot;192.168.10${time1}.1&quot;,&quot;name&quot;:&quot;${api-networkName-WLA01}_${time}&quot;,&quot;project&quot;:${api-project-WLA01},&quot;with_router&quot;:true}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -166,7 +176,7 @@
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">{&quot;name&quot;:&quot;${api-keypairName-WLA01}${time}&quot;,&quot;project&quot;:${api-project-WLA01}}</stringProp>
+                  <stringProp name="Argument.value">{&quot;name&quot;:&quot;${api-keypairName-WLA01}_${time}&quot;,&quot;project&quot;:${api-project-WLA01}}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -200,7 +210,7 @@
               <stringProp name="parameters"></stringProp>
               <stringProp name="filename"></stringProp>
               <stringProp name="cacheKey">true</stringProp>
-              <stringProp name="script">with open(&quot;/home/jmeter/NCHC_Swagger/WL-A01/OOO/keypairs${time}.pem&quot;, &quot;w&quot;) as f:
+              <stringProp name="script">with open(&quot;/home/jmeter/NCHC_Swagger/WL-A01/OOO/keypairs_${time}.pem&quot;, &quot;w&quot;) as f:
     f.write(vars.get(&quot;response&quot;))</stringProp>
             </JSR223PostProcessor>
             <hashTree/>
@@ -237,11 +247,11 @@
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">x-extra-property-keypair</stringProp>
-                  <stringProp name="Header.value">${api-keypairName-WLA01}${time}</stringProp>
+                  <stringProp name="Header.value">${api-keypairName-WLA01}_${time}</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">x-extra-property-private-network</stringProp>
-                  <stringProp name="Header.value">${api-networkName-WLA01}${time}</stringProp>
+                  <stringProp name="Header.value">${api-networkName-WLA01}_${time}</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">x-extra-property-floating-ip</stringProp>
@@ -260,7 +270,7 @@
                 <collectionProp name="Arguments.arguments">
                   <elementProp name="" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                    <stringProp name="Argument.value">{&quot;desc&quot;:&quot;${api-vmDesc-WLA01}_${time}&quot;,&quot;name&quot;:&quot;${api-vmName-WLA01}_${time}&quot;,&quot;project&quot;:${api-project-WLA01},&quot;solution&quot;:&quot;${api-vmSolution-WLA01}&quot;}</stringProp>
+                    <stringProp name="Argument.value">{&quot;desc&quot;:&quot;${api-vmDesc-WLA01}1_${time}&quot;,&quot;name&quot;:&quot;${api-vmName-WLA01}1_${time}&quot;,&quot;project&quot;:${api-project-WLA01},&quot;solution&quot;:&quot;${api-vmSolution-WLA01}&quot;}</stringProp>
                     <stringProp name="Argument.metadata">=</stringProp>
                   </elementProp>
                 </collectionProp>
@@ -397,11 +407,11 @@
                   <stringProp name="filename"></stringProp>
                   <stringProp name="script">import java.util.Properties;
 
-FileWriter fstream = new FileWriter(&quot;/home/jmeter/NCHC_Swagger/WL-A01/OOO/vm01${time}_ip.properties&quot;,false);
+FileWriter fstream = new FileWriter(&quot;/home/jmeter/NCHC_Swagger/WL-A01/OOO/vm01-ip_${time}.properties&quot;,false);
 BufferedWriter out = new BufferedWriter(fstream);
 Properties props= new Properties();
 props.setProperty(&quot;public_ip&quot;,vars.get(&quot;vmorigin_ip&quot;));
-props.store(out,&quot;vm01${time}_ip&quot;);
+props.store(out,&quot;vm01-ip_${time}&quot;);
 
 out.close();</stringProp>
                 </BeanShellPostProcessor>

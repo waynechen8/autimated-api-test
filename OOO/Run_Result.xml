@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testResults version="1.2">
-<httpSample t="184" it="0" lt="184" ts="1543286282450" s="false" lb="Create_Snapshot" rc="401" tn="WL-A01_OOO 1-1" sc="1" ec="1">
-  <responseData class="java.lang.String">{&quot;message&quot;:&quot;Your request is unauthorized&quot;}
-</responseData>
+<httpSample t="1199" it="0" lt="1198" ts="1543916704694" s="false" lb="Create_Snapshot" rc="400" tn="WL-A01_OOO 1-1" sc="1" ec="1">
+  <responseData class="java.lang.String">{&quot;detail&quot;:&quot;400011202: {&apos;volume&apos;: [u&apos;Incorrect type. Expected pk value, received unicode.&apos;]}&quot;}</responseData>
 </httpSample>
 
 </testResults>
