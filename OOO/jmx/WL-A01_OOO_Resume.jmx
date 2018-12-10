@@ -15,7 +15,7 @@
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="WL-A01-ooo_env.csv" enabled="true">
         <stringProp name="delimiter">,</stringProp>
         <stringProp name="fileEncoding"></stringProp>
-        <stringProp name="filename">./WL-A01-ooo_env.csv</stringProp>
+        <stringProp name="filename">../config/WL-A01-ooo_env.csv</stringProp>
         <boolProp name="ignoreFirstLine">true</boolProp>
         <boolProp name="quotedData">true</boolProp>
         <boolProp name="recycle">true</boolProp>
@@ -30,7 +30,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.num_threads">${__P(thread, 2)}</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
@@ -38,7 +38,7 @@
       </ThreadGroup>
       <hashTree>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="WL-A01-ooo_const.csv" enabled="true">
-          <stringProp name="filename">/home/jmeter/NCHC_Swagger/WL-A01/OOO/WL-A01-ooo_const.csv</stringProp>
+          <stringProp name="filename">../config/WL-A01-ooo_const.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">api-networkName-WLA01,api-keypairName-WLA01,api-vmFlavor-WLA01,api-vmImage-WLA01,api-vmDesc-WLA01,api-vmName-WLA01,api-volumeName-WLA01,api-autoscaleName-WLA01</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
@@ -63,7 +63,7 @@
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="WL-A01-variable" enabled="true">
           <stringProp name="filename">./id-${time}.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="variableNames">api-vmId-WLA01,snapshot_id,api-volumeId-WLA01,api-networkId-WLA01,key_name,auto_scaling_policy_id,vm_ip,vm_status,serverId,securityId</stringProp>
+          <stringProp name="variableNames">api-vmId-WLA01,api-volumeId-WLA01,api-networkId-WLA01,key_name,auto_scaling_policy_id,vm_ip,vm_status,serverId, api-vmId-WLA01_origin, vmorigin_ip, vmorigin_status, serverorigin_id, api-imageid, time</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
           <stringProp name="delimiter">,</stringProp>
           <boolProp name="quotedData">false</boolProp>
@@ -93,13 +93,13 @@
           </collectionProp>
         </HeaderManager>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Stop_VM" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="OOO_Resume_VM" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&quot;status&quot;:&quot;stop&quot;}</stringProp>
+                <stringProp name="Argument.value">{&quot;status&quot;:&quot;start&quot;}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>
@@ -137,19 +137,20 @@
               <assertions>true</assertions>
               <subresults>false</subresults>
               <responseData>true</responseData>
-              <samplerData>false</samplerData>
+              <samplerData>true</samplerData>
               <xml>true</xml>
               <fieldNames>false</fieldNames>
-              <responseHeaders>false</responseHeaders>
-              <requestHeaders>false</requestHeaders>
+              <responseHeaders>true</responseHeaders>
+              <requestHeaders>true</requestHeaders>
               <responseDataOnError>false</responseDataOnError>
               <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
               <assertionsResultsToSave>0</assertionsResultsToSave>
+              <url>true</url>
               <sampleCount>true</sampleCount>
               <idleTime>true</idleTime>
             </value>
           </objProp>
-          <stringProp name="filename">/home/jmeter/NCHC_Swagger/WL-A01/OOO/Stop_Result.xml</stringProp>
+          <stringProp name="filename">/home/jmeter/NCHC_Swagger/WL-A01/OOO/log/Resume_Result.xml</stringProp>
         </ResultCollector>
         <hashTree/>
         <BackendListener guiclass="BackendListenerGui" testclass="BackendListener" testname="Backend Listener" enabled="true">

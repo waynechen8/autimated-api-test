@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="1925" it="0" lt="0" ts="1544178691358" s="true" lb="OOO_Delete_VM1" rc="204" tn="WL-A01_OOO_Delete 1-1" sc="1" ec="0">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 NO CONTENT
+Content-Type: application/json
+Connection: keep-alive
+Date: Fri, 07 Dec 2018 10:31:31 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Content-Language: en
+Vary: Accept,Accept-Language,Cookie
+Allow: GET, PUT, DELETE, HEAD, OPTIONS
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: csrftoken=8fJysEDiVe77DTro6UVfKYs2Gx7Ebabj; expires=Fri, 06-Dec-2019 10:31:33 GMT; Max-Age=31449600; Path=/
+Set-Cookie: sessionid=&quot;.eJy1Wft3VNd1dvwAQzF24zpJ0zRN2jiV20qc98Ppw4iXQCBA6MJA607PUzMazYzuPCSkljZpu7LSf7P_RH_td65GgAmW0CyjxVoaDfecvc_e3_72t8_99bvP6u8tVGen4zRqd2P9buurd955RxkaiKPCMR1oTjJblwzXVolItFcsOuF94kkRG4lIQRLuJEs-ixCTD7x-r_qo7aaTTvto3_c771Ufj9Jmdzhop0HcGXYHk_qD1o9hrDOZ7Hx56RLVbImRJSWW6JeSEHJpl9dnqo-xfrcb0rh9uLg-u1adm6SBG0zKth-2foYdXLSO-uCEdkoom7zjJobsU5aGZcXrc9X3X3LHu9CDD_X56urmMGwPp3FpPNyeTrD90s62m-ThqL803EmD8QRPLuGZZvHSbN3SatofT4aDtDzb5w-qD4-W1RfWqg8mQ3xdfxROtXnx7PxGWXm-vvjFb-qPn9WfLFQXp4NxwNOxfbjpH1b_t3m5_CyHK71pm5reQbVNZC0n8ur9x-srLC3WD-rh8nbYXtlaXX04iYNreXGH78Wt2mXS3dls396IVwcHIdjNGw-nN2_Z0XT9gduPqnXzaqyrTbb1UKbegevIxyt-MpiM3NMD1r-_Re6TO6M03NtVV1a2rq0EviGYXeP9ndajRxv7YkW720-IWO3Vt7b6m2u7B9dv3Fvkt_enZtRbfXRvm6y0nrSebOm1u2z5phbXNq6lnpnutA_2lByPO3ei3-hXt-n62iPLb8qd3vWwGuj48Wqf37xSb91r9-rvV2fisO-6g_rTZ_UfLVTvIv2frVXvD1w_1T9Ym1YXZ1C54iZue7hZ__Dr-kcLz-o_XmidA0aOQDeuf_x1_Sf4_icLrffw_XS0Xf9p64evx6EhgjarsTCNsgup_mnrDP7emfrtbmg-znD5Z81zh3_cHaSX_io4_dkr__tu2TPWP2_gS6nXRCXmdEgiJWKlY4R6pWQQKgg-fVb_-ULn952kL5zs_LT14ZGbA7fdecWbziv2O4eGldWaC59oIlyIHAxJmatMAjOKJSJh-C9ONvxBU4H97uANrQYWAuPakRysyJE7J1x00mgXOZOUTFPrfTw22d9J9S-aEPfTZNQNs-WEJQ224dwjPJRTKxOJLIvoBTGa52ZxA4rPW2fxcXMwDKHTxVl-udBB7v8SuV847lQIyhynAjkImzXokIIRtXfZEM6yN5QkGxyD_S9OtjpHEgOjUkmevedGZKYN446ZGKWlRqbG8F-9zjD5huEXoH5DszE7FikqgqUsFEMaCKEiOJoUl0zbaer8ogli2k2DyVHutONIfpLca0GSRsByykoYLwmLWXc-b5bsuEFvCL__uknY3yBhi-UEP_-WE2htLoFaQ-oXS3OchZEUJfyxLhqhpPGKShIUCdpbQiOFK0uvc4B-iwOnxY6wlJQwIjRGeMbRZymaqskh-SR1hv1Lp7E_B4qMLU3ce6ZpEAGtPqqsQAwAk-LU-SadZeELOzPyMiqi5cbEJQWVKB9CBBpjYCwzQhJS-o1lOAtp0kqRVnZMRRQNUPP5TuMFkwyRpIkTESO1QQnOmdCZB5algxPimJpoTMt5kAQqglByiCURpRhs5FlGQ5jiUXGtYVgVwz96_Zm55FLX89BPshL1w5ixRggmlGPOeWkI-oonupAq8tdEMiIJ3cn-EfSk4pZZz4gzIlBjIJoIB406GwjVFukrq3ozyQP_TZM9i-x9WU7yq2_rDURc2qWXTpJmcxwVtINYOgvdiYOmQjnQokwgsZ4qWar1V6_zjJzas1OnH9EHEXOlGPq2E8wFnXwkoahmtIfCxX_73QRtnhLPNFHKbCZoVcpD0ltAJMWQSM4m6gYiH-HB4Sh00hjKr4jWI5xoJa0L3FqZUebJWzAGAz1knpw3AjgpfbeTXKnwv2sw8vfAyD8c13qIYPNEWUA9COGIFF4hRNEEsLaWBvpJQNAUuvzqeNnC5ougy17LgBbGZRJEo9I5QQi0xfCD_lf00uWTDZ9aL8lgJJUpA1yCBWOSi9ErHbQmFsz2vLTdthth283ZOqmZEBJ8Z5IVqGabo85aQGllAnGpZylzw9iB48tNyq4gZVePOQKoYp4jSB5JpvBapygsJz5FLYwWaK9aCqVg_9oxQJlZPTVQMIwS5jzaKRBvojUqJGtRXCYxVKSA2esnH3YOoESHNEXGmIygKWh5kQnzGnIJCA3uhTjq9t3m8yB5KinnQjMphcnaFFQ5kbyKORNZ8lUisLntBqEQ8Y0mYyvI2M1yiJ98qzoCp7AlOlelIVVQQCJBFwmM_05HyhBUw6DghCh5u_U62_T3bZ8WMtrwhtd1tFQIlLjTWpFoQwbVK11Mr76h6XkEBJdWGOaicgSDUXTRg25UDNA6aLOHXFmmizDs70wnR8ssxA8okhKOgcqqaFG3qFQZSCBCOjcrucFwt0iQ2yWBs9rFiJNGL2oXs3pwLhQdg8OjlYesCaR60TSM8oCNzhfrqbs9bJZiuzsNHtaAh7slMK9erbzoMQQ9Zr6wUIhURAP9iEFMRee0RVysQncSMorCvPdeZ5u8avv0nTVg4MPMCH1iRanp6KVUinPjksqyUO_9Nzr1aXGIdksSxFxG4xSgEJ85Gh8mLM-pwKTcIOFiyUW56ym3Oy-3TWQwakMkei5qGmSkfEIf9lJli1EtzORVaZuLIQ9wivUmiw-QxY3jlAKKAfB-O_JKJm5zxhhbNCwvY2yQudENGLEL81TfjWdzABCzvqfeIPOgH4wartzJeA6ZbQLxsTj38Djt94bO1Y_mwaizLHEfknGMimhgghgJCgORAAJcPG_Uu8PtaT_tsiOQZGYylxgVNKaVLIyFvhJcBTAflTbOQBK6g5hGu0VEthqQPAZInpx42rejdAlkl-ZEGZESOgNqE1rMozgSpkYbI5z8xxNR8raUroLMcBptE8yJ_gnSBGc6G0PZ2RgD5_7pu3HutMVlGGfAqmIGswvwCwVuMCswSwP8ZYfC4MxziBzJCSUSeh-aLkY7D01By7htqBEGgleZmTI4BAgO93UDj38GPNrHqSpl1TypV6g-KYF1aixQKiCncg5QVjIHRk2Zv_7lOFV1aHaemy6JTEDP-kSANSdQI0lBUZUBBHNfuSd1Jxs-fQOwGJxMGTY4RmttpQIHZcVAkBTfPpcCgzTZG456R8sgATAMCpHgZ-LKqSilpAaChmaXWefz2aLpZDQsxO-bpAUkLZZDfPXKIfhRIzOlkV26XG2stN9O9ZSrE-pkgVkS6K6WG0swcLOMFuCth6_pdWF-ycM5wqyysFC60Vto3pwUpmfiDY0BSjhAUsFqfl1cyHxxOT25S0FUClQyWkYYKADUYIAgYdpBGZgGBhfw4NBvpTBZHE-Go-cQwkOKYeghlEJERkxtlomIflE-IVyH157jvW4u0_Nmg4QOkNA9kaX4W6JQVsZE_KD1M5FBngyqy5Z_5aLJFL219d04d2qgQJZ4GhzmInz02ZXXJPiVjTYCAYZnvROb4ht5dmqMWIyySkDdSaYFAOkDtD_mFuoROSPDqwKAH-EjO5KMysaGKMqls_OAG3U5KzAPV98UAHyaqg9Gw-00rre_rvvP6kHnBw3yZq9Fm2COXXWxedl5-M6svIMazi78tKSW8RSjFPCvkSnaBpotWmby9U71ycsLmzcp9eHYEjqhHlVn09Od7gjWx5iLJmnS7afzzz_Uk-r82f-9cPb8Lz9tPB4PjSJ0afb7fDUJ5-vpF-v17m_X673qQnfczgmHwvJYP_2f6uzOaFjKp95_Vh8sVOdeeP-vb-R957POueoT7NoEoX2027_9DiEqGbvzYAPPcynrZ9Pq_XLO-t-f1f-xUH2648Zj0Hdsz07XdpP612vY7z0sLdEfTzrD8YTQ-jfTzmcbF76HSfylN7FP-hPiVgfu6b2VxNavHdyor7vxAVGbq2u3N7aqjthybCi2-mFxl3XV2v59nraWZdqcLu9udB_U4zvy1pMU1nsbZvhw_WmeKtZ3fiv0t9vkyYM9n6_0M1HXxfJK-_7G8vh-9Fv7NypdXfbtaxgrr927ujno7TxsTW90-63lK3LRjR5peyt0O2R9ZfFhv74r7o6f3jsQ_tFWjw7baxsP-53Hj2_uL1rzVB-w7vreXnqyfz3EB-1ttnczxd7QjfkjG_jtyzst-pS0H9_cW77y9Ppi58GTSW-SZa--0zK70zqtD2O1Xv9ndeYQf_V_dQ6mvvr4pRfuHTfu1P9dLWAC0iiPIGyU3GO0VtC4NqiEmvTeY-QNaOU-TZf-H_8b_OY:1gVDPx:wL_gwP-BF2ay8qs19MjJjbUsxvk&quot;; expires=Fri, 07-Dec-2018 11:29:53 GMT; httponly; Max-Age=3500; Path=/
+Access-Control-Allow-Origin: *
+X-Kong-Upstream-Latency: 1702
+X-Kong-Proxy-Latency: 0
+Via: kong/0.13.1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-API-HOST: openstack-taichung-community
+x-api-key: 79c3a9b8-bcc7-42ae-a31a-e7bc8fd9cba3
+accept: application/json
+Content-Length: 0
+Host: apigateway.twcc.ai:8443
+User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/sites/19947/</java.net.URL>
+</httpSample>
+<httpSample t="1814" it="0" lt="0" ts="1544178691799" s="true" lb="OOO_Delete_VM1" rc="204" tn="WL-A01_OOO_Delete 1-2" sc="1" ec="0">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 NO CONTENT
+Content-Type: application/json
+Connection: keep-alive
+Date: Fri, 07 Dec 2018 10:31:31 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Content-Language: en
+Vary: Accept,Accept-Language,Cookie
+Allow: GET, PUT, DELETE, HEAD, OPTIONS
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: csrftoken=FR4FucaAD1QXuJsm4aMg8IKtScIYbzhX; expires=Fri, 06-Dec-2019 10:31:33 GMT; Max-Age=31449600; Path=/
+Set-Cookie: sessionid=&quot;.eJy1WWt3lNd1dmwDhmBwkzpJ0zRN2riR00ic-8XpxUgChAQSCL0gSN3puc6MNBe9c5EQLU3ypav9m_0T-ZrnjEaACZbQLKPFWpoR7zl7n72f_exnn_f37z-vvzNXXRgP06DRjvX721--9957mXJPQ0icO5eC1CYLjy9GcyI0z44qkqILkUgXlZOS5uy9kZEJwqQTsf6g-rjhxqNW43jfD1sfVFcHqdnu9xqpF_f67d6oPrf9YxhrjUZ7X1y7RjVbYGRBiQX6hSSEXNvn9fnqKtbvt0MaNo4W1xfWq4uj1HO9Udn2o-2fYQcXraM-OKGdEsom77iJIfuUpWFZ8fpi9b1X3PEu7MKH-lK13OyHTn8cF4b9zniE7Rf2Om6U-4PuQn8v9YYjPLmAZyaLF6brFtbS4XDU76XF6T7frT46XlZfXq_Ojfr4c_1xONPmxbNLW2XlpfrK53-orz6vP5mrrox7w4CnY-No07-o_ti8Xn4Ww9LuuOG6tx7sPVwcPF19xDaXu5U6WN3utwc3H6Xbam1rqzPmOzebq33djL3HzxZr5dhq1V3K42Eepsd37ud8t7l7OBg2lucP_V610Xv6bDkuP7hZzwvdp4-X7obGKNy--6DdvzPe2NWDG51BqJu3aPfeo53RbmPv_tb6s83-5o21cb-743cfV5v8yUH9dP3Rbb68t2YG69f93cOlKrfuPTU7uwdM3bkjVw1ZT8sDT24YunGwP7zXemyfLm3P15srenNFLreacqe_uxb5-Mn68NZN3t5bX9rf2jf196rzsd917V79_ef1X85V7yP9n65XH_ZcN9U_WB9XV6ZQWXIj1-k36x9-Vf9o7nn9V3PbF4GRY9AN6x9_Vf81_v6Tue0P8PfxoFP_zfYP34xDQwSdrMbCNMgupPqn2-fxfW_sO-0w-TjF5d9Onjv6stFLr3wrOP3Za__7ftkz1j-fwJdSr4lKzOmQRErESscI9UrJIFQQfPy8_ru51p87SV862frp9kfHbvZcp_WaN63X7LeODCurNUdl00S4EDkYkjJXmQRmFEtEwvDfn2743KQCu-3eW1oNLATGtSM5WJEjKEa46KTRLnImKRmn7Q_x2OhwL9W_mIS4m0aDdpguJyxp7iTnHuGhnFqZSGRZRC8ICCpPFk9A8dn2BXxs9vohtNo4yz_MtZD7XyL3cyedCkGZ4VQgB2GzjogJEUl7lw3hLHtDSbLBMdj__HSrMyQxMCqV5CBgbkRm2jDumIlRWmpkmhj-1ZsMk68ZfgnqtzQbs2ORoiJYykIxpIEQKoKjSXHJtB2n1i8mQUz7qTc6zp12HMlPknstSNIIWE5ZCeMlYTHr1meTJXuut9uH3_84SdivkbD5coKff8MJtDbXQK0hdYulGc7C0M0k_LEuGqGk8YpKEhQJ2ltCI4UrC29ygH6DA2fFjrCUlDAiNEZ4xq0SFG3X5JB8kjrD_rWz2J8BRcYGSbj3TNMgAtc2qqxADACT4tT5STrLwpd2puRlVETLjYlLCipRPoQINMbAWGaEJKT0a8twFjJJK0Va2QkVUTTAbGfxgkmGONIEuRIjtUEJzpnQmQeWpYML_ISKmBo-M4pAQ8lwhzgSUQrBRp5lNIQpHhXXGmZFMfujN5-XSy5nIZ5kJSqHMWONEEygxzvnpSHoKJ7oQqfI3CSKEeFvjw6PQScVt8x6RpwRgRoDuUR4UXc2EKotEldW7U7FDryXk7wp5E2Xc_zmm7oCEdf26bXTRNkMRwXhIJLOihRw0FTIBrKUCSTVUyVLnZo3eUbO7NmZk4_og4K5Ugwd2wnmgk4-Ekhk7dEYCgvbbydosxR3polSZjNBk1LeOjCdlymGRHI2UU8g8jEe7A9CKw1HA1fk6jFOtJLWBW6tLFNA8hZcwUAMmSfnjQBOSsdtJVdq-4sJRn4DjPzTSU2HCDZLlAV0gxCOSOEVQhRNAF9raaCcBKRMIcp_PlmwsNki6LLXMqB5cZkE0ahzThACbZ1k6HxFKf3L6YbPrJRkMJLKlAEuwYIxycXolQ5aEwtWe1HaruMG2LY5XSc1E0KC60yyAtVsc9RZC2isTCAr9TRlrh9bcPxfJyn7Eim7fsIRQBWzHEHySDKF1zpFYTnxKWphtEBj1VIoBfuLJwBlavXMQAkxEeY8GikQb6I1KiRrUVwmMVSkgNml0w87A1AwFRsTGWMygqag4kUmzGsIJSA0uJeyqN11zRdB8lRSzoVmUgqTtSmociJ5FXMmsuSrRKDZcb1QiHh5krEbyNjNcoiffKMuAqewBTpTpSFV0D4iQREJbZXTkTIE1TBoNyFK3m69yTb9c9tnhYw2fMLrOloqBErcaa1ItCGD6pUuplfe0vQs4oFLKwwr9xoEI1F00YNuVAxQOWizR1xZ5orQ7-6NR8fLLGQPKJISjlHKqmhRt6hUGUggQjo3Lblef7_Ij9slgdPaxXCTBi9r12H8ci4UDYPDo5WHrAlEetEzjPKAjS4V66nd6U-WYrvVCR7WgIc7JTCvX6q87DEEPWa2sFDIU0QD_YhBSEXntEVcrEJ3EjKKwrx332SbvG777J01YNTDtAh9YkWp6eilVIpz45LKslDv-lud-qw4RLslCVIuo3EKUIjPHI0Ps5XnVGBGniDhSslFueUp9zqvtk1kMGpDJHouahpkpHxCH_ZSZYshLUzlVWmb8yH3cIqNSRbvIYv3T1IKKAbA-93IK5m4zRkDbFGwvAywQeaJbsBwXZhn89vxbAYAYsr31BtkHvSDIcOV2xjPIbJNID4W5x6cpP3e0rl6axaMOssS9yEZx6iIBiaIkaAwEAkgwMWLRr3f74y7aZ8dgyQzk7nEoKAxqWRhLPSV4CqA-ai0cQqS0O7FNNgvIrKagOQhQPLo1NO-G6VLILs0J8qIlNAZUJvQYh7FkTAv2hjh5PapKHlXSldBZjiNtgnmRP8EaYIznY2h7GyMgXOPvx3nzlpchnEGrCpmMLsAv1DgBrMCszTAX3YkDM6_gMixnFAiofeh6WK089AUtAzahhphIHiVmSqDI4DgcE8m8Pgt4PFvJ6kqZdUsqVeoPimBdWosUCogp3IOUFYyB0ZNmb--OklVHZmd5Y5LIhPQsz4RYM0J1EhSUFRlAMHcV25I__10w2dvABaDkynDBsdora1U4KCsGAiS4q8vpEAvjQ76g93jZZAAGAaFSPAzceVUlFJSA0FDs8us9dl00Xg06Bfib0yS9h9ImiuH-PK1Q_DjRmZKI7t2vdpaabyb6inXJtTJArMk0F0tN5Zg4GYZLcBbD1_9m8L8ioczhFllYaF0o7fQvDkpTM_EGxoDlHCApILV8Ka4kNnicnZyl4KoFKhktIwwUACowQBBwrSDMjATGFzGg32_k8JofjjqD15ACA8phqGHUAoRGTG1WSYi-kX5hHAdXXgOD9q5TM9xgoQEJORTWYq_IwplZUzED1o_ExnkyaC6bPlXLppM0VvNb8e5MwMFssTT4DAX4aPPrrwgwa9stBEIMDxrndoU38qzM2PEYpRVAupOMi0ASB-g_TG3UI_IGRleFwD8GB_ZkWRUNjZEUa6bnQfcqMtZgXm4-roA4ONUnRv0O2lYt7-qd57Xu60fTJA3fSE6CebQVVcmrzmP3paVt0-d6YWfltQynmKUAv5NZIq2gWaLlpl83a0-eXXh5B1K72hsCa1Q96sL6eleewDre5iLRmnU7qZLLz7UdXXpwv9fvvDdc1cnHg_7RhG6MP19qRqFS_Xg8816-D-b9ai63B42csKhsDzW4_-rLuwN-qV86v3n9cFcdfGl90_fyvvWp62L1SfYdRKExvFuh_-LEJWM3X2whee5lPWzcfVhOWf9n8_r_5qrvr_nhkPQd2xMT9dwo_r5Ovb7AEtL9IejVn84Iqz-73Hr063L38Ek_so72Gpl_35YujnUYJ-V6x3W2jl82H2iyG3fvN5p3nq6trW_uLpxn6qD5fhosX1PkKW23OncoGpx48m9xWdC3FtJzfXunb0dNd5-_HCx7qcDutW_58V6tX7zsGqsrDy8sUie3dp_1jqMe2M5yqtsu1WrcHe0mer9wfqG2pH1w9XF_rxd295eMoY8iLvX2drB6nJ7LT-ab7fobnd5tN3cCESNtX803vUPG3L3tk6NZvTXbzxVN7XtuA1e39tabd2eX3nYHd5f6hwsNbb0pruVWnrzcb_V6LS687u3yYPm6qPW_l3SW5U3eKv-XXX-CH_171sHY19dfeVVe8sNW_UfqjlMQBrlEYSNknuM1goa1waVUJPee4y8Aa3cp_HCnwAt-_hj:1gVDPx:H1NRzOOgpK3O1rAQxTD_pfUaUnQ&quot;; expires=Fri, 07-Dec-2018 11:29:53 GMT; httponly; Max-Age=3500; Path=/
+Access-Control-Allow-Origin: *
+X-Kong-Upstream-Latency: 1709
+X-Kong-Proxy-Latency: 3
+Via: kong/0.13.1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-API-HOST: openstack-taichung-community
+x-api-key: a0af1fa7-ebac-4d21-9fd2-2d8f31284767
+accept: application/json
+Content-Length: 0
+Host: apigateway.twcc.ai:8443
+User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/sites/19949/</java.net.URL>
+</httpSample>
+<httpSample t="1022" it="0" lt="1022" ts="1544178753294" s="false" lb="OOO_Detach_ASP" rc="500" tn="WL-A01_OOO_Delete 1-1" sc="1" ec="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 INTERNAL SERVER ERROR
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Fri, 07 Dec 2018 10:32:33 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Vary: Accept,Accept-Language,Cookie
+X-Frame-Options: SAMEORIGIN
+Content-Language: en
+Allow: POST, DELETE, OPTIONS
+Set-Cookie: csrftoken=4qF901QDebx7RDOBJ7YxR2q7lrsCwDoi; expires=Fri, 06-Dec-2019 10:32:34 GMT; Max-Age=31449600; Path=/
+Access-Control-Allow-Origin: *
+X-Kong-Upstream-Latency: 922
+X-Kong-Proxy-Latency: 3
+Via: kong/0.13.1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-API-HOST: openstack-taichung-community
+x-api-key: 79c3a9b8-bcc7-42ae-a31a-e7bc8fd9cba3
+accept: application/json
+Content-Length: 0
+Content-Type: text/plain; charset=ISO-8859-1
+Host: apigateway.twcc.ai:8443
+User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;detail&quot;:&quot;50001: Unknown error occurred: No AutoScalingRelation matches the given query.&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/servers/2/auto_scaling_policy/</java.net.URL>
+</httpSample>
+<httpSample t="1039" it="0" lt="1039" ts="1544178753619" s="false" lb="OOO_Detach_ASP" rc="500" tn="WL-A01_OOO_Delete 1-2" sc="1" ec="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 INTERNAL SERVER ERROR
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Fri, 07 Dec 2018 10:32:33 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Vary: Accept,Accept-Language,Cookie
+X-Frame-Options: SAMEORIGIN
+Content-Language: en
+Allow: POST, DELETE, OPTIONS
+Set-Cookie: csrftoken=uNCeiKInW1Ke41DC9irIt0G6cEi1cVuh; expires=Fri, 06-Dec-2019 10:32:34 GMT; Max-Age=31449600; Path=/
+Access-Control-Allow-Origin: *
+X-Kong-Upstream-Latency: 945
+X-Kong-Proxy-Latency: 4
+Via: kong/0.13.1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-API-HOST: openstack-taichung-community
+x-api-key: a0af1fa7-ebac-4d21-9fd2-2d8f31284767
+accept: application/json
+Content-Length: 0
+Content-Type: text/plain; charset=ISO-8859-1
+Host: apigateway.twcc.ai:8443
+User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;detail&quot;:&quot;50001: Unknown error occurred: No AutoScalingRelation matches the given query.&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/servers/2/auto_scaling_policy/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1544178814325" s="false" lb="OOO_Detach_Volume" rc="Non HTTP response code: java.net.URISyntaxException" tn="WL-A01_OOO_Delete 1-1" sc="1" ec="1">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">java.net.URISyntaxException: Illegal character in path at index 77: https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/volumes/${api-volumeId-WLA01}/action/
+	at java.base/java.net.URI$Parser.fail(URI.java:2915)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3086)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3168)
+	at java.base/java.net.URI$Parser.parse(URI.java:3116)
+	at java.base/java.net.URI.&lt;init&gt;(URI.java:600)
+	at java.base/java.net.URL.toURI(URL.java:1018)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:399)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:490)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:250)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">PUT</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/volumes/${api-volumeId-WLA01}/action/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1544178814660" s="false" lb="OOO_Detach_Volume" rc="Non HTTP response code: java.net.URISyntaxException" tn="WL-A01_OOO_Delete 1-2" sc="1" ec="1">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">java.net.URISyntaxException: Illegal character in path at index 77: https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/volumes/${api-volumeId-WLA01}/action/
+	at java.base/java.net.URI$Parser.fail(URI.java:2915)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3086)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3168)
+	at java.base/java.net.URI$Parser.parse(URI.java:3116)
+	at java.base/java.net.URI.&lt;init&gt;(URI.java:600)
+	at java.base/java.net.URL.toURI(URL.java:1018)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:399)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:490)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:250)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">PUT</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/volumes/${api-volumeId-WLA01}/action/</java.net.URL>
+</httpSample>
+<httpSample t="1117" it="0" lt="1117" ts="1544178874330" s="false" lb="OOO_Delete_VM2" rc="404" tn="WL-A01_OOO_Delete 1-1" sc="1" ec="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 404 NOT FOUND
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Fri, 07 Dec 2018 10:34:34 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Vary: Accept,Accept-Language,Cookie
+X-Frame-Options: SAMEORIGIN
+Content-Language: en
+Allow: GET, PUT, DELETE, HEAD, OPTIONS
+Set-Cookie: csrftoken=iPLyHrna4GPkvoDQNdiOGFyQ1olBQ61v; expires=Fri, 06-Dec-2019 10:34:35 GMT; Max-Age=31449600; Path=/
+Set-Cookie: sessionid=&quot;.eJy1WQlzXMdxlnWQIk1Rih3ZjuI4VmIlUBKAcx9yDhEEDwMiwAOLg4mymRO7xF5vD1wJYzupSsV_07_E3zwsSIqGAGJLRLEKi-Wb6Z7ur7_-et5v3n5WfW-ucXkySsNmO1Zvb3351ltvKUMDcVQ4pgPNSWbrkuHaKhGJ9opFJ7xPPCliIxEpSMKdZMlnEWLygVfvND5ousm41TzZ993WO40Ph2mn3e81Uy8O-u3euHpv6xMYa43Hgy9u3KCaLTCyoMQC_UISQm7s8epS40Os32uHNGoeL64urzaujFPP9cZl2_e3fo4dXLSO-uCEdkoom7zjJobsU5aGZcWrK40fvOSOd2EXPlRXG0s7_dDpT-LCqN-ZjLH9wqDjxrk_7C70B6k3GuPJBTxTL16YrltYSYejcb-XFqf7fL_x_smy6tpq471xH19XH4QLbV48u7peVl6trn_-2-rDZ9VHc43rk94o4OnYPN70Txq_37lZfhbDrd0DtiFWjiaLK2L7cWNnMjpYeto76K8tD-eXH6V8u3GwvMtFbvSabJ3e7JmlbX1v41Gjs_5oZ28wYHR7qXuru6jWHrZ2Rr2sEyf3zcbek8c313cfHLbMPjF-HI9u0tXdpY3QXV66v7x9f2Vn1Zqjm4ud-w_yHh_uytb8bXd_cGtv8zBv3Butjrv9A_twdPvJpMm3nqw1lgaUDQ7XvrIr-_uDzdX7HTMyW0dPVu7l8Xpa6ZjJ7uGdMD9cGbN-otuS397dEQ-rHzQuxX7XtXvVD59VfzrXeBuZ_ni18W7PdVP1o9VJ4_oUFbfc2HX6O9WPv65-Mves-rO5rSuAwwm-RtUnX1d_ju9_Orf1Dr6fDDvVX2z9-HTIGSJovRoL0zC7kKqfbV3C34OJ77RD_XEKwb-snzv-Y62XXvqrQPLnr_zv22XPWH1aI5VSr4lKzOmQRErESscI9UrJIFQQfPKs-qu51h87SV842frZ1vsnbvZcp_WKN61X7LeODSurNRc-0US4EDkYkjJXmQRmFEtEwvBfn2_4vbrYuu3ea1oNLATGtSM5WJEjd0646KTRLnImKZmkrXfx2PhwkKpf1CHupvGwHabLCUsaxMK5R3gop1YmElkW0QtiNM_14hoUn21dxsedXj-EVhtn-Zu5FnL_t8j93FmnQlBmOBV4QNiswXwU5Ke9y4Zwlr2hJNngGOx_fr7VGZIYGJVK8uw9NyIzbRh3zMQoLTUy1Yb_7jTD5BuGX4D6Nc3G7FikqAiWslAMaSCEiuBoUlwybSep9Ys6iGkv9cYnudOOI_lJcq8FSRoByykrYbwkLGbd-qxeMnC93T78_vs6Yf-AhM2XE3z6LSfQ2twAi4bULZZmOAsjKUr4Y100QknjFZUkKBK0t4RGClcWTnOAfosDF8WOsJSUMCI0RnjG0VIp-qfJIfkkdYb9GxexPwOKjC392numaRABXT2qrEAMAJPi1Pk6nWXhCztT8jIqorvGxCUFlSgfQgQaY2AsM0ISUvqNZTgLqdNKkVZ2RkWUdl_x2U7jBZMMkaToXyJGaoMSnDOhMw8sSwcnxBk1UZuWsyAJVARN5BBLIkox2MizjIYwxaPiWsOwKoZ_cvqZueRSV7PQT7IS9cOYsUYIJpRjznlpCPqKJ7qQKvJXRzIiCe3x4Qn0pOKWWc-IMyJQY6CPCAeNOhsI1RbpK6t2p-oG_ps6exbZ-6Kc5Jff1huIuLFHb5ynwmY4KmgHsXQWEhMHTYVyIDuZQGI9VbJU6y9P84xc2LMLpx_RBxFzpRj6thPMBZ18JKEIZLSHwsX_-N0EbZYSzzRRymwmaFXKQ71bQCTFkEjOJuoaIh_gwf4wtNJoPHRFn57gRCtpXeDWyowyT96CMRjoIfPkvBHASem7reRKhf9TjZF_Bkb-5azWQwSbJcoC6kEIR6TwCiGKJoC1tTTQTwKCptDll2fLFjZbBF32Wga0MC6TIBqVzglCoC3mHPS_opdunm_4wnpJBiOpTBngEiwYk1yMXumgNbFgtuel7TpuiG13puukZkJI8J1JVqCabY46awGllQnEpZ6mzPVjC44v1im7hZQtnXEEUMUsR5A8kkzhtU5RWE58iloYLdBetRRKwf7tM4AytXphoGDuJMx5tFMg3kRrVEjWorhMYqhIAbN3zj_sDECJDmmKjDEZQVPQ8iIT5jXkEhAa3Atx1O66nedB8lRSzoVmUgqTtSmociJ5FXMmsuSrRGCn43qhEPHdOmP3kLFflUP89FvVETiFLdCZKg2pggISCbpIYNJ3OlKGoBoGBSdEydvyabbpH9u-KGS04TWv62ipEChxp7Ui0YYMqle6mF55TdOzCAgurTDMReUIBqPoogfdqBigddBmj7myTBeh3x1MxifLLMQPKJISjoHKqmhRt6hUGUggQjo3Lblef69IkK9KAqe1ixEnDV_UrsMQ5lwoOgaHRysPWRNI9aJpGOUBG10t1lO706-XYrv7NR5WgYe1EphXb1Fe9BiCHjNbWChEKqKBfsQgpqJz2iIuVqE7CRlFYd4Hp9kmr9q-eGcNGPgwM0KfWFFqOnopleLcuKSyLNT78LVOfVEcot2SBDGX0TgFKMRnjsaHCctzKjAp10i4XnJRrnXKRc7LbRMZjNoQiZ6LmgYZKZ_Qh71U2WJUC1N5VdrmfMg9nOJRncXHyOL6WUoBxQB4vxl5JRO3OWOMLRqWlzE2yFzrBozYhXka341nMwAQs76n3iDzoB-MGq7cyXgOmW0C8bE4t3GW9nt95y6MUGdZ4j4k4xgV0cAAMRIEBhoBALh43qb3-p1JN-2xE4hkZjKXGBQ0ZpUsjIW6ElwF8B6VNk4hEtq9mIZ7RUJu1hDZAkS2zz3rm9G5BKJLc6KMSAl9AZUJJeZRGgkzo40RTj45FyNvSucqiAyn0TTBm-ieoEwwprMxlJ2NMXDuX78b5y5aWoZxBqQqZjC5AL3Q3waTArM0wF92LAsuPYfIiZhQIqHzoeVisPNQFLQM24YaYSB3lZnqgmOA4HD_VsPja8Dj38_SVMqqWVKvUHtSAuvUWKBUQEzlHKCrZA6MmjJ9Nc_SVMdmZ7nnksgE1KxPBFhzAjWSFPRUGT8w9ZVb0v843_DF6d9ibDJl1OAYrLWVCgyUFQM9Unz7XAj00ni_P9w9WQYBgFFQiAQ_E1dORSklNZAzNLvMWp9NF03Gw36hfVcnzSNpoRziy1cOwU_amClt7MbNxvq95pupnnJxQp0sMEsCvdVyYwnGbZbRALz18DWeFuaXPJwhzCoLC50bvYXizUlhdibe0BiggwMEFaym0-JCZovLxcldCqJSoJLRMsCg_6MGA-QI0w66wNQwuIYH-_5pCuP50bg_fA4hPKQYRh5CKSRkxMxmmYjoF-UTwnV86Tnab-cyO-caCTtAQutcluJviEJZGRLxg8bPRAZ5MmguW_6VayZT1Fb7u3HuwkCBKPE0OExF-OizKy9J8CsbbQQCDM-entsUX8uzC2PEYpBVAtpOMi0ASB-g_DG1UI_IGRleFQD8BB_ZkWRUNjZEUa6cnQfcqMtZgXm4-qYA4JPUeG_Y76RRtft11XlWdVs_qpE3ff9ZB3PkGtfrt5rHb8zKG6je9LpPS2oZTzFKAf9qmaJtoNmiZSZf9Rsfvbywfo8yOB5aQitUVeNyOhi0h7A-xFQ0TuN2N119_qEaNa5e_v21y9__9JPa41HfKEIXpr-vNsbhajX-_FE1-b9H1V7jWnvUzAmHwvJY7f-ucXkw7JfyqQ6eVYdzjSsvvD96Le9bH7euND7CrnUQmie7_ef_I0QlY_cfr-N5LmX1X5PGu-Wc1bNn1X_PNX44cKMR6Ds2p6drunH161Xs9w6WluiPxq3-aExo9ZtJ6-P1a9_DHP7SK1fSf5zWorlNOk9DL87fWzN3mt6Mbm2wrfXO9nJvqHl7f39815sHt8kD83hlaWPcXsWqrzZub3crtr62-9Dvb97n7Gi--YAl8_DJ7p17qTN_EOfXJ8O1rIdHHdq9Z54c2s2d7Fx-oOIqa27wjcbmr-jT5qE7aK7d6qa7-5nGR4tPe2xpU46W-5v7t8TS1t3dZeV4Ux5tdv3TPbm9vbuhSNogD45ubm6s6IE5uCubd_mgbe7kjSDtstxasg9XH60e3fMHE9k76q92n46W8i6h80_Ww-LygPcXF6vx0rranNw5ErJx6Rh91W9bhxPf-PCl9-otN2pV_9OYw_SjURxB2Ci5x1itoHBtUAkV6b3HuBvQyH2q_ney8AeTlPCo:1gVDSt:-7rYPAFnFaTmLxmb3UhnnwH5mH8&quot;; expires=Fri, 07-Dec-2018 11:32:55 GMT; httponly; Max-Age=3500; Path=/
+Access-Control-Allow-Origin: *
+X-Kong-Upstream-Latency: 1015
+X-Kong-Proxy-Latency: 4
+Via: kong/0.13.1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-API-HOST: openstack-taichung-community
+x-api-key: 79c3a9b8-bcc7-42ae-a31a-e7bc8fd9cba3
+accept: application/json
+Content-Length: 0
+Host: apigateway.twcc.ai:8443
+User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;detail&quot;:&quot;40401: Site 1 not found.&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/sites/1/</java.net.URL>
+</httpSample>
+<httpSample t="1056" it="0" lt="1055" ts="1544178874663" s="false" lb="OOO_Delete_VM2" rc="404" tn="WL-A01_OOO_Delete 1-2" sc="1" ec="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 404 NOT FOUND
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Fri, 07 Dec 2018 10:34:34 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Vary: Accept,Accept-Language,Cookie
+X-Frame-Options: SAMEORIGIN
+Content-Language: en
+Allow: GET, PUT, DELETE, HEAD, OPTIONS
+Set-Cookie: csrftoken=9aE06PcThsW4WIgv6eZaV9PDtihOIuDH; expires=Fri, 06-Dec-2019 10:34:35 GMT; Max-Age=31449600; Path=/
+Set-Cookie: sessionid=&quot;.eJy1WftXXNd1dmxLshRZcpM6SdM0Tdq4xW1B5_1w-rAECNADEHB5qHWn58mMgJm580BCrZqkXaur_Tf7T_TXfucCkqzIIGbZLK3FMLrn7H32_va3v33ub99_UX9vqroyHqZBqxPr97e_fO-99zLlnoaQOHcuBalNFh5_GM2J0Dw7qkiKLkQiXVROSpqz90ZGJgiTTsT6g-rjlhuP2q3TfT9sf1DdHKTdTq_bSt3Y73W6o_rS9k9hrD0a9b-4dYtqNsPIjBIz9AtJCLl1yOvL1U2sP-yENGwdL66vLFdXR6nruqOy7Ufbv8AOLlpHfXBCOyWUTd5xE0P2KUvDsuL11eoHr7njXdiDD_W1am63F_Z74zgz7O2PR9h-pr_vRrk3OJjp9VN3OMKTM3imWTxzsm7mfjoajnrddOdkn-9XH50uq68vV5dGPXxdfxwutHnx7NpGWXmtvvH57-qbL-pPpqob4-4w4OnYOt70D6r_271dfu6E2b1n7PFds7oyXqz8Upp_SJY2bu896u-EkX6ep83I1_UW9wvUtqvRxvLeWK9udVdXj-Y3V0eHs0s7gTyiZhFfuq2tFbq-NUrry6p9--je5vJjN97a2Zzdy8_uq-0915veNmEwN00WhN_Y2bnj1rbJzs7dp090z84v2qHZraqdg3lPD9oLiytPh7n1aPgszO-1VofLoydm9FC7B-v3no6XU2vNH9zvr8zx1Txfq2fzeVnPrS6tHs2RBb9t724sPhiudReEW1t5_HDz-QNsLNc2nt5_vDh7u_5BdTn2DlynW__wRf2HU9X7SP-ny9WHXXeQ6h8tj6sbJ1CZdSO339utf_xV_ZOpF_UfTW1fBUZOQTesf_pV_cf4_mdT2x_g-_Fgv_6T7R-_HYeGCNqsxsI0yC6k-ufbl_F3f-z3O6H5eILLP22eO_5jpZte-6vg9Bdv_O_7Zc9Y_7KBL6VeE5WY0yGJlIiVjhHqlZJBqCD4-EX9Z1Pt33eSvnKy_fPtj07d7Lr99hvetN-w3z42rKzWHJVNE-FC5GBIylxlEphRLBEJw39-vuFLTQUedLrvaDWwEBjXjuRgRY6gGOGik0a7yJmkZJy2P8Rjo6N-qn_VhPggjQadcLKcsKS5k5x7hIdyamUikWURvSAgqNwsbkDx2fYVfNzt9kJod3CWv5hqI_d_idxPnXUqBGWCU4EchM06IiZEJO1dNoSz7A0lyQbHYP_z861OkMTAqFSSg4C5EZlpw7hjJkZpqZGpMfxXbzNMvmb4Fajf0WzMjkWKimApC8WQBkKoCI4mxSXTdpzav2qCmA5Td3SaO-04kp8k91qQpBGwnLISxkvCYtbtz5olfdfd68Hvv24S9jdI2HQ5wS-_4QRam1ug1pAOiqUJzsLQzST8sS4aoaTxikoSFAnaW0IjhSszb3OAfoMDF8WOsJSUMCI0RnjGrRIUbdfkkHySOsP-rYvYnwBFxgZJuPdM0yAC1zaqrEAMAJPi1PkmnWXhKzsn5GVURMuNiUsKKlE-hAg0xsBYZoQkpPRry3AW0qSVIq3sjIooGqDmk53GCyYZIkkTBEuM1AYlOGdCZx5Ylg5OiDNqojEtJ0ESqCgZ7hBLIkox2MizjIYwxaPiWsOwKoZ_8vYzc8mlriehn2Ql6ocxY40QTCjHnPPSEPQVT3QhVeSviWREEjqjo1PoScUts54RZ0SgxkA0EV40ng2Eaov0lVV7J5IH_psmexbZ-6Kc5Nff1BuIuHVIb50nzSY4KmgHsXRWpICDpkI5EKdMILGeKlmq9ddv84xc2LMLpx_RBxFzpRj6thPMBZ18JBDK2qM9FC7-228naJOUeKaJUmYzQatS3jrwnZcphkRyNlE3EPkYD_YGoZ2Go4ErovUUJ1pJ6wK3VpZZIHkLxmCgh8yT80YAJ6XvtpMrFf53DUb-Hhj5h7NaDxFskigLqAchHJHCK4QomgDW1tJAPwkImkKXX54tW9hkEXTZaxnQwrhMgmhUOicIgbZOMvS_opdun2_4wnpJBiOpTBngEiwYk1yMXumgNbFgtpel7fbdANvunqyTmgkhwXcmWYFqtjnqrAWUViYQl_okZa4X23D8TpOyWaRs7owjgComOYLkkWQKr3WKwnLiU9TCaIH2qqVQCvbnzwDKidULAyXERJjzaKdAvInWqJCsRXGZxFCRAmbvnn_YCYCC2diYyBiTETQFLS8yYV5DLgGhwb0SR50Dt_sySJ5KyrnQTEphsjYFVU4kr2LORJZ8lQjs7rtuKES80GRsERlbKof42TeqI3AKm6ETVRpSBQUkEnSR0FY5HSlDUA2DghOi5O3e22zT37d9Uchowxte19FSIVDiTmtFog0ZVK90MX3_HU1PIiC4tMKwcrtBMBhFFz3oRsUArYM2e8yVZboIvYP-eHS6zEL8gCIp4RiorIoWdYtKlYEEIqRzJyXX7R0WCfKgJPCkdjHipMGr2nUYwpwLRcfg8GjlIWsCqV40DaM8YKNrxXrq7PeapdjuYYOHZeBhpQTmzauVVz2GoMdMFhYKkYpooB8xiKnonLaIi1XoTkJGUZh39W22yZu2L95ZAwY-zIzQJ1aUmo5eSqU4Ny6pLAv1PnqnU18Uh2i3JEHMZTROAQrxmaPxYcLynApMyg0SbpRclLuecrvzettEBqM2RKLnoqZBRson9GEvVbYY1cKJvCptczrkLk6x1mRxHVncOEspoBgA7-9GXsnEbc4YY4uG5WWMDTI3ugEjdmGe6tvxbAIAYtb31BtkHvSDUcOVOxnPIbNNID4W5zbP0n7v7tyFEeosS9yHZByjIhoYIEaCwEAjAAAXL9v0YW9_fJAO2SlEMjOZSwwKGrNKFsZCXQmuAniPShtPIBI63ZgGh0VCbjUQ2QZEds4963ejcwlEl-ZEGZES-gIqE0rMozQSZkYbI5x8fC5GviudqyAynEbTBG-ie4IywZjOxlB2NsbAuX_8dpy7aGkZxhmQqpjB5AL0Qn8bTArM0gB_2bEsuPwSIqdiQomEzoeWi8HOQ1HQMmwbaoSB3FXmRBccAwSH-6cGHl8BHv98lqZSVk2SeoXakxJYp8YCpQJiKucAXSVzYNSU6at1lqY6NjvJPZdEJqBmfSLAmhOokaSgp8r4gamv3JL-y_mGL07_FmOTKaMGx2CtrVRgoKwY6JHi25dCoJtGT3uDvdNlEAAYBYVI8DNx5VSUUlIDOUOzy6z92cmi8WjQK7TvmqR5JC2UQ3z5xiH4aRszpY3dul1tLLa-m-opFyfUyQKzJNBbLTeWYNxmGQ3AWw9f49vC_JqHE4RZZWGhc6O3ULw5KczOxBsaA3RwgKCC1fS2uJDJ4nJxcpeCqBSoZLQMMOj_qMEAOcK0gy4wDQyu48Gef5LCaHo46g1eQggPKYaRh1AKCRkxs1kmIvpF-YRwHV96Dp92cpmdc4OEXSChfS5L8e-IQlkZEvGDxs9EBnkyaC5b_pVrJlPUVufbce7CQIEo8TQ4TEX46LMrL0nwKxttBAIMz56c2xTfybMLY8RikFUC2k4yLQBIH6D8MbVQj8gZGd4UAPwUH9mRZFQ2NkRRrpydB9yoy1mBebj6ugDg41RdGvT207De-6ref1EftH_UIO_kpWgTzKGrbjSvOo_fmJU3UN2T6z4tqWU8xSgF_GtkiraBZouWmXzdqz55fWHzHqV_PLSEdqjr6kp61u8MYH2AqWiURp2DdO3lh3pYXbvyv9evfP_SzcbjYc8oQmdOfl-rRuFaPfp8rR7_11p9WF3vDFs54VBYHuun_1Nd6Q96pXzqZy_qo6nq6ivvn7-T9-1P21erT7BrE4TW6W7_-t8IUcnYw_UNPM-lrP9tXH1Yzlm_eFH_-1T1w74bDkHfsXVyupYb1b9Zxn4fYGmJ_nDU7g1HhNW_Hbc_3bj-Pczhr72HHW8_b43sY7axvqrJap2fVKR-vLy0snXQvdePi2r-cXC723HP0O66bs3feb75kNidpXU-Pzga2OfD_qpQs2nxDhoDWxSz_fGztcVlTjvbjx5MTz-vZ_Vua7mTHuSn6kitd-Zp78lOSmOxNMxLK34utdaSjkI_zQuu3lnNdzbXR33_bH_QflhX06sL_YO53XmmedhiXN-p5lprBwfT92dlvTJeIKu2O7t2Wx6ub8zrebuwv1fnhcVq66h7cE8skDv7z4d3t3qrdNTfnH10u9fbHPDYXpqe7W_G5c7uuPuEr7RW56rLx-irf9c-Gvvq5msv29tu2K7_o5rC9KNRHEHYKLnHWK2gcG1QCRXpvce4G9DIfar_czzz_xgP9qQ:1gVDSt:OPtlzumUTiKcOGhc77iaIwpN2WE&quot;; expires=Fri, 07-Dec-2018 11:32:55 GMT; httponly; Max-Age=3500; Path=/
+Access-Control-Allow-Origin: *
+X-Kong-Upstream-Latency: 967
+X-Kong-Proxy-Latency: 0
+Via: kong/0.13.1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-API-HOST: openstack-taichung-community
+x-api-key: a0af1fa7-ebac-4d21-9fd2-2d8f31284767
+accept: application/json
+Content-Length: 0
+Host: apigateway.twcc.ai:8443
+User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;detail&quot;:&quot;40401: Site 1 not found.&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/sites/1/</java.net.URL>
+</httpSample>
+<httpSample t="13354" it="0" lt="0" ts="1544178935450" s="true" lb="OOO_Delete_Snapshot_image" rc="204" tn="WL-A01_OOO_Delete 1-1" sc="1" ec="0">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 NO CONTENT
+Content-Type: text/plain; charset=UTF-8
+Connection: keep-alive
+Date: Fri, 07 Dec 2018 10:35:35 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Content-Language: en
+Vary: Accept,Accept-Language,Cookie
+Allow: GET, DELETE, HEAD, OPTIONS
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: csrftoken=3VvooaBSS2Suuskvhs3C2m63Un8efTFS; expires=Fri, 06-Dec-2019 10:35:48 GMT; Max-Age=31449600; Path=/
+Set-Cookie: sessionid=&quot;.eJy1WWl3XFdWTWewY7fjhG7S3YSm6UAHFEDynYc0QzR50mBbUjklQRB3VJVVqqpXgywZTMMXFvxN_gRf2fepZDtuRbJqxVpeS6Xyu_ece84---xz33-8-7z60Uzj6niYBrvtWL3b_Pqdd95RhgbiqHBMB5qTzNYlw7VVIhLtFYtOeJ94UsRGIlKQhDvJks8ixOQDr95rfLTrxqPW7um-77fea3w8SHvtXnc3dWO_1-6Oqg-an8FYazTqf3XrFtVsjpE5JeboV5IQcuuQV1caH2P9YTuk4e7J4urqeuPaKHVdd1S2_bD5a-zgonXUBye0U0LZ5B03MWSfsjQsK15da_zkFXe8C_vwobreWNrrhU5vHOeGvc54hO3n-h03yr3BwVyvn7rDEZ6cwzP14rnJurmVdDwc9bppYbLPjxsfni6rbqw3Phj18HX1UbjU5sWz61tl5fXq5pf_WX38vPpkpnFz3B0GPB13Tzb9g8b_7c2Xn4WwuH_8jB9tHd3d2bxvrXvSnF9b2bgjmsetPp8Xrjk_P15-0JRZ3nGHz-Y3HLs3Eo9Xerud1Lv3LC23tx-umod2QawsLI37dG3lKI6X7-Xm0Z7Li6PV7mqrFwaV3HRL4r6p1voyP9i1e0d9J6tqvjd7-25cCfsLD1x3aWfW9_zTw_n1xdHdu96rvdRbfZJWtrc7bu1gpz3Y6S2ouHanf2fUFyvV6MmdxrrfeTCWC4dJDsM9vvps2F2eXdt_PNvYedghY3scR8frj-kTsbmxtrfc-qanqtuk-knjSuwduHa3-unz6g9nGu8i_Z-uN97vuoNU_Wx93Lg5gcqiG7lOb6_6-bfVL2aeV38007wGjJyCblh99m31x_j-lzPN9_D9eNCp_qT587NxaIig9WosTIPsQqp-1byCv_tj32mH-uMEl39aP3fyx4NueuWvgtNfv_a_75Y9Y_V5DV9KvSYqMadDEikRKx0j1Cslg1BB8PHz6s9mWr_vJH3pZOtXzQ9P3ey6Tus1b1qv2W-dGFZWay58oolwIXIwJGWuMgnMKJaIhOE_v9jwB3UFHrS7b2g1sBAY147kYEWO3DnhopNGu8iZpGScmu_jsdFxP1W_qUN8kEaDdpgsJyxpsA3nHuGhnFqZSGRZRC-I0TzXi2tQfNG8io973V4IrTbO8hczLeT-L5H7mfNOhaBMcSqQg7BZgw4pGFF7lw3hLHtDSbLBMdj_8mKrUyQxMCqV5Nl7bkRm2jDumIlRWmpkqg3_1VmGyXcMvwT1G5qN2bFIUREsZaEY0kAIFcHRpLhk2o5T6zd1ENNh6o5Oc6cdR_KT5F4LkjQCllNWwnhJWMy69UW9pO-6-z34_dd1wv4GCZstJ_j8e06gtbkFag3poFia4iyMpCjhj3XRCCWNV1SSoEjQ3hIaKVyZO8sB-j0OXBY7wlJSwojQGOEZR5-laKomh-ST1Bn2b13G_hQoMrY0ce-ZpkEEtPqosgIxAEyKU-frdJaFL-1MyMuoiJYbE5cUVKJ8CBFojIGxzAhJSOl3luEspE4rRVrZORVRNMB0Z_GCSYY40sSJiJHaoATnTOjMA8vSwQV-TkVMDF8aRaAhiCSHOBJRCsFGnmU0hCkeFdcaZkUx-4uzz8sll9MQT7ISlcOYsUYIJpRjznlpCDqKJ7rQKTJXRzEi_O3R8SnopOKWWc-IMyJQYyCXCAeBOhsI1RaJK6v2J2IH3ss6bwp50-Ucv_2-rkDErUN66yJRNsVRQTiIpLNQnDhoKmQDFcoEkuqpkqVOzVmekUt7dunkI_qgYK4UQ8d2grmgk48kFL2MxlBY2P4wQZumuDNNlDKbCZqU8hDzFhBJMSSSs4m6hshHeLA3CK00HA1ckaunONFKWhe4tTKjwJO34AoGYsg8OW8EcFI6biu5Uttf1Rj5LTDyt-c1HSLYNFEW0A1COCKFVwhRNAF8raWBchKQMoUo_-58wcKmi6DLXsuA5sVlEkSjzjlBCLTF2IPOV5TS319s-NJKSQYjqUwZ4BIsGJNcjF7poDWxYLUXpe06boBt9ybrpGZCSHCdSVagmm2OOmsBjZUJZKWepMz1YguO_0Odsq-RsvlzjgCqmOYIkkeSKbzWKQrLiU9RC6MFGquWQinYXzgHKBOrlwYKxlDCnEcjBeJNtEaFZC2KyySGihQwu3jxYacASnRIU2SMyQiagooXmTCvIZSA0OBeyqL2gdt7ESRPJeVcaCalMFmbgionklcxZyJLvkoE9jquGwoRL9UZW0bGbpdD_PJ7dRE4hc3RqSoNqYL2EQmKSGDwdzpShqAaBu0mRMnbnbNs09-3fVnIaMNrXtfRUiFQ4k5rRaINGVSvdDF99w1NTyMeuLTCMBeVIxiJoosedKNigMpBmz3hyjJXhN5Bfzw6XWYhe0CRlHCMUlZFi7pFpcpAAhHSuUnJdXuHRX7cKwmc1C6GmzR4WbsO45dzoWgYHB6tPGRNINKLnmGUB2x0vVhP7U6vXort7td4WAEeVktgXr9UedljCHrMdGGhkKeIBvoRg5CKzmmLuFiF7iRkFIV5186yTV63ffnOGjDqYVqEPrGi1HT0UirFuXFJZVmod_2NTn1ZHKLdkgQpl9E4BSjEZ47Gh9nKcyowI9dIuFlyUW55yr3Oq20TGYzaEImei5oGGSmf0Ie9VNliSAsTeVXa5mzIXZziQZ3Fh8jio_OUAooB8H478kombnPGAFsULC8DbJC51g0YrgvzbPwwnk0BQEz5nnqDzIN-MGS4chvjOUS2CcTH4tzmedrvzZ27NEKdZYn7kIxjVEQDA8RIEBhoBADg4kWbPux1xgfpkJ1CJDOTucSYoDGnZGEs1JXgKoD3qLRxApHQ7sY0OCwScquGSAMQeXzhWd-OziUQXZoTZURK6AuoTCgxj9JImBZtjHDymwsx8rZ0roLIcBpNE7yJ7gnKBGM6G0PZ2RgD55o_jHOXLS3DOANSFTOYXIBe6G-DSYFZGuAvO5EFV15A5FRMKJHQ-dByMdh5KApaxmxDjTCQu8pMdMEJQHC47RoeO4DHP56nqZRV06ReofakBNapsUCpgJjKOUBXyRwYNWX6-qfzNNWJ2WluuCQyATXrEwHWnECNJAU9VcYPTH3lfvTbiw1fnv4txiZTRg2OwVpbqcBAWTHQI8W3L4RAN42e9gb7p8sgADAKCpHgZ-LKqSilpAZyhmaXWeuLyaLxaNArtP_PddJ2kbR_KYf4-rVD8NM2ZkobuzXf2Lq7-3aqp1yaUCcLzJJAb7XcWIJxm2U0AG89fHVnhfkVD6cIs8rCQudGb6F4c1KYnYk3NAbo4ABBBav-rLiQ6eJyeXKXgqgUqGS0DDDo_6jBADnCtIMuMDUMbuDBnn-Swmh2OOoNXkAIDymGkYdQCgkZMbNZJiL6RfmEcJ1cdw6ftnOZnUONhAgkpAtZir8lCmVlSMQPGj8TGeTJoLls-VeumUxRW_mHce7SQIEo8TQ4TEX46LMrr0fwKxttBAIMz_YubIpv5NmlMWIxyCoBbSeZFgCkD1D-mFqoR-SMDK8LAH6Kj-xIMiobG6Iol83OA27U5azAPFx9VwDwcWp8MOh10rBqfVu1n1dPWj-rkTd5HVoHc-gaN-uXnCfvysq7p_3JdZ-W1DKeYpQC_tUyRdtAs0XLTL7qND55dWH9BuXgZGgJrVB1G1fTUb89gPUepqJRGrUP0vUXH6p-4_rV_71x9ceff1Z7POwZRejc5Pf1xihcr6ovN6rBf21Uw8aN9nA3JxwKy2M1-p_G1f6gV8qnQhYPZxrXXnr_9I28b33autb4BLvWQdg93e3ovxGikrG1zS08z6WsjseN98s5q2fPq3-dafy074ZD0HfcnZxu142qf1vHfu9haYn-cNTqDUeEVs_HrU-3bvwIc_grb2C1PvD-idtW32wva726Ntrqzmvzzfx-t785JMf3jraFaC_vD-iD3uz6_ML-UtfHxcPWYYMt7zzad_OPO0Pm1jf1WusRG0lNZ9vLg6Oni3yFL1fd7XHnydb944NqrXu8OO7MP9TLQ7c2Wl0fbtxt9r1daD72zx5stJ-ubdxZiLf51ubi-One8jMfSNVu2PtZhmX3-OGW2BUbK9v7zxbHB82Fp-sPl1Yf76jl--1jo-7vbGCsbbK1bUOXUVPzS4_6UubG1uzSur7tn-wdLctNtTS7uvlgyYtVu3H7vqTxeHXvEex0H_UaV07QV_1763DsGx-_8pq95Yat6neNGUw_GsURhI2Se4zVCgrXBpVQkd57jLsBjdyn8dz_AxNg9FU:1gVDU4:zAkhBbW9naGFJsNJr66aHIFbK_I&quot;; expires=Fri, 07-Dec-2018 11:34:08 GMT; httponly; Max-Age=3500; Path=/
+Access-Control-Allow-Origin: *
+X-Kong-Upstream-Latency: 13265
+X-Kong-Proxy-Latency: 0
+Via: kong/0.13.1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-API-HOST: openstack-taichung-community
+x-api-key: 79c3a9b8-bcc7-42ae-a31a-e7bc8fd9cba3
+accept: application/json
+Content-Length: 0
+Host: apigateway.twcc.ai:8443
+User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/images/579/</java.net.URL>
+</httpSample>
+<httpSample t="15319" it="0" lt="0" ts="1544178935720" s="true" lb="OOO_Delete_Snapshot_image" rc="204" tn="WL-A01_OOO_Delete 1-2" sc="1" ec="0">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 NO CONTENT
+Content-Type: text/plain; charset=UTF-8
+Connection: keep-alive
+Date: Fri, 07 Dec 2018 10:35:35 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Content-Language: en
+Vary: Accept,Accept-Language,Cookie
+Allow: GET, DELETE, HEAD, OPTIONS
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: csrftoken=RjXKy9YZ1umN9xmKbwLXnxGudZWhdBAx; expires=Fri, 06-Dec-2019 10:35:51 GMT; Max-Age=31449600; Path=/
+Set-Cookie: sessionid=&quot;.eJy1WWt3lNd1dmwDhmBwkzpJ0zRN2riV20qc-8XpxUKAJQQSkhgQat3puWoGaS7v3CTR0ib90NX8zfyJfu1zXo0AEyyhWUaLtTQj3nP2Pns_-9nPPu9v3n9efW-ucWk8TINmO1bvb3_53nvvZco9DSFx7lwKUpssPL4YzYnQPDuqSIouRCJdVE5KmrP3RkYmCJNOxOqDxsdNNx61mif7ftj6oHF9kHbbvW4zdWO_1-6OqgvbP4Wx1mjU_-LGDarZAiMLSizQLyQh5MaEVxcb17F-0g5p2DxeXF1aa1wepa7rjsq2H23_Aju4aB31wQntlFA2ecdNDNmnLA3LileXGz94xR3vwh58qK40bu32wn5vHBeGvf3xCNsv9PfdKPcGnYVeP3WHIzy5gGfqxQvTdQur6Wg46nXTzek-3298dLKsurrWuDDq4c_Vx-FcmxfPrjwsK69U1z7_bXX9efXJXOPauDsMeDo2jzf9o8b_7S6Wn5thae_o2erN9urTBw-aO7srOweO3h3dW9webx7dXSL3bPNp1zxOy_MH3H21Tkb7ni5Wh_l-Puo_264er231J8uRfqVFq7PRXBFmku5u5J3lrdAarFXx9oTv3Kf9B53bS0-ekjW7tcwnbbM-v9jopHUR1ob923S4tXTbz28stdc3BiM80W0f5jVPVvt3Vp94v9uki3z9YFWJrdbuatWdPEuHu-O9alNzvvno6c7KzkpvsttPhysrm-u3WpXc6Hnd69gHT47uB1M1tld4ays1dycHN29XbtKrftC4GHsd1-5WP3xe_fFc432k_9O1xodd10nVj9bGjWtTqCy5kdvv7VY__rr6ydzz6k_mti8DIyegG1Y__br6U_z9Z3PbH-Dv48F-9WfbP34zDg0RtF6NhWmQXUjVz7cv4nt_7Pfbof44xeWf188df1nvple-FZz-4rX_fb_sGatf1vCl1GuiEnM6JJESsdIxQr1SMggVBB8_r_5irvWHTtKXTrZ-vv3RiZtdt996zZvWa_Zbx4aV1ZqjsmkiXIgcDEmZq0wCM4olImH4L882fKGuwE67-5ZWAwuBce1IDlbkCIoRLjpptIucSUrGaftDPDY66qfqV3WIO2k0aIfpcsKS5k5y7hEeyqmViUSWRfSCgKByvbgGxWfbl_Bxt9sLodXGWf5qroXc_zVyP3faqRCUGU4FchA264iYEJG0d9kQzrI3lCQbHIP9z8-2OkMSA6NSSQ4C5kZkpg3jjpkYpaVGptrw37zJMPmG4ZegfkuzMTsWKSqCpSwUQxoIoSI4mhSXTNtxav2qDmKapO7oJHfacSQ_Se61IEkjYDllJYyXhMWsW5_VS_quu9eD339bJ-zvkLD5coJffssJtDY3QK0hdYqlGc7C0M0k_LEuGqGk8YpKEhQJ2ltCI4UrC29ygH6LA-fFjrCUlDAiNEZ4xq0SFG3X5JB8kjrD_o3z2J8BRcYGSbj3TNMgAtc2qqxADACT4tT5Op1l4Us7U_IyKqLlxsQlBZUoH0IEGmNgLDNCElL6jWU4C6nTSpFWdkpFFA1Q8dlO4wWTDJGkCYIlRmqDEpwzoTMPLEsHJ8QpNVGblrMgCVSUDHeIJRGlGGzkWUZDmOJRca1hWBXDP3nzmbnkUlez0E-yEvXDmLFGCCaUY855aQj6iie6kCryV0cyIgnt0dEJ9KTillnPiDMiUGMgmggvGs8GQrVF-sqqvankgf-mzp5F9r4oJ_n1t_UGIm5M6I2zpNkMRwXtIJbOihRw0FQoB-KUCSTWUyVLtf76TZ6Rc3t27vQj-iBirhRD33aCuaCTjwRCWXu0h8LFf__dBG2WEs80UcpsJmhVylsHvvMyxZBIzibqGiIf48HeILTScDRwRbSe4EQraV3g1soyCyRvwRgM9JB5ct4I4KT03VZypcL_ocbIPwIj_3Ra6yGCzRJlAfUghCNSeIUQRRPA2loa6CcBQVPo8svTZQubLYIuey0DWhiXSRCNSucEIdDWSYb-V_TS4tmGz62XZDCSypQBLsGCMcnF6JUOWhMLZntR2m7fDbDt7nSd1EwICb4zyQpUs81RZy2gtDKBuNTTlLlebMHxm3XKlpCyW6ccAVQxyxEkjyRTeK1TFJYTn6IWRgu0Vy2FUrB_-xSgTK2eGyghJsKcRzsF4k20RoVkLYrLJIaKFDB75-zDzgAUzMbGRMaYjKApaHmRCfMacgkIDe6lOGp33O6LIHkqKedCMymFydoUVDmRvIo5E1nyVSKwu--6oRDxV3XGlpGxlXKIn32rOgKnsAU6U6UhVVBAIkEXCW2V05EyBNUwKDghSt7uvsk2_UPb54WMNrzmdR0tFQIl7rRWJNqQQfVKF9Orb2l6FgHBpRWGldsNgsEouuhBNyoGaB202WOuLNNF6HX649HJMgvxA4qkhGOgsipa1C0qVQYSiJDOTUuu25sUCXKvJHBauxhx0uBl7ToMYc6FomNweLTykDWBVC-ahlEesNGVYj2193v1Umx3v8bDGvCwXgLz-tXKyx5D0GNmCwuFSEU00I8YxFR0TlvExSp0JyGjKMz74E22yeu2z99ZAwY-zIzQJ1aUmo5eSqU4Ny6pLAv1brzVqc-LQ7RbkiDmMhqnAIX4zNH4MGF5TgUm5RoJ10ouyl1Pud15tW0ig1EbItFzUdMgI-UT-rCXKluMamEqr0rbnA-5i1Ns1lncQhYfnqYUUAyA97uRVzJxmzPG2KJheRljg8y1bsCIXZin8d14NgMAMet76g0yD_rBqOHKnYznkNkmEB-Lc49O035v79y5EeosS9yHZByjIhoYIEaCwEAjAAAXL9r0pLc_7qQJO4FIZiZziUFBY1bJwlioK8FVAO9RaeMUIqHdjWkwKRLycQ2RbUDkyZlnfTc6l0B0aU6UESmhL6AyocQ8SiNhZrQxwsmdMzHyrnSugshwGk0TvInuCcoEYzobQ9nZGAPn_vm7ce68pWUYZ0CqYgaTC9AL_W0wKTBLA_xlx7Lg4guInIgJJRI6H1ouBjsPRUHLsG2oEQZyV5mpLjgGCA73LzU8vgY8_vU0TaWsmiX1CrUnJbBOjQVKBcRUzgG6SubAqCnTV_M0TXVsdpZ7LolMQM36RIA1J1AjSUFPlfEDU1-5Jf23sw2fn_4txiZTRg2OwVpbqcBAWTHQI8VfXwiBbhod9AZ7J8sgADAKCpHgZ-LKqSilpAZyhmaXWeuz6aLxaNArtO_qpHkkLZRDfPnaIfhJGzOljd1YbDxcbr6b6ikXJ9TJArMk0FstN5Zg3GYZDcBbD1_jm8L8ioczhFllYaFzo7dQvDkpzM7EGxoDdHCAoILV9Ka4kNnicn5yl4KoFKhktAww6P-owQA5wrSDLjA1DK7iwZ5_msJofjjqDV5ACA8phpGHUAoJGTGzWSYi-kX5hHAdX3oOD9q5zM65RsIukNA6k6X4O6JQVoZE_KDxM5FBngyay5Z_5ZrJFLXV_m6cOzdQIEo8DQ5TET767MpLEvzKRhuBAMOzp2c2xbfy7NwYsRhklYC2k0wLANIHKH9MLdQjckaG1wUAP8FHdiQZlY0NUZQrZ-cBN-pyVmAerr4pAPg4NS4MevtpWO19Xe0_rzqtH9XIm74UrYM5dI1r9avO4zdm5Q1Ud3rdpyW1jKcYpYB_tUzRNtBs0TKTr3qNT15dWL9H6R8PLaEVqqpxKR322wNYH2AqGqVRu5OuvPhQDRtXLv3-6qXvX7heezzsGUXowvT3lcYoXKlGn29W4__ZrCaNq-1hMyccCstjdfC7xqX-oFfKpzp8Xh3NNS6_9P7ZW3nf-rR1ufEJdq2D0DzZ7d__FyEqGbu_9RDPcymr_xg3PiznrJ4_r_5zrvHDvhsOQd-xOT1d042q_1rDfh9gaYn-cNTqDUeEVb8Ztz59ePV7mMNfeQ97J1aP19j8jtg8XOk_Xt67P3pg75nBs9111Xxy__HjcOfhri36bo9sL4rbB-HeM0EHZP_gWWtl3F-e35Cutznvh0uq0VlV6wdbk-jm9bODpcl4p01Xu3zn3kC1yP7dXSKGt7bkame0urvTWOysHd1b3d-Wj56OloYHj2y11tgbpN7G2sptXS09HfTzDl88emK6vccHy6qzozE-jZ8Mnyk9XHcDc-Q79w7z_iTtN-XStlzRdv2ro8N-I20MNqrFp8t73c357YPRzuPq4P72eGcybtzq3Ly_tiLvPXp4sz9PFg_VcOnOijONi8foq37bOhr7xvVXXra33LBV_XdjDtOPRnEEYaPkHmO1gsK1QSVUpPce425AI4d7C_8PW5z6Xg:1gVDU7:5bH3-QCkykIvDzIHOmxUy6Wi3tc&quot;; expires=Fri, 07-Dec-2018 11:34:11 GMT; httponly; Max-Age=3500; Path=/
+Access-Control-Allow-Origin: *
+X-Kong-Upstream-Latency: 15233
+X-Kong-Proxy-Latency: 0
+Via: kong/0.13.1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-API-HOST: openstack-taichung-community
+x-api-key: a0af1fa7-ebac-4d21-9fd2-2d8f31284767
+accept: application/json
+Content-Length: 0
+Host: apigateway.twcc.ai:8443
+User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/images/577/</java.net.URL>
+</httpSample>
+<httpSample t="1108" it="0" lt="1108" ts="1544179008806" s="false" lb="OOO_Delete_Snapshot_volume" rc="404" tn="WL-A01_OOO_Delete 1-1" sc="1" ec="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 404 NOT FOUND
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Fri, 07 Dec 2018 10:36:48 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Vary: Accept,Accept-Language,Cookie
+X-Frame-Options: SAMEORIGIN
+Content-Language: en
+Allow: GET, DELETE, HEAD, OPTIONS
+Set-Cookie: csrftoken=7xU0NXUyEUWYuEYEesNMwAdp77RNXW8z; expires=Fri, 06-Dec-2019 10:36:49 GMT; Max-Age=31449600; Path=/
+Set-Cookie: sessionid=&quot;.eJy1WWl3XMdxlbWQIk1Rih3ZjuLYVmLFkBOCvS9yFoEAIYAgAWIZEGCiIL3ODDCYmTcLSDBhYvtDTvw3_SfyNbcfBiRFUwAxR8ThORgMX3dVV926davfb99-Wn1vpnF5PEyDvXas3t758q233lKGBuKocEwHmpPM1iXDtVUiEu0Vi054n3hSxEYiUpCEO8mSzyLE5AOv3ml8sOfGo9be6b7vtt5pfDhIzXavu5e6sd9rd0fVezufwFhrNOp_cfMm1WyWkVklZukXkhBy84hXlxofYv1RO6Th3sni6vJq48oodV13VLZ9f-cX2MFF66gPTminhLLJO25iyD5laVhWvLrS-MEL7ngXDuBDdbWx0OyFTm8cZ4e9zniE7Wf7HTfKvcHhbK-fusMRnpzFM_Xi2cm62ZV0PBz1uunWZJ_vN94_XVZdW228N-rh6-qDcKHNi2dXt8rKq9X1z39Xffi0-mimcX3cHQY8HfdONv2zxv8158rPrTB_8MTc78WtJ7ddI5Lqwf7j2xt3Vlfv3a526OMnGwv5ju-rzf3WuiL8wVr37va941uduW2_OD9wm521bkevJM6bun08WHiYHtLjLXm3ubu5sTY8OFjM9xaqo_t3Hq-ZHSdoc_Xxum8-ujuYZ3Pd3RWxrg_zrbm9QOlj5Ybx8E5_xeyabuORay835JIckQNhFD_2S3zQaY_X-cLGavNO_4nb2zz8anNhzHdN-3CDsWM-pitLa37uYJnwxWbLzA_52liN1o-c3DvqLT-YW93uPNzqLG5vhuoHjUuxd-ja3eqHT6s_n2m8jfR_vNp4t-sOU_Wj1XHj-gQq827kOr1m9eOvq5_MPK3-YmbnCjByCrph9cnX1V_i-5_O7LyD78eDTvVXOz9-NQ4NEbRejYVpkF1I1c92LuHv_th32qH-OMHlz-vnTv5Y66YX_io4_cVL__t22TNWn9bwpdRrohJzOiSRErHSMUK9UjIIFQQfP63-eqb1p07S5062frbz_qmbXddpveRN6yX7rRPDymrNhU80ES5EDoakzFUmgRnFEpEw_DfnG36vrsDDdvc1rQYWAuPakRysyJE7J1x00mgXOZOUjNPOu3hsdNxP1S_rEB-m0aAdJssJSxpsw7lHeCinViYSWRbRC2I0z_XiGhSf7VzGx2a3F0KrjbP87UwLuf8Vcj9z1qkQlClOBXIQNmvQIQUjau-yIZxlbyhJNjgG-5-fb3WKJAZGpZI8e8-NyEwbxh0zMUpLjUy14V-_yjD5huHnoH5NszE7FikqgqUsFEMaCKEiOJoUl0zbcWr9sg5iOkrd0WnutONIfpLca0GSRsByykoYLwmLWbc-q5f0XfegB7__rk7Y3yNhN8oJPv2WE2htboJaQzoslqY4CyMpSvhjXTRCSeMVlSQoErS3hEYKV2Zf5QD9Fgcuih1hKSlhRGiM8Iyjz1I0VZND8knqDPs3L2J_ChQZW5q490zTIAJafVRZgRgAJsWp83U6y8LndibkZVREy42JSwoqUT6ECDTGwFhmhCSk9BvLcBZSp5UireyMiigaYLqzeMEkQxxp4kTESG1QgnMmdOaBZengAj-jIorhSkyDIxARZJJDJIkopWAjzzIawhSPimsNw7IY_smrT8wll7pSUwAoWYnqYcxYIwQTyjHnvDQEXcUTXSgV2asjGZGC9uj4FHhSccusZ8QZEagxkEyEg0SdDYRqi-SVVQcTwQP_dZ07g9zZcpLffFtnIOLmEb15njCb4qggHcTSWahOHDQVwoESZQKJ9VTJUqtfvMozcmHPLpx-RB80zJVi6NpOMBd08pGEopnRHAoT_-a7Cdo0BZ5popTZTNColIegt4BIiiGRnE3UNUQ-wIO9QWil4WjgimQ9xYlW0rrArZUZRZ68BV8wkEPmyXkjgJPSdVvJlfr-hxoj_wiM_NNZjYcINk2UBbSDEI5I4RVCFE0AZ2tpoJ4E5Ewhy38-W7Sw6SLostcyoIFxmQTRqHROEAJtMfqg-xW19OX5hi-slmQwksqUAS7BgjHJxeiVDloTC2Z7Vtqu4wbYtjlZJzUTQoLvTLIC1Wxz1FkL6KxMIC31JGWuF1twfK5O2S2kbP6MI4AqpjmC5JFkCq91isJy4lPUwmiB5qqlUAr2F84AysTqhYGCUZQw59FMgXgTrVEhWYviMomhIgXM3j7_sFMAJTqkKTLGZARNQcmLTJjXEEtAaHDPpVH70DWfBclTSTkXmkkpTNamoMqJ5FXMmciSrxKBZsd1QyHixTpjXyFjS-UQP_1WbQROYbN0qkpDqqB_RIIqEhj-nY6UIaiGQb8JUfK2_Crb9E9tXxQy2vCa13W0VAiUuNNakWhDBtUrXUzfeU3T0wgILq0wzEXlCMai6KIH3agYoHTQZk-4sswWoXfYH49Ol1lIH1AkJRzjlFXRom5RqTKQQIR0blJy3d5RkSArJYGT2sWAkwbPa9dhBHMuFB2Dw6OVh6wJhHrRNIzygI2uFuup3enVS7Hd3RoP94CH1RKYly9WnvcYgh4zXVgoJCqigX7EIKaic9oiLlahOwkZRWHetVfZJi_bvnhnDRj3MDFCn1hRajp6KZXi3LiksizUe_-1Tn1RHKLdkgQxl9E4BSjEZ47Gh_nKcyowJ9dIuF5yUW56yt3Oi20TGYzaEImei5oGGSmf0Ie9VNliUAsTeVXa5o2QuzjFep3FDWRx8yylgGIAvN-MvJKJ25wxxBYNy8sQG2SudQMG7MI8W9-NZ1MAEJO-p94g86AfDBqu3Mh4DpltAvGxONc4S_u9vnMXRqizLHEfknGMimhggBgJAgONAABcPGvTR73O-DAdsVOIZGYylxgUNGaVLIyFuhJcBfAelTZOIBLa3ZgGR0VCbtcQeQCI7Jx71jejcwlEl-ZEGZES-gIqE0rMozQSJkYbI5zcPRcjb0rnKogMp9E0wZvonqBMMKazMZSdjTFw7uF349xFS8swzoBUxQwmF6AX-ttgUmCWBvjLTmTBpWcQORUTSiR0PrRcDHYeioKWUdtQIwzkrjITXXACEBzuX2p4_Cvg8fVZmkpZNU3qFWpPSmCdGguUCoipnAN0lcyBUVOmr387S1OdmJ3mlksiE1CzPhFgzQnUSFLQU2X8wNRX7kj3zjd8cfq3GJtMGTU4BmttpQIDZcVAjxTfPhMC3TR61BscnC6DAMAoKESCn4krp6KUkhrIGZpdZq3PJovGo0Gv0P6_10lzSJovh_jypUPw0zZmShu7OdfYWtp7M9VTLk6okwVmSaC3Wm4swbjNMhqAtx6-hleF-QUPpwizysJC50ZvoXhzUpidiTc0BujgAEEFq_FVcSHTxeXi5C4FUSlQyWgZYND_UYMBcoRpB11gahhcw4M9v5_C6MZw1Bs8gxAeUgwjD6EUEjJiZrNMRPSL8gnhOrnyHD5q5zI7pxoJGUhonstS_A1RKCtDIn7Q-JnIIE8GzWXLv3LNZIraan03zl0YKBAlngaHqQgffXblFQl-ZaONQIDhWfvcpvhanl0YIxaDrBLQdpJpAUD6AOWPqYV6RM7I8LIA4Kf4yI4ko7KxIYpy4ew84EZdzgrMw9U3BQAfp8Z7g14nDav9r6uDp1Wn9aMaeZNXonUwh65xvX7RefK-rLx_Opxc92lJLeMpRingXy1TtA00W7TM5Ktu46MXF9ZvUXonQ0toharfuJwe99sDWK8wFY3SqH2Yrj77UA0aVy__8drl73_6Se3xsGcUobOT31cbo3C1Gn6-UY3-Z6MaN661h3s54VBYHqujPzQu9we9Uj7Vo6fV45nGlefeH7-W962PW1caH2HXOgh7p7s9-V-EqGTs3uYWnudSVv8xbrxbzln959Pq6Uzjh303HIK-497kdHtuVP3XKvZ7B0tL9IejVm84IrT673Hr461r38Mc_vwtrL3fv-3n1u_35S3ph-vt_vLcpl1qPryzujqyC2uiu7C19OThDl8_WJlrzX-13jf7DxvlXfF4vL1wY2_ruLW-ROiDnfsp3BsdP1g-3Njuk429HhvwpbX9tfnt-0_sEZnnu_3jW22y9GBbzj86tLfNV3RhcUNtHTwyzXa1ebu7NtfpVg8fdts7S-2V3fbdUVomrbi81Mv9DXpP7y7cXlkb7x4-2DH3bi2lO_v7bn3b9h64w_bK_tHRziO6eOM-Uev7S_Oxudyp5vbCsp9f7LTanU3L7-8uhtET2rjRX6e764_u9NR6c3HL3V04TnONSyfoq37bejz2jQ9feNXecsNW9bvGDKYfjeIIwkbJPcZqBYVrg0qoSO89xt2ARu5T9fvx7P8DwVT2-w:1gVDV3:8UH5M0vtKI3ml0VBBs_jVSWulrc&quot;; expires=Fri, 07-Dec-2018 11:35:09 GMT; httponly; Max-Age=3500; Path=/
+Access-Control-Allow-Origin: *
+X-Kong-Upstream-Latency: 997
+X-Kong-Proxy-Latency: 0
+Via: kong/0.13.1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-API-HOST: openstack-taichung-community
+x-api-key: 79c3a9b8-bcc7-42ae-a31a-e7bc8fd9cba3
+accept: application/json
+Content-Length: 0
+Host: apigateway.twcc.ai:8443
+User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;detail&quot;:&quot;40401: Snapshot 1 not found.&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/snapshots/1/</java.net.URL>
+</httpSample>
+<httpSample t="1063" it="0" lt="1063" ts="1544179011043" s="false" lb="OOO_Delete_Snapshot_volume" rc="404" tn="WL-A01_OOO_Delete 1-2" sc="1" ec="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 404 NOT FOUND
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Fri, 07 Dec 2018 10:36:51 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Vary: Accept,Accept-Language,Cookie
+X-Frame-Options: SAMEORIGIN
+Content-Language: en
+Allow: GET, DELETE, HEAD, OPTIONS
+Set-Cookie: csrftoken=JL1FLGlGJlpDWPc7X0xPuqjbFLBNfi85; expires=Fri, 06-Dec-2019 10:36:52 GMT; Max-Age=31449600; Path=/
+Set-Cookie: sessionid=&quot;.eJy1Wft3VNd1dmwDhmBwkzpJ0zRN2riV2yLO--H0YYQEQoAQQoNlte70PGdGGs3MnZeQWpqkXaur_Tf7T_TXfudqBJhgCc2ytVhLM-Kes_fZ-9vf_va5v333efW9hcalySgNm51Yvbv9-TvvvJMp9zSExLlzKUhtsvD4YjQnQvPsqCIpuhCJdFE5KWnO3hsZmSBMOhGr9xofNt1k3G6e7Pt--73G9WFqdfq9ZurFQb_TG1cXtn8KY-3xePDZzZtUs0VGFpVYpJ9JQsjNKa8uNq5j_bQT0qh5vLi6tN64PE491xuXbT_Y_gV2cNE66oMT2imhbPKOmxiyT1kalhWvLjd-8Io73oU9-FBdaSy3-qHbn8TFUb87GWP7xUHXjXN_uL_YH6TeaIwnF_FMvXhxtm7xfjocjfu9tDTb5_uND06WVVfXGxfGffy5-jCca_Pi2ZWtsvJKde3T31XXn1cfLTSuTXqjgKdj83jTP2j8X-tW-VkKt_eObgwGfmeytswf3l73w8P9Zw-bMfVXBHm6dxBMg28ltqnuq271xMqmXN_Y3e3vrE_Jtte8s2I3BtPth-xO-6h5uDe02_3uAQ1j6cN4vPGFaD4MrXbrsDek0-XB2tLTJyvVQ79bDXv3d-42NpZptTHha7v7t54tVxu3Dg8nk0a3L7oPcnupe-eA7rWG9_Sgy-Lq442Horm2fnRgMgn313sbjw5oY3-teafT6MZwmy61NnfcvS_EwcpO--ly6qgdtn7LdFefHU3Nxk68b4jaT3y0ZqofNC7G_r7r9KofPq_-cKHxLtL_8Xrj_Z7bT9WP1ieNazOo3HZj1-23qh9_Vf1k4Xn1Rwvbl4GRE9CNqp9-Vf0x_v6zhe338PfJsFv9yfaP34xDQwStV2NhGmYXUvXz7Yv4Ppj4bifUH2e4_NP6ueMvj3rplW8Fp7947X_fLXvG6pc1fCn1mqjEnA5JpESsdIxQr5QMQgXBJ8-rP1to_76T9KWT7Z9vf3DiZs912695037NfvvYsLJac1Q2TYQLkYMhKXOFRDGjWCIShv_8bMMX6grc7_Te0mpgITCuHcnBihxBMcJFJ412kTNJySRtv4_HxoeDVP2qDvF-Gg87YbacsKS5k5x7hIdyamUikWURvSAgqFwvrkHxyfYlfGz1-iG0OzjLXyy0kfu_RO4XTjsVgjLHqUAOwmYdERMikvYuG8JZ9oaSZINjsP_p2VbnSGJgVCrJQcDciMy0YdwxE6O01MhUG_6rNxkmXzP8EtRvaTZmxyJFRbCUhWJIAyFUBEeT4pJpO0ntX9VBTNPUG5_kTjuO5CfJvRYkaQQsp6yE8ZKwmHX7k3rJwPX2-vD7r-uE_Q0SdqOc4JffcAKtzU1Qa0j7xdIcZ2HoZhL-WBeNUNJ4RSUJigTtLaGRwpXFNzlAv8GB82JHWEpKGBEaIzzjVgmKtmtySD5JnWH_5nnsz4EiY4Mk3HumaRCBaxtVViAGgElx6nydzrLwpZ0ZeRkV0XJj4pKCSpQPIQKNMTCWGSEJKf3aMpyF1GmlSCs7pSKKBqj4fKfxgkmGSNIEwRIjtUEJzpnQmQeWpYMT4pSaqE3LeZAEKkqGO8SSiFIMNvIsoyFM8ai41jCsiuGfvPnMXHKpq3noJ1mJ-mHMWCMEE8ox57w0BH3FE11IFfmrIxmRhM748AR6UnHLrGfEGRGoMRBNhBeNZwOh2iJ9ZdXeTPLAf1NnzyJ7n5WT_PqbegMRN6f05lnSbI6jgnYQS2dFCjhoKpQDccoEEuupkqVaf_0mz8i5PTt3-hF9EDFXiqFvO8Fc0MlHAqGsPdpD4eK__XaCNk-JZ5ooZTYTtCrlrQPfeZliSCRnE3UNkQ_xYH8Y2mk0HroiWk9wopW0LnBrZZkFkrdgDAZ6yDw5bwRwUvpuO7lS4X9XY-TvgZF_OK31EMHmibKAehDCESm8QoiiCWBtLQ30k4CgKXT5-emyhc0XQZe9lgEtjMskiEalc4IQaOskQ_8reunW2YbPrZdkMJLKlAEuwYIxycXolQ5aEwtme1HaruuG2LY1Wyc1E0KC70yyAtVsc9RZCyitTCAu9Sxlrh_bcHypTtltpGz5lCOAKuY5guSRZAqvdYrCcuJT1MJogfaqpVAK9ldOAcrM6rmBEmIizHm0UyDeRGtUSNaiuExiqEgBs3fOPuwcQMFsbExkjMkImoKWF5kwryGXgNDgXoqjzr5rvQiSp5JyLjSTUpisTUGVE8mrmDORJV8lAq2u64VCxHfrjK0iY_fKIX72jeoInMIW6VyVhlRBAYkEXSS0VU5HyhBUw6DghCh5W3uTbfr7ts8LGW14zes6WioEStxprUi0IYPqlS6m77-l6XkEBJdWGFZuNwgGo-iiB92oGKB10GaPubJMF6G_P5iMT5ZZiB9QJCUcA5VV0aJuUakykECEdG5Wcr3-tEiQByWBs9rFiJOGL2vXYQhzLhQdg8OjlYesCaR60TSM8oCNrhTrqdPt10ux3cMaD-vAw6MSmNevVl72GIIeM19YKEQqooF-xCCmonPaIi5WoTsJGUVh3o032Sav2z5_Zw0Y-DAzQp9YUWo6eimV4ty4pLIs1Pv4rU59Xhyi3ZIEMZfROAUoxGeOxocJy3MqMCnXSLhWclHuesrtzqttExmM2hCJnouaBhkpn9CHvVTZYlQLM3lV2uaNkHs4xWadxSfI4tZpSgHFAHh_N_JKJm5zxhhbNCwvY2yQudYNGLEL8zS-Hc_mACBmfU-9QeZBPxg1XLmT8Rwy2wTiY3Hu6Wna7-2dOzdCnWWJ-5CMY1REAwPESBAYaAQA4OJFm572u5P9NGUnEMnMZC4xKGjMKlkYC3UluArgPSptnEEkdHoxDadFQn5RQ2QbEPnyzLN-NzqXQHRpTpQRKaEvoDKhxDxKI2FmtDHCyZ0zMfJd6VwFkeE0miZ4E90TlAnGdDaGsrMxBs7947fj3HlLyzDOgFTFDCYXoBf622BSYJYG-MuOZcHFFxA5ERNKJHQ-tFwMdh6KgpZh21AjDOSuMjNdcAwQHO6fanh8BXj882maSlk1T-oVak9KYJ0aC5QKiKmcA3SVzIFRU6av5mma6tjsPPdcEpmAmvWJAGtOoEaSgp4q4wemvnJL-i9nGz4__VuMTaaMGhyDtbZSgYGyYqBHir--EAK9ND7oD_dOlkEAYBQUIsHPxJVTUUpJDeQMzS6z9iezRZPxsF9o39VJ80haKIf4_LVD8JM2Zkobu3mrsbXa_G6qp1ycUCcLzJJAb7XcWIJxm2U0AG89fI1vCvMrHs4RZpWFhc6N3kLx5qQwOxNvaAzQwQGCClbTm-JC5ovL-cldCqJSoJLRMsCg_6MGA-QI0w66wNQwuIoH-343hfGN0bg_fAEhPKQYRh5CKSRkxMxmmYjoF-UTwnV86Tk66OQyO-caCS0goX0mS_HviEJZGRLxg8bPRAZ5MmguW_6VayZT1Fbn23Hu3ECBKPE0OExF-OizKy9J8CsbbQQCDM92z2yKb-XZuTFiMcgqAW0nmRYApA9Q_phaqEfkjAyvCwB-go_sSDIqGxuiKFfOzgNu1OWswDxcfV0A8ElqXBj2u2lU7X1VdZ9X--0f1cibvRStgzlyjWv1q87jN2blDVRvdt2nJbWMpxilgH-1TNE20GzRMpOv-o2PXl1Yv0cZHA8toR2qqnEpPRt0hrA-xFQ0TuPOfrry4kM1aly59L9XL33_wvXa41HfKEIXZ7-vNMbhSjX-dLOa_NdmNW1c7YyaOeFQWB6rg_9pXBoM-6V8qmfPq8OFxuWX3h-9lfftj9uXGx9h1zoIzZPd_vW_EaKSsYdPtvA8l7L6t0nj_XLO6vnz6t8XGj8cuNEI9B2bs9M13bj6zTr2ew9LS_RH43Z_NCas-u2k_fHW1e9hDn_5HrbZWTVR9FcO7rLVrcdHw3vPBnlKx8sPyOaRVk-2jr6809xcljv31GR1i602D6puo7W9eWuq_dPbm1-2Vh65O2ZNTQ-Nszvde4dHQzZhT_pjs3u_G0db6mB39UF7b8NOBltk8-7-jeGSvHH4bPRoentlY_keX282Wvemy610Y8-NH99Yt-ut4VgvHew9i8PHbnc5Pluh4wcbw6UgRP_IPrxze4m2qs2do84js3a4vj8drwyerK5s7LWa_d2Vp3f8YWfly4kzd5cmT32aTteWlyZf3J6sbmxMlkabne46P_JLprPZuqHoHbt3sDZpXDxGX_W79uHEN66_8rK97Ubt6j8aC5h-NIojCBsl9xirFRSuDSqhIr33GHcDGrlP1X9OFv8fSMz7aw:1gVDV6:hyIdcQQdsppq-zFvS3pI4pyTNwM&quot;; expires=Fri, 07-Dec-2018 11:35:12 GMT; httponly; Max-Age=3500; Path=/
+Access-Control-Allow-Origin: *
+X-Kong-Upstream-Latency: 972
+X-Kong-Proxy-Latency: 0
+Via: kong/0.13.1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-API-HOST: openstack-taichung-community
+x-api-key: a0af1fa7-ebac-4d21-9fd2-2d8f31284767
+accept: application/json
+Content-Length: 0
+Host: apigateway.twcc.ai:8443
+User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;detail&quot;:&quot;40401: Snapshot 1 not found.&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/snapshots/1/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1544179069917" s="false" lb="OOO_Delete_Volume" rc="Non HTTP response code: java.net.URISyntaxException" tn="WL-A01_OOO_Delete 1-1" sc="1" ec="1">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">java.net.URISyntaxException: Illegal character in path at index 77: https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/volumes/${api-volumeId-WLA01}/
+	at java.base/java.net.URI$Parser.fail(URI.java:2915)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3086)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3168)
+	at java.base/java.net.URI$Parser.parse(URI.java:3116)
+	at java.base/java.net.URI.&lt;init&gt;(URI.java:600)
+	at java.base/java.net.URL.toURI(URL.java:1018)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:399)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:490)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:250)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/volumes/${api-volumeId-WLA01}/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1544179072109" s="false" lb="OOO_Delete_Volume" rc="Non HTTP response code: java.net.URISyntaxException" tn="WL-A01_OOO_Delete 1-2" sc="1" ec="1">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">java.net.URISyntaxException: Illegal character in path at index 77: https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/volumes/${api-volumeId-WLA01}/
+	at java.base/java.net.URI$Parser.fail(URI.java:2915)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3086)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3168)
+	at java.base/java.net.URI$Parser.parse(URI.java:3116)
+	at java.base/java.net.URI.&lt;init&gt;(URI.java:600)
+	at java.base/java.net.URL.toURI(URL.java:1018)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:399)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:490)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:250)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/volumes/${api-volumeId-WLA01}/</java.net.URL>
+</httpSample>
+<httpSample t="4856" it="0" lt="0" ts="1544179129919" s="true" lb="OOO_Delete_Network" rc="204" tn="WL-A01_OOO_Delete 1-1" sc="1" ec="0">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 NO CONTENT
+Content-Type: application/json
+Connection: keep-alive
+Date: Fri, 07 Dec 2018 10:38:50 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Content-Language: en
+Vary: Accept,Accept-Language,Cookie
+Allow: GET, DELETE, HEAD, OPTIONS
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: csrftoken=KxUUPxmeBTvxhycCJMAOO5yyOxJ1bufS; expires=Fri, 06-Dec-2019 10:38:54 GMT; Max-Age=31449600; Path=/
+Set-Cookie: sessionid=&quot;.eJy1WWt3VMl1Hc8DBswwEztjOxPH8SSeWOMYUe9bNc5jJAQIhCRAuiDkTDr1VDdS9-3bfVsSJCTOl6zkb-ZP5Gt2XbWAwYyEeg1arKVWc6vOqXP22Wefun9491n9g7ny_GQcR51eqN_d-vqdd95RmnpiqbCs8DRFmYyNmhdGiUAKp1iwwrnIoyImEBG9JNxKFl0SPkTnef1e-VHHTppu53jf97vvlR-P4k6vGnTiIAyr3qCpP9j6DMa6TTP86upVWrB5RuaVmKdfSULI1X1enys_xvr9no_jztHi-vxaeaGJAzto8rYfbv0SO9hgLHXeisIqoUx0luvgk4tJapYUry-UP3rJHWf9LnyoL5ZLO5XfqyZhflztTRpsPz_cs02qRv35ahgH4wZPzuOZdvH8dN38SnwybqpBXJzu88Pyw-Nl9aW18oOmwtf1R_5Mm2fPLm7mlRfry1_-Z_3xs_qTufLyZDD2eDp0jjb9k_L_dhbyz6K_tkvpwkZREba0t7ofDqthY0vv1bhhD4Zy8aDaXrtyy5V3dpe2O9Qe3KmeDps43u6ucyUeXxMbvr8rO4-acVzcXxpvHF5jK9Wyifuhe_NuWFm5VT0du3pjQfdSvHc3LIvrxUN5EB9cX9mIa2JvU9-8u7Nd3FbXHt_uPahGN4javbO8zB6LbULKuPzgzoN4V9-9_XSV1rsrC0O1uVrs76xwKzb5skz9Yuv6YHus7rnVg93ReLhwfXOysPGoL9Zv7TQrNzd7_dHBnf4ymXRqIe9da1Qq6x-V50LVt71B_eNn9Z_Ole8i_Z-ule8PbD_WP1mblJenULlmG7tX7dQ__ab-2dyz-s_mti4AI8egG9effVP_Ob7_-dzWe_h-Mtqr_2Lrp6_HoSaCtquxMI6S9bH-xdY5_D2cuL2ebz9OcfmX7XNHf6wP4kt_ZZz-8pX_fTfvGerPW_hS6gqiIrOFjyJGYqRlhDqlpBfKCz55Vv_VXPePnaQvnOz-YuvDYzcHdq_7ijfdV-x3jwwrUxRcuEgj4UIkr0lMXCXimVYsEgnDf3264Q_aCuz3Bm9o1TPvGS8sSd6IFLi1wgYrdWEDZ5KSSdx6H481T4ax_lUb4n5sRj0_XU5YLMA2nDuEh3JqZCSBJRGcILrgqV3cguKLrfP4uDOovO_2cJa_mesi979G7udOOhWCMsOpQA7CpAJ0SMGIhbNJE86S05RE4y2D_S9PtzpDEj2jUkmenONaJFZoxi3TIUhDtYyt4d-8zjD5luEXoH5DsyFZFigqgsUkFEMaCKHCWxoVl6wwk9j9VRvEuB8HzXHuCsuR_Ci5KwSJBQKWYlJCO0lYSEX3i3bJ0A52K_j9t23CfouEXckn-Pw7TlAU-iqo1cd-tjTDWRiJQcIfY4MWSmqnqCReEV84Q2igcGX-dQ7Q73DgrNgRhpIcRoRGC8c4-ixFU9XJRxdlkWD_6lnsz4AibXITd44V1AuPVh9UUiAGgElxal2bzrzwhZ0peWkV0HJD5JKCSpTzPgCNwTOWGCERKf3WMpyFtGmlSCs7oSKyBpjtLE4wyRBHGjkRIVDjleCciSJxz5K0cIGfUBFTw2dGEWgIIskijkTkQjCBJxk0YYoHxYsCZkU2-7PXn5dLLmchnmgkKocxbbQQTCjLrHVSE3QUR4pMp8hcG8WA8PeaJ8egk4obZhwjVgtPtYZcIhwEao0ntDBIXF61OxU78F62eVPIW5HP8bvv6gpEXN2nV08TZTMcFYSDSFoDxYmDxkw2UKFMIKmOKpnrVL_OM3Jmz86cfEQfFMyVYujYVjDri-gC8VkvozFkFjbfT9BmKe5EI6XMJIImpRzEvAFEYvCRpKRD0ULkIzxYjXw3jpuRzXL1GCeFksZ6boxMKPDoDLiCgRgSj9ZpAZzkjtuNNtf2Vy1GfgeM_N1JTYcINkuUBXSDEJZI4RRCFLQHXxdSQzkJSJlMlH9_smBhs0XQJldIj-bFZRSkQJ1zghAUBmMPOl9WSv9wuuEzKyXptaQyJoBLMK91tCE4VfiiIAas9ry07Z4dYdud6TpZMCEkuE5HI1DNJoUiFQIaKxHIymKaMluFLhz_xzZlXyNlCyccAVQxyxEkDyRReF3EIAwnLoZC6EKgsRZSKAX7iycAZWr1zEDBGEqYdWikQLwORisfjUFx6chQkQJmr51-2BmAEizSFBhjMoCmoOJFIswVEEpAqLcvZFGvb3eeB8lRSTkXBZNS6FTojCorolMhJSJzvnIEdvbswGciXmozdh0Zu5EP8fPv1EXgFDZPZ6o0pAraR0QoIoHB3xaBMgRVM2g3IXLebr7ONv1j22eFTKF5y-tFMFQIlLgtCkWC8QlUr4psevkNTc8iHrg0QjMblCUYiYINDnSjgofKQZs94so8V_iqP5w0x8sMZA8okhKOUcqoYFC3qFTpiSdCWjstuUG1n-XHrZzAae1iuImjF7VrMX5Z67OGweHRyn0qCER61jOMco-NLmbrsbdXtUux3e0WDyvAw50cmFcvVV70GIIeM1tYKOQpooF-xCCkgrWFQVyMQncSMojMvKuvs01etX32zuox6mFahD4xItd0cFIqxbm2USWZqXftjU59Vhyi3ZIIKZfQOAUoxCWOxofZynEqMCO3SLicc5FvefK9zsttExkMhSYSPRc1DTJSLqIPO6mSwZDmp_Iqt80rPg1wivU2i3eRxXsnKQUUA-D9duSVjNykhAE2K1ieB1gvU6sbMFxn5rn__Xg2AwAx5TvqNDIP-sGQYfNtjOMQ2doTF7JzGydpvzd37swItYZF7nzUllERNAwQLUFgoBEAgIvnbXq_2pv04z47hkhiOnGJMaHAnJKENlBXgisP3qPShClEfG8Q4mg_S8jNFiIlIPLg1LO-HZ1LILoKTpQWMaIvoDKhxBxKI2JaNCHAyYenYuRt6VwFkWELNE3wJronKBOMaU3weWetNZzb-n6cO2tpacYZkKqYxuQC9EJ_a0wKzFAPf9mRLDj3HCLHYkKJiM6HlovBzkFR0Dxma6qFhtxVeqoLjgCCwz1q4bENePz-JE2ljJol9Qq1JyWwTrUBSgXEVEoeukomz6jO09c_naSpjszOcsMlkQmoWRcJsGYFaiQq6Kk8fmDqy_ej35xu-Oz0bzA26TxqcAzWhZEKDJQUAz1SfPtcCAxic1CNdo-XQQBgFBQiws_IlVVBSkk15AxNNrHuF9NFk2ZUZdr_5zZpHSTtX_Ihvn7lEPy4jencxq4ulJvLnbdTPfnShFqZYRYFeqvh2hCM2yyhATjj4Kt9XZhf8nCGMKskDHRucAaKN0WF2Zk4TYOHDvYQVLDqXhcXMltczk7uUhAVPZWM5gEG_R816CFHWGGhC3QLg0t4sHKPo2-ujJtq9BxCeEgxjDyEUkjIgJnNMBHQL_InhOvounN80Et5dvYtEgKQEE9lKf6WKJTlIRE_aPxMJJAng-Yy-V--ZtJZbaXvx7kzAwWixFFvMRXho0s2vx7Br6QLLRBgeLZzalN8I8_OjBGDQVYJaDvJCgFAOg_lj6mFOkROS_-qAODH-EiWRK2SNj6IfNlsHeBGbUoKzMPVtwUAn8Tyg1G1F8d195u696x-3P1Ji7zp69A2mGNbXm5fch69K8vvnnan132FpIbxGIIU8K-VKYXxNBm0zOjqvfKTlxe2b1D6R0OL7_p6UJ6Ph8PeCNYrTEVNbHr9ePH5h3pYXjz_v5fO__Dzz1qPx5VWhM5Pf18sG3-xrr-8X4_-6349Li_1xp0UcSgsD3XzP-X54ajK5VMji_tz5YUX3h-8kffdT7sXyk-waxuEzvFuh_-NEOWMrW5s4nkuZf1kUr6fz1k_fVb_61z546Edj0HfoTM9Xcc29b-tYb_3sDRHf9x0q3FDaP1s0v1089IPMIe_eAPLljd6k-79R6lzw7hueX_rsDPul_trYbS9uVldedg7XH18W5c3707YxtLYDR658LDerhb6csWZ2_TWjQfXes29B-PJHbZ_98rENHIUbpqKiWFPDG8ytbaetu4MF2m1s7bYfbh6OPGhO7q_NBQTXz1aWN_a79x263576fHyCt8bHMbVW7HqNHTlITm88mBUddeeDpfWNp4uXifl5qO1xzXrV48fHl7Z4hu31_zy4qO19f7q9bWD3d3OzXptsrG7MyHLS-nwmrqlUv1k5WFYGa-v1FvrQz6sq7sH6-OkFhbcYV_eIPf99c16sf738twR_ur_6O5PXPnxSy_au3bcrf9QzmH-KVAeXpggucNgraBxjVcRNemcw8Dr0cpdnMz_P0r191I:1gVDX4:T8GLE0qoCKCq4rp39uGlnSmCV6E&quot;; expires=Fri, 07-Dec-2018 11:37:14 GMT; httponly; Max-Age=3500; Path=/
+Access-Control-Allow-Origin: *
+X-Kong-Upstream-Latency: 4763
+X-Kong-Proxy-Latency: 0
+Via: kong/0.13.1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-API-HOST: openstack-taichung-community
+x-api-key: 79c3a9b8-bcc7-42ae-a31a-e7bc8fd9cba3
+accept: application/json
+Content-Length: 0
+Host: apigateway.twcc.ai:8443
+User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/networks/3914/</java.net.URL>
+</httpSample>
+<httpSample t="4475" it="0" lt="0" ts="1544179132112" s="true" lb="OOO_Delete_Network" rc="204" tn="WL-A01_OOO_Delete 1-2" sc="1" ec="0">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 NO CONTENT
+Content-Type: application/json
+Connection: keep-alive
+Date: Fri, 07 Dec 2018 10:38:52 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Content-Language: en
+Vary: Accept,Accept-Language,Cookie
+Allow: GET, DELETE, HEAD, OPTIONS
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: csrftoken=sktXOAR5Ps48yNkcfy5fMUj2z2ljDRPZ; expires=Fri, 06-Dec-2019 10:38:56 GMT; Max-Age=31449600; Path=/
+Set-Cookie: sessionid=&quot;.eJy1WWtXnNd1dmxLshRZcpM6SdM0Tdq4xW1B535xejFCCggBwsBIQOtOz3VmuMzwzk2gVm36pav5m_kT_drnvAySrMggZlksrcUMes_Z--z97Gc_-7y_ff959b2ZxrXRIPWbnVi9v_3le--9lyn3NITEuXMpSG2y8PhiNCdC8-yoIim6EIl0UTkpac7eGxmZIEw6EasPGh833WjYbp7t-2H7g8btfmp1et1m6sajXqc7rK5s_xTG2sPh0Rd37lDN5hiZU2KOfiEJIXfGvLrauI31405Ig-bp4uraWuP6MHVdd1i2_Wj7F9jBReuoD05op4SyyTtuYsg-ZWlYVry63vjBK-54F_bhQ3Wjca_VCwe9UZwb9A5GQ2w_d3TghrnXP5zrHaXuYIgn5_BMvXhusm7uYToZDHvddHeyz_cbH50tq26uNa4Me_hz9XG41ObFsxtbZeWN6tbn_13dfl59MtO4NeoOAp6OzdNN_6jxf6358nM3LOxTcaj2MmcrzdnRvWqwMx7OH--FZ6n55P7C0cPFp-PHndWDJFqz-08fmPmT1gmfPxrcbd0bPOoc7zw51p3De4lTvecGzK8t99jB3sOwS3xvtLw42NvuIqmt3VXj7tJH62GH-Luj8f7-8cZyZ3O-99Xh3vqJ8Etb6qne6T-QrZVxcCo9vr8l91tr9Om97c34kCmytrLx1b152TmWrcXZ2QfzVJ501k6GB6tCPVuy7Wb1eF64tNper1ZWDzaWGg_Y-ug3ee9k0HuytR5E5gtbdmP24UIw1Q8aV2Pv0HW61Q-fV38803gf6f90rfFh1x2m6kdro8atCVQW3NAd9FrVj7-ufjLzvPqTme3rwMgZ6AbVT7-u_hR__9nM9gf4-6h_UP3Z9o_fjENDBK1XY2HqZxdS9fPtq_h-NPIHnVB_nODyz-vnTr886qZXvhWc_uK1_32_7BmrX9bwpdRrohJzOiSRErHSMUK9UjIIFQQfPa_-Yqb9h07Sl062f7790ZmbXXfQfs2b9mv226eGldWao7JpIlyIHAxJmatMAjOKJSJh-C8vNnylrsDDTvctrQYWAuPakRysyBEUI1x00mgXOZOUjNL2h3hseHKUql_VIT5Mw34nTJYTljR3knOP8FBOrUwksiyiFwQElevFNSg-276Gj61uL4R2B2f5q5k2cv_XyP3MeadCUKY4FchB2KwjYkJE0t5lQzjL3lCSbHAM9j-_2OoUSQyMSiU5CJgbkZk2jDtmYpSWGplqw3_zJsPkG4ZfgvotzcbsWKSoCJayUAxpIISK4GhSXDJtR6n9qzqIaZy6w7PcaceR_CS514IkjYDllJUwXhIWs25_Vi85ct39Hvz-2zphf4eEzZYT_PJbTqC1uQNqDemwWJriLAzdTMIf66IRShqvqCRBkaC9JTRSuDL3JgfotzhwWewIS0kJI0JjhGfcKkHRdk0OySepM-zfuYz9KVBkbJCEe880DSJwbaPKCsQAMClOna_TWRa-tDMhL6MiWm5MXFJQifIhRKAxBsYyIyQhpd9YhrOQOq0UaWXnVETRANOdxQsmGeJIE-RKjNQGJThnQmceWJYOLvBzKmJi-NIoAg0lwx3iSEQpBBt5ltEQpnhUXGuYFcXsT958Xi65nIZ4kpWoHMaMNUIwoRxzzktD0FE80YVOkbk6ihHh7wxPzkAnFbfMekacEYEaA7lEeFF3NhCqLRJXVu1PxA68l3XeFPKmyzl-_W1dgYg7Y3rnIlE2xVFBOIiksyIFHDQVsoEsZQJJ9VTJUqfmTZ6RS3t26eQj-qBgrhRDx3aCuaCTjwQSWXs0hsLC9rsJ2jTFnWmilNlM0KSUtw5M52WKIZGcTdQ1RD7Gg71-aKfBsO-KXD3DiVbSusCtlWUKSN6CKxiIIfPkvBHASem47eRKbX9RY-TXwMjfn9d0iGDTRFlANwjhiBReIUTRBPC1lgbKSUDKFKL8h_MFC5sugi57LQOaF5dJEI065wQh0NZJhs5XlNI_Xmz40kpJBiOpTBngEiwYk1yMXumgNbFgtRel7Q5cH9u2JuukZkJIcJ1JVqCabY46awGNlQlkpZ6kzPViG47_U52yL5Gy-XOOAKqY5giSR5IpvNYpCsuJT1ELowUaq5ZCKdi_ew5QJlYvDZQQE2HOo5EC8SZao0KyFsVlEkNFCphduPiwUwAFU7ExkTEmI2gKKl5kwryGUAJCg3spizqHrvUiSJ5KyrnQTEphsjYFVU4kr2LORJZ8lQi0Dlw3FCK-V2fsPjL2m3KIn32rLgKnsDk6VaUhVdA-IkERCW2V05EyBNUwaDchSt4W32Sb_qHty0JGG17zuo6WCoESd1orEm3AqItqL6aX3tL0NOKBSysMK_caBCNRdNGDblQMUDlos6dcWeaK0Ds8Gg3PllnIHlAkJRyjlFXRom5RqTKQQIR0blJy3d64yI8HJYGT2sVwk_ova9dh_HIuFA2Dw6OVh6wJRHrRM4zygI1uFOupc9Crl2K75RoPD4GHlRKY1y9VXvYYgh4zXVgo5CmigX7EIKSic9oiLlahOwkZRWHe1TfZJq_bvnxnDRj1MC1Cn1hRajp6KZXi3LiksizUu_ZWp74sDtFuSYKUy2icAhTiM0fjw2zlORWYkWsk3Cq5KLc85V7n1baJDEZtiETPRU2DjJRP6MNeqmwxpIWJvCptczbkLk7xqM7iOrL41XlKAcUAeL8beSUTtzljgC0KlpcBNshc6wYM14V5Nr4bz6YAIKZ8T71B5kE_GDJcuY3xHCLbBOJjcW7zPO339s5dGqHOssR9SMYxKqKBAWIkCAw0AgBw8aJNj3sHo8M0ZmcQycxkLjEmaMwpWRgLdSW4CuA9Km2cQCR0ujH1x0VCbtUQaQAijy8867vRuQSiS3OijEgJfQGVCSXmURoJ06KNEU4-uRAj70rnKogMp9E0wZvonqBMMKazMZSdjTFwbvu7ce6ypWUYZ0CqYgaTC9AL_W0wKTBLA_xlp7Lg6guInIkJJRI6H1ouBjsPRUHLmG2oEQZyV5mJLjgFCA63U8NjF_D45_M0lbJqmtQr1J6UwDo1FigVEFM5B-gqmQOjpkxf_3Kepjo1O80Nl0QmoGZ9IsCaE6iRpKCnyviBqa_cj359seHL07_F2GTKqMExWGsrFRgoKwZ6pPjrCyHQTcOnvf7-2TIIAIyCQiT4mbhyKkopqYGcodll1v5ssmg07PcK7f9rnbQmkvZv5RBfvnYIftbGTGljd-YbW0vNd1M95dKEOllglgR6q-XGEozbLKMBeOvhq3tTmF_xcIowqywsdG70Foo3J4XZmXhDY4AODhBUsOrfFBcyXVwuT-5SEJUClYyWAQb9HzUYIEeYdtAFpobBTTzY83spDGcHw17_BYTwkGIYeQilkJARM5tlIqJflE8I1-l15-BpJ5fZOdRIiEBCupCl-DuiUFaGRPyg8TORQZ4MmsuWf-WayRS1lb8b5y4NFIgST4PDVISPPrvyegS_stFGIMDwrHVhU3wrzy6NEYtBVgloO8m0ACB9gPLH1EI9ImdkeF0A8DN8ZEeSUdnYEEW5bHYecKMuZwXm4eqbAoCPUuNKv3eQBlX766rzvNpr_6hG3uR1aB3MgWvcql9ynr4rK--e9ifXfVpSy3iKUQr4V8sUbQPNFi0z-eqg8cmrC-s3KIenQ0toh6rbuJaOjzp9WO9hKhqmYecw3XjxoTpq3Lj2-5vXvn_ldu3xoGcUoXOT3zcaw3Cjqj7fqPr_s1ENGjc7g2ZOOBSWx2r4u8a1o36vlE-FLI5nGtdfev_0rbxvf9q-3vgEu9ZBaJ7tdvy_CFHJ2OrmFp7nUlYno8aH5ZzVs-fVv880fnjkBgPQd2xOTtd0w-o_1rDfB1haoj8YtnuDIWHV81H7062b38Mc_sob2P1B2h8Ml5bEontqtoRa7CjeWtoLO_tr6T7d8stPmh2933i0tHtyJFW7RfqjZqv9LC30e-P7O92mXF7vnYRdTxYePxqOl93y8OFCs-_U5vr4yePD4UnKKzI_ns8tc3zCDp6p1RVzv5t3Nx5vLjK3suR3o11f3t7utVtf7Swe7248uT_YVa2HI7e7-cTuHC_1TKNleOvBup5X0uxQvTabZH8ROnprZ2GzdTJ7t3005qtPHuysHK-Kx1uNvZVH3D_b1JvjR4-WG5uHzfbdZnvj0Ljj_aUwv7mld576xeO9FT9r905asfrPxtVT_FX_1R6PfOP2Ky_a227Qrn7bmMH8o1EeQdgoucdgraBxbVAJNem9x8Ab0Mp9Gs39P4aK9aY:1gVDX6:qmfwDihnZafJGtJkdcL_ntiaXqw&quot;; expires=Fri, 07-Dec-2018 11:37:16 GMT; httponly; Max-Age=3500; Path=/
+Access-Control-Allow-Origin: *
+X-Kong-Upstream-Latency: 4384
+X-Kong-Proxy-Latency: 0
+Via: kong/0.13.1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-API-HOST: openstack-taichung-community
+x-api-key: a0af1fa7-ebac-4d21-9fd2-2d8f31284767
+accept: application/json
+Content-Length: 0
+Host: apigateway.twcc.ai:8443
+User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/networks/3916/</java.net.URL>
+</httpSample>
+<httpSample t="1826" it="0" lt="1826" ts="1544179194778" s="false" lb="OOO_Delete_Keypair" rc="503" tn="WL-A01_OOO_Delete 1-1" sc="1" ec="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 503 SERVICE UNAVAILABLE
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Fri, 07 Dec 2018 10:39:54 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Vary: Accept,Accept-Language,Cookie
+X-Frame-Options: SAMEORIGIN
+Content-Language: en
+Allow: GET, DELETE, HEAD, OPTIONS
+Set-Cookie: csrftoken=jxfnYaL8LjWMXzMCzKpd5RDOtJNqb9mZ; expires=Fri, 06-Dec-2019 10:39:56 GMT; Max-Age=31449600; Path=/
+Set-Cookie: sessionid=&quot;.eJy1WWtzXMdxlfUgRZqiFDuyHcVxrMRKoCQA531n5DwEkCBeBEiCu8QjUTbzxC6xr7t7FySYMLaTqlTyN_Mn8jVnLhYkRVMAsSWiWIXF8s50T_fp06fn_vbdZ-UP5pqXJ-M4anVC-e7u1--8847S1BNLhWWFpynKZGzUvDBKBFI4xYIVzkUeFTGBiOgl4Vay6JLwITrPy_eaH7XspGq3Tvd9v_1e8-NRPOgM-q3YD8NBp1-VH-x-BmPtqhp-deMGLdgCIwtKLNCvJCHkxhEvLzU_xvqjjo_j1sni8vJW80oV-7Zf5W0_3P0ldrDBWOq8FYVVQpnoLNfBJxeT1CwpXl5p_ugld5z1h_ChvNq8dTDw3cEkLIwH3UmF7ReGXVulwai3MBjG_rjCkwt4pl68MF23sBGPx9WgH5em-_yw-eHpsvLaVvODaoCvy4_8hTbPnl1t5JVXy-tf_q78-Fn5yVzz-qQ_9ng6tE42_YPm_x0s5p8lf_OQsWFro2fv3F1daaT99d2l2Anby3eK0cOVvda2GTY2qvtk6elT0q_4-lrj0cbDam3_eHS8397dWel2_P3t9ScbrZ29FNd5iz_oLfd93Js_WN6hkd8d3BxvjI83CrPtnzo1tutp-Zj3tzrRrvWOduYbD9fu3UmpsTjujp8MF_mdw0ax3u6r5eHezlFznHx3nt8-enp8p3HYW19dKu6bjf4mnzQOV1yLb-6PWgeN0SHWLJMtNRwvjXr3jobdlRW-uBga45Gha-sHUS4e6LXVYyf39ibj8kfNS2HQs51--eNn5R_ONd9F-j_dar7ft71Y_mRr0rw-hcpNW9nu4KD86Tflz-aelX80t3sFGDkF3bj87Jvyj_H9z-d238P3k1G3_JPdn74eh5oIWq_GwjhK1sfyF7uX8Pdw4hDA-uMUl39aP3fyx91-fOmvjNNfvvK_7-Y9Q_l5DV9KXUFUZLbwUcRIjLSMUKeU9EJ5wSfPyj-ba_--k_SFk-1f7H546mbfdtuveNN-xX77xLAyRcGFizQSLkTymsTEVSKeacUikTD85-cb_qCuwF6n_4ZWPfOe8cKS5I1IgVsrbLBSFzZwJimZxN338Vh1PIzlr-oQ92I16vjpcsJiAbbh3CE8lFMjIwksieAE0QVP9eIaFF_sXsbHg_7A-3YHZ_mLuTZy_5fI_dxZp0JQZjgVyEGYVIAOKRixcDZpwllympJovGWw_-X5VmdIomdUKsmTc1yLxArNuGU6BGmolrE2_FevM0y-ZfgFqN_QbEiWBYqKYDEJxZAGQqjwlkbFJSvMJLZ_VQcxHsV-dZq7wnIkP0ruCkFigYClmJTQThIWUtH-ol4ytP3DAfz-6zphf4OEzecTfP4dJygKfQPU6mMvW5rhLIzEIOGPsUELJbVTVBKviC-cITRQuLLwOgfodzhwUewIQ0kOI0KjhWMcfZaiqerko4uySLB_4yL2Z0CRNrmJO8cK6oVHqw8qKRADwKQ4ta5OZ174ws6UvLQKaLkhcklBJcp5H4DG4BlLjJCIlH5rGc5C6rRSpJWdURFZA5R8ttM4wSRDJNHIiAiBGq8E50wUiXuWpIUT4oyaqE3LWZAEKoJQsoglEbkYTOBJBk2Y4kHxooBhlQ3_7PVn5pLLopyFfqKRqB_GtNFCMKEss9ZJTdBXHCkyqSJ_dSQDktCpjk-hJxU3zDhGrBaeag3RRDho1BpPaGGQvrzqcCp54L-us2eQva_ySX79Xb2BiBtH9MZ50myGo4J2EEtroDtx0JgpB1qUCSTWUSVztf76dZ6RC3t24fQj-iBirhRD37aCWV9EF4jPqhntIXPx334_QZulxBONlDKTCFqVcpD0BhCJwUeSkg5FDZGP8OBg5NtxXI1sFq2nOCmUNNZzY2RCmUdnwBgM9JB4tE4L4CT33Xa0ucL_rsbI3wMj_3BW6yGCzRJlAfUghCVSOIUQBe3B2oXU0E8CgibT5ddnyxY2WwRtcoX0aGFcRkEKVDonCEFhMPyg_2W9tHi-4QvrJem1pDImgEswr3W0IThV-KIgBsz2vLRt146w7cF0nSyYEBJ8p6MRqGaTQpEKAaWVCMRlMU2ZHYQ2HF-qU3YTKbt1xhFAFbMcQfJAEoXXRQzCcOJiKIQuBNprIYVSsL98BlCmVi8MFAyjhFmHdgrE62C08tEYFJeODBUpYPb2-YedASjBIk2BMSYDaApaXiTCXAG5BIR6-0IcdXr24HmQHJWUc1EwKYVOhc6osiI6FVIiMucrR-CgazGnwfWVOmOryNhaPsTPv1MdgVPYAp2p0pAqKCARoYsExn9bBMoQVM2g4ITIeVt_nW36-7YvCplC85rXi2CoEChxWxSKBOMTqF4V2fTGG5qeRUBwaYRmNihLMBgFGxzoRgUPrYM2e8KVebrwg95wUp0uMxA_oEhKOAYqo4JB3aJSpSeeCGnttOT6g6MsQe7kBE5rFyNOHL2oXYshzFqfdQwOj1buU0Eg1bOmYZR7bHQ1W4-d7qBeiu02azxsAQ93c2BevVp50WMIesxsYaEQqYgG-hGDmArWFgZxMQrdScggMvPee51t8qrti3dWj4EPMyP0iRG5poOTUinOtY0qyUy999_o1BfFIdotiRBzCY1TgEJc4mh8mLAcpwKTco2E6zkX-a4n3-683DaRwVBoItFzUdMgI-Ui-rCTKhmMan4qr3LbnPepj1Ns11l8gCw2zlIKKAbA--3IKxm5SQljbNawPI-xXqZaN2DEzszT_H48mwGAmPUddRqZB_1g1LD5TsZxyGztiQvZuYdnab83d-7CCLWGRe581JZRETQMEC1BYKARAICL5236aNCd9OIRO4VIYjpxiUGhwKyShDZQV4IrD96j0oQpRHynH-LoKEvInRoiu4DI3rlnfTs6l0B0FZwoLWJEX0BlQok5lEbEzGhCgJP752LkbelcBZFhCzRN8Ca6JygTjGlN8HlnrTWc-8fvx7mLlpZmnAGpimlMLkAv9LfGpMAM9fCXnciCS88hciomlIjofGi5GOwcFAXNw7amWmjIXaWnuuAEIDjcP9Xw-Abw-OezNJUyapbUK9SelMA61QYoFRBTKXnoKpk8ozpPX62zNNWJ2VnuuSQyATXrIgHWrECNRAU9lccPTH35lvRfzjd8cfo3GJt0HjU4BuvCSAUGSoqBHim-fS4E-rF6PBgdni6DAMAoKESEn5Erq4KUkmrIGZpsYu0vposm1WiQad_WSXNIms-H-PqVQ_DTNqZzG7ux2Gystt5O9eSLE2plhlkU6K2Ga0MwbrOEBuCMg6_hdWF-ycMZwqySMNC5wRko3hQVZmfiNA0eOthDUMFqfF1cyGxxuTi5S0FU9FQymgcY9H_UoIccYYWFLtA1DK7hwYF7FH01P64Go-cQwkOKYeQhlEJCBsxshomAfpE_IVwnl57jx52UZ-dUI-EASGify1L8LVEoy0MiftD4mUggTwbNZfK_fM2ks9rqfD_OXRgoECWOeoupCB9dsvklCX4lXWiBAMOzR-c2xTfy7MIYMRhklYC2k6wQAKTzUP6YWqhD5LT0rwoAfoqPZEnUKmnjg8hXztYBbtSmpMA8XH1bAPBJbH4wGnTjuDz8puw-K3vtn9TIm74UrYM5ts3r9avOkzdm-Q1Uf3rdV0hqGI8hSAH_aplSGE-TQcuMrhw0P3l5Yf0eZXgytPi2L8vm5fhk2BnB-ghTURWrTi9eff6hHDevXv7fa5d_-PlntcfjgVaELkx_X21W_mpZfbldTv5ruzxqXuuMWyniUFgeysf_07w8HA1y-ZRPnpXHc80rL7x_-kbetz9tX2l-gl3rILROd_vX_0aIcsY2HzTwPJey_LdJ8_18zvLZs_Lf55o_HtrxGPQdWtPTtWxV_mYL-72HpTn646o9GFeElr-dtD9tXPsB5vCX3sMe3_Q3h-3i9vH2aG-rudh-Or7bubeqNxZD-8nm_O6tw8aj5v2N7aFYGQ0ej-it29Vkb3-n29nbO1wa7Y_nH0-6etJv8OXtzVt2iZGD9fX5Tb33ZOfRZthP5SNNdqNujSnr-Dsle5T27q8djG-1WnF3cP8gPFoPaXV1f1E9HNxrHW8ky5fmq_Zj9qBndHV4cHd3-HSX93r0iK-s9m7uqKqxf3u16g2fNBdXOpN1f3dz7d4KXVnr0HXGFjvdpf1ba7cba4d3t-j4wdGTg9W7d54MGnR7yTTs4-rBwWOy7O509_38owBsb-wcb5a_a146wV_5H-3jiWt-_NLr9rYdt8v_bM5h_ilQHl6YILnDYK2gcY1XETXpnMPA69HKXZws_D_TQ_pc:1gVDY4:Dt2dnKCuhEqU7IV33oHTi1utX9c&quot;; expires=Fri, 07-Dec-2018 11:38:16 GMT; httponly; Max-Age=3500; Path=/
+Access-Control-Allow-Origin: *
+X-Kong-Upstream-Latency: 1731
+X-Kong-Proxy-Latency: 0
+Via: kong/0.13.1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-API-HOST: openstack-taichung-community
+x-api-key: 79c3a9b8-bcc7-42ae-a31a-e7bc8fd9cba3
+accept: application/json
+Content-Length: 0
+Host: apigateway.twcc.ai:8443
+User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;detail&quot;:&quot;50301: Keypair st-keya01-ooo-01_54 not found for user 681c0a14a27c1fe5f9ae837964d07b62da4bbe3e609d04ec503a52ebf4cdebc3 (HTTP 404) (Request-ID: req-daa195c2-b79e-428f-acf8-18b62c8e7547)&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/keypairs/st-keya01-ooo-01_54/</java.net.URL>
+</httpSample>
+<httpSample t="1452" it="0" lt="1452" ts="1544179196590" s="false" lb="OOO_Delete_Keypair" rc="503" tn="WL-A01_OOO_Delete 1-2" sc="1" ec="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 503 SERVICE UNAVAILABLE
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Fri, 07 Dec 2018 10:39:56 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Vary: Accept,Accept-Language,Cookie
+X-Frame-Options: SAMEORIGIN
+Content-Language: en
+Allow: GET, DELETE, HEAD, OPTIONS
+Set-Cookie: csrftoken=1IIrgLa3fsspnagvxN5wgfaXSIe06dqY; expires=Fri, 06-Dec-2019 10:39:58 GMT; Max-Age=31449600; Path=/
+Set-Cookie: sessionid=&quot;.eJy1Wft3VNd1dmwDhmBwkzpJ0zRN2riV20qc98PpwyCBEBJCryuEWlc9T81IoxndeQhQS5O0a3W1_2b_if7a71yNABMsoVm2FmtpRtxz9j57f_vb3z73t--_qL83VV0ZDVJ_px3r97e-fO-99zLlnoaQOHcuBalNFh5fjOZEaJ4dVSRFFyKRLionJc3ZeyMjE4RJJ2L9QfXxjhsNWzun-37Y-qC62U-77V53J3XjYa_dHdaXtn4KY63h8PCLW7eoZjOMzCgxQ7-QhJBbR7y-XN3E-qN2SIOdk8X1leXq6jB1XXdYtv1o6xfYwUXrqA9OaKeEssk7bmLIPmVpWFa8vlr94DV3vAv78KG-Vs3t9kKnN4ozg15nNMT2M4cdN8y9_sFM7zB1B0M8OYNnmsUz43Uzi-n5YNjrpjvjfb5ffXS6rL6-XF0a9vDn-uNwoc2LZ9c2yspr9Y3Pf1fffFF_MlXdGHUHAU_HnZNN_6D6v93b5edOmN1nYpQPUp5ucbpwb_XByupx63h7b_lgfycv7bnNlY3ZZ3n_wZN-Wz7Y8kuHmS7rbPry0Ei2cLwyP2zVS9Nbm9XCynxnfrCaFiv5KC6PNh9MD9Ni7m7SuwcrdHP67txs94neqDa2_dbS_l5rbv-wHm6y2bsPnw3XViNLG0yT6tlzuXhfPOsubs6vkz5pL65rKqaXkhvo6fbc48cPBO-SjSftY97dfRruPO7szm7dnaO78-LwIIaVFXk88gu8u9O_bZyeuxfube_dX9g-mvfPBo_XHi22Rf2D6nLsHbh2t_7hi_oPp6r3kf5Pl6sPu-4g1T9aHlU3xlCZdUPX6e3WP_6q_snUi_qPprauAiOnoBvUP_2q_mP8_WdTWx_g76N-p_6TrR-_HYeGCNqsxsLUzy6k-udbl_H9cOQ77dB8HOPyT5vnTr486qbXvhWc_uKN_32_7BnrXzbwpdRrohJzOiSRErHSMUK9UjIIFQQfvaj_bKr1-07SV062fr710ambXddpveFN6w37rRPDymrNUdk0ES5EDoakzFUmgRnFEpEw_OfnG77UVOBBu_uOVgMLgXHtSA5W5AiKES46abSLnElKRmnrQzw2fH6Y6l81IT5Iw347jJcTljR3knOP8FBOrUwksiyiFwQElZvFDSg-27qCj7vdXgitNs7yF1Mt5P4vkfups06FoExwKpCDsFlHxISIpL3LhnCWvaEk2eAY7H9-vtUJkhgYlUpyEDA3IjNtGHfMxCgtNTI1hv_qbYbJ1wy_AvU7mo3ZsUhRESxloRjSQAgVwdGkuGTajlLrV00Q01HqDk9zpx1H8pPkXguSNAKWU1bCeElYzLr1WbPk0HX3e_D7r5uE_Q0SNl1O8MtvOIHW5haoNaSDYmmCszB0Mwl_rItGKGm8opIERYL2ltBI4crM2xyg3-DARbEjLCUljAiNEZ5xqwRF2zU5JJ-kzrB_6yL2J0CRsUES7j3TNIjAtY0qKxADwKQ4db5JZ1n4ys6YvIyKaLkxcUlBJcqHEIHGGBjLjJCElH5tGc5CmrRSpJWdURFFA9R8stN4wSRDJGmCYImR2qAE50zozAPL0sEJcUZNNKblJEgCFSXDHWJJRCkGG3mW0RCmeFRcaxhWxfBP3n5mLrnU9ST0k6xE_TBmrBGCCeWYc14agr7iiS6kivw1kYxIQnv4_BR6UnHLrGfEGRGoMRBNhBeNZwOh2iJ9ZdX-WPLAf9NkzyJ7X5ST_PqbegMRt47orfOk2QRHBe0gls6KFHDQVCgH4pQJJNZTJUu1_vptnpELe3bh9CP6IGKuFEPfdoK5oJOPBEJZe7SHwsV_--0EbZISzzRRymwmaFXKWwe-8zLFkEjOJuoGIh_jwV4_tNJg2HdFtJ7iRCtpXeDWyjILJG_BGAz0kHly3gjgpPTdVnKlwv-uwcjfAyP_cFbrIYJNEmUB9SCEI1J4hRBFE8DaWkI4BgFBU-jyy7NlC5ssgi57LQNaGJdJEI1K5wQh0NZJhv5X9NLt8w1fWC_JYCSVKQNcggVjkovRKx20JhbM9rK0Xcf1se3ueJ3UTAgJvjPJClSzzVFnLaC0MoG41OOUuV5swfE7TcpmkbK5M44AqpjkCJJHkim81ikKy4lPUQujBdqrlkIp2L97BlDGVi8MlBATYc6jnQLxJlqjQrIWxWUSQ0UKmL13_mEnAApmY2MiY0xG0BS0vMiEeQ25BIQG90octQ_c7ssgeSop50IzKYXJ2hRUOZG8ijkTWfJVIrDbcd1QiHi-ydh9ZGyhHOJn36iOwClshk5UaUgVFJBI0EVCW-V0pAxBNQwKToiStwdvs01_3_ZFIaMNb3hdR0uFQIk7rRWJNmRQvdLF9OI7mp5EQHBphWHldoNgMIouetCNigFaB232hCvLdBF6B4ej4ekyC_EDiqSEY6CyKlrULSpVBhKIkM6NS67bOyoSZKkkcFy7GHFS_1XtOgxhzoWiY3B4tPKQNYFUL5qGUR6w0bViPbU7vWYptnvY4GEZeHhUAvPm1cqrHkPQYyYLC4VIRTTQjxjEVHROW8TFKnQnIaMozLvyNtvkTdsX76wBAx9mRugTK0pNRy-lUpwbl1SWhXpX3-nUF8Uh2i1JEHMZjVOAQnzmaHyYsDynApNyg4QbJRflrqfc7rzeNpHBqA2R6LmoaZCR8gl92EuVLUa1MJZXpW1Oh9zFKdaaLK4jixtnKQUUA-D93cgrmbjNGWNs0bC8jLFB5kY3YMQuzFN9O55NAEDM-p56g8yDfjBquHIn4zlktgnEx-Lc5lna792duzBCnWWJ-5CMY1REAwPESBAYaAQA4OJlmz7qdUYH6YidQiQzk7nEoKAxq2RhLNSV4CqA96i0cQyR0O7G1D8qEvJxA5EtQOTJuWf9bnQugejSnCgjUkJfQGVCiXmURsLMaGOEk9vnYuS70rkKIsNpNE3wJronKBOM6WwMZWdjDJz7x2_HuYuWlmGcAamKGUwuQC_0t8GkwCwN8JedyILLLyFyKiaUSOh8aLkY7DwUBS3DtqFGGMhdZca64AQgONw_NfD4CvD457M0lbJqktQr1J6UwDo1FigVEFM5B-gqmQOjpkxfO2dpqhOzk9xzSWQCatYnAqw5gRpJCnqqjB-Y-sot6b-cb_ji9G8xNpkyanAM1tpKBQbKioEeKf76Ugh00_Bpr79_ugwCAKOgEAl-Jq6cilJKaiBnaHaZtT4bLxoN-71C-65JmkfSQjnEl28cgp-2MVPa2K3b1cb9ne-mesrFCXWywCwJ9FbLjSUYt1lGA_DWw9f4tjC_5uEEYVZZWOjc6C0Ub04KszPxhsYAHRwgqGA1vS0uZLK4XJzcpSAqBSoZLQMM-j9qMECOMO2gC0wDg-t4sOf3UhhOD4a9_ksI4SHFMPIQSiEhI2Y2y0REvyifEK6TS8_B03Yus3NukLALJLTOZSn-HVEoK0MiftD4mcggTwbNZcu_cs1kitpqfzvOXRgoECWeBoepCB99duUlCX5lo41AgOHZ3rlN8Z08uzBGLAZZJaDtJNMCgPQByh9TC_WInJHhTQHAT_GRHUlGZWNDFOXK2XnAjbqcFZiHq68LAD5K1aV-r5MG9f5XdedFfdD6UYO88UvRJpgDV91oXnWevDErb6C64-s-LallPMUoBfxrZIq2gWaLlpl83as-eX1h8x7l8GRoCa1Q19WV9Oyw3Yf1PqaiYRq2D9K1lx_qQXXtyv9ev_L9Szcbjwc9owidGf--Vg3DtXr4-Vo9-q-1-qi63h7s5IRDYXmsn_5PdeWw3yvlUz97UT-fqq6-8v74nbxvfdq6Wn2CXZsg7Jzu9q__jRCVjD1c38DzXMr630bVh-Wc9YsX9b9PVT88dIMB6DvujE-344b1b5ax3wdYWqI_GLZ6gyFh9W9HrU83rn8Pc_hr72GP7fPD9fuP7gY6lJ3j9tMWXTMD0jkyrerg2dPboSOP5br1S3eO1w-e2ced6dbc8rxjd1fmNxefHD9dSGujvedkVR8-dbf5nZ29e7fFLKnut9Z4Xr3_cLC-87DydLj7aHqwPr9R8-F252CwuLY_TXZFdzHfjuTO9MqTR2K93dnqPva92Wrdzc657eSWW0t3Hs-t0HqPLevhA9fPa-zhTk3vus7CnsyHZNsspNXpB2tP9x711lp1d-nu7fb00sL8Y7G62NvenVdGHx2s38nLG529-Gxp-uF9Qbrt1e0dlQb31p-LPTL_cHez_l11-QR_9X-0no98dfO11-0tN2jV_1lNYf7RKI8gbJTcY7BW0Lg2qISa9N5j4A1o5T6NZv4fIjn18g:1gVDY6:n_7OhzY_ygDctsMVGoDYipej6JM&quot;; expires=Fri, 07-Dec-2018 11:38:18 GMT; httponly; Max-Age=3500; Path=/
+Access-Control-Allow-Origin: *
+X-Kong-Upstream-Latency: 1356
+X-Kong-Proxy-Latency: 0
+Via: kong/0.13.1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-API-HOST: openstack-taichung-community
+x-api-key: a0af1fa7-ebac-4d21-9fd2-2d8f31284767
+accept: application/json
+Content-Length: 0
+Host: apigateway.twcc.ai:8443
+User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;detail&quot;:&quot;50301: Keypair st-keya01-ooo-01_36 not found for user f13b1cce33aaec578f4be338730473fa160edacd05ad6a551ffbb85d24025a4d (HTTP 404) (Request-ID: req-457b6f57-9ff9-409a-a667-cd4ade762d86)&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/keypairs/st-keya01-ooo-01_36/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1544179256617" s="false" lb="OOO_Delete_ASP" rc="Non HTTP response code: java.net.URISyntaxException" tn="WL-A01_OOO_Delete 1-1" sc="1" ec="1">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">java.net.URISyntaxException: Illegal character in path at index 91: https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/auto_scaling_policies/${auto_scaling_policy_id}/
+	at java.base/java.net.URI$Parser.fail(URI.java:2915)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3086)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3168)
+	at java.base/java.net.URI$Parser.parse(URI.java:3116)
+	at java.base/java.net.URI.&lt;init&gt;(URI.java:600)
+	at java.base/java.net.URL.toURI(URL.java:1018)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:399)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:490)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:250)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/auto_scaling_policies/${auto_scaling_policy_id}/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ts="1544179258043" s="false" lb="OOO_Delete_ASP" rc="Non HTTP response code: java.net.URISyntaxException" tn="WL-A01_OOO_Delete 1-2" sc="1" ec="1">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">java.net.URISyntaxException: Illegal character in path at index 91: https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/auto_scaling_policies/${auto_scaling_policy_id}/
+	at java.base/java.net.URI$Parser.fail(URI.java:2915)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3086)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3168)
+	at java.base/java.net.URI$Parser.parse(URI.java:3116)
+	at java.base/java.net.URI.&lt;init&gt;(URI.java:600)
+	at java.base/java.net.URL.toURI(URL.java:1018)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:399)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:490)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:250)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/auto_scaling_policies/${auto_scaling_policy_id}/</java.net.URL>
+</httpSample>
+
+</testResults>

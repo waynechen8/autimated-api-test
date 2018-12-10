@@ -12,16 +12,16 @@
       <stringProp name="TestPlan.user_define_classpath"></stringProp>
     </TestPlan>
     <hashTree>
-      <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="WL-A01-ooo_env.csv" enabled="true">
-        <stringProp name="delimiter">,</stringProp>
+      <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="WL-A01-ooo_const.csv" enabled="true">
+        <stringProp name="filename">../config/WL-A01-ooo_const.csv</stringProp>
         <stringProp name="fileEncoding"></stringProp>
-        <stringProp name="filename">/home/jmeter/NCHC_Swagger/WL-A01/OOO/WL-A01-ooo_env.csv</stringProp>
+        <stringProp name="variableNames">api-networkName-WLA01,api-keypairName-WLA01,api-vmFlavor-WLA01,api-vmImage-WLA01,api-vmDesc-WLA01,api-vmName-WLA01,api-volumeName-WLA01,api-autoscaleName-WLA01,api-snapshotname-WL-A01</stringProp>
         <boolProp name="ignoreFirstLine">true</boolProp>
-        <boolProp name="quotedData">true</boolProp>
+        <stringProp name="delimiter">,</stringProp>
+        <boolProp name="quotedData">false</boolProp>
         <boolProp name="recycle">true</boolProp>
-        <stringProp name="shareMode">shareMode.all</stringProp>
         <boolProp name="stopThread">false</boolProp>
-        <stringProp name="variableNames">host,port,api-host-WLA01,api-key-WLA01,api-project-WLA01,api-platform-WLA01,api-vmSolution-WLA01</stringProp>
+        <stringProp name="shareMode">shareMode.all</stringProp>
       </CSVDataSet>
       <hashTree/>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="WL-A01_OOO" enabled="true">
@@ -30,23 +30,23 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.num_threads">${__P(thread, 2)}</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="WL-A01-ooo_const.csv" enabled="true">
-          <stringProp name="filename">/home/jmeter/NCHC_Swagger/WL-A01/OOO/WL-A01-ooo_const.csv</stringProp>
-          <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="variableNames">api-networkName-WLA01,api-keypairName-WLA01,api-vmFlavor-WLA01,api-vmImage-WLA01,api-vmDesc-WLA01,api-vmName-WLA01,api-volumeName-WLA01,api-autoscaleName-WLA01,api-snapshotname-WL-A01</stringProp>
-          <boolProp name="ignoreFirstLine">true</boolProp>
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="WL-A01-ooo_env.csv" enabled="true">
           <stringProp name="delimiter">,</stringProp>
-          <boolProp name="quotedData">false</boolProp>
+          <stringProp name="fileEncoding"></stringProp>
+          <stringProp name="filename">../config/WL-A01-ooo_env.csv</stringProp>
+          <boolProp name="ignoreFirstLine">true</boolProp>
+          <boolProp name="quotedData">true</boolProp>
           <boolProp name="recycle">true</boolProp>
-          <boolProp name="stopThread">false</boolProp>
           <stringProp name="shareMode">shareMode.all</stringProp>
+          <boolProp name="stopThread">false</boolProp>
+          <stringProp name="variableNames">host,port,api-host-WLA01,api-key-WLA01,api-project-WLA01,api-platform-WLA01,api-vmSolution-WLA01</stringProp>
         </CSVDataSet>
         <hashTree/>
         <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
@@ -60,9 +60,9 @@
         </Arguments>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="WL-A01-variable" enabled="true">
-          <stringProp name="filename">./id-${time}.csv</stringProp>
+          <stringProp name="filename">../config/id1.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="variableNames">api-vmId-WLA01,snapshot_id,api-volumeId-WLA01,api-networkId-WLA01,key_name,auto_scaling_policy_id,vm_ip,vm_status,serverId,securityId</stringProp>
+          <stringProp name="variableNames">api-vmId-WLA01,api-volumeId-WLA01,api-networkId-WLA01,key_name,auto_scaling_policy_id,vm_ip,vm_status,serverId, api-vmId-WLA01_origin, vmorigin_ip, vmorigin_status, serverorigin_id, api-imageid, time</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
           <stringProp name="delimiter">,</stringProp>
           <boolProp name="quotedData">false</boolProp>
@@ -92,7 +92,7 @@
           </collectionProp>
         </HeaderManager>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Create_Snapshot" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="OOO_Create_Snapshot" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments">
               <elementProp name="name" elementType="HTTPArgument">
@@ -133,24 +133,42 @@
             <stringProp name="JSONPostProcessor.defaultValues">1</stringProp>
           </JSONPostProcessor>
           <hashTree/>
+          <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="save all variable" enabled="true">
+            <stringProp name="scriptLanguage">jython</stringProp>
+            <stringProp name="parameters">${api-vmId-WLA01} ${api-volumeId-WLA01} ${api-networkId-WLA01} ${api-keypairName-WLA01}_${time} ${auto_scaling_policy_id} ${vm_ip} ${vm_status} ${serverId} ${api-vmId-WLA01_origin} ${vmorigin_ip} ${vmorigin_status} ${serverorigin_id} ${api-imageid} ${time} ${snapshot_id} ${api-key-WLA01}</stringProp>
+            <stringProp name="filename">/home/jmeter/NCHC_Swagger/WL-A01/save_var.py</stringProp>
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="script"></stringProp>
+          </JSR223PostProcessor>
+          <hashTree/>
           <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="JSR223 PostProcessor" enabled="true">
             <stringProp name="scriptLanguage">jython</stringProp>
             <stringProp name="parameters"></stringProp>
-            <stringProp name="filename"></stringProp>
+            <stringProp name="filename">/home/jmeter/NCHC_Swagger/WL-A01/save_var2.py</stringProp>
             <stringProp name="cacheKey">true</stringProp>
-            <stringProp name="script">with open(&quot;/home/jmeter/NCHC_Swagger/WL-A01/OOO/id-${time}.csv&quot;, &quot;r&quot;) as f:
-    origin = f.readlines()
-
-li = origin[1].split(&quot;,&quot;)
-li[1] = &quot;${snapshot_id}&quot;    
-origin[1] = &quot;,&quot;.join(li)
-
-with open(&quot;/home/jmeter/NCHC_Swagger/WL-A01/OOO/id-${time}.csv&quot;, &quot;w&quot;) as f:
-    for line in origin:
-        f.write(line)</stringProp>
+            <stringProp name="script"></stringProp>
           </JSR223PostProcessor>
           <hashTree/>
         </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="OOO_HTTP Request" enabled="true">
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+            <collectionProp name="Arguments.arguments"/>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${vm_ip}</stringProp>
+          <stringProp name="HTTPSampler.port">80</stringProp>
+          <stringProp name="HTTPSampler.protocol">http</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path"></stringProp>
+          <stringProp name="HTTPSampler.method">GET</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
@@ -169,19 +187,20 @@ with open(&quot;/home/jmeter/NCHC_Swagger/WL-A01/OOO/id-${time}.csv&quot;, &quot
               <assertions>true</assertions>
               <subresults>false</subresults>
               <responseData>true</responseData>
-              <samplerData>false</samplerData>
+              <samplerData>true</samplerData>
               <xml>true</xml>
               <fieldNames>false</fieldNames>
-              <responseHeaders>false</responseHeaders>
-              <requestHeaders>false</requestHeaders>
+              <responseHeaders>true</responseHeaders>
+              <requestHeaders>true</requestHeaders>
               <responseDataOnError>false</responseDataOnError>
               <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
               <assertionsResultsToSave>0</assertionsResultsToSave>
+              <url>true</url>
               <sampleCount>true</sampleCount>
               <idleTime>true</idleTime>
             </value>
           </objProp>
-          <stringProp name="filename">/home/jmeter/NCHC_Swagger/WL-A01/OOO/Run_Result.xml</stringProp>
+          <stringProp name="filename">/home/jmeter/NCHC_Swagger/WL-A01/OOO/log/Run_Result.xml</stringProp>
         </ResultCollector>
         <hashTree/>
         <BackendListener guiclass="BackendListenerGui" testclass="BackendListener" testname="Backend Listener" enabled="true">

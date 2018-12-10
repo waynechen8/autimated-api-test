@@ -13,12 +13,12 @@ rm -f /home/jmeter/NCHC_Swagger/WL-A01/OOO/Resume_Result.xml
 rm -f /home/jmeter/NCHC_Swagger/WL-A01/OOO/Delete_Result.xml
 
 #Create_snapshotimage
-/home/jmeter/apache-jmeter-4.0/bin/jmeter -Jserial_number=$S -n -t /home/jmeter/NCHC_Swagger/WL-A01/OOO/WL-A01_OOO_Create_snapshotimage.jmx
+/home/jmeter/apache-jmeter-4.0/bin/jmeter -n -t /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmx/WL-A01_OOO_Create_snapshotimage.jmx
 
-python3 /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmetertodb.py -xmlfile /home/jmeter/NCHC_Swagger/WL-A01/OOO/Create_Result_Image.xml
+python3 /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmetertodb.py -xmlfile /home/jmeter/NCHC_Swagger/WL-A01/OOO/log/Create_Result_Image.xml
 
 chmod 400 /home/jmeter/NCHC_Swagger/WL-A01/OOO/keypairs_$S.pem
-remoteVmIp="$(cat /home/jmeter/NCHC_Swagger/WL-A01/OOO/vm01-ip_$S.properties | sed -n '3p' | cut -d "=" -f2)"
+remoteVmIp="$(cat /home/jmeter/NCHC_Swagger/WL-A01/OOO/vm01-ip_"$S".properties | sed -n '3p' | cut -d "=" -f2)"
 
 #Install Nginx
 ssh -o "StrictHostKeyChecking no" -i /home/jmeter/NCHC_Swagger/WL-A01/OOO/keypairs_$S.pem ubuntu@$remoteVmIp << EOF
@@ -29,12 +29,12 @@ ssh -o "StrictHostKeyChecking no" -i /home/jmeter/NCHC_Swagger/WL-A01/OOO/keypai
 EOF
 
 #Create
-/home/jmeter/apache-jmeter-4.0/bin/jmeter -Jserial_number=$S -n -t /home/jmeter/NCHC_Swagger/WL-A01/OOO/WL-A01_OOO_Create.jmx
+/home/jmeter/apache-jmeter-4.0/bin/jmeter -n -t /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmx/WL-A01_OOO_Create.jmx
 
-python3 /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmetertodb.py -xmlfile /home/jmeter/NCHC_Swagger/WL-A01/OOO/Create_Result.xml
+python3 /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmetertodb.py -xmlfile /home/jmeter/NCHC_Swagger/WL-A01/OOO/log/Create_Result.xml
 
 #Stress
-remoteVmIp="$(cat /home/jmeter/NCHC_Swagger/WL-A01/OOO/vm02-ip_$S.properties | sed -n '3p' | cut -d "=" -f2)"
+remoteVmIp="$(cat /home/jmeter/NCHC_Swagger/WL-A01/OOO/vm02-ip_"$S".properties | sed -n '3p' | cut -d "=" -f2)"
 
 ssh -o "StrictHostKeyChecking no" -i /home/jmeter/NCHC_Swagger/WL-A01/OOO/keypairs_$S.pem ubuntu@$remoteVmIp << EOF
   sudo apt-get update
@@ -52,28 +52,28 @@ ssh -o "StrictHostKeyChecking no" -i /home/jmeter/NCHC_Swagger/WL-A01/OOO/keypai
 EOF
 
 #Run(JMX)
-/home/jmeter/apache-jmeter-4.0/bin/jmeter -Jserial_number=$S -n -t /home/jmeter/NCHC_Swagger/WL-A01/OOO/WL-A01_OOO_Run.jmx 
+/home/jmeter/apache-jmeter-4.0/bin/jmeter -n -t /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmx/WL-A01_OOO_Run.jmx 
 
 sleep 3m
 
-python3 /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmetertodb.py -xmlfile /home/jmeter/NCHC_Swagger/WL-A01/OOO/Run_Result.xml
+python3 /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmetertodb.py -xmlfile /home/jmeter/NCHC_Swagger/WL-A01/OOO/log/Run_Result.xml
 
 #Stop
-/home/jmeter/apache-jmeter-4.0/bin/jmeter -Jserial_number=$S -n -t /home/jmeter/NCHC_Swagger/WL-A01/OOO/WL-A01_OOO_Stop.jmx
+/home/jmeter/apache-jmeter-4.0/bin/jmeter -n -t /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmx/WL-A01_OOO_Stop.jmx
 
 sleep 5m
 
-python3 /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmetertodb.py -xmlfile /home/jmeter/NCHC_Swagger/WL-A01/OOO/Stop_Result.xml
+python3 /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmetertodb.py -xmlfile /home/jmeter/NCHC_Swagger/WL-A01/OOO/log/Stop_Result.xml
 
 #Resume
-/home/jmeter/apache-jmeter-4.0/bin/jmeter -Jserial_number=$S -n -t /home/jmeter/NCHC_Swagger/WL-A01/OOO/WL-A01_OOO_Resume.jmx 
+/home/jmeter/apache-jmeter-4.0/bin/jmeter -n -t /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmx/WL-A01_OOO_Resume.jmx 
 
 sleep 5m
 
-python3 /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmetertodb.py -xmlfile /home/jmeter/NCHC_Swagger/WL-A01/OOO/Resume_Result.xml
+python3 /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmetertodb.py -xmlfile /home/jmeter/NCHC_Swagger/WL-A01/OOO/log/Resume_Result.xml
 
 #Delete
-/home/jmeter/apache-jmeter-4.0/bin/jmeter -Jserial_number=$S -n -t /home/jmeter/NCHC_Swagger/WL-A01/OOO/WL-A01_OOO_Delete.jmx 
+/home/jmeter/apache-jmeter-4.0/bin/jmeter -n -t /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmx/WL-A01_OOO_Delete.jmx 
 
-python3 /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmetertodb.py -xmlfile /home/jmeter/NCHC_Swagger/WL-A01/OOO/Delete_Result.xml
+python3 /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmetertodb.py -xmlfile /home/jmeter/NCHC_Swagger/WL-A01/OOO/log/Delete_Result.xml
 

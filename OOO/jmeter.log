@@ -1,249 +1,83 @@
-2018-12-04 20:31:44,842 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2018-12-04 20:31:44,869 INFO o.a.j.JMeter: Loading user properties from: /home/jmeter/apache-jmeter-4.0/bin/user.properties
-2018-12-04 20:31:44,869 INFO o.a.j.JMeter: Loading system properties from: /home/jmeter/apache-jmeter-4.0/bin/system.properties
-2018-12-04 20:31:44,870 INFO o.a.j.JMeter: Setting JMeter property: serial_number=12041752_1
-2018-12-04 20:31:44,875 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
-2018-12-04 20:31:44,875 INFO o.a.j.JMeter: Version 4.0 r1823414
-2018-12-04 20:31:44,876 INFO o.a.j.JMeter: java.version=10.0.2
-2018-12-04 20:31:44,876 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
-2018-12-04 20:31:44,876 INFO o.a.j.JMeter: os.name=Linux
-2018-12-04 20:31:44,876 INFO o.a.j.JMeter: os.arch=amd64
-2018-12-04 20:31:44,876 INFO o.a.j.JMeter: os.version=4.15.0-39-generic
-2018-12-04 20:31:44,876 INFO o.a.j.JMeter: file.encoding=UTF-8
-2018-12-04 20:31:44,876 INFO o.a.j.JMeter: Max memory     =1073741824
-2018-12-04 20:31:44,876 INFO o.a.j.JMeter: Available Processors =4
-2018-12-04 20:31:44,885 INFO o.a.j.JMeter: Default Locale=English (EN)
-2018-12-04 20:31:44,885 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2018-12-04 20:31:44,885 INFO o.a.j.JMeter: JMeterHome=/home/jmeter/apache-jmeter-4.0
-2018-12-04 20:31:44,885 INFO o.a.j.JMeter: user.dir  =/home/jmeter/NCHC_Swagger/WL-A01/OOO
-2018-12-04 20:31:44,885 INFO o.a.j.JMeter: PWD       =/home/jmeter/NCHC_Swagger/WL-A01/OOO
-2018-12-04 20:31:44,886 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: jmeter-virtual-machine FullName: jmeter-virtual-machine
-2018-12-04 20:31:44,890 INFO o.a.j.s.FileServer: Default base='/home/jmeter/NCHC_Swagger/WL-A01/OOO'
-2018-12-04 20:31:44,891 INFO o.a.j.s.FileServer: Set new base='/home/jmeter/NCHC_Swagger/WL-A01/OOO'
-2018-12-04 20:31:45,062 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2018-12-04 20:31:45,084 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
-2018-12-04 20:31:45,088 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2018-12-04 20:31:45,091 INFO o.a.j.s.SaveService: Loading file: /home/jmeter/NCHC_Swagger/WL-A01/OOO/WL-A01_OOO_Create_snapshotimage.jmx
-2018-12-04 20:31:45,363 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-12-04 20:31:45,363 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-12-04 20:31:45,363 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-12-04 20:31:45,363 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-12-04 20:31:45,363 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2018-12-04 20:31:45,363 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2018-12-04 20:31:45,434 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2018-12-04 20:31:45,434 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2018-12-04 20:31:45,434 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2018-12-04 20:31:45,434 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2018-12-04 20:31:45,443 INFO o.a.j.JMeter: Creating summariser <summary>
-2018-12-04 20:31:45,447 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2018-12-04 20:31:45,448 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2018-12-04 20:31:45,448 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2018-12-04 20:31:45,457 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2018-12-04 20:31:45,457 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2018-12-04 20:31:45,900 INFO o.a.j.v.b.BackendListener: Backend Listener: Starting worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient and queue capacity: 5000
-2018-12-04 20:31:45,901 INFO o.a.j.v.b.BackendListener: Backend Listener: Started  worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient
-2018-12-04 20:31:46,146 INFO o.a.j.JMeter: Running test (1543926706146)
-2018-12-04 20:31:46,172 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : WL-A01_OOO
-2018-12-04 20:31:46,173 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group WL-A01_OOO.
-2018-12-04 20:31:46,173 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2018-12-04 20:31:46,173 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
-2018-12-04 20:31:46,198 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2018-12-04 20:31:46,198 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2018-12-04 20:31:46,215 INFO o.a.j.t.JMeterThread: Thread started: WL-A01_OOO 1-1
-2018-12-04 20:31:46,216 INFO o.a.j.s.FileServer: Stored: ./WL-A01-ooo_env.csv
-2018-12-04 20:31:46,221 INFO o.a.j.s.FileServer: Stored: ./WL-A01-ooo_const.csv
-2018-12-04 20:33:46,285 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = jmeter-virtual-machine
-2018-12-04 20:33:46,293 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
-2018-12-04 20:33:46,393 INFO o.a.j.p.h.s.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory
-2018-12-04 20:33:46,404 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
-2018-12-04 20:33:46,404 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
-2018-12-04 20:33:46,407 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
-2018-12-04 20:33:46,408 INFO o.a.j.u.SSLManager: KeyStore created OK
-2018-12-04 20:33:46,408 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
-2018-12-04 20:38:01,280 INFO o.a.j.r.Summariser: summary +      3 in 00:06:15 =    0.0/s Avg:  4387 Min:  1980 Max:  7066 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
-2018-12-04 20:40:02,505 ERROR o.a.j.e.JSR223PostProcessor: Problem in JSR223 script, save all variable
-javax.script.ScriptException: IndexError: index out of range: 13 in <script> at line number 8
-	at org.python.jsr223.PyScriptEngine.scriptException(PyScriptEngine.java:202) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.jsr223.PyScriptEngine.eval(PyScriptEngine.java:42) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.jsr223.PyScriptEngine.access$300(PyScriptEngine.java:20) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.jsr223.PyScriptEngine$PyCompiledScript.eval(PyScriptEngine.java:231) ~[jython-standalone-2.7.0.jar:?]
-	at javax.script.CompiledScript.eval(CompiledScript.java:92) ~[java.scripting:?]
-	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:194) ~[ApacheJMeter_core.jar:4.0 r1823414]
-	at org.apache.jmeter.extractor.JSR223PostProcessor.process(JSR223PostProcessor.java:44) [ApacheJMeter_components.jar:4.0 r1823414]
-	at org.apache.jmeter.threads.JMeterThread.runPostProcessors(JMeterThread.java:839) [ApacheJMeter_core.jar:4.0 r1823414]
-	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:516) [ApacheJMeter_core.jar:4.0 r1823414]
-	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:416) [ApacheJMeter_core.jar:4.0 r1823414]
-	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:250) [ApacheJMeter_core.jar:4.0 r1823414]
-	at java.lang.Thread.run(Thread.java:844) [?:?]
-Caused by: org.python.core.PyException
-	at org.python.core.Py.IndexError(Py.java:274) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.SequenceIndexDelegate.checkIdxAndGetItem(SequenceIndexDelegate.java:63) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.PySequence.seq___getitem__(PySequence.java:377) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.PySequence.__getitem__(PySequence.java:373) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.pycode._pyx0.save$1(<script>:5) ~[?:?]
-	at org.python.pycode._pyx0.call_function(<script>) ~[?:?]
-	at org.python.core.PyTableCode.call(PyTableCode.java:167) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.PyBaseCode.call(PyBaseCode.java:124) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.PyFunction.__call__(PyFunction.java:403) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.pycode._pyx0.f$0(<script>:8) ~[?:?]
-	at org.python.pycode._pyx0.call_function(<script>) ~[?:?]
-	at org.python.core.PyTableCode.call(PyTableCode.java:167) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.PyCode.call(PyCode.java:18) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.Py.runCode(Py.java:1386) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.__builtin__.eval(__builtin__.java:497) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.__builtin__.eval(__builtin__.java:501) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.util.PythonInterpreter.eval(PythonInterpreter.java:259) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.jsr223.PyScriptEngine.eval(PyScriptEngine.java:40) ~[jython-standalone-2.7.0.jar:?]
-	... 10 more
-2018-12-04 20:40:02,524 INFO o.a.j.r.Summariser: summary +      1 in 00:02:01 =    0.0/s Avg:  1215 Min:  1215 Max:  1215 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
-2018-12-04 20:40:02,524 INFO o.a.j.r.Summariser: summary =      4 in 00:08:16 =    0.0/s Avg:  3594 Min:  1215 Max:  7066 Err:     0 (0.00%)
-2018-12-04 20:42:03,523 ERROR o.a.j.e.JSR223PostProcessor: Problem in JSR223 script, save all variable
-javax.script.ScriptException: IndexError: index out of range: 13 in <script> at line number 8
-	at org.python.jsr223.PyScriptEngine.scriptException(PyScriptEngine.java:202) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.jsr223.PyScriptEngine.eval(PyScriptEngine.java:42) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.jsr223.PyScriptEngine.access$300(PyScriptEngine.java:20) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.jsr223.PyScriptEngine$PyCompiledScript.eval(PyScriptEngine.java:231) ~[jython-standalone-2.7.0.jar:?]
-	at javax.script.CompiledScript.eval(CompiledScript.java:92) ~[java.scripting:?]
-	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:194) ~[ApacheJMeter_core.jar:4.0 r1823414]
-	at org.apache.jmeter.extractor.JSR223PostProcessor.process(JSR223PostProcessor.java:44) [ApacheJMeter_components.jar:4.0 r1823414]
-	at org.apache.jmeter.threads.JMeterThread.runPostProcessors(JMeterThread.java:839) [ApacheJMeter_core.jar:4.0 r1823414]
-	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:516) [ApacheJMeter_core.jar:4.0 r1823414]
-	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:416) [ApacheJMeter_core.jar:4.0 r1823414]
-	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:250) [ApacheJMeter_core.jar:4.0 r1823414]
-	at java.lang.Thread.run(Thread.java:844) [?:?]
-Caused by: org.python.core.PyException
-	at org.python.core.Py.IndexError(Py.java:274) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.SequenceIndexDelegate.checkIdxAndGetItem(SequenceIndexDelegate.java:63) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.PySequence.seq___getitem__(PySequence.java:377) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.PySequence.__getitem__(PySequence.java:373) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.pycode._pyx0.save$1(<script>:5) ~[?:?]
-	at org.python.pycode._pyx0.call_function(<script>) ~[?:?]
-	at org.python.core.PyTableCode.call(PyTableCode.java:167) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.PyBaseCode.call(PyBaseCode.java:124) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.PyFunction.__call__(PyFunction.java:403) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.pycode._pyx0.f$0(<script>:8) ~[?:?]
-	at org.python.pycode._pyx0.call_function(<script>) ~[?:?]
-	at org.python.core.PyTableCode.call(PyTableCode.java:167) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.PyCode.call(PyCode.java:18) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.Py.runCode(Py.java:1386) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.__builtin__.eval(__builtin__.java:497) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.__builtin__.eval(__builtin__.java:501) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.util.PythonInterpreter.eval(PythonInterpreter.java:259) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.jsr223.PyScriptEngine.eval(PyScriptEngine.java:40) ~[jython-standalone-2.7.0.jar:?]
-	... 10 more
-2018-12-04 20:42:03,529 INFO o.a.j.r.Summariser: summary +      1 in 00:02:01 =    0.0/s Avg:   990 Min:   990 Max:   990 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
-2018-12-04 20:42:03,529 INFO o.a.j.r.Summariser: summary =      5 in 00:10:17 =    0.0/s Avg:  3073 Min:   990 Max:  7066 Err:     0 (0.00%)
-2018-12-04 20:44:05,051 ERROR o.a.j.e.JSR223PostProcessor: Problem in JSR223 script, save all variable
-javax.script.ScriptException: IndexError: index out of range: 13 in <script> at line number 8
-	at org.python.jsr223.PyScriptEngine.scriptException(PyScriptEngine.java:202) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.jsr223.PyScriptEngine.eval(PyScriptEngine.java:42) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.jsr223.PyScriptEngine.access$300(PyScriptEngine.java:20) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.jsr223.PyScriptEngine$PyCompiledScript.eval(PyScriptEngine.java:231) ~[jython-standalone-2.7.0.jar:?]
-	at javax.script.CompiledScript.eval(CompiledScript.java:92) ~[java.scripting:?]
-	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:194) ~[ApacheJMeter_core.jar:4.0 r1823414]
-	at org.apache.jmeter.extractor.JSR223PostProcessor.process(JSR223PostProcessor.java:44) [ApacheJMeter_components.jar:4.0 r1823414]
-	at org.apache.jmeter.threads.JMeterThread.runPostProcessors(JMeterThread.java:839) [ApacheJMeter_core.jar:4.0 r1823414]
-	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:516) [ApacheJMeter_core.jar:4.0 r1823414]
-	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:416) [ApacheJMeter_core.jar:4.0 r1823414]
-	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:250) [ApacheJMeter_core.jar:4.0 r1823414]
-	at java.lang.Thread.run(Thread.java:844) [?:?]
-Caused by: org.python.core.PyException
-	at org.python.core.Py.IndexError(Py.java:274) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.SequenceIndexDelegate.checkIdxAndGetItem(SequenceIndexDelegate.java:63) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.PySequence.seq___getitem__(PySequence.java:377) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.PySequence.__getitem__(PySequence.java:373) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.pycode._pyx0.save$1(<script>:5) ~[?:?]
-	at org.python.pycode._pyx0.call_function(<script>) ~[?:?]
-	at org.python.core.PyTableCode.call(PyTableCode.java:167) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.PyBaseCode.call(PyBaseCode.java:124) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.PyFunction.__call__(PyFunction.java:403) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.pycode._pyx0.f$0(<script>:8) ~[?:?]
-	at org.python.pycode._pyx0.call_function(<script>) ~[?:?]
-	at org.python.core.PyTableCode.call(PyTableCode.java:167) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.PyCode.call(PyCode.java:18) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.Py.runCode(Py.java:1386) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.__builtin__.eval(__builtin__.java:497) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.__builtin__.eval(__builtin__.java:501) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.util.PythonInterpreter.eval(PythonInterpreter.java:259) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.jsr223.PyScriptEngine.eval(PyScriptEngine.java:40) ~[jython-standalone-2.7.0.jar:?]
-	... 10 more
-2018-12-04 20:44:05,056 INFO o.a.j.r.Summariser: summary +      1 in 00:02:02 =    0.0/s Avg:  1511 Min:  1511 Max:  1511 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
-2018-12-04 20:44:05,056 INFO o.a.j.r.Summariser: summary =      6 in 00:12:19 =    0.0/s Avg:  2812 Min:   990 Max:  7066 Err:     0 (0.00%)
-2018-12-04 20:46:06,405 ERROR o.a.j.e.JSR223PostProcessor: Problem in JSR223 script, save all variable
-javax.script.ScriptException: IndexError: index out of range: 13 in <script> at line number 8
-	at org.python.jsr223.PyScriptEngine.scriptException(PyScriptEngine.java:202) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.jsr223.PyScriptEngine.eval(PyScriptEngine.java:42) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.jsr223.PyScriptEngine.access$300(PyScriptEngine.java:20) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.jsr223.PyScriptEngine$PyCompiledScript.eval(PyScriptEngine.java:231) ~[jython-standalone-2.7.0.jar:?]
-	at javax.script.CompiledScript.eval(CompiledScript.java:92) ~[java.scripting:?]
-	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:194) ~[ApacheJMeter_core.jar:4.0 r1823414]
-	at org.apache.jmeter.extractor.JSR223PostProcessor.process(JSR223PostProcessor.java:44) [ApacheJMeter_components.jar:4.0 r1823414]
-	at org.apache.jmeter.threads.JMeterThread.runPostProcessors(JMeterThread.java:839) [ApacheJMeter_core.jar:4.0 r1823414]
-	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:516) [ApacheJMeter_core.jar:4.0 r1823414]
-	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:416) [ApacheJMeter_core.jar:4.0 r1823414]
-	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:250) [ApacheJMeter_core.jar:4.0 r1823414]
-	at java.lang.Thread.run(Thread.java:844) [?:?]
-Caused by: org.python.core.PyException
-	at org.python.core.Py.IndexError(Py.java:274) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.SequenceIndexDelegate.checkIdxAndGetItem(SequenceIndexDelegate.java:63) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.PySequence.seq___getitem__(PySequence.java:377) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.PySequence.__getitem__(PySequence.java:373) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.pycode._pyx0.save$1(<script>:5) ~[?:?]
-	at org.python.pycode._pyx0.call_function(<script>) ~[?:?]
-	at org.python.core.PyTableCode.call(PyTableCode.java:167) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.PyBaseCode.call(PyBaseCode.java:124) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.PyFunction.__call__(PyFunction.java:403) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.pycode._pyx0.f$0(<script>:8) ~[?:?]
-	at org.python.pycode._pyx0.call_function(<script>) ~[?:?]
-	at org.python.core.PyTableCode.call(PyTableCode.java:167) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.PyCode.call(PyCode.java:18) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.Py.runCode(Py.java:1386) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.__builtin__.eval(__builtin__.java:497) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.__builtin__.eval(__builtin__.java:501) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.util.PythonInterpreter.eval(PythonInterpreter.java:259) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.jsr223.PyScriptEngine.eval(PyScriptEngine.java:40) ~[jython-standalone-2.7.0.jar:?]
-	... 10 more
-2018-12-04 20:48:07,492 ERROR o.a.j.e.JSR223PostProcessor: Problem in JSR223 script, save all variable
-javax.script.ScriptException: IndexError: index out of range: 13 in <script> at line number 8
-	at org.python.jsr223.PyScriptEngine.scriptException(PyScriptEngine.java:202) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.jsr223.PyScriptEngine.eval(PyScriptEngine.java:42) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.jsr223.PyScriptEngine.access$300(PyScriptEngine.java:20) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.jsr223.PyScriptEngine$PyCompiledScript.eval(PyScriptEngine.java:231) ~[jython-standalone-2.7.0.jar:?]
-	at javax.script.CompiledScript.eval(CompiledScript.java:92) ~[java.scripting:?]
-	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:194) ~[ApacheJMeter_core.jar:4.0 r1823414]
-	at org.apache.jmeter.extractor.JSR223PostProcessor.process(JSR223PostProcessor.java:44) [ApacheJMeter_components.jar:4.0 r1823414]
-	at org.apache.jmeter.threads.JMeterThread.runPostProcessors(JMeterThread.java:839) [ApacheJMeter_core.jar:4.0 r1823414]
-	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:516) [ApacheJMeter_core.jar:4.0 r1823414]
-	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:416) [ApacheJMeter_core.jar:4.0 r1823414]
-	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:250) [ApacheJMeter_core.jar:4.0 r1823414]
-	at java.lang.Thread.run(Thread.java:844) [?:?]
-Caused by: org.python.core.PyException
-	at org.python.core.Py.IndexError(Py.java:274) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.SequenceIndexDelegate.checkIdxAndGetItem(SequenceIndexDelegate.java:63) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.PySequence.seq___getitem__(PySequence.java:377) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.PySequence.__getitem__(PySequence.java:373) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.pycode._pyx0.save$1(<script>:5) ~[?:?]
-	at org.python.pycode._pyx0.call_function(<script>) ~[?:?]
-	at org.python.core.PyTableCode.call(PyTableCode.java:167) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.PyBaseCode.call(PyBaseCode.java:124) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.PyFunction.__call__(PyFunction.java:403) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.pycode._pyx0.f$0(<script>:8) ~[?:?]
-	at org.python.pycode._pyx0.call_function(<script>) ~[?:?]
-	at org.python.core.PyTableCode.call(PyTableCode.java:167) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.PyCode.call(PyCode.java:18) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.Py.runCode(Py.java:1386) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.__builtin__.eval(__builtin__.java:497) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.core.__builtin__.eval(__builtin__.java:501) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.util.PythonInterpreter.eval(PythonInterpreter.java:259) ~[jython-standalone-2.7.0.jar:?]
-	at org.python.jsr223.PyScriptEngine.eval(PyScriptEngine.java:40) ~[jython-standalone-2.7.0.jar:?]
-	... 10 more
-2018-12-04 20:48:07,498 INFO o.a.j.t.JMeterThread: Thread is done: WL-A01_OOO 1-1
-2018-12-04 20:48:07,498 INFO o.a.j.t.JMeterThread: Thread finished: WL-A01_OOO 1-1
-2018-12-04 20:48:07,499 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2018-12-04 20:48:07,500 INFO o.a.j.s.FileServer: Close: ./WL-A01-ooo_const.csv
-2018-12-04 20:48:07,500 INFO o.a.j.s.FileServer: Close: ./WL-A01-ooo_env.csv
-2018-12-04 20:48:07,501 INFO o.a.j.v.b.BackendListener: Worker ended
-2018-12-04 20:48:07,501 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: Shutting down influxDB scheduler...
-2018-12-04 20:48:07,557 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: influxDB scheduler terminated!
-2018-12-04 20:48:07,558 INFO o.a.j.r.Summariser: summary +      2 in 00:04:03 =    0.0/s Avg:  1209 Min:  1078 Max:  1341 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
-2018-12-04 20:48:07,559 INFO o.a.j.r.Summariser: summary =      8 in 00:16:21 =    0.0/s Avg:  2412 Min:   990 Max:  7066 Err:     0 (0.00%)
+2018-12-07 18:30:30,325 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2018-12-07 18:30:30,348 INFO o.a.j.JMeter: Loading user properties from: /home/jmeter/apache-jmeter-4.0/bin/user.properties
+2018-12-07 18:30:30,349 INFO o.a.j.JMeter: Loading system properties from: /home/jmeter/apache-jmeter-4.0/bin/system.properties
+2018-12-07 18:30:30,354 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2018-12-07 18:30:30,354 INFO o.a.j.JMeter: Version 4.0 r1823414
+2018-12-07 18:30:30,354 INFO o.a.j.JMeter: java.version=10.0.2
+2018-12-07 18:30:30,354 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2018-12-07 18:30:30,354 INFO o.a.j.JMeter: os.name=Linux
+2018-12-07 18:30:30,354 INFO o.a.j.JMeter: os.arch=amd64
+2018-12-07 18:30:30,354 INFO o.a.j.JMeter: os.version=4.15.0-39-generic
+2018-12-07 18:30:30,354 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-12-07 18:30:30,354 INFO o.a.j.JMeter: Max memory     =1073741824
+2018-12-07 18:30:30,354 INFO o.a.j.JMeter: Available Processors =4
+2018-12-07 18:30:30,361 INFO o.a.j.JMeter: Default Locale=English (EN)
+2018-12-07 18:30:30,361 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2018-12-07 18:30:30,361 INFO o.a.j.JMeter: JMeterHome=/home/jmeter/apache-jmeter-4.0
+2018-12-07 18:30:30,362 INFO o.a.j.JMeter: user.dir  =/home/jmeter/NCHC_Swagger/WL-A01/OOO
+2018-12-07 18:30:30,362 INFO o.a.j.JMeter: PWD       =/home/jmeter/NCHC_Swagger/WL-A01/OOO
+2018-12-07 18:30:30,362 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: jmeter-virtual-machine FullName: jmeter-virtual-machine
+2018-12-07 18:30:30,365 INFO o.a.j.s.FileServer: Default base='/home/jmeter/NCHC_Swagger/WL-A01/OOO'
+2018-12-07 18:30:30,367 INFO o.a.j.s.FileServer: Set new base='/home/jmeter/NCHC_Swagger/WL-A01/OOO/jmx'
+2018-12-07 18:30:30,519 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-12-07 18:30:30,540 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
+2018-12-07 18:30:30,544 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-12-07 18:30:30,547 INFO o.a.j.s.SaveService: Loading file: /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmx/WL-A01_OOO_Delete.jmx
+2018-12-07 18:30:30,600 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-12-07 18:30:30,600 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-12-07 18:30:30,600 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-12-07 18:30:30,600 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-12-07 18:30:30,601 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-12-07 18:30:30,601 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-12-07 18:30:30,862 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-12-07 18:30:30,862 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-12-07 18:30:30,862 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-12-07 18:30:30,862 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-12-07 18:30:30,869 INFO o.a.j.JMeter: Creating summariser <summary>
+2018-12-07 18:30:30,873 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-12-07 18:30:30,879 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-12-07 18:30:30,879 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-12-07 18:30:30,894 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-12-07 18:30:30,894 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-12-07 18:30:30,988 INFO o.a.j.v.b.BackendListener: Backend Listener: Starting worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient and queue capacity: 5000
+2018-12-07 18:30:30,989 INFO o.a.j.v.b.BackendListener: Backend Listener: Started  worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient
+2018-12-07 18:30:31,192 INFO o.a.j.JMeter: Running test (1544178631192)
+2018-12-07 18:30:31,224 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : WL-A01_OOO_Delete
+2018-12-07 18:30:31,225 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group WL-A01_OOO_Delete.
+2018-12-07 18:30:31,225 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-12-07 18:30:31,225 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 perThread=500.0 delayedStart=false
+2018-12-07 18:30:31,232 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-12-07 18:30:31,233 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-12-07 18:30:31,296 INFO o.a.j.t.JMeterThread: Thread started: WL-A01_OOO_Delete 1-1
+2018-12-07 18:30:31,298 INFO o.a.j.s.FileServer: Stored: ../config/WL-A01-ooo_const.csv
+2018-12-07 18:30:31,298 INFO o.a.j.s.FileServer: Stored: ../config/id1.csv
+2018-12-07 18:30:31,298 INFO o.a.j.s.FileServer: Stored: ../config/WL-A01-ooo_env.csv
+2018-12-07 18:30:31,796 INFO o.a.j.t.JMeterThread: Thread started: WL-A01_OOO_Delete 1-2
+2018-12-07 18:31:31,327 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = jmeter-virtual-machine
+2018-12-07 18:31:31,332 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-12-07 18:31:31,410 INFO o.a.j.p.h.s.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2018-12-07 18:31:31,419 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2018-12-07 18:31:31,419 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2018-12-07 18:31:31,421 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2018-12-07 18:31:31,422 INFO o.a.j.u.SSLManager: KeyStore created OK
+2018-12-07 18:31:31,422 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2018-12-07 18:31:33,292 INFO o.a.j.r.Summariser: summary +      1 in 00:01:02 =    0.0/s Avg:  1925 Min:  1925 Max:  1925 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2018-12-07 18:32:34,317 INFO o.a.j.r.Summariser: summary +      2 in 00:01:01 =    0.0/s Avg:  1418 Min:  1022 Max:  1814 Err:     1 (50.00%) Active: 2 Started: 2 Finished: 0
+2018-12-07 18:32:34,323 INFO o.a.j.r.Summariser: summary =      3 in 00:02:03 =    0.0/s Avg:  1587 Min:  1022 Max:  1925 Err:     1 (33.33%)
+2018-12-07 18:33:34,328 INFO o.a.j.r.Summariser: summary +      2 in 00:01:00 =    0.0/s Avg:   519 Min:     0 Max:  1039 Err:     2 (100.00%) Active: 2 Started: 2 Finished: 0
+2018-12-07 18:33:34,328 INFO o.a.j.r.Summariser: summary =      5 in 00:03:03 =    0.0/s Avg:  1160 Min:     0 Max:  1925 Err:     3 (60.00%)
+2018-12-07 18:34:35,448 INFO o.a.j.r.Summariser: summary +      2 in 00:01:01 =    0.0/s Avg:   558 Min:     0 Max:  1117 Err:     2 (100.00%) Active: 2 Started: 2 Finished: 0
+2018-12-07 18:34:35,449 INFO o.a.j.r.Summariser: summary =      7 in 00:04:04 =    0.0/s Avg:   988 Min:     0 Max:  1925 Err:     5 (71.43%)
+2018-12-07 18:40:56,619 INFO o.a.j.t.JMeterThread: Thread is done: WL-A01_OOO_Delete 1-1
+2018-12-07 18:40:56,619 INFO o.a.j.t.JMeterThread: Thread finished: WL-A01_OOO_Delete 1-1
+2018-12-07 18:40:58,045 INFO o.a.j.t.JMeterThread: Thread is done: WL-A01_OOO_Delete 1-2
+2018-12-07 18:40:58,045 INFO o.a.j.t.JMeterThread: Thread finished: WL-A01_OOO_Delete 1-2
+2018-12-07 18:40:58,046 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-12-07 18:40:58,046 INFO o.a.j.s.FileServer: Close: ../config/WL-A01-ooo_const.csv
+2018-12-07 18:40:58,047 INFO o.a.j.s.FileServer: Close: ../config/id1.csv
+2018-12-07 18:40:58,047 INFO o.a.j.s.FileServer: Close: ../config/WL-A01-ooo_env.csv
+2018-12-07 18:40:58,048 INFO o.a.j.v.b.BackendListener: Worker ended
+2018-12-07 18:40:58,048 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: Shutting down influxDB scheduler...
+2018-12-07 18:40:58,090 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: influxDB scheduler terminated!
+2018-12-07 18:40:58,090 INFO o.a.j.r.Summariser: summary +     13 in 00:06:23 =    0.0/s Avg:  3423 Min:     0 Max: 15319 Err:     9 (69.23%) Active: 0 Started: 2 Finished: 2
+2018-12-07 18:40:58,090 INFO o.a.j.r.Summariser: summary =     20 in 00:10:27 =    0.0/s Avg:  2571 Min:     0 Max: 15319 Err:    14 (70.00%)
