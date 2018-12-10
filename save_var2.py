@@ -14,10 +14,10 @@ networkid = [ss[0][2]] + [int(ss[i][2]) for i in range(1,len(origin))]
 # if number of thread is n, then find the last n networkids
 reverse = networkid[::-1]
 set_networkid = set([int(ss[i][2]) for i in range(1,len(origin))])
-o = list(itemgetter(*[len(networkid)-1-reverse.index(i) for i in set_networkid])(origin))
+o = [origin[i] for i in [len(networkid)-1-reverse.index(i) for i in set_networkid]]
 
 # make order of api-keys in id.csv the same as those in env.csv
-gg = [i.split(",") for i in o]
+gg = [i.split(',') for i in o]
 key_in_id = [gg[i][15] for i in range(len(o))]
 form = dict(zip(key_in_id, range(len(key_in_id))))
 Y = [form[i] for i in key]
