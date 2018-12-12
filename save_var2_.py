@@ -13,18 +13,13 @@ networkid = [ss[0][2]] + [int(ss[i][2]) for i in range(1,len(origin))]
 # if number of thread is n, then find the last n networkids
 reverse = networkid[::-1]
 set_networkid = set([int(ss[i][2]) for i in range(1,len(origin))])
-if 1 in set_networkid:
-    set_networkid.remove(1)
 po = [len(networkid)-1-reverse.index(i) for i in set_networkid]
 
 # make order of api-keys in id.csv the same as those in env.csv
 key_in_id = [ss[i][15] for i in po]
-if len(set(key_in_id)) > 1:
-    form = dict(zip(key_in_id, range(len(key_in_id))))
-    Y = [form[i] for i in key]
-    o = [origin[po[i]] for i in Y]
-else:
-    o = [origin[i] for i in po]
+form = dict(zip(key_in_id, range(len(key_in_id))))
+Y = [form[i] for i in key]
+o = [origin[po[i]] for i in Y]
 o.insert(0, origin[0])
 
 with open("/home/jmeter/NCHC_Swagger/WL-A01/"+args[0]+"/config/id1.csv", "w") as f:

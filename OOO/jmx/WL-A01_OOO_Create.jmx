@@ -166,7 +166,7 @@
             <stringProp name="JSONPostProcessor.defaultValues">1</stringProp>
           </JSONPostProcessor>
           <hashTree/>
-          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="Os version Extractor" enabled="true">
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="Os version Extractor" enabled="false">
             <stringProp name="JSONPostProcessor.referenceNames">os_ver</stringProp>
             <stringProp name="JSONPostProcessor.jsonPathExprs">$[0].os_version</stringProp>
             <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
@@ -197,7 +197,7 @@
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">{&quot;desc&quot;:&quot;${api-imagename-WL-A01}_${time}&quot;, &quot;name&quot;:&quot;${api-imagename-WL-A01}_${time}&quot;, &quot;os&quot;:&quot;${os}&quot;, &quot;os_version&quot;: &quot;${os_ver}&quot;}</stringProp>
+                  <stringProp name="Argument.value">{&quot;desc&quot;:&quot;${api-imagename-WL-A01}_${time}&quot;, &quot;name&quot;:&quot;${api-imagename-WL-A01}_${time}&quot;, &quot;os&quot;:&quot;${os}&quot;, &quot;os_version&quot;: &quot;16.04&quot;}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -241,7 +241,7 @@
             <hashTree/>
             <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="JSR223 PostProcessor" enabled="true">
               <stringProp name="scriptLanguage">jython</stringProp>
-              <stringProp name="parameters">${__P(thread, 2)}</stringProp>
+              <stringProp name="parameters">OOO</stringProp>
               <stringProp name="filename">/home/jmeter/NCHC_Swagger/WL-A01/save_var2.py</stringProp>
               <stringProp name="cacheKey">true</stringProp>
               <stringProp name="script"></stringProp>
@@ -415,7 +415,7 @@
               <hashTree/>
               <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="JSR223 PostProcessor" enabled="true">
                 <stringProp name="scriptLanguage">jython</stringProp>
-                <stringProp name="parameters">${__P(thread, 2)}</stringProp>
+                <stringProp name="parameters">OOO</stringProp>
                 <stringProp name="filename">/home/jmeter/NCHC_Swagger/WL-A01/save_var2.py</stringProp>
                 <stringProp name="cacheKey">true</stringProp>
                 <stringProp name="script"></stringProp>
@@ -480,7 +480,7 @@
             <hashTree/>
             <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="JSR223 PostProcessor" enabled="true">
               <stringProp name="scriptLanguage">jython</stringProp>
-              <stringProp name="parameters">${__P(thread, 2)}</stringProp>
+              <stringProp name="parameters">OOO</stringProp>
               <stringProp name="filename">/home/jmeter/NCHC_Swagger/WL-A01/save_var2.py</stringProp>
               <stringProp name="cacheKey">true</stringProp>
               <stringProp name="script"></stringProp>
@@ -492,7 +492,7 @@
           <stringProp name="ConstantTimer.delay">110000</stringProp>
         </ConstantTimer>
         <hashTree/>
-        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If Get_ServerID" enabled="true">
+        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If Get_ServerID2" enabled="true">
           <stringProp name="IfController.condition">${__jexl3(${error_occur} == &quot;0&quot;)}</stringProp>
           <boolProp name="IfController.evaluateAll">false</boolProp>
           <boolProp name="IfController.useExpression">true</boolProp>
@@ -576,7 +576,7 @@
                 <hashTree/>
                 <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="JSR223 PostProcessor" enabled="true">
                   <stringProp name="scriptLanguage">jython</stringProp>
-                  <stringProp name="parameters">${__P(thread, 2)}</stringProp>
+                  <stringProp name="parameters">OOO</stringProp>
                   <stringProp name="filename">/home/jmeter/NCHC_Swagger/WL-A01/save_var2.py</stringProp>
                   <stringProp name="cacheKey">true</stringProp>
                   <stringProp name="script"></stringProp>

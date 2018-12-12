@@ -12,8 +12,8 @@
       <stringProp name="TestPlan.user_define_classpath"></stringProp>
     </TestPlan>
     <hashTree>
-      <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="WL-A01-ooo_const.csv" enabled="true">
-        <stringProp name="filename">../config/WL-A01-ooo_const.csv</stringProp>
+      <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="WL-A01-soc_const.csv" enabled="true">
+        <stringProp name="filename">../config/WL-A01-soc_const.csv</stringProp>
         <stringProp name="fileEncoding"></stringProp>
         <stringProp name="variableNames">api-networkName-WLA01,api-keypairName-WLA01,api-vmFlavor-WLA01,api-vmImage-WLA01,api-vmDesc-WLA01,api-vmName-WLA01,api-volumeName-WLA01,api-autoscaleName-WLA01</stringProp>
         <boolProp name="ignoreFirstLine">true</boolProp>
@@ -33,23 +33,23 @@
         <stringProp name="variableName">time</stringProp>
       </RandomVariableConfig>
       <hashTree/>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="WL-A01_OOO" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="WL-A01_SOC" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">${__P(thread, 2)}</stringProp>
+        <stringProp name="ThreadGroup.num_threads">${__P(thread, 1)}</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="WL-A01-ooo_env.csv" enabled="true">
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="WL-A01-soc_env.csv" enabled="true">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename">../config/WL-A01-ooo_env.csv</stringProp>
+          <stringProp name="filename">../config/WL-A01-soc_env.csv</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
           <boolProp name="quotedData">true</boolProp>
           <boolProp name="recycle">true</boolProp>
@@ -86,16 +86,6 @@
               <stringProp name="Argument.value">0</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
-            <elementProp name="api-networkId-WLA01" elementType="Argument">
-              <stringProp name="Argument.name">api-networkId-WLA01</stringProp>
-              <stringProp name="Argument.value">2</stringProp>
-              <stringProp name="Argument.metadata">=</stringProp>
-            </elementProp>
-            <elementProp name="serverId" elementType="Argument">
-              <stringProp name="Argument.name">serverId</stringProp>
-              <stringProp name="Argument.value">2</stringProp>
-              <stringProp name="Argument.metadata">=</stringProp>
-            </elementProp>
           </collectionProp>
         </Arguments>
         <hashTree/>
@@ -117,13 +107,13 @@
           <boolProp name="IfController.useExpression">true</boolProp>
         </IfController>
         <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="OOO_Create_Network" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="SOC_Create_Network" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">{&quot;cidr&quot;:&quot;192.168.1${time}.0/24&quot;,&quot;gateway&quot;:&quot;192.168.1${time}.1&quot;,&quot;name&quot;:&quot;${api-networkName-WLA01}_${time}&quot;,&quot;project&quot;:${api-project-WLA01},&quot;with_router&quot;:true}</stringProp>
+                  <stringProp name="Argument.value">{&quot;cidr&quot;:&quot;192.168.1${time}.0/24&quot;,&quot;gateway&quot;:&quot;192.168.1${time}.1&quot;,&quot;name&quot;:&quot;${api-networkName-WLA01}&quot;,&quot;project&quot;:${api-project-WLA01},&quot;with_router&quot;:true}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -167,13 +157,20 @@
             <hashTree/>
             <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="JSR223 PostProcessor" enabled="true">
               <stringProp name="scriptLanguage">jython</stringProp>
-              <stringProp name="parameters">OOO</stringProp>
+              <stringProp name="parameters">SOC</stringProp>
               <stringProp name="filename">/home/jmeter/NCHC_Swagger/WL-A01/save_var2.py</stringProp>
               <stringProp name="cacheKey">true</stringProp>
               <stringProp name="script"></stringProp>
             </JSR223PostProcessor>
             <hashTree/>
           </hashTree>
+          <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="Check network Id" enabled="false">
+            <stringProp name="BeanShellSampler.query">if (&quot;${api-networkId-WLA01}&quot;.equals(&quot;1&quot;)) {vars.put(&quot;error_occur&quot;, &quot;1&quot;);}</stringProp>
+            <stringProp name="BeanShellSampler.filename"></stringProp>
+            <stringProp name="BeanShellSampler.parameters"></stringProp>
+            <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
+          </BeanShellSampler>
+          <hashTree/>
         </hashTree>
         <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If keypair" enabled="true">
           <stringProp name="IfController.condition">${__jexl3(${error_occur} == &quot;0&quot;)}</stringProp>
@@ -181,13 +178,13 @@
           <boolProp name="IfController.useExpression">true</boolProp>
         </IfController>
         <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="OOO_Create_Keypair" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="SOC_Create_Keypair" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">{&quot;name&quot;:&quot;${api-keypairName-WLA01}_${time}&quot;,&quot;project&quot;:${api-project-WLA01}}</stringProp>
+                  <stringProp name="Argument.value">{&quot;name&quot;:&quot;${api-keypairName-WLA01}&quot;,&quot;project&quot;:${api-project-WLA01}}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -221,9 +218,8 @@
               <stringProp name="parameters"></stringProp>
               <stringProp name="filename"></stringProp>
               <stringProp name="cacheKey">true</stringProp>
-              <stringProp name="script">with open(&quot;/home/jmeter/NCHC_Swagger/WL-A01/OOO/keypair/${api-keypairName-WLA01}_${time}.pem&quot;, &quot;w&quot;) as f:
+              <stringProp name="script">with open(&quot;/home/jmeter/NCHC_Swagger/WL-A01/SOC/keypair/${api-keypairName-WLA01}_${time}.pem&quot;, &quot;w&quot;) as f:
     f.write(vars.get(&quot;response&quot;))</stringProp>
-              <stringProp name="TestPlan.comments">	</stringProp>
             </JSR223PostProcessor>
             <hashTree/>
           </hashTree>
@@ -276,13 +272,13 @@
               </collectionProp>
             </HeaderManager>
             <hashTree/>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="OOO_Create_VM1" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="SOC_Create_VM1" enabled="true">
               <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
                 <collectionProp name="Arguments.arguments">
                   <elementProp name="" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                    <stringProp name="Argument.value">{&quot;desc&quot;:&quot;${api-vmDesc-WLA01}1_${time}&quot;,&quot;name&quot;:&quot;${api-vmName-WLA01}1_${time}&quot;,&quot;project&quot;:${api-project-WLA01},&quot;solution&quot;:&quot;${api-vmSolution-WLA01}&quot;}</stringProp>
+                    <stringProp name="Argument.value">{&quot;desc&quot;:&quot;${api-vmDesc-WLA01}&quot;,&quot;name&quot;:&quot;${api-vmName-WLA01}&quot;,&quot;project&quot;:${api-project-WLA01},&quot;solution&quot;:&quot;${api-vmSolution-WLA01}&quot;}</stringProp>
                     <stringProp name="Argument.metadata">=</stringProp>
                   </elementProp>
                 </collectionProp>
@@ -303,7 +299,7 @@
             </HTTPSamplerProxy>
             <hashTree>
               <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="get_siteId" enabled="true">
-                <stringProp name="JSONPostProcessor.referenceNames">api-vmId-WLA01_origin</stringProp>
+                <stringProp name="JSONPostProcessor.referenceNames">api-vmId-WLA01</stringProp>
                 <stringProp name="JSONPostProcessor.jsonPathExprs">$.id</stringProp>
                 <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
                 <stringProp name="JSONPostProcessor.defaultValues">1</stringProp>
@@ -313,7 +309,7 @@
                 <boolProp name="resetInterpreter">false</boolProp>
                 <stringProp name="parameters"></stringProp>
                 <stringProp name="filename"></stringProp>
-                <stringProp name="script">if (&quot;${api-vmId-WLA01_origin}&quot;.equals(&quot;1&quot;)) {vars.put(&quot;error_occur&quot;, &quot;1&quot;);}</stringProp>
+                <stringProp name="script">if (&quot;${api-vmId-WLA01}&quot;.equals(&quot;1&quot;)) {vars.put(&quot;error_occur&quot;, &quot;1&quot;);}</stringProp>
               </BeanShellPostProcessor>
               <hashTree/>
               <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="save all variable" enabled="true">
@@ -326,7 +322,7 @@
               <hashTree/>
               <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="JSR223 PostProcessor" enabled="true">
                 <stringProp name="scriptLanguage">jython</stringProp>
-                <stringProp name="parameters">OOO</stringProp>
+                <stringProp name="parameters">SOC</stringProp>
                 <stringProp name="filename">/home/jmeter/NCHC_Swagger/WL-A01/save_var2.py</stringProp>
                 <stringProp name="cacheKey">true</stringProp>
                 <stringProp name="script"></stringProp>
@@ -336,7 +332,7 @@
           </hashTree>
         </hashTree>
         <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
-          <stringProp name="ConstantTimer.delay">100000</stringProp>
+          <stringProp name="ConstantTimer.delay">120000</stringProp>
         </ConstantTimer>
         <hashTree/>
         <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If Get_ServerID1" enabled="true">
@@ -349,7 +345,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="local_error" elementType="Argument">
                 <stringProp name="Argument.name">local_error</stringProp>
-                <stringProp name="Argument.value">0</stringProp>
+                <stringProp name="Argument.value">1</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>
@@ -361,12 +357,12 @@
           </LoopController>
           <hashTree>
             <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If Controller" enabled="true">
-              <stringProp name="IfController.condition">${__jexl3(${local_error} == &quot;0&quot;)}</stringProp>
+              <stringProp name="IfController.condition">${__jexl3(${local_error} == &quot;1&quot;)}</stringProp>
               <boolProp name="IfController.evaluateAll">false</boolProp>
               <boolProp name="IfController.useExpression">true</boolProp>
             </IfController>
             <hashTree>
-              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get_ServerID1" enabled="true">
+              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="SOC_Get_ServerID1" enabled="true">
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
@@ -374,7 +370,7 @@
                 <stringProp name="HTTPSampler.port">${port}</stringProp>
                 <stringProp name="HTTPSampler.protocol">https</stringProp>
                 <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-                <stringProp name="HTTPSampler.path">/api/v2/${api-platform-WLA01}/sites/${api-vmId-WLA01_origin}/</stringProp>
+                <stringProp name="HTTPSampler.path">/api/v2/${api-platform-WLA01}/sites/${api-vmId-WLA01}/</stringProp>
                 <stringProp name="HTTPSampler.method">GET</stringProp>
                 <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
                 <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -385,22 +381,22 @@
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
               </HTTPSamplerProxy>
               <hashTree>
-                <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="get server1 id" enabled="true">
-                  <stringProp name="JSONPostProcessor.referenceNames">serverorigin_id</stringProp>
+                <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="get server id" enabled="true">
+                  <stringProp name="JSONPostProcessor.referenceNames">serverId</stringProp>
                   <stringProp name="JSONPostProcessor.jsonPathExprs">$.servers[0]</stringProp>
                   <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
                   <stringProp name="JSONPostProcessor.defaultValues">1</stringProp>
                 </JSONPostProcessor>
                 <hashTree/>
-                <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="get vm1 ip" enabled="true">
-                  <stringProp name="JSONPostProcessor.referenceNames">vmorigin_ip</stringProp>
+                <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="get vm ip" enabled="true">
+                  <stringProp name="JSONPostProcessor.referenceNames">vm_ip</stringProp>
                   <stringProp name="JSONPostProcessor.jsonPathExprs">$.public_ip</stringProp>
                   <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
                   <stringProp name="JSONPostProcessor.defaultValues">1</stringProp>
                 </JSONPostProcessor>
                 <hashTree/>
-                <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="get vm1 status" enabled="true">
-                  <stringProp name="JSONPostProcessor.referenceNames">vmorigin_status</stringProp>
+                <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="get vm status" enabled="true">
+                  <stringProp name="JSONPostProcessor.referenceNames">vm_status</stringProp>
                   <stringProp name="JSONPostProcessor.jsonPathExprs">$.status</stringProp>
                   <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
                   <stringProp name="JSONPostProcessor.defaultValues">1</stringProp>
@@ -410,7 +406,7 @@
                   <boolProp name="resetInterpreter">false</boolProp>
                   <stringProp name="parameters"></stringProp>
                   <stringProp name="filename"></stringProp>
-                  <stringProp name="script">if (!&quot;${serverorigin_id}&quot;.equals(&quot;1&quot;)&amp;&amp;!&quot;${vmorigin_ip}&quot;.equals(&quot;&quot;)&amp;&amp;&quot;${vmorigin_status}&quot;.equals(&quot;Ready&quot;) ) {vars.put(&quot;local_error&quot;, &quot;1&quot;); vars.put(&quot;error_occur&quot;, &quot;0&quot;);}</stringProp>
+                  <stringProp name="script">if (!&quot;${serverId}&quot;.equals(&quot;1&quot;)&amp;&amp;!&quot;${vm_ip}&quot;.equals(&quot;&quot;)&amp;&amp;&quot;${vm_status}&quot;.equals(&quot;Ready&quot;) ) {vars.put(&quot;local_error&quot;, &quot;0&quot;);vars.put(&quot;error_occur&quot;, &quot;0&quot;);}</stringProp>
                 </BeanShellPostProcessor>
                 <hashTree/>
                 <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="save all variable" enabled="true">
@@ -423,26 +419,11 @@
                 <hashTree/>
                 <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="JSR223 PostProcessor" enabled="true">
                   <stringProp name="scriptLanguage">jython</stringProp>
-                  <stringProp name="parameters">OOO</stringProp>
+                  <stringProp name="parameters">SOC</stringProp>
                   <stringProp name="filename">/home/jmeter/NCHC_Swagger/WL-A01/save_var2.py</stringProp>
                   <stringProp name="cacheKey">true</stringProp>
                   <stringProp name="script"></stringProp>
                 </JSR223PostProcessor>
-                <hashTree/>
-                <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="export_ip_properties" enabled="false">
-                  <boolProp name="resetInterpreter">false</boolProp>
-                  <stringProp name="parameters"></stringProp>
-                  <stringProp name="filename"></stringProp>
-                  <stringProp name="script">import java.util.Properties;
-
-FileWriter fstream = new FileWriter(&quot;/home/jmeter/NCHC_Swagger/WL-A01/OOO/vm01-ip_${time}.properties&quot;,false);
-BufferedWriter out = new BufferedWriter(fstream);
-Properties props= new Properties();
-props.setProperty(&quot;public_ip&quot;,vars.get(&quot;vmorigin_ip&quot;));
-props.store(out,&quot;vm01-ip_${time}&quot;);
-
-out.close();</stringProp>
-                </BeanShellPostProcessor>
                 <hashTree/>
               </hashTree>
             </hashTree>
@@ -451,50 +432,31 @@ out.close();</stringProp>
             <boolProp name="resetInterpreter">false</boolProp>
             <stringProp name="parameters"></stringProp>
             <stringProp name="filename"></stringProp>
-            <stringProp name="script">if ( &quot;${serverorigin_id}&quot;.equals(&quot;1&quot;)||&quot;${vmorigin_ip}&quot;.equals(&quot;&quot;)||!(&quot;${vmorigin_status}&quot;.equals(&quot;Ready&quot;)) ) {vars.put(&quot;error_occur&quot;, &quot;1&quot;);}</stringProp>
+            <stringProp name="script">if ( &quot;${serverId}&quot;.equals(&quot;1&quot;)||&quot;${vm_ip}&quot;.equals(&quot;&quot;)||!(&quot;${vm_status}&quot;.equals(&quot;Ready&quot;)) ) {vars.put(&quot;error_occur&quot;, &quot;1&quot;);}</stringProp>
           </BeanShellPostProcessor>
           <hashTree/>
         </hashTree>
-        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
-          <boolProp name="ResultCollector.error_logging">false</boolProp>
-          <objProp>
-            <name>saveConfig</name>
-            <value class="SampleSaveConfiguration">
-              <time>true</time>
-              <latency>true</latency>
-              <timestamp>true</timestamp>
-              <success>true</success>
-              <label>true</label>
-              <code>true</code>
-              <message>false</message>
-              <threadName>true</threadName>
-              <dataType>false</dataType>
-              <encoding>false</encoding>
-              <assertions>true</assertions>
-              <subresults>false</subresults>
-              <responseData>true</responseData>
-              <samplerData>true</samplerData>
-              <xml>true</xml>
-              <fieldNames>false</fieldNames>
-              <responseHeaders>false</responseHeaders>
-              <requestHeaders>true</requestHeaders>
-              <responseDataOnError>false</responseDataOnError>
-              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
-              <assertionsResultsToSave>0</assertionsResultsToSave>
-              <url>true</url>
-              <sampleCount>true</sampleCount>
-              <idleTime>true</idleTime>
-            </value>
-          </objProp>
-          <stringProp name="filename">/home/jmeter/NCHC_Swagger/WL-A01/OOO/log/Create_Result_Image.xml</stringProp>
-        </ResultCollector>
+        <JSR223Listener guiclass="TestBeanGUI" testclass="JSR223Listener" testname="export_ids_csv" enabled="false">
+          <stringProp name="cacheKey">true</stringProp>
+          <stringProp name="filename"></stringProp>
+          <stringProp name="parameters"></stringProp>
+          <stringProp name="script">li = [&quot;vm_id,snapshot_id,volume_id,network_id,key_name,autoscaling_id,vm_ip,vm_status,server_id,security_id&quot;, &quot;\n&quot;,&quot;${api-vmId-WLA01}&quot; + &quot;,,&quot; + &quot;${api-volumeId-WLA01}&quot; + &quot;,&quot; + &quot;${api-networkId-WLA01}&quot; + &quot;,&quot; + &quot;${api-keypairName-WLA01}&quot; + &quot;,&quot; + &quot;${auto_scaling_policy_id}&quot; + &quot;,&quot; + &quot;${vm_ip}&quot; + &quot;,&quot; + &quot;${vm_status}&quot; + &quot;,&quot; + &quot;${serverId}&quot; + &quot;,&quot; + &quot;${securityId}&quot;]
+
+f = open(&quot;/home/jmeter/NCHC_Swagger/WL-A01/SOC/id-${time}.csv&quot;, &quot;w&quot;)
+
+for line in li:
+    f.write(line)
+
+f.close()</stringProp>
+          <stringProp name="scriptLanguage">python</stringProp>
+        </JSR223Listener>
         <hashTree/>
         <BackendListener guiclass="BackendListenerGui" testclass="BackendListener" testname="Backend Listener" enabled="true">
           <elementProp name="arguments" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments">
               <elementProp name="testName" elementType="Argument">
                 <stringProp name="Argument.name">testName</stringProp>
-                <stringProp name="Argument.value">WL-A01_OOO</stringProp>
+                <stringProp name="Argument.value">WL-A01_SOC</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
               <elementProp name="nodeName" elementType="Argument">
@@ -546,6 +508,81 @@ out.close();</stringProp>
           </elementProp>
           <stringProp name="classname">rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient</stringProp>
         </BackendListener>
+        <hashTree/>
+        <BeanShellListener guiclass="TestBeanGUI" testclass="BeanShellListener" testname="ip properties" enabled="false">
+          <stringProp name="filename"></stringProp>
+          <stringProp name="parameters"></stringProp>
+          <boolProp name="resetInterpreter">false</boolProp>
+          <stringProp name="script">import java.util.Properties;
+
+FileWriter fstream = new FileWriter(&quot;/home/jmeter/NCHC_Swagger/WL-A01/SOC/wla01.properties&quot;,false);
+BufferedWriter out = new BufferedWriter(fstream);
+Properties props= new Properties();
+props.setProperty(&quot;public_ip&quot;,vars.get(&quot;vm_ip&quot;));
+props.store(out,&quot;wla01&quot;);
+
+out.close();</stringProp>
+        </BeanShellListener>
+        <hashTree/>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>false</message>
+              <threadName>true</threadName>
+              <dataType>false</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>false</subresults>
+              <responseData>true</responseData>
+              <samplerData>true</samplerData>
+              <xml>true</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>true</responseHeaders>
+              <requestHeaders>true</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <url>true</url>
+              <sampleCount>true</sampleCount>
+              <idleTime>true</idleTime>
+            </value>
+          </objProp>
+          <stringProp name="filename">/home/jmeter/NCHC_Swagger/WL-A01/SOC/log/Create_Result_Image.xml</stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <BeanShellListener guiclass="TestBeanGUI" testclass="BeanShellListener" testname="BeanShell var" enabled="false">
+          <boolProp name="resetInterpreter">false</boolProp>
+          <stringProp name="parameters"></stringProp>
+          <stringProp name="filename"></stringProp>
+          <stringProp name="script">import java.io.FileWriter;
+import java.io.BufferedWriter;
+
+vm_id = vars.get(&quot;api-vmId-WLA01&quot;);
+volume_id = vars.get(&quot;api-volumeId-WLA01&quot;);
+network_id = vars.get(&quot;api-networkId-WLA01&quot;);
+key_name = vars.get(&quot;api-keypairName-WLA01&quot;);
+asp_id = vars.get(&quot;policy_id&quot;);
+vm_ip = vars.get(&quot;vm_ip&quot;);
+vm_status = vars.get(&quot;vm_status&quot;);
+server_id = vars.get(&quot;serverId&quot;);
+security_id = vars.get(&quot;securityId&quot;);
+
+
+FileWriter fstream = new FileWriter(&quot;/home/jmeter/NCHC_Swagger/WL-A01/SOC/soc_ids.csv&quot;, true);
+BufferedWriter out = new BufferedWriter(fstream);
+out.write(vm_id + &quot;,,&quot; + volume_id + &quot;,&quot; + network_id + &quot;,&quot; + key_name + &quot;,&quot; + asp_id + &quot;,&quot; + vm_ip + &quot;,&quot; + vm_status + &quot;,&quot; + server_id + &quot;,&quot; + security_id);
+out.write(System.getProperty(&quot;line.separator&quot;));
+
+out.close();</stringProp>
+        </BeanShellListener>
         <hashTree/>
       </hashTree>
     </hashTree>

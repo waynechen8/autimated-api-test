@@ -1,83 +1,76 @@
-2018-12-07 18:30:30,325 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2018-12-07 18:30:30,348 INFO o.a.j.JMeter: Loading user properties from: /home/jmeter/apache-jmeter-4.0/bin/user.properties
-2018-12-07 18:30:30,349 INFO o.a.j.JMeter: Loading system properties from: /home/jmeter/apache-jmeter-4.0/bin/system.properties
-2018-12-07 18:30:30,354 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
-2018-12-07 18:30:30,354 INFO o.a.j.JMeter: Version 4.0 r1823414
-2018-12-07 18:30:30,354 INFO o.a.j.JMeter: java.version=10.0.2
-2018-12-07 18:30:30,354 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
-2018-12-07 18:30:30,354 INFO o.a.j.JMeter: os.name=Linux
-2018-12-07 18:30:30,354 INFO o.a.j.JMeter: os.arch=amd64
-2018-12-07 18:30:30,354 INFO o.a.j.JMeter: os.version=4.15.0-39-generic
-2018-12-07 18:30:30,354 INFO o.a.j.JMeter: file.encoding=UTF-8
-2018-12-07 18:30:30,354 INFO o.a.j.JMeter: Max memory     =1073741824
-2018-12-07 18:30:30,354 INFO o.a.j.JMeter: Available Processors =4
-2018-12-07 18:30:30,361 INFO o.a.j.JMeter: Default Locale=English (EN)
-2018-12-07 18:30:30,361 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2018-12-07 18:30:30,361 INFO o.a.j.JMeter: JMeterHome=/home/jmeter/apache-jmeter-4.0
-2018-12-07 18:30:30,362 INFO o.a.j.JMeter: user.dir  =/home/jmeter/NCHC_Swagger/WL-A01/OOO
-2018-12-07 18:30:30,362 INFO o.a.j.JMeter: PWD       =/home/jmeter/NCHC_Swagger/WL-A01/OOO
-2018-12-07 18:30:30,362 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: jmeter-virtual-machine FullName: jmeter-virtual-machine
-2018-12-07 18:30:30,365 INFO o.a.j.s.FileServer: Default base='/home/jmeter/NCHC_Swagger/WL-A01/OOO'
-2018-12-07 18:30:30,367 INFO o.a.j.s.FileServer: Set new base='/home/jmeter/NCHC_Swagger/WL-A01/OOO/jmx'
-2018-12-07 18:30:30,519 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2018-12-07 18:30:30,540 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
-2018-12-07 18:30:30,544 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2018-12-07 18:30:30,547 INFO o.a.j.s.SaveService: Loading file: /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmx/WL-A01_OOO_Delete.jmx
-2018-12-07 18:30:30,600 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-12-07 18:30:30,600 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-12-07 18:30:30,600 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-12-07 18:30:30,600 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-12-07 18:30:30,601 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2018-12-07 18:30:30,601 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2018-12-07 18:30:30,862 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2018-12-07 18:30:30,862 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2018-12-07 18:30:30,862 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2018-12-07 18:30:30,862 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2018-12-07 18:30:30,869 INFO o.a.j.JMeter: Creating summariser <summary>
-2018-12-07 18:30:30,873 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2018-12-07 18:30:30,879 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2018-12-07 18:30:30,879 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2018-12-07 18:30:30,894 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2018-12-07 18:30:30,894 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2018-12-07 18:30:30,988 INFO o.a.j.v.b.BackendListener: Backend Listener: Starting worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient and queue capacity: 5000
-2018-12-07 18:30:30,989 INFO o.a.j.v.b.BackendListener: Backend Listener: Started  worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient
-2018-12-07 18:30:31,192 INFO o.a.j.JMeter: Running test (1544178631192)
-2018-12-07 18:30:31,224 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : WL-A01_OOO_Delete
-2018-12-07 18:30:31,225 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group WL-A01_OOO_Delete.
-2018-12-07 18:30:31,225 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2018-12-07 18:30:31,225 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 perThread=500.0 delayedStart=false
-2018-12-07 18:30:31,232 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2018-12-07 18:30:31,233 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2018-12-07 18:30:31,296 INFO o.a.j.t.JMeterThread: Thread started: WL-A01_OOO_Delete 1-1
-2018-12-07 18:30:31,298 INFO o.a.j.s.FileServer: Stored: ../config/WL-A01-ooo_const.csv
-2018-12-07 18:30:31,298 INFO o.a.j.s.FileServer: Stored: ../config/id1.csv
-2018-12-07 18:30:31,298 INFO o.a.j.s.FileServer: Stored: ../config/WL-A01-ooo_env.csv
-2018-12-07 18:30:31,796 INFO o.a.j.t.JMeterThread: Thread started: WL-A01_OOO_Delete 1-2
-2018-12-07 18:31:31,327 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = jmeter-virtual-machine
-2018-12-07 18:31:31,332 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
-2018-12-07 18:31:31,410 INFO o.a.j.p.h.s.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory
-2018-12-07 18:31:31,419 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
-2018-12-07 18:31:31,419 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
-2018-12-07 18:31:31,421 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
-2018-12-07 18:31:31,422 INFO o.a.j.u.SSLManager: KeyStore created OK
-2018-12-07 18:31:31,422 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
-2018-12-07 18:31:33,292 INFO o.a.j.r.Summariser: summary +      1 in 00:01:02 =    0.0/s Avg:  1925 Min:  1925 Max:  1925 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
-2018-12-07 18:32:34,317 INFO o.a.j.r.Summariser: summary +      2 in 00:01:01 =    0.0/s Avg:  1418 Min:  1022 Max:  1814 Err:     1 (50.00%) Active: 2 Started: 2 Finished: 0
-2018-12-07 18:32:34,323 INFO o.a.j.r.Summariser: summary =      3 in 00:02:03 =    0.0/s Avg:  1587 Min:  1022 Max:  1925 Err:     1 (33.33%)
-2018-12-07 18:33:34,328 INFO o.a.j.r.Summariser: summary +      2 in 00:01:00 =    0.0/s Avg:   519 Min:     0 Max:  1039 Err:     2 (100.00%) Active: 2 Started: 2 Finished: 0
-2018-12-07 18:33:34,328 INFO o.a.j.r.Summariser: summary =      5 in 00:03:03 =    0.0/s Avg:  1160 Min:     0 Max:  1925 Err:     3 (60.00%)
-2018-12-07 18:34:35,448 INFO o.a.j.r.Summariser: summary +      2 in 00:01:01 =    0.0/s Avg:   558 Min:     0 Max:  1117 Err:     2 (100.00%) Active: 2 Started: 2 Finished: 0
-2018-12-07 18:34:35,449 INFO o.a.j.r.Summariser: summary =      7 in 00:04:04 =    0.0/s Avg:   988 Min:     0 Max:  1925 Err:     5 (71.43%)
-2018-12-07 18:40:56,619 INFO o.a.j.t.JMeterThread: Thread is done: WL-A01_OOO_Delete 1-1
-2018-12-07 18:40:56,619 INFO o.a.j.t.JMeterThread: Thread finished: WL-A01_OOO_Delete 1-1
-2018-12-07 18:40:58,045 INFO o.a.j.t.JMeterThread: Thread is done: WL-A01_OOO_Delete 1-2
-2018-12-07 18:40:58,045 INFO o.a.j.t.JMeterThread: Thread finished: WL-A01_OOO_Delete 1-2
-2018-12-07 18:40:58,046 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2018-12-07 18:40:58,046 INFO o.a.j.s.FileServer: Close: ../config/WL-A01-ooo_const.csv
-2018-12-07 18:40:58,047 INFO o.a.j.s.FileServer: Close: ../config/id1.csv
-2018-12-07 18:40:58,047 INFO o.a.j.s.FileServer: Close: ../config/WL-A01-ooo_env.csv
-2018-12-07 18:40:58,048 INFO o.a.j.v.b.BackendListener: Worker ended
-2018-12-07 18:40:58,048 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: Shutting down influxDB scheduler...
-2018-12-07 18:40:58,090 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: influxDB scheduler terminated!
-2018-12-07 18:40:58,090 INFO o.a.j.r.Summariser: summary +     13 in 00:06:23 =    0.0/s Avg:  3423 Min:     0 Max: 15319 Err:     9 (69.23%) Active: 0 Started: 2 Finished: 2
-2018-12-07 18:40:58,090 INFO o.a.j.r.Summariser: summary =     20 in 00:10:27 =    0.0/s Avg:  2571 Min:     0 Max: 15319 Err:    14 (70.00%)
+2018-12-11 18:32:11,830 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2018-12-11 18:32:11,879 INFO o.a.j.JMeter: Loading user properties from: /home/jmeter/apache-jmeter-4.0/bin/user.properties
+2018-12-11 18:32:11,880 INFO o.a.j.JMeter: Loading system properties from: /home/jmeter/apache-jmeter-4.0/bin/system.properties
+2018-12-11 18:32:11,880 INFO o.a.j.JMeter: Setting JMeter property: thread=2
+2018-12-11 18:32:11,897 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2018-12-11 18:32:11,897 INFO o.a.j.JMeter: Version 4.0 r1823414
+2018-12-11 18:32:11,897 INFO o.a.j.JMeter: java.version=10.0.2
+2018-12-11 18:32:11,897 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2018-12-11 18:32:11,897 INFO o.a.j.JMeter: os.name=Linux
+2018-12-11 18:32:11,897 INFO o.a.j.JMeter: os.arch=amd64
+2018-12-11 18:32:11,897 INFO o.a.j.JMeter: os.version=4.15.0-39-generic
+2018-12-11 18:32:11,897 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-12-11 18:32:11,898 INFO o.a.j.JMeter: Max memory     =1073741824
+2018-12-11 18:32:11,898 INFO o.a.j.JMeter: Available Processors =4
+2018-12-11 18:32:11,925 INFO o.a.j.JMeter: Default Locale=English (EN)
+2018-12-11 18:32:11,926 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2018-12-11 18:32:11,926 INFO o.a.j.JMeter: JMeterHome=/home/jmeter/apache-jmeter-4.0
+2018-12-11 18:32:11,926 INFO o.a.j.JMeter: user.dir  =/home/jmeter/NCHC_Swagger/WL-A01/OOO
+2018-12-11 18:32:11,926 INFO o.a.j.JMeter: PWD       =/home/jmeter/NCHC_Swagger/WL-A01/OOO
+2018-12-11 18:32:11,926 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: jmeter-virtual-machine FullName: jmeter-virtual-machine
+2018-12-11 18:32:11,933 INFO o.a.j.s.FileServer: Default base='/home/jmeter/NCHC_Swagger/WL-A01/OOO'
+2018-12-11 18:32:11,936 INFO o.a.j.s.FileServer: Set new base='/home/jmeter/NCHC_Swagger/WL-A01/OOO/jmx'
+2018-12-11 18:32:12,340 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-12-11 18:32:12,382 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
+2018-12-11 18:32:12,386 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-12-11 18:32:12,390 INFO o.a.j.s.SaveService: Loading file: /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmx/WL-A01_OOO_Run.jmx
+2018-12-11 18:32:12,520 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-12-11 18:32:12,520 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-12-11 18:32:12,520 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-12-11 18:32:12,521 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-12-11 18:32:12,521 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-12-11 18:32:12,521 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-12-11 18:32:12,640 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-12-11 18:32:12,640 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-12-11 18:32:12,640 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-12-11 18:32:12,640 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-12-11 18:32:12,682 INFO o.a.j.JMeter: Creating summariser <summary>
+2018-12-11 18:32:12,690 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-12-11 18:32:12,692 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-12-11 18:32:12,692 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-12-11 18:32:12,758 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-12-11 18:32:12,759 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-12-11 18:32:14,258 INFO o.a.j.v.b.BackendListener: Backend Listener: Starting worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient and queue capacity: 5000
+2018-12-11 18:32:14,259 INFO o.a.j.v.b.BackendListener: Backend Listener: Started  worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient
+2018-12-11 18:32:14,955 INFO o.a.j.JMeter: Running test (1544524334955)
+2018-12-11 18:32:14,984 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : WL-A01_OOO
+2018-12-11 18:32:14,984 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group WL-A01_OOO.
+2018-12-11 18:32:14,984 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-12-11 18:32:14,985 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 perThread=500.0 delayedStart=false
+2018-12-11 18:32:14,990 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-12-11 18:32:14,990 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-12-11 18:32:15,020 INFO o.a.j.t.JMeterThread: Thread started: WL-A01_OOO 1-1
+2018-12-11 18:32:15,021 INFO o.a.j.s.FileServer: Stored: ../config/WL-A01-ooo_const.csv
+2018-12-11 18:32:15,024 INFO o.a.j.s.FileServer: Stored: ../config/id1.csv
+2018-12-11 18:32:15,025 INFO o.a.j.s.FileServer: Stored: ../config/WL-A01-ooo_env.csv
+2018-12-11 18:32:15,046 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = jmeter-virtual-machine
+2018-12-11 18:32:15,051 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-12-11 18:32:15,115 INFO o.a.j.p.h.s.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2018-12-11 18:32:15,121 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2018-12-11 18:32:15,121 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2018-12-11 18:32:15,125 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2018-12-11 18:32:15,125 INFO o.a.j.u.SSLManager: KeyStore created OK
+2018-12-11 18:32:15,126 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2018-12-11 18:32:15,520 INFO o.a.j.t.JMeterThread: Thread started: WL-A01_OOO 1-2
+2018-12-11 18:32:19,520 INFO o.a.j.t.JMeterThread: Thread is done: WL-A01_OOO 1-1
+2018-12-11 18:32:19,526 INFO o.a.j.t.JMeterThread: Thread finished: WL-A01_OOO 1-1
+2018-12-11 18:32:19,610 INFO o.a.j.t.JMeterThread: Thread is done: WL-A01_OOO 1-2
+2018-12-11 18:32:19,610 INFO o.a.j.t.JMeterThread: Thread finished: WL-A01_OOO 1-2
+2018-12-11 18:32:19,611 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-12-11 18:32:19,611 INFO o.a.j.s.FileServer: Close: ../config/WL-A01-ooo_const.csv
+2018-12-11 18:32:19,611 INFO o.a.j.s.FileServer: Close: ../config/id1.csv
+2018-12-11 18:32:19,611 INFO o.a.j.s.FileServer: Close: ../config/WL-A01-ooo_env.csv
+2018-12-11 18:32:19,611 INFO o.a.j.v.b.BackendListener: Worker ended
+2018-12-11 18:32:19,612 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: Shutting down influxDB scheduler...
+2018-12-11 18:32:19,668 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: influxDB scheduler terminated!
+2018-12-11 18:32:19,669 INFO o.a.j.r.Summariser: summary =      4 in 00:00:05 =    0.8/s Avg:  1402 Min:    56 Max:  2837 Err:     0 (0.00%)
