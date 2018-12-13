@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testResults version="1.2">
-<httpSample t="2837" it="0" lt="2837" ts="1544524335523" s="true" lb="OOO_Create_Snapshot" rc="201" tn="WL-A01_OOO 1-2" sc="1" ec="0">
-  <responseHeader class="java.lang.String">HTTP/1.1 201 CREATED
+<httpSample t="1314" it="0" lt="1313" ts="1544695698968" s="false" lb="WL-A01_OOO_Create_Snapshot" rc="400" tn="WL-A01_OOO 1-1" sc="1" ec="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 400 BAD REQUEST
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
-Date: Tue, 11 Dec 2018 10:32:15 GMT
+Date: Thu, 13 Dec 2018 10:08:19 GMT
 Server: Apache/2.4.7 (Ubuntu)
 Vary: Accept,Accept-Language,Cookie
 X-Frame-Options: SAMEORIGIN
 Content-Language: en
 Allow: GET, POST, HEAD, OPTIONS
-Set-Cookie: csrftoken=LIsLkZYLUHhViLlmOrJ1hffnyDlp8yrP; expires=Tue, 10-Dec-2019 10:32:18 GMT; Max-Age=31449600; Path=/
-Set-Cookie: sessionid=&quot;.eJy1WWlXXFd2dXuQLFke0h33lE6nO2knOAnozoM7g4UkDEIgBJQoKXHIHamCGnhVr5AgUbo7ycpK_mb-RL5m3wdIsloGUctiaS2K0rv3nHvOPvvsc99v335afW-mdXkyTqPtbqzebn_51ltvKUMDcVQ4pgPNSWbrkuHaKhGJ9opFJ7xPPCliIxEpSMKdZMlnEWLygVfvtD7cdpO6s32677udd1ofj9JOdzjYToO4P-wO6uq99k9hrFPX-19cv041m2NkTok5-oUkhFw_4NWl1sdYf9ANabx9vLi6vNq6UqeBG9Rl2_fbv8AOLlpHfXBCOyWUTd5xE0P2KUvDsuLVldb3X3DHu7AHH6qrrVs7w9AbTuLceNib1Nh-br_n6jwc9eeG-2kwrvHkHJ5pFs-drJtbTofjejhI8yf7fNB6_3RZdW219V49xNfVh-FCmxfPrm6WlVerjz7_XfXx0-qTmdZHk8E44Om4fbzpH7T-b-dG-ZkPt-Rif_5obXb4SC1uhqW9fTXYpYov3hgs9tc27hxu8JVB23Yf9Q5vDpbvPkhH9-4oe_TwdpBqVHVv3f9qtJETWxHDerS-sEAf2Hsry5tr6snSUYu12xM7Gq4vrD2ef1RruTGO7Kg6uHlXsIXxymJvpbPWDasrszdC_aTfvbvO74utTbGz51bvd2a3jnr3bq8RtdDmDx726mpLVnRVLG_t5sW0Fm4tdxbI2urCJD405sF-a89srG0u1GKdbswv78bhWI02Bxu1vl-xtaP0ILEFfrBEl74aVt9vXYrDvusOqh88rf5wpvU20v_pauvdgeun6oerk9ZHJ1C56WrXG-5UP_q6-vHM0-onM-0rwMgp6MbVT7-u_gjf_2ym_Q6-n4x61R-3f_RqHBoiaLMaC9Mou5Cqn7cv4e_9ie91Q_PxBJd_0jx3_Me9QXrhr4LTX7z0v2-XPWP1ywa-lHpNVGJOhyRSIlY6RqhXSgahguCTp9WfznR-30n63MnOz9vvn7o5cL3OS950XrLfOTasrNZc-EQT4ULkYEjKXGUSmFEsEQnDf3a-4feaCux3B69pNbAQGNeO5GBFjtw54aKTRrvImaRkktrv4rH6cD9Vv2pC3E_1qBtOlhOWNNiGc4_wUE6tTCSyLKIXxGiem8UNKD5rX8bHncEwhE4XZ_nzmQ5y_xfI_cxZp0JQpjgVyEHYrEGHFIyovcuGcJa9oSTZ4Bjsf36-1SmSGBiVSvLsPTciM20Yd8zEKC01MjWG__JVhsk3DD8H9WuajdmxSFERLGWhGNJACBXB0aS4ZNpOUudXTRDTQRrUp7nTjiP5SXKvBUkaAcspK2G8JCxm3fmsWbLvBntD-P1XTcL-GgmbLSf45becQGtzHdQaUr9YmuIsjKQo4Y910QgljVdUkqBI0N4SGilcmXuVA_RbHLgodoSlpIQRoTHCM44-S9FUTQ7JJ6kz7F-_iP0pUGRsaeLeM02DCGj1UWUFYgCYFKfON-ksC5_bOSEvoyJabkxcUlCJ8iFEoDEGxjIjJCGl31iGs5AmrRRpZWdURNEAFZ_uNF4wyRBJmjgRMVIblOCcCZ15YFk6OCHOqInGtJwGSaAiCCWHWBJRisFGnmU0hCkeFdcahlUx_ONXn5lLLnU1Df0kK1E_jBlrhGBCOeacl4agr3iiC6kif00kI5LQrQ9PoScVt8x6RpwRgRoD0UQ4aNTZQKi2SF9ZtXcieeC_abJnkb0vykl-_W29gYjrB_T6edJsiqOCdhBLZ6E7cdBUKAdalAkk1lMlS7X--lWekQt7duH0I_ogYq4UQ992grmgk48kFNWM9lC4-G--m6BNU-KZJkqZzQStSnlIeguIpBgSydlE3UDkQzw4HIVOGtcjV0TrKU60ktYFbq3MKPPkLRiDgR4yT84bAZyUvttJrlT43zYY-Ttg5O_Paj1EsGmiLKAehHBECq8QomgCWFtLA_0kIGgKXX55tmxh00XQZa9lQAvjMgmiUemcIATaYvhB_yt66cb5hi-sl2QwksqUAS7BgjHJxeiVDloTC2Z7Vtqu50bYdudkndRMCAm-M8kKVLPNUWctoLQygbjUJylzw9iB4_NNym4iZbfOOAKoYpojSB5JpvBapygsJz5FLYwWaK9aCqVg__YZQDmxemGgYBglzHm0UyDeRGtUSNaiuExiqEgBswvnH3YKoESHNEXGmIygKWh5kQnzGnIJCA3uuTjq9t3OsyB5KinnQjMphcnaFFQ5kbyKORNZ8lUisNNzg1CI-KsmY4vI2FI5xM--VR2BU9gcnarSkCooIJGgiwTGf6cjZQiqYVBwQpS83XmVbfr7ti8KGW14w-s6WioEStxprUi0IYPqlS6ml1_T9DQCgksrDHNROYLBKLroQTcqBmgdtNljrizTRRj29yf16TIL8QOKpIRjoLIqWtQtKlUGEoiQzp2U3GB4UCTI3ZLAk9rFiJNGz2vXYQhzLhQdg8OjlYesCaR60TSM8oCNrhbrqdsbNkux3UqDh1Xg4V4JzMtXK897DEGPmS4sFCIV0UA_YhBT0TltERer0J2EjKIw79qrbJOXbV-8swYMfJgZoU-sKDUdvZRKcW5cUlkW6r3_Wqe-KA7RbkmCmMtonAIU4jNH48OE5TkVmJQbJHxUclHuesrtzottExmM2hCJnouaBhkpn9CHvVTZYlQLJ_KqtM3ZkAc4xXqTxQ1kcfMspYBiALzfjLySiducMcYWDcvLGBtkbnQDRuzCPK3vxrMpAIhZ31NvkHnQD0YNV-5kPIfMNoH4WJx7cJb2e03nqq1pMOosS9yHZByjIhqYIEaCwkAkgAAXzxr1wbA36acDdgqSzEzmEqOCxrSShbHQV4KrAOaj0sYTkITuIKbRQRGR7QYkDwGSR-ee9s0oXQLZpTlRRqSEzoDahBbzKI6EqdHGCCf_4VyUvCmlqyAznEbbBHOif4I0wZnOxlB2NsbAuX_8bpy7aHEZxhmwqpjB7AL8QoEbzArM0gB_2bEwuPQMIqdyQomE3oemi9HOQ1PQMm4baoSB4FXmRBkcAwSH-7qBxz8BHttnqSpl1TSpV6g-KYF1aixQKiCncg5QVjIHRk2Zv_75LFV1bHaamy6JTEDP-kSANSdQI0lBUZUBBHNfuSd15xu-eAOwGJxMGTY4RmttpQIHZcVAkBTfPpMCg1Q_Ho72TpdBAmAYFCLBz8SVU1FKSQ0EDc0us85nJ4sm9WhYiN83SQtIWiyH-PKlQ_DTRmZKI7t-o7W5uP1mqqdcnVAnC8ySQHe13FiCgZtltABvPXxNrwrzCx5OEWaVhYXSjd5C8-akMD0Tb2gMUMIBkgpW86viQqaLy8XJXQqiUqCS0TLCQAGgBgMECdMOysA0MLiGB4d-N4V6dlwPR88ghIcUw9BDKIWIjJjaLBMR_aJ8QriOrz3Hj7u5TM87DRI6QEL3XJbib4hCWRkT8YPWz0QGeTKoLlv-lYsmU_TW7nfj3IWBAlniaXCYi_DRZ1dek-BXNtoIBBie7Z3bFF_LswtjxGKUVQLqTjItAEgfoP0xt1CPyBkZXhYA_BQf2ZFkVDY2RFEunZ0H3KjLWYF5uPqmAOCT1HpvNOylcdX7uuo_rQadHzbIO3kt2gRz7FofNS87j9-ZlXdQw5MLPy2pZTzFKAX8a2SKtoFmi5aZfLXf-uTFhc2blOp4bAmdUI1al9OT_e4I1seYi-pUd_vp6rMPVd26evl_r33wwU_eajweD40idO7k99VWHa5Wk8_Xq4P_Wq8et651x9s54VBYHqsn_9O6vD8alvKpDp9WRzOtK8-9_5fX8r7zaedK6xPs2gRh-3S3f_1vhKhkbGVjE89zKaunk9a75ZzVvz2tfjPT-sG-G49B33H75HTbrq5-u4r93sHSEv1x3RmOa0Kr3006n25e-x4m8RfexG5M1u48WHiEaXHSnj14NF5xeznv3KSzB3eGhE0Gy4f3lnpbe_1Z1u8e7a_ylYPe0SDotL7i9uUjne7sLHXtw-X7O2uLzO1vDcRRZbKaPexP6Oyj3d7N3OqrxU15uHS3PZsfT9Ts7ua4urVgRvNHt-snXi6vP7QP3ea9rfn2_OZS3z08vPFky64Iax9ufrXxpN5-vN2t1uZnV8hGutG6HavevT05GKyvPqrnl9fNRtJ7-cn-qB3XZuf745Vqfqdbrwqzw8PseMmp9V2iHmzt1_Pjer6aHJillfnubtWOvfn1rt27r3erf29dOsZf9R-do4lvffzCC_eOG3eq_2zNYALSKI8gbJTcY7RW0Lg2qISa9N5j5A1o5T5N5v4frIT4mg:1gWfKs:xZxfRffyYAX-Sau8veuR92f85U4&quot;; expires=Tue, 11-Dec-2018 11:30:38 GMT; httponly; Max-Age=3500; Path=/
+Set-Cookie: csrftoken=HNwLdmBl2kjBBAHTXRZYKUZ6rRDPDPek; expires=Thu, 12-Dec-2019 10:08:20 GMT; Max-Age=31449600; Path=/
+Set-Cookie: sessionid=&quot;.eJy1Wft3VNd1dvwAQzF2kzhJ0zRN2riVk0ic98PpwyABAoyEhAZGal31PDWD5nXnJYmWJv2lq_03-0_0137nagSYYAnNMlpaS3dG95y9z97f_va37_3Du8-q7y00Lk5GabjbjtW7zS_feecdZWggjgrHdKA5yWxdMlxbJSLRXrHohPeJJ0VsJCIFSbiTLPksQkw-8Oq9xke7bjJu7Z7s-37rvcbHw7TX7vd2Uy8O-u3euPqg-VMYa43Hgy-uXaOaLTGypMQS_UISQq5NeXWh8THWT9shjXaPF1cX1xqXxqnneuOy7YfNX2AHF62jPjihnRLKJu-4iSH7lKVhWfHqUuP7L7njXdiHD9XlxspeP3T6k7g06ncmY2y_NOi4ce4Pu0v9QeqNxrhzCffUi5dm65bupaPRuN9LN2b7_Enjw5Nl1ZW1xgfjPr6uPgrn2rx4dnmrrLxcXf38P6uPn1WfLDSuTnqjgLvj7vGmf9r4v73r5edGuNm2q_FuL-8e8kdH1caD7n5TxdFqdyPuVqP17tO0yB8bXrnWznLv-t7Wjen-ncX15XZ3sL8rbrQH-3cOpze23N7qbtetNvF_0lzetmpw-8Zy7-mgvdZ6aFajYeHWvcNxStvpYHighmqwXol1ftS5WQ13dsZbizen90dPH00fa_5w01m2s8LYyqNpJ37lFp-u-b7ouRucpNXGavVgY2cY1p8c9u3RZn_0YHO5utdbfzS8v9iu7vYn6yu3aWenXR22N1pr93Z7y50Hd3l_q3Xv6eLmGu9Ob_ar7zcuxH7XtXvVD55VP1xovIv0f7rWeL_nuqn60dqkcXUGlWU3dp3-XvXjr6ufLDyr_myheQkYOQHdqPrp19Wf4_ufLTTfw_eTYaf6i-aPX49DQwStV2NhGmYXUvXz5gV8Hkx8px3qyxku_7K-7_jDei-99Kng9Bev_PfdsmesflnDl1KviUrM6ZBESsRKxwj1SskgVBB88qz6q4XWHztJXzjZ-nnzwxM3e67TesWb1iv2W8eGldWaC59oIlyIHAxJmatMAjOKJSJh-K_PNvxBXYHddu8NrQYWAuPakRysyJE7J1x00mgXOZOUTFLzfdw2Phqk6ld1iLtpPGyH2XLCkgbbcO4RHsqplYlElkX0ghjNc724BsVnzYu43Ov1Q2i1cZa_WWgh93-L3C-cdioEZY5TgRyEzRp0SMGI2rtsCGfZG0qSDY7B_udnW50jiYFRqSTP3nMjMtOGccdMjNJSI1Nt-NevM0y-YfgFqN_QbMyORYqKYCkLxZAGQqgIjibFJdN2klq_qoOYpqk3PsmddhzJT5J7LUjSCFhOWQnjJWEx69Zn9ZKB6-334fdv6oT9FglbLCf45becQGtzDdQaUrdYmuMsjKQo4Y910QgljVdUkqBI0N4SGilcWXqdA_RbHDgvdoSlpIQRoTHCM44-S9FUTQ7JJ6kz7F87j_05UGRsaeLeM02DCGj1UWUFYgCYFKfO1-ksC1_YmZGXUREtNyYuKahE-RAi0BgDY5kRkpDSbyzDWUidVoq0slMqomiA-c7iBZMMcaSJExEjtUEJzpnQmQeWpYML_JSKmBk-N4pAQxBJDnEkohSCjTzLaAhTPCquNcyKYvYnrz8vl1zOQzzJSlQOY8YaIZhQjjnnpSHoKJ7oQqfIXB3FiPC3x0cnoJOKW2Y9I86IQI2BXCIcBOpsIFRbJK6s2p-JHXgv67wp5E2Xc_zu27oCEdem9NpZomyOo4JwEElnoThx0FTIBiqUCSTVUyVLnZrXeUbO7dm5k4_og4K5Ugwd2wnmgk4-klD0MhpDYWH73QRtnuLONFHKbCZoUspDzFtAJMWQSM4m6hoiH-HG_jC00mg8dEWunuBEK2ld4NbKjAJP3oIrGIgh8-S8EcBJ6bit5Eptf1Fj5HfAyN-d1nSIYPNEWUA3COGIFF4hRNEE8LWWBspJQMoUovz70wULmy-CLnstA5oXl0kQjTqHrIUzFmMPOl9RSv9wtuFzKyUZjKQyZYBLsGBMcjF6pYPWxILVnpe267ghtt2brZOaCSHBdSZZgWq2OeqsBTRWJpCVepYy148tOP6Pdcq-RMqun3IEUMU8R5A8kkzhtU5RWE58iloYLdBYtRRKwf6NU4Ays3puoGAMJcx5NFIg3kRrVEjWorhMYqhIAbPLZx92DqBEhzRFxpiMoCmoeJEJ8xpCCQgN7oUsanfd3vMgeSop50IzKYXJ2hRUOZG8ijkTWfJVIrDXcb1QiHilzthNZOxWOcTPvlUXgVPYEp2r0pAqaB-RoIgEBn-nI2UIqmHQbkKUvN1-nW36x7bPCxlteM3rOloqBErcaa1ItCGD6pUuplff0PQ84oFLKwxzUTmCkSi66EE3KgaoHLTZY64sc0XodweT8ckyC9kDiqSEY5SyKlrULSpVBhKIkM7NSq7Xnxb5cackcFa7GG7S8EXtOoxfzoWiYXB4tPKQNYFIL3qGUR6w0eViPbU7_Xoptrtb4-Ee8PBVCcyrD1Ve9BiCHjNfWCjkKaKBfsQgpKJz2iIuVqE7CRlFYd77r7NNXrV9_s4aMOphWoQ-saLUdPRSKsW5cUllWah37Y1OfV4cot2SBCmX0TgFKMRnjsaH2cpzKjAj10i4WnJRnvKU5zovt01kMGpDJHouahpkpHxCH_ZSZYshLczkVWmbiyH3cIr1OosPkMWN05QCigHwfjvySiZuc8YAWxQsLwNskLnWDRiuC_NsfjeezQFATPmeeoPMg34wZLjyNMZziGwTiI_FuYenab83d-7cCHWWJe5DMo5REQ0MECNBYKARAICL52162u9MumnKTiCSmclcYkzQmFOyMBbqSnAVwHtU2jiDSGj3YhpOi4TcqiHSAEQenXnWt6NzCUSX5kQZkRL6AioTSsyjNBKmRRsjnHx8Jkbels5VEBlOo2mCN9E9QZlgTGdjKDsbY-Bc87tx7rylZRhnQKpiBpML0Av9bTApMEsD_GXHsuDCc4iciAklEjofWi4GOw9FQcuYbagRBnJXmZkuOAYIDrddw2MH8Pin0zSVsmqe1CvUnpTAOjUWKBUQUzkH6CqZA6OmTF__fJqmOjY7zxMuiUxAzfpEgDUnUCNJQU-V8QNTX3k--vXZhs9P_xZjkymjBsdgra1UYKCsGOiR4tvnQqCXxgf94f7JMggAjIJCJPiZuHIqSimpgZyh2WXW-my2aDIe9gvt_0udtF0k7V_LIb585RD8pI2Z0sauXW9sre6-neopD02okwVmSaC3Wm4swbjNMhqAtx6-uteF-SUP5wizysJC50ZvoXhzUpidiTc0BujgAEEFq_51cSHzxeX85C4FUSlQyWgZYND_UYMBcoRpB11gahhcwY19_ySF8eJo3B8-hxBuUgwjD6EUEjJiZrNMRPSLcoVwHT_uHB20c5mdQ42ECCSkM1mKvyUKZWVIxA8aPxMZ5MmguWz5LY-ZTFFb-btx7txAgSjxNDhMRbj02ZXXI_iTjTYCAYZne2c2xTfy7NwYsRhklYC2k0wLANIHKH9MLdQjckaGVwUAP8FHdiQZlY0NUZSHzc4DbtTlrMA8XH1TAPBJanww7HfSqGp9XbWfVU9aP6qRN3sdWgdz5BpX65ecx-_Kyrun_dnjPi2pZTzFKAX8q2WKtoFmi5aZfNVpfPLywvoNSvd4aAmtUPUaF9PhoD2E9T6monEat7vp8vOLatC4fPF_r3x0eYnWHo_6RhG6NPt7uTEOl6vq881q-F-b1ahxpT3azQmHwvJYjf-ncXEw7JfyqZDF6ULj0gvvD97I-9anrUuNT7BrHYTdk90O_xshKhm7_3AL93Mpq6NJ4_1yzurps-rfFho_GLjRCPQdd2en23Xj6t_XsN97WFqiPxq3-qMxodWzSevTrSvfwxz-0hvY2yv3WzeP-p21KMd3wpHQG5PQuN2eqt7BznRj2Lc62TtTqlfd9tNweLjXOrg_2n-8HpfvbjUfy9H49vX44KDHYid1F83To-3h0fIO33hUrXx18-5-zLdWHq493GuYr_yNuDnkneW713W1PhiS4fZBY3djOLg-WcVImnbubLUXG4PNhw8e3iF32rceD1xn8ZAeLE56G5MqrNwx6akI95qV3z84vHc7HPBH49HNlc2uXx32m7cPby0_lo875nB7cxwOB_0BXTzclbTLRHetK7c3gjm6edCcyrvba9WT_bXD652Hi80n23yoGheO0Vf9R2s68Y2PX3rN3nKjVvX7xgKmH43iCMJGyT3GagWFa4NKqEjvPcbdgEbuU_WHydL_A7U4-xI:1gXNum:dVwBQt1iozH2kcOMRwqsVrYj3qw&quot;; expires=Thu, 13-Dec-2018 11:06:40 GMT; httponly; Max-Age=3500; Path=/
 Access-Control-Allow-Origin: *
-X-Kong-Upstream-Latency: 2558
-X-Kong-Proxy-Latency: 190
+X-Kong-Upstream-Latency: 907
+X-Kong-Proxy-Latency: 210
 Via: kong/0.13.1
 </responseHeader>
   <requestHeader class="java.lang.String">Connection: keep-alive
@@ -23,32 +23,32 @@ X-API-HOST: openstack-taichung-community
 x-api-key: 79c3a9b8-bcc7-42ae-a31a-e7bc8fd9cba3
 Content-Type: application/x-www-form-urlencoded
 accept: application/json
-Content-Length: 42
+Content-Length: 66
 Host: apigateway.twcc.ai:8443
 User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
 </requestHeader>
-  <responseData class="java.lang.String">{&quot;id&quot;:27,&quot;name&quot;:&quot;\&quot;st-snapa01-ooo-01_72\&quot;&quot;,&quot;desc&quot;:&quot;&quot;,&quot;volume&quot;:{&quot;id&quot;:283,&quot;name&quot;:&quot;st-vola01-ooo-01_72&quot;},&quot;create_time&quot;:&quot;2018-12-11T10:32:17.953729Z&quot;,&quot;status&quot;:&quot;CREATING&quot;,&quot;platform&quot;:&quot;openstack-taichung-community&quot;}</responseData>
+  <responseData class="java.lang.String">{&quot;detail&quot;:&quot;40001: {&apos;volume&apos;: [u&apos;Incorrect type. Expected pk value, received unicode.&apos;]}&quot;}</responseData>
   <cookies class="java.lang.String"></cookies>
   <method class="java.lang.String">POST</method>
-  <queryString class="java.lang.String">name=%22st-snapa01-ooo-01_72%22&amp;volume=283</queryString>
+  <queryString class="java.lang.String">name=%22st-snapa01-ooo-01_47%22&amp;volume=%24%7Bapi-volumeId-WLA01%7D</queryString>
   <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/snapshots/</java.net.URL>
 </httpSample>
-<httpSample t="2566" it="0" lt="2559" ts="1544524335078" s="true" lb="OOO_Create_Snapshot" rc="201" tn="WL-A01_OOO 1-1" sc="1" ec="0">
-  <responseHeader class="java.lang.String">HTTP/1.1 201 CREATED
+<httpSample t="2485" it="0" lt="2485" ts="1544695699423" s="false" lb="WL-A01_OOO_Create_Snapshot" rc="400" tn="WL-A01_OOO 1-2" sc="1" ec="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 400 BAD REQUEST
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
-Date: Tue, 11 Dec 2018 10:32:15 GMT
+Date: Thu, 13 Dec 2018 10:08:19 GMT
 Server: Apache/2.4.7 (Ubuntu)
 Vary: Accept,Accept-Language,Cookie
 X-Frame-Options: SAMEORIGIN
 Content-Language: en
 Allow: GET, POST, HEAD, OPTIONS
-Set-Cookie: csrftoken=SR0L7u1IlV0WJZ4JwoBnBxWQR52wr5f2; expires=Tue, 10-Dec-2019 10:32:17 GMT; Max-Age=31449600; Path=/
-Set-Cookie: sessionid=&quot;.eJy1WWt3VEd29fgBBmPszMTzymQyk4wTOYlEvR-ePIwQQiDUINCFFonTqWd3I3W3bj8EIiEzk2RlJX8zfyJfs-tKAsxggXoZLdZSq7lV59Q5--yzT93fvvu0_t5CdXY2SeNOP9bvtr965513lKGBOCoc04HmJLN1yXBtlYhEe8WiE94nnhSxkYgUJOFOsuSzCDH5wOv3qo87bjbtdY73fb_3XvXJOHX7o2EnDePeqD-c1h-0fwpjvel078tLl6hmS4wsKbFEv5SEkEv7vD5TfYL1-_2QJp3DxfXZVnVumoZuOC3bftj-BXZw0TrqgxPaKaFs8o6bGLJPWRqWFa_PVd9_wR3vwg58qM9XK91R2B3N4tJktDubYvulvV03zaPxYGm0l4aTKZ5cwjPN4qWjdUvr6WAyHQ3T8tE-H1UfHi-rL7SqD6YjfF1_HE61efHs_FZZeb6--MXv6k-e1p8uVBdnw0nA07FzuOkfVP_XvVx-lsOKXBuMR4PckovtHbF9c1lW4-r68loQ692Nft_uRHOjNb2_ubJIDvLVg_GT29eNejAV7c3V7vZ-d3G1m1fHbrZI-pfZ4oE86CV7fbXbHdZed42xWu-wSob1lR35qCtHq_Zyda3bX6_7adDfHi_2N1oHub27okmYrt25snovrj1eWztgV2dPZpvM9TdvDemDxa7u1FO-PW6vL-6q8ZWVDbE96auH21X3ur4TbvVu3hAbnUFYX167G7Y3N29tbN_fe3y1r9f21tbldNhlw_HOci2q-ub1-vvVmTgauP6w_sHT-g8XqneR_s9a1ftDN0j1D1uz6uIRVK64qdsddesffV3_eOFp_ZOF9jlg5Bh0k_qnX9d_hO9_ttB-D9_Pxrv1H7d_9GocGiJosxoL0zi7kOqft8_g772Z3-2H5uMRLv-kee7wj1vD9MJfBae_eOl_3y17xvqXDXwp9ZqoxJwOSaRErHSMUK-UDEIFwWdP6z9d6P2-k_S5k72ftz88dnPodnsvedN7yX7v0LBClrnwiSbChcjBkJS5yiQwo1giEob_7PWGP2gqcNAfvqHVwEJgXDuSgxU5cueEi04a7SJnkpJZar-Px6YHe6n-VRPiQZqO--FoOWFJg2049wgP5dTKRCLLInpBjOa5WdyA4vP2WXzsDkch9Po4y58v9JD7v0DuF046FYIyx6lADsJmDTqkYETtXTaEs-wNJckGx2D_i9dbnSOJgVGpJM_ecyMy04Zxx0yM0lIjU2P4L19lmHzD8HNQv6HZmB2LFBXBUhaKIQ2EUBEcTYpLpu0s9X7VBDHtp-H0OHfacSQ_Se61IEkjYDllJYyXhMWse583S_bccGcEv_-qSdhfI2GL5QS__JYTaG0ugVpDGhRLc5yFkRQl_LEuGqGk8YpKEhQJ2ltCI4UrS69ygH6LA6fFjrCUlDAiNEZ4xtFnKZqqySH5JHWG_UunsT8HiowtTdx7pmkQAa0-qqxADACT4tT5Jp1l4XM7R-RlVETLjYlLCipRPoQINMbAWGaEJKT0G8twFtKklSKt7ISKKBqg5vOdxgsmGSJJEyciRmqDEpwzoTMPLEsHJ8QJNdGYlvMgCVQEoeQQSyJKMdjIs4yGMMWj4lrDsCqGf_zqM3PJpa7noZ9kJeqHMWONEEwox5zz0hD0FU90IVXkr4lkRBL604Nj6EnFLbOeEWdEoMZANBEOGnU2EKot0ldW7RxJHvhvmuxZZO_LcpJff1tvIOLSPr30Omk2x1FBO4ils9CdOGgqlAMtygQS66mSpVp__SrPyKk9O3X6EX0QMVeKoW87wVzQyUcSimpGeyhc_DffTdDmKfFME6XMZoJWpTwkvQVEUgyJ5GyibiDyMR4cjUMvTaZjV0TrMU60ktYFbq3MKPPkLRiDgR4yT84bAZyUvttLrlT43zYY-Ttg5O9Paj1EsHmiLKAehHBECq8QomgCWFtLA_0kIGgKXX51smxh80XQZa9lQAvjMgmiUemcIATaYvhB_yt66fLrDZ9aL8lgJJUpA1yCBWOSi9ErHbQmFsz2rLTdrhtj2-7ROqmZEBJ8Z5IVqGabo85aQGllAnGpj1LmRrEHx5eblF1BylZOOAKoYp4jSB5JpvBapygsJz5FLYwWaK9aCqVg_-oJQDmyemqgYBglzHm0UyDeRGtUSNaiuExiqEgBs6uvP-wcQIkOaYqMMRlBU9DyIhPmNeQSEBrcc3HUH7jusyB5KinnQjMphcnaFFQ5kbyKORNZ8lUi0N11w1CI-FqTsTVk7Ho5xM--VR2BU9gSnavSkCooIJGgiwTGf6cjZQiqYVBwQpS83XiVbfr7tk8LGW14w-s6WioEStxprUi0IYPqlS6m19_Q9DwCgksrDHNROYLBKLroQTcqBmgdtNlDrizTRRgN9mbT42UW4gcUSQnHQGVVtKhbVKoMJBAhnTsqueFov0iQmyWBR7WLESeNn9euwxDmXCg6BodHKw9ZE0j1omkY5QEbnS_WU3931CzFdhsNHlrAw60SmJevVp73GIIeM19YKEQqooF-xCCmonPaIi5WoTsJGUVh3tuvsk1etn36zhow8GFmhD6xotR09FIqxblxSWVZqHfzjU59Whyi3ZIEMZfROAUoxGeOxocJy3MqMCk3SLhYclHuesrtzottExmM2hCJnouaBhkpn9CHvVTZYlQLR_KqtM3FkIc4xZ0mi3eRxa2TlAKKAfB-O_JKJm5zxhhbNCwvY2yQudENGLEL81TfjWdzABCzvqfeIPOgH4wartzJeA6ZbQLxsTh37yTt94bO1ffnwaizLHEfknGMimhgghgJCgORAAJcPGvU-6Pd2SDts2OQZGYylxgVNKaVLIyFvhJcBTAflTYegST0hzGN94uIbDcg2QZIHrz2tG9H6RLILs2JMiIldAbUJrSYR3EkTI02Rjj5D69FydtSugoyw2m0TTAn-idIE5zpbAxlZ2MMnPvH78a50xaXYZwBq4oZzC7ALxS4wazALA3wlx0KgzPPIHIsJ5RI6H1ouhjtPDQFLeO2oUYYCF5ljpTBIUBwuK8bePwT4NE5SVUpq-ZJvUL1SQmsU2OBUgE5lXOAspI5MGrK_PXPJ6mqQ7Pz3HRJZAJ61icCrDmBGkkKiqoMIJj7yj2pe73h0zcAi8HJlGGDY7TWVipwUFYMBEnx7TMpMEzTR6PxzvEySAAMg0Ik-Jm4cipKKamBoKHZZdb7_GjRbDoeFeL3TdICkhbLIb566RD8uJGZ0sguXa621jpvp3rK1Ql1ssAsCXRXy40lGLhZRgvw1sPX9Kowv-DhHGFWWVgo3egtNG9OCtMz8YbGACUcIKlgNb8qLmS-uJye3KUgKgUqGS0jDBQAajBAkDDtoAxMA4MLeHDkH6YwXZxMR-NnEMJDimHoIZRCREZMbZaJiH5RPiFch9eek0f9XKbnboOEHpDQfy1L8bdEoayMifhB62cigzwZVJct_8pFkyl66-F349ypgQJZ4mlwmIvw0WdXXpPgVzbaCAQYnu28tim-kWenxojFKKsE1J1kWgCQPkD7Y26hHpEzMrwsAPgxPrIjyahsbIiiXDo7D7hRl7MC83D1TQHAZ6n6YDzaTZN69-t68LQe9n7YIO_otWgTzImrLjYvOw_fmZV3UKOjCz8tqWU8xSgF_GtkiraBZouWmXy9V3364sLmTUp9OLaEXqjH1dn0eK8_hvUJ5qJpmvYH6fyzD_W0On_2fy989NFP3mk8noyMInTp6Pf5ahrO17Mv7tT7_3WnflRd6E86OeFQWB7rx_9Tnd0bj0r51AdP6ycL1bnn3v_LG3nf-6x3rvoUuzZB6Bzv9q__jRCVjG3c3cLzXMr66ax6v5yz_ren9W8Wqh_suckE9B07R6fruGn92xb2ew9LS_Qn095oMiW0_t2s99nWhe9hEn_hTSwLrfaVa-3ZzSvX7rUmpHf7pmvfv93pdlenMVYrqxsrty9PbrTWuNwirdagnl1dX2Pp1o1tvvHkysPxVOW9jdV4a7La2iPy2oMHW_udZdN9uLKyPVu-Phq01qbhUWt2cPP-aOO20P0HT5a368HjjpotxvxQsNHo7v1H44eyvTLYai_f0fn2GjvYuUEGy34zLe_ee1Sv39zdHN19slFXPF_ZbrWGrc17d-tre93F21fbyt-a5HH__u1Ra-thb5-N7u0N6utXH7LO7kE7dKa99aio2V7jfqeTH2_ljdXLi1d3B1V9rbv45NE9sp3qf6_OHOKv_o_ek5mvPnnhhXvPTXr1f1YLmIA0yiMIGyX3GK0VNK4NKqEmvfcYeQNauU-zpf8HvhP5ZQ:1gWfKr:cJWNs0U1Xa3QjDTkZE0nX7jpfZQ&quot;; expires=Tue, 11-Dec-2018 11:30:37 GMT; httponly; Max-Age=3500; Path=/
+Set-Cookie: csrftoken=NYK1z0Unb8spPiOHNZTs0LkD5BeVQwiG; expires=Thu, 12-Dec-2019 10:08:21 GMT; Max-Age=31449600; Path=/
+Set-Cookie: sessionid=&quot;.eJy1WWl3W9d1dTxIlirLblInaZqmSRu3dFtSdx6cDiY1kBQlTiIsUK3L3pEARQJ8wAOnVk3SD13t38yfyNfu-whKsiKTIpbFpbUIQu--M-2zzz7v_ebdZ9X3plpXR8M02OrG6t32l--8844yNBBHhWM60Jxkti4Zrq0SkWivWHTC-8STIjYSkYIk3EmWfBYhJh949V7roy03qjtbZ_d9v_Ne6-NB2u72e1upF_f73V5dfdD-CYx16nr_i1u3qGYzjMwoMUO_kISQWwe8utL6GOcPuiENt04PV1eXW9fq1HO9utz2w_bPcQcXraM-OKGdEsom77iJIfuUpWFZ8epa6_svueNdeAofquutO9v9sNsfxZlhf3dU4_Yz-7uuzv3B3kx_P_WGNa6cwTXN4ZnxuZmldDys-700N77PH7U-PDtW3VhufVD38XX1UbjUzYtn1zfKyevVzc9_W338rPpkqnVz1BsGXB23Tm_6x63fb8-Wn7lwt2vvk9Ud83B7P_K1B7Pt6rB3cre1GuXS_sO-MYvLRyfdnduPHi11H4TNp3J7ub3bV6t7T-q8Lk5O7nXvuf273t2e3b_DTeduvdzenztZ_WrY78e16kCtdWcXjnar9dtqf2ermzcPRqv1QeDLy-uyR1ePD9f4IRvclXR9b66zmpYfdnR3_v78-lCfzM_1jm5X0-35nftLh9m1NxaWntybVmR6eXFhi9a709sHg7XZOfLVwVKnN2tUNyz1FuZXhnum3Tt-kuTcptmtt4l6uLRZq-2nvLUVlQzV91tXYn_PdXvVD55VfzLVehfl_3S59X7P7aXqh8uj1s0xVG672u32t6sffV39eOpZ9adT7WvAyBnohtVPvq7-DN__dKr9Hr4fDXarP2__6PU4NETQ5jQOpkF2IVU_a1_B3_sjv9sNzccxLv-iue70j5VeeumvgtOfv_K_75Z7xuoXDXwp9ZqoxJwOSaRErHSMUK8QtVBB8NGz6i-nOn_oJH3hZOdn7Q_P3Oy53c4r3nResd85Nays1lz4RBPhQuRgSMpcZRKYUSwRCcN_dbHhD5oO3Ov23tBqYCEwrh3JwYocuXPCRSeNdpEzSckotd_HZfXxfqp-2aR4L9WDbhgfJyxpsA3nHumhnFqZSGRZRC-I0Tw3hxtQfNa-io_bvX4InS5i-eupDmr_N6j91HlRISkTRAVyEDZr0CEFI2rvsiGcZW8oSTY4BvufX2x1giIGRqWSPHvPjchMG8YdMzFKS41MjeG_fZ1h8g3DL0D9hmZjdixSdARLWSiGMhBCRXA0KS6ZtqPU-WWTxHSQevVZ7bTjKH6S3GtBkkbCcspKGC8Ji1l3PmuO7Lve0z78_rumYH-Pgk2XCH7xLRFobW6BWkPaK5YmiIWRFCX8sS4aoaTxikoSFAnaW0IjhSszr3OAfosDl8WOsJSUNCI1RnjGMWcphqrJIfkkdYb9W5exPwGKjC1D3HumaRABoz6qrEAMAJPi1PmmnOXgCztj8jIqYuTGxCUFlSgfQgQaY2AsM0ISSvqNY4iFNGWlKCs7pyOKBqj4ZNF4wSRDJmniRMRIbVCCcyZ05oFl6eCEOKcnGtNyEiSBiiCUHHJJRGkGG3mW0RCmeFRcaxhWxfCPXx8zl1zqahL6SVaifxgz1gjBhHLMOS8NwVzxRBdSRf2aTEYUoVsfn0FPKm6Z9Yw4IwI1BqKJcNCos4FQbVG-curpWPLAf9NUz6J6X5RIfvVts4GIWwf01kXSbIJQQTvIpbPQnQg0FcqBFmUChfVUydKtv3qdZ-TSnl26_Mg-iJgrxTC3nWAu6OQjCUU1YzwULv6H7yZpk7R4polSZjPBqFIekt4CIimGRHI2UTcQ-QgX9gehk4b1wBXReoYTraR1gVsrM9o8eQvGYKCHzJPzRgAnZe52kisd_o8NRv4JGPnn80YPEWySLAuoByEckcIrpCiaANbW0kA_CQiaQpdfni9b2GQZdNlrGTDCuEyCaHQ6J0iBtlh-MP-KXpq92PCl9ZIMRlKZMsAlWDAmuRi90kFrYsFsz1vb7boBbrs9Pic1E0KC70yyAt1sc9RZCyitTCAu9bhkrh87cHyuKdltlOzOOSGAKiYJQfJIMoXXOkVhOfEpamG0wHjVUigF-3fPAcrY6qWBgmWUMOcxToF4E61RIVmL5jKJoSMFzN67ONgJgBIdyhQZYzKCpqDlRSbMa8glIDS4F-Kou-e2nyfJU0k5F5pJKUzWpqDKieRVzJnIUq-Sge1d1wuFiOebii2gYosliJ9-qzoCp7AZOlGnoVRQQCJBFwms_05HypBUw6DghCh1u_862_QPbV8WMtrwhtd1tFQItLjTWpFoQwbVK11ML72h6UkEBJdWGOaicgSLUXTRg25UDNA6GLOnXFm2i9Df2x_VZ8csxA8okhKOhcqqaNG36FQZSCBCOjduuV7_oEiQB6WA497FipMGL3rXYQlzLhQdg-AxykPWBFK9aBpGecCNrhfrqbvbb47idg8bPCwDDyslMa8-WnkxYwhmzGRpoRCpyAbmEYOYis5pi7xYhekkZBSFeVdfZ5u8avvykzVg4cPOCH1iRenp6KVUinPjksqyUO_aG0V9WRxi3JIEMZcxOAUoxGeOwYcNy3MqsCk3SLhZalGe9ZSnOy-PTVQwakMkZi56GmSkfMIc9lJli1UtjOVVGZvTIfcQxXpTxUeo4sZ5SgHNAHi_HXklE7c5Y40tGpaXNTbI3OgGrNiFeVrfjWcTABC7vqfeoPKgH6warjyT8Rwy2wTiY3Huq_O035s7d2mEOssS9yEZx6iIBgaIkSAw0AgAwMXzMX3Q3x3tpQN2BpHMTOYSi4LGrpKFsVBXgqsA3qPSxjFEQrcX0-CgSMjHDUTagMjmhbG-HZ1LILo0J8qIlDAX0JlQYh6tkbAz2hjh5JMLMfK2dK6CyHAaQxO8iekJygRjOhtDubMxBs79y3fj3GVbyzDOgFTFDDYXoBf622BTYJYG-MtOZcGV5xA5ExNKJEw-jFwsdh6KgpZl21AjDOSuMmNdcAoQBPevDTy-Bjz-7TxNpayapPQKvSclsE6NBUoFxFTOAbpK5sCoKdvX1nma6tTsJM-5JCoBNesTAdacQI8kBT1V1g9sfeUp6b9fbPjy9G-xNpmyanAs1tpKBQbKioEeKb59LgR6qT7sD56eHYMAwCooRIKfiSunopSSGsgZml1mnc_Gh0b1oF9o3zVF8yhaKEF8-UoQ_GyMmTLGbs22Nha23k73lAcn1MkCsyQwWy03lmDdZhkDwFsPX-Pr0vyShxOkWWVhoXOjt1C8OSnszsQbGgN0cICggtX0uryQyfJyeXKXgqgUqGS0LDCY_-jBADnCtIMuMA0MbuDCvt9JoZ4e1v3BcwjhIsWw8hBKISEjdjbLRMS8KJ-QrtOHnsPDbi67c26QsA0kdC5kKf6WKJSVJRE_GPxMZJAng-ay5V95zGSK2up-N85dGigQJZ4Gh60IH3125SUJfmWjjUCC4dnOhUPxjTy7NEYsFlkloO0k0wKA9AHKH1sL9cickeFVAcDP8JEdSUZlY0MU5ZGz84AbdTkrMA9X3xQAfJRaHwz6u2lYPf262n1W7XV-2CBv_FK0SebQtW42rzpP35iVN1C98eM-LallPMUoBfxrZIq2gWaLkZl81W998vLB5j3K_unSEjqhqlpX09F-dwDrA2xFdaq7e-n68w_VsHX96u9ufHR9hjYeD_tGEToz_n29VYfrVf35ejX6n_XqoHWjO9zKCUHheKwO_691dX_QL-1THT2rjqda1154f_JG3nc-7VxrfYK7NknYOrvbf_wvUlQq9vDRBq7nUlb_OWq9X-Ksnj2r_muq9YN9NxyCvuPWOLotV1e_Xsb93sPRkv1h3ekPa0Kr34w6n27c-B728Jfew94ZtR8sPuqtkIV76yfq7t7g8fZW2w1If8fNbT14XG9YspbX1zePDvp3ttqdwWJ3aahWxPTKwqpdWB8s3zsapeODpLZPnh716aO5zuZq50F3b_Hu4N7AuLk7VVg-Xlu5Y-Na-_FXd9z9-VbVpuv1CUuH249O7m8G_eDk4UaKCzLPTy_21GyfH250-zZU64tr_qGbPeyqw82d6Ud3Nh_P6ruDUM3v6AdiNNpeO66VECtHS_Vc6_bhLK2yWBy623OHg-HjnaO2n99a2ZimOydL9uH0ve7w_pMnJysbkZBjGh7s8UWzZ3f7C7R15RR91W87xyPf-vill-0dN-xU_92awvaj0RxB2Ci5x1qtoHBtUAkd6b3HuhswyH0azfw_Dcn42A:1gXNun:5Kk2DWL-0r_80tEt_CpXi2pxhk8&quot;; expires=Thu, 13-Dec-2018 11:06:41 GMT; httponly; Max-Age=3500; Path=/
 Access-Control-Allow-Origin: *
-X-Kong-Upstream-Latency: 2052
-X-Kong-Proxy-Latency: 230
+X-Kong-Upstream-Latency: 2211
+X-Kong-Proxy-Latency: 177
 Via: kong/0.13.1
 </responseHeader>
   <requestHeader class="java.lang.String">Connection: keep-alive
@@ -56,115 +56,63 @@ X-API-HOST: openstack-taichung-community
 x-api-key: 79c3a9b8-bcc7-42ae-a31a-e7bc8fd9cba3
 Content-Type: application/x-www-form-urlencoded
 accept: application/json
-Content-Length: 42
+Content-Length: 66
 Host: apigateway.twcc.ai:8443
 User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
 </requestHeader>
-  <responseData class="java.lang.String">{&quot;id&quot;:26,&quot;name&quot;:&quot;\&quot;st-snapa01-ooo-01_61\&quot;&quot;,&quot;desc&quot;:&quot;&quot;,&quot;volume&quot;:{&quot;id&quot;:282,&quot;name&quot;:&quot;st-vola01-ooo-01_61&quot;},&quot;create_time&quot;:&quot;2018-12-11T10:32:17.171666Z&quot;,&quot;status&quot;:&quot;CREATING&quot;,&quot;platform&quot;:&quot;openstack-taichung-community&quot;}</responseData>
+  <responseData class="java.lang.String">{&quot;detail&quot;:&quot;40001: {&apos;volume&apos;: [u&apos;Incorrect type. Expected pk value, received unicode.&apos;]}&quot;}</responseData>
   <cookies class="java.lang.String"></cookies>
   <method class="java.lang.String">POST</method>
-  <queryString class="java.lang.String">name=%22st-snapa01-ooo-01_61%22&amp;volume=282</queryString>
+  <queryString class="java.lang.String">name=%22st-snapa01-ooo-01_45%22&amp;volume=%24%7Bapi-volumeId-WLA01%7D</queryString>
   <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/snapshots/</java.net.URL>
 </httpSample>
-<httpSample t="56" it="0" lt="55" ts="1544524339462" s="true" lb="OOO_HTTP Request" rc="200" tn="WL-A01_OOO 1-1" sc="1" ec="0">
-  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
-Server: nginx/1.10.3 (Ubuntu)
-Date: Tue, 11 Dec 2018 10:32:19 GMT
-Content-Type: text/html
-Content-Length: 612
-Last-Modified: Tue, 11 Dec 2018 09:58:02 GMT
-Connection: keep-alive
-ETag: &quot;5c0f8a2a-264&quot;
-Accept-Ranges: bytes
-</responseHeader>
-  <requestHeader class="java.lang.String">Connection: keep-alive
-X-API-HOST: openstack-taichung-community
-x-api-key: 79c3a9b8-bcc7-42ae-a31a-e7bc8fd9cba3
-Content-Type: application/x-www-form-urlencoded
-accept: application/json
-Host: 203.145.223.162
-User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
-</requestHeader>
-  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;title&gt;Welcome to nginx!&lt;/title&gt;
-&lt;style&gt;
-    body {
-        width: 35em;
-        margin: 0 auto;
-        font-family: Tahoma, Verdana, Arial, sans-serif;
-    }
-&lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
-&lt;p&gt;If you see this page, the nginx web server is successfully installed and
-working. Further configuration is required.&lt;/p&gt;
-
-&lt;p&gt;For online documentation and support please refer to
-&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
-Commercial support is available at
-&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<httpSample t="0" it="0" lt="0" ts="1544695702140" s="false" lb="WL-A01_OOO_HTTP Request" rc="Non HTTP response code: java.net.URISyntaxException" tn="WL-A01_OOO 1-2" sc="1" ec="1">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">java.net.URISyntaxException: Illegal character in authority at index 7: http://${vm_ip}/
+	at java.base/java.net.URI$Parser.fail(URI.java:2915)
+	at java.base/java.net.URI$Parser.parseAuthority(URI.java:3249)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3160)
+	at java.base/java.net.URI$Parser.parse(URI.java:3116)
+	at java.base/java.net.URI.&lt;init&gt;(URI.java:600)
+	at java.base/java.net.URL.toURI(URL.java:1018)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:399)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:490)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:250)
+	at java.base/java.lang.Thread.run(Thread.java:844)
 </responseData>
   <cookies class="java.lang.String"></cookies>
   <method class="java.lang.String">GET</method>
   <queryString class="java.lang.String"></queryString>
-  <java.net.URL>http://203.145.223.162/</java.net.URL>
+  <java.net.URL>http://${vm_ip}/</java.net.URL>
 </httpSample>
-<httpSample t="150" it="0" lt="150" ts="1544524339458" s="true" lb="OOO_HTTP Request" rc="200" tn="WL-A01_OOO 1-2" sc="1" ec="0">
-  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
-Server: nginx/1.10.3 (Ubuntu)
-Date: Tue, 11 Dec 2018 10:32:19 GMT
-Content-Type: text/html
-Content-Length: 612
-Last-Modified: Tue, 11 Dec 2018 09:58:29 GMT
-Connection: keep-alive
-ETag: &quot;5c0f8a45-264&quot;
-Accept-Ranges: bytes
-</responseHeader>
-  <requestHeader class="java.lang.String">Connection: keep-alive
-X-API-HOST: openstack-taichung-community
-x-api-key: 79c3a9b8-bcc7-42ae-a31a-e7bc8fd9cba3
-Content-Type: application/x-www-form-urlencoded
-accept: application/json
-Host: 203.145.223.151
-User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
-</requestHeader>
-  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;title&gt;Welcome to nginx!&lt;/title&gt;
-&lt;style&gt;
-    body {
-        width: 35em;
-        margin: 0 auto;
-        font-family: Tahoma, Verdana, Arial, sans-serif;
-    }
-&lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
-&lt;p&gt;If you see this page, the nginx web server is successfully installed and
-working. Further configuration is required.&lt;/p&gt;
-
-&lt;p&gt;For online documentation and support please refer to
-&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
-Commercial support is available at
-&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<httpSample t="0" it="0" lt="0" ts="1544695702142" s="false" lb="WL-A01_OOO_HTTP Request" rc="Non HTTP response code: java.net.URISyntaxException" tn="WL-A01_OOO 1-1" sc="1" ec="1">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">java.net.URISyntaxException: Illegal character in authority at index 7: http://${vm_ip}/
+	at java.base/java.net.URI$Parser.fail(URI.java:2915)
+	at java.base/java.net.URI$Parser.parseAuthority(URI.java:3249)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3160)
+	at java.base/java.net.URI$Parser.parse(URI.java:3116)
+	at java.base/java.net.URI.&lt;init&gt;(URI.java:600)
+	at java.base/java.net.URL.toURI(URL.java:1018)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:399)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:490)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:416)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:250)
+	at java.base/java.lang.Thread.run(Thread.java:844)
 </responseData>
   <cookies class="java.lang.String"></cookies>
   <method class="java.lang.String">GET</method>
   <queryString class="java.lang.String"></queryString>
-  <java.net.URL>http://203.145.223.151/</java.net.URL>
+  <java.net.URL>http://${vm_ip}/</java.net.URL>
 </httpSample>
 
 </testResults>

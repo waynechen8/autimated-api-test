@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testResults version="1.2">
-<httpSample t="7310" it="0" lt="7310" ts="1544521801433" s="true" lb="OOO_Create_Network" rc="201" tn="WL-A01_OOO 1-1" sc="1" ec="0">
+<httpSample t="6415" it="0" lt="6415" ts="1544695065332" s="true" lb="WL-A01_OOO_Create_Network" rc="201" tn="WL-A01_OOO 1-1" sc="1" ec="0">
   <requestHeader class="java.lang.String">Connection: keep-alive
 X-API-HOST: openstack-taichung-community
 x-api-key: 79c3a9b8-bcc7-42ae-a31a-e7bc8fd9cba3
@@ -10,13 +10,13 @@ Content-Length: 115
 Host: apigateway.twcc.ai:8443
 User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
 </requestHeader>
-  <responseData class="java.lang.String">{&quot;id&quot;:610,&quot;name&quot;:&quot;st-nwa01-ooo-01_61&quot;,&quot;project&quot;:1444,&quot;cidr&quot;:&quot;192.168.161.0/24&quot;,&quot;with_router&quot;:true,&quot;gateway&quot;:&quot;192.168.161.1&quot;,&quot;nameservers&quot;:[&quot;8.8.8.8&quot;],&quot;status&quot;:&quot;N/A&quot;}</responseData>
+  <responseData class="java.lang.String">{&quot;id&quot;:959,&quot;name&quot;:&quot;st-nwa01-ooo-01_45&quot;,&quot;project&quot;:1444,&quot;cidr&quot;:&quot;192.168.145.0/24&quot;,&quot;with_router&quot;:true,&quot;gateway&quot;:&quot;192.168.145.1&quot;,&quot;nameservers&quot;:[&quot;8.8.8.8&quot;],&quot;status&quot;:&quot;N/A&quot;}</responseData>
   <cookies class="java.lang.String"></cookies>
   <method class="java.lang.String">POST</method>
-  <queryString class="java.lang.String">{&quot;cidr&quot;:&quot;192.168.161.0/24&quot;,&quot;gateway&quot;:&quot;192.168.161.1&quot;,&quot;name&quot;:&quot;st-nwa01-ooo-01_61&quot;,&quot;project&quot;:1444,&quot;with_router&quot;:true}</queryString>
+  <queryString class="java.lang.String">{&quot;cidr&quot;:&quot;192.168.145.0/24&quot;,&quot;gateway&quot;:&quot;192.168.145.1&quot;,&quot;name&quot;:&quot;st-nwa01-ooo-01_45&quot;,&quot;project&quot;:1444,&quot;with_router&quot;:true}</queryString>
   <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/networks/</java.net.URL>
 </httpSample>
-<httpSample t="7092" it="0" lt="7092" ts="1544521801850" s="true" lb="OOO_Create_Network" rc="201" tn="WL-A01_OOO 1-2" sc="1" ec="0">
+<httpSample t="5870" it="0" lt="5869" ts="1544695065721" s="true" lb="WL-A01_OOO_Create_Network" rc="201" tn="WL-A01_OOO 1-2" sc="1" ec="0">
   <requestHeader class="java.lang.String">Connection: keep-alive
 X-API-HOST: openstack-taichung-community
 x-api-key: 79c3a9b8-bcc7-42ae-a31a-e7bc8fd9cba3
@@ -26,13 +26,13 @@ Content-Length: 115
 Host: apigateway.twcc.ai:8443
 User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
 </requestHeader>
-  <responseData class="java.lang.String">{&quot;id&quot;:613,&quot;name&quot;:&quot;st-nwa01-ooo-01_72&quot;,&quot;project&quot;:1444,&quot;cidr&quot;:&quot;192.168.172.0/24&quot;,&quot;with_router&quot;:true,&quot;gateway&quot;:&quot;192.168.172.1&quot;,&quot;nameservers&quot;:[&quot;8.8.8.8&quot;],&quot;status&quot;:&quot;N/A&quot;}</responseData>
+  <responseData class="java.lang.String">{&quot;id&quot;:962,&quot;name&quot;:&quot;st-nwa01-ooo-01_47&quot;,&quot;project&quot;:1444,&quot;cidr&quot;:&quot;192.168.147.0/24&quot;,&quot;with_router&quot;:true,&quot;gateway&quot;:&quot;192.168.147.1&quot;,&quot;nameservers&quot;:[&quot;8.8.8.8&quot;],&quot;status&quot;:&quot;N/A&quot;}</responseData>
   <cookies class="java.lang.String"></cookies>
   <method class="java.lang.String">POST</method>
-  <queryString class="java.lang.String">{&quot;cidr&quot;:&quot;192.168.172.0/24&quot;,&quot;gateway&quot;:&quot;192.168.172.1&quot;,&quot;name&quot;:&quot;st-nwa01-ooo-01_72&quot;,&quot;project&quot;:1444,&quot;with_router&quot;:true}</queryString>
+  <queryString class="java.lang.String">{&quot;cidr&quot;:&quot;192.168.147.0/24&quot;,&quot;gateway&quot;:&quot;192.168.147.1&quot;,&quot;name&quot;:&quot;st-nwa01-ooo-01_47&quot;,&quot;project&quot;:1444,&quot;with_router&quot;:true}</queryString>
   <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/networks/</java.net.URL>
 </httpSample>
-<httpSample t="1655" it="0" lt="1654" ts="1544521910644" s="true" lb="OOO_Create_Keypair" rc="200" tn="WL-A01_OOO 1-2" sc="1" ec="0">
+<httpSample t="1944" it="0" lt="1943" ts="1544695173465" s="true" lb="WL-A01_OOO_Create_Keypair" rc="200" tn="WL-A01_OOO 1-2" sc="1" ec="0">
   <requestHeader class="java.lang.String">Connection: keep-alive
 X-API-HOST: openstack-taichung-community
 x-api-key: 79c3a9b8-bcc7-42ae-a31a-e7bc8fd9cba3
@@ -43,39 +43,39 @@ Host: apigateway.twcc.ai:8443
 User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
 </requestHeader>
   <responseData class="java.lang.String">-----BEGIN RSA PRIVATE KEY-----
-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
+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
 -----END RSA PRIVATE KEY-----
 </responseData>
   <cookies class="java.lang.String"></cookies>
   <method class="java.lang.String">POST</method>
-  <queryString class="java.lang.String">{&quot;name&quot;:&quot;st-keya01-ooo-01_72&quot;,&quot;project&quot;:1444}</queryString>
+  <queryString class="java.lang.String">{&quot;name&quot;:&quot;st-keya01-ooo-01_47&quot;,&quot;project&quot;:1444}</queryString>
   <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/keypairs/</java.net.URL>
 </httpSample>
-<httpSample t="1970" it="0" lt="1970" ts="1544521910644" s="true" lb="OOO_Create_Keypair" rc="200" tn="WL-A01_OOO 1-1" sc="1" ec="0">
+<httpSample t="2444" it="0" lt="2444" ts="1544695173465" s="true" lb="WL-A01_OOO_Create_Keypair" rc="200" tn="WL-A01_OOO 1-1" sc="1" ec="0">
   <requestHeader class="java.lang.String">Connection: keep-alive
 X-API-HOST: openstack-taichung-community
 x-api-key: 79c3a9b8-bcc7-42ae-a31a-e7bc8fd9cba3
@@ -86,46 +86,46 @@ Host: apigateway.twcc.ai:8443
 User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
 </requestHeader>
   <responseData class="java.lang.String">-----BEGIN RSA PRIVATE KEY-----
-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
+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
 -----END RSA PRIVATE KEY-----
 </responseData>
   <cookies class="java.lang.String"></cookies>
   <method class="java.lang.String">POST</method>
-  <queryString class="java.lang.String">{&quot;name&quot;:&quot;st-keya01-ooo-01_61&quot;,&quot;project&quot;:1444}</queryString>
+  <queryString class="java.lang.String">{&quot;name&quot;:&quot;st-keya01-ooo-01_45&quot;,&quot;project&quot;:1444}</queryString>
   <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/keypairs/</java.net.URL>
 </httpSample>
-<httpSample t="5242" it="0" lt="5242" ts="1544522012316" s="true" lb="OOO_Create_VM1" rc="201" tn="WL-A01_OOO 1-2" sc="1" ec="0">
+<httpSample t="10106" it="0" lt="10106" ts="1544695275428" s="false" lb="WL-A01_OOO_Create_VM1" rc="400" tn="WL-A01_OOO 1-2" sc="1" ec="1">
   <requestHeader class="java.lang.String">Connection: keep-alive
 X-API-HOST: openstack-taichung-community
 x-api-key: 79c3a9b8-bcc7-42ae-a31a-e7bc8fd9cba3
 x-extra-property-flavor: 1core2GBmemory20GBdisk
 x-extra-property-image: xenial-server-cloudimg
-x-extra-property-keypair: st-keya01-ooo-01_72
-x-extra-property-private-network: st-nwa01-ooo-01_72
+x-extra-property-keypair: st-keya01-ooo-01_47
+x-extra-property-private-network: st-nwa01-ooo-01_47
 x-extra-property-floating-ip: floating
 x-extra-property-volume-size: 0
 Content-Type: application/json
@@ -134,20 +134,20 @@ Content-Length: 86
 Host: apigateway.twcc.ai:8443
 User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
 </requestHeader>
-  <responseData class="java.lang.String">{&quot;id&quot;:797,&quot;name&quot;:&quot;st-a01-ooo-011_72&quot;,&quot;solution&quot;:60,&quot;project&quot;:1444,&quot;create_time&quot;:&quot;2018-12-11T09:53:36.662473Z&quot;,&quot;user&quot;:&quot;b12923e6-7563-4898-958c-3135abae5a09&quot;,&quot;status&quot;:&quot;Initializing&quot;,&quot;platform&quot;:&quot;openstack-taichung-community&quot;}</responseData>
+  <responseData class="java.lang.String">{&quot;detail&quot;:&quot;40000: not valid value st-nwa01-ooo-01_47 for extra_property_private_network&quot;}</responseData>
   <cookies class="java.lang.String"></cookies>
   <method class="java.lang.String">POST</method>
-  <queryString class="java.lang.String">{&quot;desc&quot;:&quot;st-a01-ooo-011_72&quot;,&quot;name&quot;:&quot;st-a01-ooo-011_72&quot;,&quot;project&quot;:1444,&quot;solution&quot;:&quot;60&quot;}</queryString>
+  <queryString class="java.lang.String">{&quot;desc&quot;:&quot;st-a01-ooo-011_47&quot;,&quot;name&quot;:&quot;st-a01-ooo-011_47&quot;,&quot;project&quot;:1444,&quot;solution&quot;:&quot;60&quot;}</queryString>
   <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/sites/</java.net.URL>
 </httpSample>
-<httpSample t="6511" it="0" lt="6511" ts="1544522012623" s="true" lb="OOO_Create_VM1" rc="201" tn="WL-A01_OOO 1-1" sc="1" ec="0">
+<httpSample t="9763" it="0" lt="9762" ts="1544695275919" s="false" lb="WL-A01_OOO_Create_VM1" rc="400" tn="WL-A01_OOO 1-1" sc="1" ec="1">
   <requestHeader class="java.lang.String">Connection: keep-alive
 X-API-HOST: openstack-taichung-community
 x-api-key: 79c3a9b8-bcc7-42ae-a31a-e7bc8fd9cba3
 x-extra-property-flavor: 1core2GBmemory20GBdisk
 x-extra-property-image: xenial-server-cloudimg
-x-extra-property-keypair: st-keya01-ooo-01_61
-x-extra-property-private-network: st-nwa01-ooo-01_61
+x-extra-property-keypair: st-keya01-ooo-01_45
+x-extra-property-private-network: st-nwa01-ooo-01_45
 x-extra-property-floating-ip: floating
 x-extra-property-volume-size: 0
 Content-Type: application/json
@@ -156,41 +156,11 @@ Content-Length: 86
 Host: apigateway.twcc.ai:8443
 User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
 </requestHeader>
-  <responseData class="java.lang.String">{&quot;id&quot;:798,&quot;name&quot;:&quot;st-a01-ooo-011_61&quot;,&quot;solution&quot;:60,&quot;project&quot;:1444,&quot;create_time&quot;:&quot;2018-12-11T09:53:37.927076Z&quot;,&quot;user&quot;:&quot;b12923e6-7563-4898-958c-3135abae5a09&quot;,&quot;status&quot;:&quot;Initializing&quot;,&quot;platform&quot;:&quot;openstack-taichung-community&quot;}</responseData>
+  <responseData class="java.lang.String">{&quot;detail&quot;:&quot;40000: not valid value st-nwa01-ooo-01_45 for extra_property_private_network&quot;}</responseData>
   <cookies class="java.lang.String"></cookies>
   <method class="java.lang.String">POST</method>
-  <queryString class="java.lang.String">{&quot;desc&quot;:&quot;st-a01-ooo-011_61&quot;,&quot;name&quot;:&quot;st-a01-ooo-011_61&quot;,&quot;project&quot;:1444,&quot;solution&quot;:&quot;60&quot;}</queryString>
+  <queryString class="java.lang.String">{&quot;desc&quot;:&quot;st-a01-ooo-011_45&quot;,&quot;name&quot;:&quot;st-a01-ooo-011_45&quot;,&quot;project&quot;:1444,&quot;solution&quot;:&quot;60&quot;}</queryString>
   <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/sites/</java.net.URL>
-</httpSample>
-<httpSample t="1196" it="0" lt="1196" ts="1544522117567" s="true" lb="Get_ServerID1" rc="200" tn="WL-A01_OOO 1-2" sc="1" ec="0">
-  <requestHeader class="java.lang.String">Connection: keep-alive
-X-API-HOST: openstack-taichung-community
-x-api-key: 79c3a9b8-bcc7-42ae-a31a-e7bc8fd9cba3
-Content-Type: application/json
-accept: application/json
-Host: apigateway.twcc.ai:8443
-User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
-</requestHeader>
-  <responseData class="java.lang.String">{&quot;id&quot;:797,&quot;name&quot;:&quot;st-a01-ooo-011_72&quot;,&quot;solution&quot;:60,&quot;desc&quot;:&quot;st-a01-ooo-011_72&quot;,&quot;project&quot;:1444,&quot;public_ip&quot;:&quot;203.145.222.254&quot;,&quot;status&quot;:&quot;Ready&quot;,&quot;status_reason&quot;:&quot;&quot;,&quot;platform&quot;:&quot;openstack-taichung-community&quot;,&quot;create_time&quot;:&quot;2018-12-11T09:53:36Z&quot;,&quot;user&quot;:{&quot;id&quot;:&quot;b12923e6-7563-4898-958c-3135abae5a09&quot;,&quot;username&quot;:&quot;sthost01&quot;,&quot;email&quot;:&quot;TWCC_ST01_001@yahoo.com&quot;},&quot;servers&quot;:[1367]}</responseData>
-  <cookies class="java.lang.String"></cookies>
-  <method class="java.lang.String">GET</method>
-  <queryString class="java.lang.String"></queryString>
-  <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/sites/797/</java.net.URL>
-</httpSample>
-<httpSample t="1071" it="0" lt="1071" ts="1544522119151" s="true" lb="Get_ServerID1" rc="200" tn="WL-A01_OOO 1-1" sc="1" ec="0">
-  <requestHeader class="java.lang.String">Connection: keep-alive
-X-API-HOST: openstack-taichung-community
-x-api-key: 79c3a9b8-bcc7-42ae-a31a-e7bc8fd9cba3
-Content-Type: application/json
-accept: application/json
-Host: apigateway.twcc.ai:8443
-User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
-</requestHeader>
-  <responseData class="java.lang.String">{&quot;id&quot;:798,&quot;name&quot;:&quot;st-a01-ooo-011_61&quot;,&quot;solution&quot;:60,&quot;desc&quot;:&quot;st-a01-ooo-011_61&quot;,&quot;project&quot;:1444,&quot;public_ip&quot;:&quot;203.145.223.134&quot;,&quot;status&quot;:&quot;Ready&quot;,&quot;status_reason&quot;:&quot;&quot;,&quot;platform&quot;:&quot;openstack-taichung-community&quot;,&quot;create_time&quot;:&quot;2018-12-11T09:53:37Z&quot;,&quot;user&quot;:{&quot;id&quot;:&quot;b12923e6-7563-4898-958c-3135abae5a09&quot;,&quot;username&quot;:&quot;sthost01&quot;,&quot;email&quot;:&quot;TWCC_ST01_001@yahoo.com&quot;},&quot;servers&quot;:[1370]}</responseData>
-  <cookies class="java.lang.String"></cookies>
-  <method class="java.lang.String">GET</method>
-  <queryString class="java.lang.String"></queryString>
-  <java.net.URL>https://apigateway.twcc.ai:8443/api/v2/openstack-taichung-community/sites/798/</java.net.URL>
 </httpSample>
 
 </testResults>

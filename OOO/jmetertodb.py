@@ -5,7 +5,7 @@ from influxdb import InfluxDBClient
 import argparse
 
 '''
-This file aim to write jmeter rawdata into influxdb. There are two parameters in this file. The description of the parameters is in the following:
+This file aims to write jmeter rawdata into influxdb. There are two parameters in this file. The description of the parameters is in the following:
 xmlfile: The file that you want to write into influxdb.
 database: The database in influxdb where you want to store your data. It usually is Workload_rawdata or APIMonitor_rawdata.
 '''
@@ -24,23 +24,26 @@ def getvalueofnode(node):
     """ return node text or None """
     return node.text if node is not None else None
 	
-dfcols = ['timestamp', 'threadname', 'responsecode', 'label', 
-         'success', 'latency', 'idletime', 'validate', 'responsedata']
+dfcols = ['timestamp', 'errorcount', 'samplecount', 'threadname', 'responsecode', 'label', 
+         'success', 'latency', 'responsetime', 'idletime', 'validate', 'responsedata']
 df_xml = pd.DataFrame(columns=dfcols)
 
 for node in parsedXML.getroot():
     timestamp = node.attrib.get('ts')
+    errorcount = node.attrib.get('ec')
+    samplecount = node.attrib.get('sc')
     threadname = node.attrib.get('tn')
     responsecode = node.attrib.get('rc')
     label = node.attrib.get('lb')
     success = node.attrib.get('s')
     latency = node.attrib.get('lt')
+    responsetime = node.attrib.get('t')
     idletime = node.attrib.get('it')
     validate = node.find('assertionResult/failure')
     responsedata = node.find('responseData')
 
     df_xml = df_xml.append(
-            pd.Series([timestamp, threadname, responsecode, label, success, latency, 
+            pd.Series([timestamp, errorcount, samplecount, threadname, responsecode, label, success, latency, responsetime, 
                        idletime, getvalueofnode(validate), getvalueofnode(responsedata)], index=dfcols),
             ignore_index=True)
 			
@@ -54,8 +57,8 @@ df_xml.set_index('fields', inplace = True)
 
 
 xml_dict = df_xml.to_dict(orient = 'record')
-select_tags = ('label', 'validate', 'threadname', 'latency', 'success', 'responsecode')
-select_keys = ('idletime', 'responsedata')
+select_tags = ('label', 'validate', 'threadname', 'responsecode')
+select_keys = ('idletime', 'errorcount', 'samplecount', 'latency', 'responsetime', 'success', 'responsedata')
 result_insert = []
 for i in range(len(xml_dict)):
     result_insert.append({"measurement": "jmeter_rawdata",

@@ -3,12 +3,13 @@ cp /home/jmeter/NCHC_Swagger/WL-A01/OOO/config/id_copy.csv /home/jmeter/NCHC_Swa
 #Delete exist result
 rm -f /home/jmeter/NCHC_Swagger/WL-A01/OOO/log/*
 rm -f /home/jmeter/NCHC_Swagger/WL-A01/OOO/keypair/*
+
 #Create_snapshotimage
 /home/jmeter/apache-jmeter-4.0/bin/jmeter -Jthread=2 -n -t /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmx/WL-A01_OOO_Create_snapshotimage.jmx
 
 python3 /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmetertodb.py -xmlfile /home/jmeter/NCHC_Swagger/WL-A01/OOO/log/Create_Result_Image.xml
 
-sleep 2m
+sleep 1m
 
 input="./config/id1.csv"
 sed 1d $input | while IFS="," read -r f1 f2 f3 f4 f5 f6 f7 f8 f9 f10 f11 f12 f13 f14 f15
@@ -38,4 +39,23 @@ echo "SSH Step Finished"
 sleep 3m
 
 python3 /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmetertodb.py -xmlfile /home/jmeter/NCHC_Swagger/WL-A01/OOO/log/Run_Result.xml
+
+#Stop
+/home/jmeter/apache-jmeter-4.0/bin/jmeter -Jthread=2 -n -t /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmx/WL-A01_OOO_Stop.jmx
+
+sleep 5m
+
+python3 /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmetertodb.py -xmlfile /home/jmeter/NCHC_Swagger/WL-A01/OOO/log/Stop_Result.xml
+
+#Resume
+/home/jmeter/apache-jmeter-4.0/bin/jmeter -Jthread=2 -n -t /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmx/WL-A01_OOO_Resume.jmx
+
+sleep 5m
+
+python3 /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmetertodb.py -xmlfile /home/jmeter/NCHC_Swagger/WL-A01/OOO/log/Resume_Result.xml
+
+#Delete
+/home/jmeter/apache-jmeter-4.0/bin/jmeter -n -t /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmx/WL-A01_OOO_Delete.jmx
+
+python3 /home/jmeter/NCHC_Swagger/WL-A01/OOO/jmetertodb.py -xmlfile /home/jmeter/NCHC_Swagger/WL-A01/OOO/log/Delete_Result.xml
 

@@ -1,2 +1,3 @@
 host,port,api-host-WLA01,api-key-WLA01,api-project-WLA01,api-platform-WLA01,api-vmSolution-WLA01
-apigateway.twcc.ai,8443,openstack-taichung-suse,da7dca0b-1f31-476f-aa78-32757bf4efd0,85,openstack-taichung-suse,130
+apigateway.twcc.ai,8443,openstack-taichung-community,79c3a9b8-bcc7-42ae-a31a-e7bc8fd9cba3,1447,openstack-taichung-community,60
+apigateway.twcc.ai,8443,openstack-taichung-community,79c3a9b8-bcc7-42ae-a31a-e7bc8fd9cba3,1447,openstack-taichung-community,60
